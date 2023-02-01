@@ -1,0 +1,63 @@
+SE1_Dreams_Of_Serbian_Bosnia = {
+	Expel_Bosnian_Muslims = {
+		visible = { has_country_flag = focusSE1_done }
+		 cost = 45
+		 complete_effect = {
+			random_controlled_state = {
+                limit = { is_owned_by = SE1 }
+			  add_resistance = 5 }
+			  add_stability = 0.07
+			  add_war_support = 0.04
+		}
+		days_remove = 80
+	}
+	Displace_Srebrenica = {
+		visible = { has_country_flag = focusSE1_done }
+		available = { has_full_control_of_state = 59 }
+		 cost = 150
+		 complete_effect = {
+			59 = {
+				add_state_modifier = {
+				  modifier = {
+					monthly_population = -1.5
+				  }
+				}
+				add_core_of = SE1
+				set_demilitarized_zone = yes
+			 }
+		}
+			 days_remove = 80
+	  }
+	}
+
+	SE1_Reclaim_Bosnia = {
+		Operation_Bura = {
+			available = { has_completed_focus = SE1_Expand_Operations }
+			 cost = 45
+			 complete_effect = {
+				random_controlled_state = {
+					limit = { is_owned_by = SE1 }
+				  add_resistance = 5 }
+				  add_stability = 0.07
+				  add_war_support = 0.04
+			}
+			days_remove = 80
+		}
+		Displace_Srebrenica = {
+			visible = { has_country_flag = focusSE1_done }
+			available = { has_full_control_of_state = 59 }
+			 cost = 150
+			 complete_effect = {
+				59 = {
+					add_state_modifier = {
+					  modifier = {
+						monthly_population = -1.5
+					  }
+					}
+					add_core_of = SE1
+					set_demilitarized_zone = yes
+				 }
+			}
+				 days_remove = 80
+		  }
+		}

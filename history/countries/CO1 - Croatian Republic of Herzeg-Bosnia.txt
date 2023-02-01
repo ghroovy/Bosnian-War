@@ -1,0 +1,80 @@
+﻿capital = 24
+oob = "CO1_1992"
+set_research_slots = 3
+set_stability = 100
+set_war_support = 100
+#Starting tech
+set_technology = {
+infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1990.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	neutrality = 0
+}
+
+add_ideas = {
+idea_the_bosnian_war
+CO1_HVO
+limited_exports
+extensive_conscription
+war_economy
+}
+
+create_country_leader = {
+	name = "Mate Boban"
+	desc = ""
+	picture = "gfx/leaders/croat_bosnia.dds"
+	ideology = liberalism
+	} 
+	
+    create_field_marshal = {
+	name = "Slobodan Praljak"
+	picture = "Portrait_CO1_Slobodan.dds"
+	traits = { trait_reckless career_officer }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+    create_corps_commander = {
+	name = "Milivoj Petkovic"
+	picture = "Portrait_CO1_Milivoj.dds"
+	traits = { old_guard }
+	skill = 2
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 3
+}
+    create_corps_commander = {
+	name = "Janko Bobetko"
+	picture = "Portrait_CO1_Bruno.dds"
+	traits = { infantry_officer }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+     declare_war_on = {
+         target = BOS
+        type = civil_war
+        }
+        add_civil_war_target = BOS
+					
+        declare_war_on = {
+        target = SE1
+        type = civil_war
+        }
+        add_civil_war_target = SE1	

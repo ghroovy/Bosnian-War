@@ -1,0 +1,29 @@
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		11250 634 11316 3001 8912 11240 8731 4667 8300
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+		victory_points = {
+			634	 20.0 
+		}
+
+	}
+
+	manpower=15000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

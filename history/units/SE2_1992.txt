@@ -1,0 +1,370 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+
+	priority = 1
+}
+  units = { 
+	 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+				 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+				 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+				 division= {	
+		name = "Divizije Pantera"
+		location = 7431
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+					 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+						 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+						 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+						 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+						 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+						 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+						 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+						 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+						 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+						 division= {	
+		name = "Divizije Pantera"
+		location = 5685
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+  }

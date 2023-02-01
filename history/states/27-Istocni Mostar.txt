@@ -1,0 +1,31 @@
+state={
+	id=27
+	name="STATE_27"
+    resources={
+        aluminium=15.000
+        steel=10.000
+    }
+	
+	provinces={
+		548 2152 2379 2495 2590 2622 3588 4141 4819 5924 5983 6792 7841 8156 8773 8823 8915 12174 12214 12215 12255 12266 12300 12313 12322 12339 12356 12363 12384 12400 12429 12455 12484 
+	}
+		history={
+		owner = SE1
+        buildings = {
+            infrastructure = 5
+            arms_factory = 1
+            industrial_complex = 1
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1 
+		
+		victory_points = {
+			6792 5.0 
+		}
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+        state_category = rural
+		
+}

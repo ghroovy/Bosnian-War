@@ -1,0 +1,29 @@
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		12738 8063 12791 12813 3983 12771 12751 1605 101 12719 4575 12729 12697 6443 12645 12676 4101 12703 7004 4475 8935
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+		victory_points = {
+			12729 5.0 
+		}
+
+	}
+
+	manpower=30000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

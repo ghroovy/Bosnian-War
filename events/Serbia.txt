@@ -1,0 +1,44 @@
+### SERBIA EVENTS
+
+add_namespace = serbia
+
+country_event = {
+	id = serbia.1
+	title = serbia.1.t
+	desc = serbia.1.desc
+	picture = GFX_report_event_SER_serballiance
+
+	is_triggered_only = yes
+
+	option = { 
+		name = serbia.1.a
+		ai_chance = { base = 65 }
+		SE1 = { 
+			add_offsite_building = { 
+				type = arms_factory level = 2 
+			}
+		    add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1300
+				producer = SER
+			}
+			army_experience = 40
+		}
+		give_guarantee = SE1
+		add_opinion_modifier = {
+			target = UN1
+			modifier = western_betrayal
+		}
+	}
+	
+	option = { 
+		name = serbia.1.b
+		ai_chance = { base = 35 }
+		add_political_power = 75
+		add_opinion_modifier = {
+			target = SE1
+			modifier = refused_help
+		}
+		add_stability = 0.05
+	}
+}

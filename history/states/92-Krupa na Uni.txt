@@ -1,0 +1,25 @@
+state={
+	id=92
+	name="STATE_92"
+	provinces={
+		980 5862 11324 3433 2314 7936 124 9258 5124 142 11345 11303
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+	}
+
+	manpower=14000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

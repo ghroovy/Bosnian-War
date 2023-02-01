@@ -1,0 +1,10 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_the_bosnian_war"
+		texturefile = "gfx/interface/ideas/idea_the_bosnian_war.dds"
+	}
+	spriteType = {
+		name = "GFX_SE1_VRS"
+		texturefile = "gfx/interface/ideas/VRS.dds"
+	}
+}

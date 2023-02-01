@@ -1,0 +1,45 @@
+bookmarks = {
+	bookmark = {
+		name = ""
+		desc = ""
+		date = 1992.10.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "SE1"
+		default = yes
+		
+		"SE1"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"CO1"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"BOS"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			
+			}
+		}
+        
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

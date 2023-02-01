@@ -1,0 +1,25 @@
+state={
+	id=72
+	name="STATE_72"
+	provinces={
+		2128 8218
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+	}
+
+	manpower=2200
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

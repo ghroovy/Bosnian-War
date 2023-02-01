@@ -1,0 +1,29 @@
+state={
+	id=35
+	name="STATE_35"
+    resources={
+        aluminium=15.000
+        steel=10.000
+        oil=3.000
+    }
+	
+	history={
+		owner = BOS
+        buildings = {
+            infrastructure = 5
+            arms_factory = 1
+            industrial_complex = 1
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+	
+	}
+		
+	provinces={
+		777 1588 4018 7082 11506 11516 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

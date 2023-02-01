@@ -1,0 +1,18 @@
+
+state={
+	id=17
+	name="STATE_17"
+
+	history={
+		owner = SER
+		add_core_of = SER
+
+	}
+
+	provinces={
+		272 1935 2072 2271 2346 4148 4456 6202 6563 7818 8869 9119 12662 12692 12709 12735 12761 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

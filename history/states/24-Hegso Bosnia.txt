@@ -1,0 +1,28 @@
+
+state={
+	id=24
+	name="STATE_24"
+	
+
+	history={
+		owner = CO1
+        buildings = {
+            infrastructure = 0
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1 
+
+		
+
+	}
+
+	provinces={
+		1216
+	}
+	manpower=600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

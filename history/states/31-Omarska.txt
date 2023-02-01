@@ -1,0 +1,23 @@
+state={
+	id=31
+	name="STATE_31"
+	provinces={
+		1684
+	}
+		history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1 
+
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+        state_category = rural
+		
+}

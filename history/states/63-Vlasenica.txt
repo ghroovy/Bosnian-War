@@ -1,0 +1,25 @@
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		9432 11775 11791 6276 11790 4696 11851 5058 2478 8633 6010 11750 5167 8786
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+	}
+
+	manpower=12000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

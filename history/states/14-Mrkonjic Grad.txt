@@ -1,0 +1,26 @@
+
+state={
+	id=14
+	name="STATE_14"
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1 
+
+	}
+	
+	provinces={
+		11580 6668 8028 8403 8639 11710 11716 9159 11754 8053 5023 9078 11890 8140
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+}

@@ -1,0 +1,215 @@
+focus_tree = {
+	id = CO1_Focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 1
+			tag = CO1
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = CO1_Croatia_or_Nothing
+		icon = GFX_CO1_Croatia_or_Nothing
+		x = 3
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 150
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = CO1_Cut_Bosnia_in_Two
+		icon = GFX_CO1_Cut_Bosnia_in_Two
+		x = 0
+		y = 1
+
+		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_manpower = 5000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 4000
+				producer = CRO
+			}
+		}
+	}
+
+	focus = {
+		id = CO1_AK47_Our_Best_Friend
+		icon = GFX_CO1_AK47_Our_Best_Friend
+		x = 2
+		y = 1
+
+		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+				producer = CO1
+			}
+		}
+	}
+
+	focus = {
+		id = CO1_No_Surrender
+		icon = GFX_CO1_No_Surrender
+		x = 4
+		y = 1
+
+		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 10
+			add_war_support = 0.05
+			add_manpower = 3000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = CO1
+			}
+		}
+	}
+
+	focus = {
+		id = CO1_Ask_the_UN_for_Help
+		icon = GFX_CO1_Ask_the_UN_for_Help
+		x = 6
+		y = 1
+
+		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.1
+			add_manpower = 1000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 900
+				producer = CO1
+			}
+		}
+	}
+
+	focus = {
+		id = CO1_Victory_Achieved
+		icon = GFX_CO1_Victory_Achieved
+		x = 3
+		y = 2
+
+		prerequisite = { focus = CO1_Cut_Bosnia_in_Two }
+		prerequisite = { focus = CO1_AK47_Our_Best_Friend }
+		prerequisite = { focus = CO1_No_Surrender }
+		prerequisite = { focus = CO1_Ask_the_UN_for_Help }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_war = no
+		}
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			country_event = super.3
+			add_political_power = 100
+			add_stability = 0.15
+			add_war_support = 0.15
+		}
+	}
+
+	#focus = {
+	#	id = CO1_Temporary_Peace
+	#	icon = GFX_CO1_Temporary_Peace
+	#	x = 3
+	#	y = 3
+	#
+	#	mutually_exclusive = { }
+	#	
+	#	cost = 8
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#	available = {
+	#		has_war_with = SE2
+	#	}
+	#	available_if_capitulated = no
+	#	
+	#	bypass = {
+	#	}
+	#	
+	#	completion_reward = {
+	#		white_peace = SE2
+	#	}
+	#}
+}

@@ -1,0 +1,166 @@
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	SE1_infantry_Move_01
+	SE1_infantry_Move_02
+	SE1_infantry_Move_03
+	SE1_infantry_Move_04
+	SE1_infantry_Idle_01
+	SE1_infantry_Idle_02
+	SE1_infantry_Retreat_01
+	SE1_infantry_Combat_01
+	SE1_infantry_Combat_02
+	SE1_infantry_Combat_03
+	SE1_infantry_Combat_04
+	
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 3.0 #0
+	postgain = 3.0 #2
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 0.2 #1,2
+ }
+}
+## SRPSKA ##
+
+soundeffect = 
+{
+    name = "SE1_infantry_move_out"
+    sounds = {
+        	sound = SE1_Move_01
+			sound = SE1_Move_02
+			sound = SE1_Move_03
+			sound = SE1_Move_04
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.4
+	volume_random_offset = { 0.0 -0.15 }
+}
+
+soundeffect =
+{
+    name = "SE1_infantry_retreat"
+    sounds = {
+               sound = SE1_Retreat_01
+    }
+    max_audible = 1
+    max_audible_behaviour = fail
+    volume = 0.4
+    volume_random_offset = { 0.0 -0.15 }
+    playbackrate_random_offset = { 0.0 -0.15}
+}
+
+soundeffect = 
+{
+    name = "SE1_infantry_neutral_combat"
+    sounds = {
+		sound = SE1_Combat_01
+		sound = SE1_Combat_02
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.4
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+soundeffect = 
+{
+    name = "SE1_infantry_positive_combat"
+    sounds = {
+		sound = SE1_Combat_03
+		sound = SE1_Combat_04
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.4
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+soundeffect =
+{
+    name = "SE1_infantry_idle"
+    sounds = {
+        sound = SE1_Idle_01
+        sound = SE1_Idle_02
+    }
+    max_audible = 1
+    max_audible_behaviour = fail
+    volume = 0.4
+    volume_random_offset = { 0.0 -0.15 }
+}
+
+## AUDIO ASSETS ##
+
+sound = 
+{
+	name = "SE1_Move_01"
+	file = "voice/SE1_Move_001.wav"
+}
+
+sound =
+{
+	name = "SE1_Move_02"
+	file = "voice/SE1_Move_002.wav"
+}
+
+sound =
+{
+	name = "SE1_Idle_01"
+	file = "voice/SE1_Idle_001.wav"
+}
+
+sound =
+{
+	name = "SE1_Idle_02"
+	file = "voice/SE1_Idle_002.wav"
+}
+
+sound =
+{
+	name = "SE1_Move_03.wav"
+	file = "voice/SE1_Move_003.wav"
+}
+
+sound =
+{
+	name = "SE1_Move_04.wav"
+	file = "voice/SE1_Move_004.wav"
+}
+
+sound =
+{
+	name = "SE1_Retreat_01"
+	file = "voice/SE1_Retreat_001.wav"
+}
+
+sound =
+{
+	name = "SE1_Combat_01"
+	file = "voice/SE1_Combat_001.wav"
+}
+
+sound =
+{
+	name = "SE1_Combat_02"
+	file = "voice/SE1_Combat_002.wav"
+}
+
+sound =
+{
+	name = "SE1_Combat_03"
+	file = "voice/SE1_Combat_003.wav"
+}
+
+sound =
+{
+	name = "SE1_Combat_04"
+	file = "voice/SE1_Combat_004.wav"
+}

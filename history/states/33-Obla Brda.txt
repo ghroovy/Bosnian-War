@@ -1,0 +1,24 @@
+state={
+	id=33
+	name="STATE_33"
+	
+	history={
+		owner = BOS
+        buildings = {
+            infrastructure = 5
+            arms_factory = 1
+            industrial_complex = 1
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1 
+
+	}
+
+	provinces={
+		12233 3343 3608 12277 588 12230 5362 12150 7620 12126 6364 6241 12061 7767 8542 12135 8821 6166 11994
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

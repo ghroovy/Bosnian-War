@@ -1,0 +1,36 @@
+state={
+	id=29
+	name="STATE_29"
+    resources={
+        aluminium=10.00
+        steel=5.00
+    }
+	
+	provinces={
+		11836 7374 6237 2402 5203 555 7477 11802 435 3846 11839 2531 11824 1575 11854 7159 2746 3510 11914 6392 11869 7533 11892 6888 6081 11929 9144 11886 11910 2410 3635 5637 2026 11955 1183 11966 4962 6942 9276 11984 2280
+	}
+		history={
+		owner = SE1
+        buildings = {
+            infrastructure = 2
+            arms_factory = 0
+            industrial_complex = 1
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+
+		victory_points = {
+			2410 5.0 
+		}
+		
+		victory_points = {
+			1183 5.0 
+		}
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+        state_category = rural
+		
+}

@@ -1,0 +1,36 @@
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		8090 11630 8395 9015 6031 11569 7972 11578 6452 6340 2470
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+		victory_points = {
+			9015 5.0 
+		}
+		victory_points = {
+			6452 5.0 
+		}
+		victory_points = {
+			2470 5.0 
+		}
+		victory_points = {
+			6340 20.0 
+		}
+	}
+
+	manpower=15000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

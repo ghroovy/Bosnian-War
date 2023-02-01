@@ -1,0 +1,25 @@
+ideas = {
+
+	country = {
+
+		SE1_The_Spirit_Of_Srpska = {
+			picture = GFX_SE1_The_Spirit_Of_Srpska
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				experience_gain_army_unit = 0.2
+				breakthrough_factor = 0.1
+				planning_speed = 0.1
+				army_strength_factor = 0.05
+			}
+		}
+	}
+}

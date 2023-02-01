@@ -1,0 +1,25 @@
+state={
+	id=104
+	name="STATE_104"
+	provinces={
+		11313 1611 6426 6828 2936 112 11385 11325 11406 2089 6992
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+	}
+
+	manpower=35000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

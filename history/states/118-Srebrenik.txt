@@ -1,0 +1,32 @@
+state={
+	id=118
+	name="STATE_118"
+	provinces={
+		11430 11487 11513 2348 5373 11581 11541 6099 11531 4964 11507 11495 11466
+	}
+
+	history={
+		owner = BOS
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+		victory_points = {
+			11430	 10.0 
+	}
+			victory_points = {
+			11507	 10.0 
+	}
+
+	}
+
+	manpower=40000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

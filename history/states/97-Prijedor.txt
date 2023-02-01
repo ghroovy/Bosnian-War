@@ -1,0 +1,25 @@
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		11392 5738 11337 11291 11260 5131 7687 11231 8498 3203 4316 8816 11300 8556 11275 11336 2485 11365 8798 6850 7349 4064 11254 11227 6885
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+	}
+
+	manpower=100000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

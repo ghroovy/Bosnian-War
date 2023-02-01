@@ -1,0 +1,39 @@
+focus_tree = {
+	id = CRO_Focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 1
+			tag = CRO
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = CO1_Temporary_Peace
+		icon = GFX_CO1_Temporary_Peace
+		x = 3
+		y = 3
+	
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_war_with = SE2
+		}
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			white_peace = SE2
+		}
+	}
+}
