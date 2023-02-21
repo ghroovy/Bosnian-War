@@ -16,12 +16,23 @@
  SE1_From_Novi_to_Zvornik:0 "From Novi, to Zvornik!"
  
  BOS_Bosnia_Rises:0 "Arise, Bosnia!"
+ BOS_Bosnia_Rises_desc:0 "This march, our nation has finally declared its independence from the Serbian yoke. Unfortunately, the chetniks and ustasha have backstabbed the nation and started a war of destruction. We must destroy them. BOSNIA, ARISE! "
  BOS_Bosanska_Artiljerija:0 "Bosanska Artiljerija"
+ BOS_Bosanska_Artiljerija_desc:0 "The Chetniks are bombing our mosques and killing our women and children. The time has come that we bomb them. We immedieately need to start producing artillery. The genocidal maniacs will explode. ARTILJERIJA, BOSANAC SAM BEKRIJA!"
  BOS_American_Aid:0 "American Grants"
+ BOS_American_Aid_desc:0 "We have convinced the United States to grant us more support in the war. We will ask them for some Money Grants so that we can finally purchase some much needed guns for ARBiH."
  BOS_Sarajevo_Mustnt_Fall:0 "Iron Heart of Bosnia"
+ BOS_Sarajevo_Mustnt_Fall_desc:0 "Sarajevo is the heart of Bosnia, the Jerusalem of Europe. It is our glorious, beautiful capital city built by Isa-Beg Ishakovic centuries ago. The Serbs are trying to destroy it, they say they will take it within a few months. We will see about that. SARAJEVO, LJUBAVI MOJA!"
  BOS_Joe_Bidens_Promises:0 "Big Joe's Promise" # to wake up ### shut up cestino
+ BOS_Joe_Bidens_Promises_desc:0 "American Democrat Senator Joe Biden has continously fought for us in the US senate. He has promised to send over fighter jets to help defeat the Chetniks. The end has come, the time to destroy the Serbs through the Air. We will bomb the bombers!"
  BOS_Victory_Achieved:0 "The True Bosnia"
-
+ BOS_Victory_Achieved_desc:0 "We have kicked out the Serbian menace and pacified the Croat Rebels. Bosnia is finally free, thanks to Allah's help. A bright future is ahead of us. We head towards the future, at last. ALLAHU EKBER! "
+ BOS_Our_Heroes_In_Sarajevo:0 "Our Heroes in Sarajevo"
+ BOS_Our_Heroes_In_Sarajevo_desc:0 "The Serbs are sieging our capital city, the bastards. However, brave heroes are defending it from their yoke! Sarajevo mustn't fall! We shall support our Heroes in Sarajevo for as long as we need to win this conflict."
+ BOS_A_New_Guerilla_Warfare:0 "A New Guerilla Warfare"
+ BOS_A_New_Guerilla_Warfare_desc:0 "Due to the ethnic problems in our country a sort of guerilla war has formed. This is good for our cause since we are the ones in the defense. We must use this situation to our advantage as much as possible. Shoot the Serbian Army dry."
+ 
+ 
  CO1_Croatia_or_Nothing:0 "Croatia or Nothing" # war crimes pretty pls ### shut up cestino
  CO1_Cut_Bosnia_in_Two:0 "Cut Bosnia in Two"
  CO1_AK47_Our_Best_Friend:0 "Vlachs, The Death of Us" # Mitraljeza ### shut up cestino

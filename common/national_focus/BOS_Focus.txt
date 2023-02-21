@@ -68,7 +68,7 @@ focus_tree = {
 
 	focus = {
 		id = BOS_Our_Heroes_In_Sarajevo
-		icon = GFX_BOS_Our_Heroes_In_Sarajevo
+		icon = GFX_goal_generic_small_arms
 		x = 2
 		y = 1
 
@@ -211,7 +211,7 @@ focus_tree = {
 
 	focus = {
 		id = BOS_A_New_Guerilla_Warfare
-		icon = GFX_BOS_A_New_Guerilla_Warfare
+		icon = GFX_SE1_Expand_Operations
 		x = 4
 		y = 1
 
@@ -265,7 +265,7 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = CAS_equipment
-				amount = 900
+				amount = 500
 				producer = BOS
 			}
 		}

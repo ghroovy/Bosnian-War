@@ -60,7 +60,7 @@ focus_tree = {
 			add_manpower = 5000
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 4000
+				amount = 3000
 				producer = CRO
 			}
 		}
