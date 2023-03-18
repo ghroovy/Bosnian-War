@@ -40,6 +40,96 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 		}
 			 days_remove = 80
 	  }
+	The_Sarajevo_Offensive = {
+		available = { has_completed_focus = SE1_Expand_Operations }
+		 cost = 150
+		 ai_will_do = {
+         base = 50
+        }
+		 complete_effect = {
+		 	22 = {
+    		 	add_dynamic_modifier = {
+        		modifier = SE1_start_offensive
+        		scope = SE1
+        		days = 30
+    		 }
+		 }
+		 	33 = {
+    		 	add_dynamic_modifier = {
+        		modifier = SE1_start_offensive
+        		scope = SE1
+        		days = 30
+    		 }
+		 }
+	}
+}
+	The_Usora_Offensive = {
+		available = { has_completed_focus = SE1_Expand_Operations }
+		 cost = 150
+		 ai_will_do = {
+         base = 50
+        }
+		 complete_effect = {
+		 	120 = {
+    		 	add_dynamic_modifier = {
+        		modifier = SE1_start_offensive
+        		scope = SE1
+        		days = 30
+    		 }
+		 }
+		 	119 = {
+    		 	add_dynamic_modifier = {
+        		modifier = SE1_start_offensive
+        		scope = SE1
+        		days = 30
+    		 }
+		 }
+		 	118 = {
+    		 	add_dynamic_modifier = {
+        		modifier = SE1_start_offensive
+        		scope = SE1
+        		days = 30
+    		 }
+		 }
+		 	78 = {
+    		 	add_dynamic_modifier = {
+        		modifier = SE1_start_offensive
+        		scope = SE1
+        		days = 30
+    		 }
+		 }
+	}
+}
+	The_Tropolje_Offensive = {
+		available = { has_completed_focus = SE1_Expand_Operations }
+		 cost = 150
+		 ai_will_do = {
+         base = 50
+        }
+		 complete_effect = {
+		 	106 = {
+    		 	add_dynamic_modifier = {
+        		modifier = SE1_start_offensive
+        		scope = SE1
+        		days = 30
+    		 }
+		 }
+		 	105 = {
+    		 	add_dynamic_modifier = {
+        		modifier = SE1_start_offensive
+        		scope = SE1
+        		days = 30
+    		 }
+		 }
+		 	108 = {
+    		 	add_dynamic_modifier = {
+        		modifier = SE1_start_offensive
+        		scope = SE1
+        		days = 30
+    		 }
+		 }
+	}
+}
 	Raise_Militia_SE1 = {
 	available = {
 		has_army_experience > 14.99
