@@ -37,3 +37,15 @@ SE1_start_offensive = { #STATE MODIFIER
 	cas_damage_reduction = 0.5
 	army_attack_speed_factor = 0.2
 }
+
+BOS_start_offensive = { #STATE MODIFIER
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_military_plans
+
+	breakthrough_factor = 0.1
+	army_attack_factor = 0.1
+	recon_factor = 0.05
+	cas_damage_reduction = 0.5
+	army_attack_speed_factor = 0.2
+}

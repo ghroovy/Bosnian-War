@@ -1,29 +1,240 @@
 BOS_The_Defense_of_Bosnia = {
+	Push_Into_Rogatica = {
+		available = { has_completed_focus = BOS_Defence_of_the_Nation }
+		 cost = 150
+		 ai_will_do = {
+         base = 50
+        }
+		 complete_effect = {
+		 	67 = {
+    		 	add_dynamic_modifier = {
+        		modifier = BOS_start_offensive
+        		scope = BOS
+        		days = 30
+    		 }
+		 }
+		 	66 = {
+    		 	add_dynamic_modifier = {
+        		modifier = BOS_start_offensive
+        		scope = BOS
+        		days = 30
+    		 }
+		 }
+		 	68 = {
+    		 	add_dynamic_modifier = {
+        		modifier = BOS_start_offensive
+        		scope = BOS
+        		days = 30
+    		 }
+		 }
+		 	61 = {
+    		 	add_dynamic_modifier = {
+        		modifier = BOS_start_offensive
+        		scope = BOS
+        		days = 30
+    		 }
+		 }
+		 	65 = {
+    		 	add_dynamic_modifier = {
+        		modifier = BOS_start_offensive
+        		scope = BOS
+        		days = 30
+    		 }
+		 }
+	}
+}
+	Strike_Banja_Luka = {
+		available = { has_completed_focus = BOS_Defence_of_the_Nation }
+		 cost = 150
+		 ai_will_do = {
+         base = 50
+        }
+		 complete_effect = {
+		 	32 = {
+    		 	add_dynamic_modifier = {
+        		modifier = BOS_start_offensive
+        		scope = BOS
+        		days = 30
+    		 }
+		 }
+		 	104 = {
+    		 	add_dynamic_modifier = {
+        		modifier = BOS_start_offensive
+        		scope = BOS
+        		days = 30
+    		 }
+		 }
+		 	103 = {
+    		 	add_dynamic_modifier = {
+        		modifier = BOS_start_offensive
+        		scope = BOS
+        		days = 30
+    		 }
+		 }
+	}
+}
 	Raise_Militia_BOS = {
 	available = {
-		has_army_experience > 4.99
+		has_army_experience > 14.99
+		controls_province = 17181
 	}
-		 cost = 10
+		 cost = 40
+		 ai_will_do = {
+         base = 100
+        }
 		 complete_effect = {
-			army_experience = -5
+			army_experience = -15
 			custom_effect_tooltip = Raise_Militia_tt
-			hidden_effect = {
-			capital_scope = {
-			load_oob = Militia
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -140
 			}
+			hidden_effect = {
+			load_oob = Militia_BOS
 		}
 	}
-			 days_remove = 20
+		 days_remove = 50
+	  }
+	Invite_Muslim_Fighters_BOS = {
+	visible = { has_completed_focus = BOS_Our_Own_Mujahideen }
+	available = {
+		controls_province = 17181
+	}
+		 cost = 150
+		 ai_will_do = {
+         base = 100
+        }
+		 complete_effect = {
+			custom_effect_tooltip = Expand_Volunteer_Guard_tt
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -140
+			}
+			hidden_effect = {
+			load_oob = Volunteers_BOS
+		}
+	}
+		 days_remove = 150
+	  }
+	Guns_For_All_BOS = {
+	visible = { surrender_progress > 0.49 }
+	available = {
+		has_army_experience > 9.99
+		controls_province = 17181
+	}
+		 cost = 30
+		 ai_will_do = {
+         base = 100
+        }
+		 complete_effect = {
+			army_experience = -10
+			custom_effect_tooltip = Raise_Militia_tt
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -280
+			}
+			hidden_effect = {
+			load_oob = Militia_BOS
+		}
+	}
+		 days_remove = 30
 	  }
 	}
+	
+BOS_Arms_Deal_Shipments = {
+	Request_Infantry_Equipment = {
+		 cost = 70
+		 ai_will_do = {
+         base = 0
+		 modifier = {
+		 	add = 100
+			has_equipment = {
+    		infantry_equipment < 500
+			}
+        }
+	}
+		 fixed_random_seed = no
+		 complete_effect = {
+			random_list = {
+				85 = {
+				  country_event = eqp.4
+				}
+				15 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+	Request_Support_Equipment = {
+		 cost = 70
+		 ai_will_do = {
+         base = 0
+		 modifier = {
+		 	add = 100
+			has_equipment = {
+    		support_equipment < 50
+			}
+        }
+	}
+		 fixed_random_seed = no
+		 complete_effect = {
+			random_list = {
+				85 = {
+				  country_event = eqp.11
+				}
+				15 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+		Request_Artillery = {
+		 cost = 90
+		 ai_will_do = {
+         base = 50
+        }
+		 fixed_random_seed = no
+		 complete_effect = {
+			random_list = {
+				80 = {
+				  country_event = eqp.12
+				}
+				20 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+	Request_Trucks = {
+		 cost = 100
+		 ai_will_do = {
+         base = 30
+        }
+		 fixed_random_seed = no
+		 complete_effect = {
+			random_list = {
+				80 = {
+				  country_event = eqp.13
+				}
+				20 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+}
 
 	BOS_Reclaim_Bosnia = {
 #		Operation_Bura = {
-#			available = { has_completed_focus = SE1_Expand_Operations }
+#			available = { has_completed_focus = BOS_Expand_Operations }
 #			 cost = 45
 #			 complete_effect = {
 #				random_controlled_state = {
-#					limit = { is_owned_by = SE1 }
+#					limit = { is_owned_by = BOS }
 #				  add_resistance = 5 }
 #				  add_stability = 0.07
 #				  add_war_support = 0.04

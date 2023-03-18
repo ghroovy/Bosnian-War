@@ -116,6 +116,63 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = eqp.8
+	title = eqp.8.t
+	desc = eqp.8.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.8.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 700
+			producer = CRO
+		}
+	}
+}
+
+country_event = {
+	id = eqp.9
+	title = eqp.9.t
+	desc = eqp.9.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.9.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 500
+			producer = CRO
+		}
+	}
+}
+
+country_event = {
+	id = eqp.10
+	title = eqp.10.t
+	desc = eqp.10.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.9.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = motorised_infantry
+			amount = 300
+			producer = CRO
+		}
+	}
+}
+
 ### BOSNIA
 
 country_event = {
@@ -132,7 +189,64 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
 			amount = 1000
-			producer = UN1
+			producer = TUR
+		}
+	}
+}
+
+country_event = {
+	id = eqp.11
+	title = eqp.11.t
+	desc = eqp.11.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.11.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 700
+			producer = TUR
+		}
+	}
+}
+
+country_event = {
+	id = eqp.12
+	title = eqp.12.t
+	desc = eqp.12.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.12.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 500
+			producer = TUR
+		}
+	}
+}
+
+country_event = {
+	id = eqp.13
+	title = eqp.13.t
+	desc = eqp.13.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.13.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = motorised_infantry
+			amount = 350
+			producer = TUR
 		}
 	}
 }
