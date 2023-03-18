@@ -15,10 +15,124 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {				
-				experience_gain_army_unit = 0.2
 				breakthrough_factor = 0.1
-				planning_speed = 0.1
+				planning_speed = -0.1
 				army_strength_factor = 0.05
+			}
+		}
+		SE1_Every_Man_For_Srpska = {
+			picture = GFX_SE1_Every_Man_For_Srpska
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			#	hidden_modifier = {
+			#}
+			recruitable_population_factor = 0.0025
+		   }		
+	   }
+		SE1_Every_Man_For_Srpska_2 = {
+			picture = GFX_SE1_Every_Man_For_Srpska
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			#	hidden_modifier = {
+			#}
+			recruitable_population_factor = 0.0035
+			weekly_manpower = 500
+			mobilization_speed = 0.1
+			monthly_population = -0.15
+		   }		
+	   }
+		SE1_Every_Being_For_Srpska = {
+			picture = GFX_SE1_Every_Being_For_Srpska
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			#	hidden_modifier = {
+			#}
+			recruitable_population_factor = 0.0045
+			weekly_manpower = 900
+			mobilization_speed = 0.15
+			minimum_training_level = -0.15
+			experience_gain_army_factor = -0.2
+			monthly_population = -0.2
+		   }		
+	   }
+		SE1_Restructured_Economy = {
+			picture = GFX_SE1_Restructured_Economy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.1
+			}
+		}
+		SE1_Reformed_Economy = {
+			picture = GFX_SE1_Restructured_Economy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				production_speed_buildings_factor = 0.2
+				consumer_goods_factor = -0.2
+				industry_repair_factor = 0.15
+			}
+		}
+		SE1_Optimized_Production = {
+			picture = GFX_SE1_Optimized_Production
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				industrial_capacity_factory = 0.1
+				civilian_factory_use = 1
+				industry_repair_factor = 0.05
 			}
 		}
 	}

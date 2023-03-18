@@ -1,0 +1,33 @@
+BOS_The_Defense_of_Bosnia = {
+	Raise_Militia_BOS = {
+	available = {
+		has_army_experience > 4.99
+	}
+		 cost = 10
+		 complete_effect = {
+			army_experience = -5
+			custom_effect_tooltip = Raise_Militia_tt
+			hidden_effect = {
+			capital_scope = {
+			load_oob = Militia
+			}
+		}
+	}
+			 days_remove = 20
+	  }
+	}
+
+	BOS_Reclaim_Bosnia = {
+#		Operation_Bura = {
+#			available = { has_completed_focus = SE1_Expand_Operations }
+#			 cost = 45
+#			 complete_effect = {
+#				random_controlled_state = {
+#					limit = { is_owned_by = SE1 }
+#				  add_resistance = 5 }
+#				  add_stability = 0.07
+#				  add_war_support = 0.04
+#			}
+#			days_remove = 80
+#		}
+	}

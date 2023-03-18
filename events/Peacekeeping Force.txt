@@ -1,0 +1,70 @@
+### NATOUN EVENTS
+
+add_namespace = NATOUN
+
+country_event = {
+	id = NATOUN.1
+	title = NATOUN.1.t
+	desc = NATOUN.1.desc
+	picture = GFX_report_event_UN1_washington_agreement
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.1.a
+		ai_chance = { base = 90 }
+		if = {
+           limit = {
+		   BOS = { has_country_flag = BOS_peace }
+		   CO1 = { has_country_flag = CO1_peace }
+		   }
+		BOS = { 
+		create_faction = herzeg_bosnia
+		add_to_faction = CO1
+		white_peace = CO1
+			}
+		}
+	}
+}
+	
+country_event = {
+	id = NATOUN.2
+	title = NATOUN.2.t
+	desc = NATOUN.2.desc
+	picture = GFX_report_event_UN1_enforce_embargo
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.2.a
+		ai_chance = { base = 100 }
+		GER = { 
+		send_embargo = SE1
+			}
+		SLO = { 
+		send_embargo = SE1
+			}
+		ROM = { 
+		send_embargo = SE1
+			}
+		UN1 = { 
+		send_embargo = SE1
+			}
+		UKR = { 
+		send_embargo = SE1
+			}
+		ITA = { 
+		send_embargo = SE1
+			}
+		AUS = { 
+		send_embargo = SE1
+			}
+		CZE = { 
+		send_embargo = SE1
+			}
+		TUR = { 
+		send_embargo = SE1
+			}
+		}
+	}
+}

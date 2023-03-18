@@ -23,4 +23,36 @@ on_actions = {
 			}
 		}
 	}
+	
+    on_startup = {
+        effect = {
+        UN1 = {
+            country_event = { id = NATOUN.2 days = 440 }
+            }
+        BOS = {
+            country_event = { id = bosnia.1 days = 520 }
+            }
+        SE1 = {
+            country_event = { id = srpska.1 }
+            }
+        CO1 = {
+            country_event = { id = herzeg.1 days = 520 }
+            }
+        UN1 = {
+            country_event = { id = NATOUN.1 days = 530 }
+            }
+		SE2 = {
+		add_timed_idea = {
+  		idea = idea_the_croatian_war
+  		days = 440
+			}
+		}
+		CRO = {
+		add_timed_idea = {
+  		idea = idea_the_croatian_war
+  		days = 440
+			}
+		}
+      }
+    }
 }

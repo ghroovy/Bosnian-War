@@ -1,0 +1,15 @@
+BOS_The_Defense_of_Bosnia = {
+	icon = generic_formable_nations
+	priority = 1
+	visible = {
+		tag = BOS
+		}	
+}
+
+BOS_Reclaim_Bosnia = {
+	icon = generic_formable_nations
+	priority = 1
+	visible = {
+		tag = BOS
+		}	
+}

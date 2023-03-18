@@ -1,0 +1,166 @@
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	CO1_infantry_Move_001
+	CO1_infantry_Move_002
+	CO1_infantry_Move_003
+	CO1_infantry_Move_004
+	CO1_infantry_Idle_001
+	CO1_infantry_Idle_002
+	CO1_infantry_Retreat_001
+	CO1_infantry_Combat_001
+	CO1_infantry_Combat_002
+	CO1_infantry_Combat_003
+	CO1_infantry_Combat_004
+	
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 3.0 #0
+	postgain = 3.0 #2
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 0.2 #1,2
+ }
+}
+## HERZEG ##
+
+soundeffect = 
+{
+    name = "CO1_infantry_move_out"
+    sounds = {
+        	sound = CO1_Move_001
+			sound = CO1_Move_002
+			sound = CO1_Move_003
+			sound = CO1_Move_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.4
+	volume_random_offset = { 0.0 -0.15 }
+}
+
+soundeffect =
+{
+    name = "CO1_infantry_retreat"
+    sounds = {
+               sound = CO1_Retreat_001
+    }
+    max_audible = 1
+    max_audible_behaviour = fail
+    volume = 0.4
+    volume_random_offset = { 0.0 -0.15 }
+    playbackrate_random_offset = { 0.0 -0.15}
+}
+
+soundeffect = 
+{
+    name = "CO1_infantry_neutral_combat"
+    sounds = {
+		sound = CO1_Combat_001
+		sound = CO1_Combat_002
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.4
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+soundeffect = 
+{
+    name = "CO1_infantry_positive_combat"
+    sounds = {
+		sound = CO1_Combat_003
+		sound = CO1_Combat_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.4
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+soundeffect =
+{
+    name = "CO1_infantry_idle"
+    sounds = {
+        sound = CO1_Idle_001
+        sound = CO1_Idle_002
+    }
+    max_audible = 1
+    max_audible_behaviour = fail
+    volume = 0.4
+    volume_random_offset = { 0.0 -0.15 }
+}
+
+## AUDIO ASSETS ##
+
+sound = 
+{
+	name = "CO1_Move_001"
+	file = "voice/CO1_Move_001.wav"
+}
+
+sound =
+{
+	name = "CO1_Move_002"
+	file = "voice/CO1_Move_002.wav"
+}
+
+sound =
+{
+	name = "CO1_Idle_001"
+	file = "voice/CO1_Idle_001.wav"
+}
+
+sound =
+{
+	name = "CO1_Idle_002"
+	file = "voice/CO1_Idle_002.wav"
+}
+
+sound =
+{
+	name = "CO1_Move_003.wav"
+	file = "voice/CO1_Move_003.wav"
+}
+
+sound =
+{
+	name = "CO1_Move_004.wav"
+	file = "voice/CO1_Move_004.wav"
+}
+
+sound =
+{
+	name = "CO1_Retreat_001"
+	file = "voice/CO1_Retreat_001.wav"
+}
+
+sound =
+{
+	name = "CO1_Combat_001"
+	file = "voice/CO1_Combat_001.wav"
+}
+
+sound =
+{
+	name = "CO1_Combat_002"
+	file = "voice/CO1_Combat_002.wav"
+}
+
+sound =
+{
+	name = "CO1_Combat_003"
+	file = "voice/CO1_Combat_003.wav"
+}
+
+sound =
+{
+	name = "CO1_Combat_004"
+	file = "voice/CO1_Combat_004.wav"
+}

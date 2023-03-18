@@ -1012,11 +1012,69 @@ ideas = {
 			picture = the_bosnian_war
 			
 			modifier = {
-				attrition = -0.4
+				attrition = -0.7
 				research_speed_factor = -0.5
 				army_attack_factor = -0.10
 				surrender_limit = 1
 				pocket_penalty = -0.7
+				army_attack_speed_factor = -0.7
+				army_core_defence_factor = 0.2
+				terrain_penalty_reduction = -0.5
+				ai_focus_defense_factor = 0.1
+				ai_focus_aggressive_factor = -0.1
+
+			}
+		}
+		
+		idea_the_croatian_war = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = the_croatian_war
+			
+			modifier = {
+				attrition = -0.4
+				army_attack_factor = -0.10
+				surrender_limit = 1
+				pocket_penalty = -0.8
+				army_attack_speed_factor = -1.5
+				army_core_defence_factor = 0.2
+				terrain_penalty_reduction = -0.5
+				ai_focus_defense_factor = 0.3
+				ai_focus_aggressive_factor = -0.3
+				experience_gain_army_factor = -0.5
+
+			}
+		}
+		a_new_offensive = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = the_croatian_war
+			
+			modifier = {
+				ai_focus_aggressive_factor = 1
+				terrain_penalty_reduction = -0.15
+				experience_gain_army_factor = 0.15
+				army_core_defence_factor = 0.2
+				surrender_limit = 1
+				attrition = -0.4
 
 			}
 		}

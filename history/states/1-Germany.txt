@@ -21,7 +21,7 @@ state={
 		add_core_of = GER
 	}
     
-	manpower=1
+	manpower=80974632
 	state_category=town
 	buildings_max_level_factor=1.000
 }

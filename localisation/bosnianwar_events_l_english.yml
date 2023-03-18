@@ -1,7 +1,21 @@
 ﻿l_english:
 
+#SERBIA
+ serbia.1.t:0 "A Call from Banja Luka"
+ serbia.1.desc:0 "A request has been forwarded to us from the Republika serbia Capital of Banja Luka to support the ongoing Serbian-Freedom War by providing them with Arms Shipments and recognizing their functioning serb state."
+ serbia.1.a:0 "We will support them."
+ serbia.1.b:0 "It is unwise to poke at the western hornet."
+ 
 #SRPSKA
- srpska.1.t:0 "A Call from Banja Luka"
- srpska.1.desc:0 "A request has been forwarded to us from the Republika Srpska Capital of Banja Luka to support the ongoing Serbian-Freedom War by providing them with Arms Shipments and recognizing their functioning serb state."
- srpska.1.a:0 "We will support them."
- srpska.1.b:0 "It is unwise to poke at the western hornet."
+ srpska.1.t:0 "Srpska, Our Home."
+ srpska.1.desc:0 "The people of Srpska have been fighting for a proper Serb state within Bosnia for several months, with no clause and no end to this bloodshed, we must continue further to establish and protect our representation as a minority within the region. The Ustasha and the Bosniaks are turning their guns against eachother and it may be our time to strike and achieve victory."
+ srpska.1.a:0 "Samo sloga Srbina spasava!"
+ 
+ #CROATIA
+ croatia.2.t:0 "Operation Storm"
+ croatia.2.d:0 "Following several decisive victories, Croatian forces have overwhelmed Serbian Rebel Forces and have taken hold of the rebelling Republic of Serbian Krajina and are predicted to push further south into Bosnia and disrupt Serb Forces currently waging a war against Croatian and Bosnian forces alike."
+ croatia.2.a:0 "Worrying."
+ 
+ #EQUIPMENT
+ eqp.1.t:0 "Arms Transport Succesful!"
+ eqp.2.t:0 "Convoy seized by the Enemy"

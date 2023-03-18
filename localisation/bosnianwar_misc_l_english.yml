@@ -1,0 +1,14 @@
+﻿l_english:
+ herzeg_bosnia:0 "Federation of Bosnia and Herzegovina"
+ 
+ #tooltips
+ VRS_tt:0 "§HZa krst i slobodu!§!"
+ ARBIH_tt:0 "§HOn meni nema Bosne.§!"
+ HVO_tt:0 "§HBog i Hrvati.§!"
+ bs_tt:0 "   "
+ SE1_bosniaks_decisions_tt:0 "§YWe will unlock decisions to expunge the bosnian populous from our nation§!."
+ SE1_croat_decisions_tt:0 "§YWe will unlock decisions to annul the croatian populous from our nation§!."
+ Raise_Militia_tt:0 "A §HMilitia Brigade§! will be raised in our Capital to support our war efforts."
+ Expand_Volunteer_Guard_tt:0 "§HVolunteer Forces§! have come to fight for Great Srpska from abroad! We must §Hrally them together§! under one banner."
+ SE1_volunteers_decisions_tt:0 "We must seek §Hnew fighters§! from abroad who will fight to their death."
+ approach_serbia_tt:0 "A bond between serbian brothers."

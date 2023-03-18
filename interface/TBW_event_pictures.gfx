@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+spriteType = {
+		name = "GFX_news_event_CRO_Operation_Storm"
+		texturefile = "gfx/event_pictures/news_event_CRO_Operation_Storm.dds"
+		alwaystransparent = yes
+	}
+}

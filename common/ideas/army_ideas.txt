@@ -25,6 +25,56 @@ ideas = {
 			ai_badass_factor = -0.15
 		   }		
 	   }
+		SE1_VRS_2 = {
+			picture = GFX_SE1_VRS
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			#	hidden_modifier = {
+			#}
+			no_supply_grace = -5
+			custom_modifier_tooltip = bs_tt
+		    custom_modifier_tooltip = VRS_tt
+			breakthrough_factor = 0.2
+			land_reinforce_rate = 0.15
+			ai_focus_aggressive_factor = 0.25
+			ai_badass_factor = -0.15
+		   }		
+	   }
+		SE1_VRS_3 = {
+			picture = GFX_SE1_VRS
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			#	hidden_modifier = {
+			#}
+			no_supply_grace = -5
+		    custom_modifier_tooltip = VRS_tt
+			breakthrough_factor = 0.2
+			land_reinforce_rate = 0.15
+			ai_focus_aggressive_factor = 0.25
+			ai_badass_factor = -0.15
+			army_attack_speed_factor = 0.1
+			army_core_attack_factor = 0.05
+			cas_damage_reduction = -0.1
+		   }		
+	   }
 	}	
 
 	country = {

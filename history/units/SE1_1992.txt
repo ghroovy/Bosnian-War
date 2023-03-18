@@ -11,6 +11,7 @@
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
 	}
 
 	
@@ -48,46 +49,62 @@ division_template = {
 
     }
 
+	division_template = {
+		name = "Brigada Tank"
+	
+		regiments = {
+			medium_armor = { x = 0 y = 0 }
+			medium_armor = { x = 0 y = 1 }
+			medium_armor = { x = 1 y = 0 }
+			motorized = { x = 2 y = 0 }
+			motorized = { x = 2 y = 1 }
+		}
+		support = {
+			mot_recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+		}
+	}
+
 
   units = { 
 	 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 5203
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 555
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 435
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 11750
+		location = 9015
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 11750
+		location = 2470
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 11750
+		location = 5713
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -101,49 +118,49 @@ division_template = {
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 6081
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 293
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 12030
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 12038
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 6463
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 11806
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 6993
+		location = 11836
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -167,7 +184,7 @@ division_template = {
 	}
 		 division= {	
 		name = "39th Banija."
-		location = 84
+		location = 6437
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -177,28 +194,28 @@ division_template = {
 
 			 division= {	
 		name = "21st Kordun."
-		location = 84
+		location = 6437
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "21st Kordun."
-		location = 84
+		location = 6437
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "21st Kordun."
-		location = 2040
+		location = 9162
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "21st Kordun."
-		location = 2040
+		location = 9162
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -206,7 +223,21 @@ division_template = {
 
 			 division= {	
 		name = "Divizije Pantera"
-		location = 2040
+		location = 9162
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 11212
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+			 division= {	
+		name = "Divizije Pantera"
+		location = 11212
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -220,35 +251,21 @@ division_template = {
 	}
 			 division= {	
 		name = "Divizije Pantera"
-		location = 6372
+		location = 6426
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "Divizije Pantera"
-		location = 6372
+		location = 11406
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "Divizije Pantera"
-		location = 11287
-		division_template = "Pešadijske Divizije"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-			 division= {	
-		name = "Divizije Pantera"
-		location = 11287
-		division_template = "Pešadijske Divizije"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-			 division= {	
-		name = "Divizije Pantera"
-		location = 11287
+		location = 7932
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -262,14 +279,14 @@ division_template = {
 	}
 			 division= {	
 		name = "Divizije Pantera"
-		location = 3203
+		location = 2314
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "Divizije Pantera"
-		location = 3203
+		location = 2314
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -283,70 +300,70 @@ division_template = {
 	}
 				 division= {	
 		name = "Divizije Pantera"
-		location = 11529
+		location = 3795
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 				 division= {	
 		name = "Divizije Pantera"
-		location = 11529
+		location = 2572
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 				 division= {	
 		name = "Divizije Pantera"
-		location = 11529
+		location = 7932
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "Divizije Pantera"
-		location = 11529
+		location = 7932
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "Divizije Pantera"
-		location = 9066
+		location = 1799
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "Divizije Pantera"
-		location = 9066
+		location = 3655
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "Divizije Pantera"
-		location = 9066
+		location = 11890
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "Divizije Pantera"
-		location = 9066
+		location = 9078
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "Divizije Pantera"
-		location = 9066
+		location = 8140
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "Divizije Pantera"
-		location = 9066
+		location = 5023
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -360,58 +377,151 @@ division_template = {
 	}
 				 division= {	
 		name = "1st Zvornik Infantry Brigade"
-		location = 11529
+		location = 11518
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 				 division= {	
 		name = "2nd Zvornik Infantry Brigade"
-		location = 11529
+		location = 11519
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 				 division= {	
 		name = "3rd Zvornik Infantry Brigade"
-		location = 11529
+		location = 3373
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "4th Zvornik Infantry Brigade"
-		location = 11529
+		location = 3373
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "5th Zvornik Infantry Brigade"
-		location = 11529
+		location = 11458
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "6th Zvornik Infantry Brigade"
-		location = 11529
+		location = 6992
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "7th Zvornik Infantry Brigade"
-		location = 11529
+		location = 6992
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "8th Zvornik Infantry Brigade"
-		location = 11529
+		location = 6992
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
+	division= {	
+		name = "Lovac"
+		location = 9162
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Hvatač"
+		location = 2470
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+
+#TEMP
+division= {	
+	name = "Brigada Pantera"
+	location = 7125
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 11269
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 11224
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 4632
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 9187
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 5741
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 12429
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 4141
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 8658
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 12536
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+		 division= {	
+	name = "Brigada Pantera"
+	location = 1927
+	division_template = "Pešadijske Brigade"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
   }

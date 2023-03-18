@@ -1,0 +1,15 @@
+CO1_For_The_Croatian_Motherland = {
+	icon = generic_formable_nations
+	priority = 1
+	visible = {
+		tag = CO1
+		}	
+}
+
+CO1_Reclaim_Bosnia = {
+	icon = generic_formable_nations
+	priority = 1
+	visible = {
+		tag = CO1
+		}	
+}

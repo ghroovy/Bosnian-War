@@ -24,7 +24,9 @@
  
  ###Yugloslav nations
  SER:0 "Federal Republic of Yugoslavia"
- SER_DEF:0 "Federal Republic of Yugoslavia"
+ SER_DEF:0 "The Federal Republic of Yugoslavia"
+ SER_fascism:0 "Federal Republic of Yugoslavia"
+ SER_fascism_DEF:0 "The Federal Republic of Yugoslavia"
  SER_ADJ:0 "Serbian"
  SLV:0 "Slovenian"
  SLV_DEF:0 "Slovenia"

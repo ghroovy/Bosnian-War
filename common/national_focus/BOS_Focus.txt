@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = BOS_Bosnia_Rises
 		icon = GFX_BOS_Bosnia_Rises
-		x = 3
+		x = 17
 		y = 0
 
 		prerequisite = {}
@@ -40,10 +40,12 @@ focus_tree = {
 	focus = {
 		id = BOS_Bosanska_Artiljerija
 		icon = GFX_BOS_Bosanska_Artiljerija
-		x = 0
-		y = 1
+		x = 5
+		y = 3
+		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_Bosnia_Rises }
+		prerequisite = { focus = BOS_A_New_Guerilla_Warfare }
+		prerequisite = { focus = BOS_Support_Islamic_Community_BIH }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -69,10 +71,11 @@ focus_tree = {
 	focus = {
 		id = BOS_Our_Heroes_In_Sarajevo
 		icon = GFX_goal_generic_small_arms
-		x = 2
-		y = 1
+		x = -1
+		y = 3
+		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_Bosnia_Rises }
+		prerequisite = { focus = BOS_Sarajevo_Mustnt_Fall }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -113,13 +116,11 @@ focus_tree = {
 	focus = {
 		id = BOS_American_Aid
 		icon = GFX_BOS_American_Aid
-		x = 2
+		x = -11
 		y = 3
+		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_Sarajevo_Mustnt_Fall }
-		prerequisite = { focus = BOS_Bosanska_Artiljerija }
-		prerequisite = { focus = BOS_A_New_Guerilla_Warfare }
-		prerequisite = { focus = BOS_Our_Heroes_In_Sarajevo }
+		prerequisite = { focus = BOS_Persuade_NATO_Advisors }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -146,10 +147,11 @@ focus_tree = {
 	focus = {
 		id = BOS_Sarajevo_Mustnt_Fall
 		icon = GFX_BOS_Sarajevo_Mustnt_Fall
-		x = 6
-		y = 1
+		x = -1
+		y = 2
+		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_Bosnia_Rises }
+		prerequisite = { focus = BOS_Defence_of_the_Nation }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -214,6 +216,7 @@ focus_tree = {
 		icon = GFX_SE1_Expand_Operations
 		x = 4
 		y = 1
+		relative_position_id = BOS_Bosnia_Rises
 
 		prerequisite = { focus = BOS_Bosnia_Rises }
 		mutually_exclusive = { }
@@ -243,13 +246,12 @@ focus_tree = {
 	focus = {
 		id = BOS_Joe_Bidens_Promises
 		icon = GFX_BOS_Joe_Bidens_Promises
-		x = 4
-		y = 3
+		x = -10
+		y = 4
+		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_Sarajevo_Mustnt_Fall }
-		prerequisite = { focus = BOS_Bosanska_Artiljerija }
-		prerequisite = { focus = BOS_A_New_Guerilla_Warfare }
-		prerequisite = { focus = BOS_Our_Heroes_In_Sarajevo }
+		prerequisite = { focus = BOS_Invite_Muslim_Volunteers }
+		prerequisite = { focus = BOS_American_Aid }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -274,11 +276,11 @@ focus_tree = {
 	focus = {
 		id = BOS_Victory_Achieved
 		icon = GFX_BOS_Victory_Achieved
-		x = 3
-		y = 4
+		x = -3
+		y = 10
+		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_American_Aid }
-		prerequisite = { focus = BOS_Joe_Bidens_Promises }
+		prerequisite = { focus = BOS_Two_Entities_One_State focus = BOS_One_Bosnia_Only focus = BOS_A_True_Bosnia }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -298,6 +300,1063 @@ focus_tree = {
 			add_political_power = 100
 			add_stability = 0.15
 			add_war_support = 0.15
+		}
+	}
+
+	focus = {
+		id = BOS_Future_Of_The_Bosnian_State
+		icon = GFX_BOS_Future_Of_The_Bosnian_State
+		x = -14
+		y = 1
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bosnia_Rises }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_A_Young_Democracy
+		icon = GFX_BOS_A_Young_Democracy
+		x = -15
+		y = 2
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Future_Of_The_Bosnian_State }
+		mutually_exclusive = { focus = BOS_Islamic_State_In_Europe }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Islamic_State_In_Europe
+		icon = GFX_BOS_Islamic_State_In_Europe
+		x = -13
+		y = 2
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Future_Of_The_Bosnian_State }
+		mutually_exclusive = { focus = BOS_A_Young_Democracy }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Declare_Jihad_Against_Srpska
+		icon = GFX_BOS_Declare_Jihad_Against_Srpska
+		x = -13
+		y = 3
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Islamic_State_In_Europe }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Establish_Core_Institutions
+		icon = GFX_BOS_Establish_Core_Institutions
+		x = -15
+		y = 3
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_A_Young_Democracy }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Seek_National_Unity
+		icon = GFX_BOS_Seek_National_Unity
+		x = -14
+		y = 4
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Declare_Jihad_Against_Srpska focus = BOS_Establish_Core_Institutions }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Seek_Foreign_Aid
+		icon = GFX_BOS_Seek_Foreign_Aid
+		x = -10
+		y = 1
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bosnia_Rises }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Persuade_NATO_Advisors
+		icon = GFX_BOS_Persuade_NATO_Advisors
+		x = -11
+		y = 2
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Seek_Foreign_Aid }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Help_From_Our_Muslim_Brothers
+		icon = GFX_BOS_Help_From_Our_Muslim_Brothers
+		x = -9
+		y = 2
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Seek_Foreign_Aid }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Invite_Muslim_Volunteers
+		icon = GFX_BOS_Help_From_Our_Muslim_Brothers
+		x = -9
+		y = 3
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Help_From_Our_Muslim_Brothers }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Defence_of_the_Nation
+		icon = GFX_BOS_Defence_of_the_Nation
+		x = -2
+		y = 1
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bosnia_Rises }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Fortify_Zenica
+		icon = GFX_BOS_Fortify_Zenica
+		x = -3
+		y = 2
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Defence_of_the_Nation }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Protect_Doboj_From_Chetniks
+		icon = GFX_BOS_Fortify_Zenica
+		x = -3
+		y = 3
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Fortify_Zenica }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Defense_Of_Bihac
+		icon = GFX_BOS_Defense_Of_Bihac
+		x = -2
+		y = 4
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Protect_Doboj_From_Chetniks }
+		prerequisite = { focus = BOS_Our_Heroes_In_Sarajevo }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Improve_Our_Army_Logistics
+		icon = GFX_BOS_Improve_Our_Army_Logistics
+		x = -5
+		y = 4
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Protect_Doboj_From_Chetniks focus = BOS_Invite_Muslim_Volunteers }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Support_Islamic_Community_BIH
+		icon = GFX_BOS_Support_Islamic_Community_BIH
+		x = 2
+		y = 1
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bosnia_Rises }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Our_Own_Mujahideen
+		icon = GFX_BOS_Our_Own_Mujahideen
+		x = 3
+		y = 3
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Support_Islamic_Community_BIH }
+		prerequisite = { focus = BOS_A_New_Guerilla_Warfare }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Expand_The_ARBIH
+		icon = GFX_BOS_Expand_The_ARBIH
+		x = 4
+		y = 4
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bosanska_Artiljerija }
+		prerequisite = { focus = BOS_Our_Own_Mujahideen }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Miracle_of_Sarajevo
+		icon = GFX_BOS_Miracle_of_Sarajevo
+		x = 1
+		y = 4
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Our_Heroes_In_Sarajevo focus = BOS_Our_Own_Mujahideen }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_New_Army_Reforms
+		icon = GFX_BOS_New_Army_Reforms
+		x = 1
+		y = 5
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Miracle_of_Sarajevo }
+		prerequisite = { focus = BOS_Defense_Of_Bihac }
+		prerequisite = { focus = BOS_Expand_The_ARBIH }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_A_Speech_To_The_UN
+		icon = GFX_BOS_A_Speech_To_The_UN
+		x = 7
+		y = 1
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bosnia_Rises }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_The_State_of_The_Economy
+		icon = GFX_BOS_The_State_of_The_Economy
+		x = 9
+		y = 1
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bosnia_Rises }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_International_Human_Aid
+		icon = GFX_BOS_International_Human_Aid
+		x = 8
+		y = 2
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_A_Speech_To_The_UN }
+		prerequisite = { focus = BOS_The_State_of_The_Economy }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Build_A_New_Industry
+		icon = GFX_BOS_Build_A_New_Industry
+		x = 9
+		y = 3
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_International_Human_Aid }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_A_Strong_Bosnian_Economy
+		icon = GFX_BOS_A_Strong_Bosnian_Economy
+		x = 7
+		y = 3
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_International_Human_Aid }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Establish_The_Convertible_Mark
+		icon = GFX_BOS_Establish_The_Convertible_Mark
+		x = 6
+		y = 4
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_A_Strong_Bosnian_Economy focus = BOS_Build_A_New_Industry }
+		mutually_exclusive = { focus = BOS_A_True_Bosnian_Currency }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_A_True_Bosnian_Currency
+		icon = GFX_BOS_A_True_Bosnian_Currency
+		x = 10
+		y = 4
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_A_Strong_Bosnian_Economy focus = BOS_Build_A_New_Industry }
+		mutually_exclusive = { focus = BOS_Establish_The_Convertible_Mark }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Usher_In_Western_Investments
+		icon = GFX_BOS_Usher_In_Western_Investments
+		x = 8
+		y = 5
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Establish_The_Convertible_Mark focus = BOS_A_True_Bosnian_Currency }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Bring_The_War_To_An_End
+		icon = GFX_BOS_Bring_The_War_To_An_End
+		x = -3
+		y = 6
+		relative_position_id = BOS_Bosnia_Rises
+
+		available = {
+			has_completed_focus = BOS_Joe_Bidens_Promises
+			has_completed_focus = BOS_Seek_National_Unity
+			has_completed_focus = BOS_New_Army_Reforms
+		}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Dayton_Agreements
+		icon = GFX_BOS_Dayton_Agreements
+		x = -5
+		y = 7
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bring_The_War_To_An_End }
+		mutually_exclusive = { focus = BOS_Treaty_of_Istanbul focus = BOS_Destroy_the_Serbian_Menace }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Treaty_of_Istanbul
+		icon = GFX_BOS_Treaty_of_Istanbul
+		x = -3
+		y = 7
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bring_The_War_To_An_End }
+		mutually_exclusive = { focus = BOS_Dayton_Agreements focus = BOS_Destroy_the_Serbian_Menace }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Destroy_the_Serbian_Menace
+		icon = GFX_BOS_Destroy_the_Serbian_Menace
+		x = -1
+		y = 7
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bring_The_War_To_An_End }
+		mutually_exclusive = { focus = BOS_Dayton_Agreements focus = BOS_Treaty_of_Istanbul }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_NATO_Peacekeepers
+		icon = GFX_BOS_NATO_Peacekeepers
+		x = -5
+		y = 8
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Dayton_Agreements }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Disband_Republika_Srpska
+		icon = GFX_BOS_Disband_Republika_Srpska
+		x = -3
+		y = 8
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Treaty_of_Istanbul }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Drive_Out_Serbians
+		icon = GFX_BOS_Drive_Out_Serbians
+		x = -1
+		y = 8
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Destroy_the_Serbian_Menace }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Two_Entities_One_State
+		icon = GFX_BOS_Two_Entities_One_State
+		x = -5
+		y = 9
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_NATO_Peacekeepers }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Two_Entities_One_State
+		icon = GFX_BOS_Two_Entities_One_State
+		x = -5
+		y = 9
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_NATO_Peacekeepers }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_One_Bosnia_Only
+		icon = GFX_BOS_One_Bosnia_Only
+		x = -3
+		y = 9
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Disband_Republika_Srpska }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_A_True_Bosnia
+		icon = GFX_BOS_A_True_Bosnia
+		x = -1
+		y = 9
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Drive_Out_Serbians }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Jihad_Onto_Belgrade
+		icon = GFX_BOS_Jihad_Onto_Belgrade
+		x = 4
+		y = 8
+		relative_position_id = BOS_Bosnia_Rises
+
+		available = { 
+			has_completed_focus = BOS_A_True_Bosnia 
+			has_completed_focus = BOS_Victory_Achieved
+		}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_The_Washington_Agreement ### ONLY COMPLETED VIA EVENT
+		icon = GFX_BOS_The_Washington_Agreement
+		x = -6
+		y = 1
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_Bosnia_Rises }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_Appeal_To_The_Terms ### ONLY COMPLETED VIA EVENT
+		icon = GFX_BOS_Appeal_To_The_Terms
+		x = -7
+		y = 2
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_The_Washington_Agreement }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = BOS_No_Cooperation ### ONLY COMPLETED VIA EVENT
+		icon = GFX_BOS_No_Cooperation
+		x = -5
+		y = 2
+		relative_position_id = BOS_Bosnia_Rises
+
+		prerequisite = { focus = BOS_The_Washington_Agreement }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
 		}
 	}
 }

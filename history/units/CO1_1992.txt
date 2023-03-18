@@ -11,6 +11,7 @@
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
 	}
 
 	     priority = 1
@@ -46,112 +47,105 @@
   units = { 
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 11909
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 3574
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 11997
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 5647
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 12014
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 11977
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 6594
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 7530
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 12002
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 7508
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 7246
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 3351
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 11835
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 6886
+		location = 6402
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 6886
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-		 division= {	
-		name = "Narodna Vojska"
-		location = 11763
+		location = 2464
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -165,21 +159,35 @@
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 11763
+		location = 8302
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 11763
+		location = 4003
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 11763
+		location = 4864
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Narodna Vojska"
+		location = 7547
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+		 division= {	
+		name = "Narodna Vojska"
+		location = 7411
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -193,14 +201,7 @@
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 6240
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-		 division= {	
-		name = "Narodna Vojska"
-		location = 6240
+		location = 5859
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -338,4 +339,55 @@
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
+
+#MAYBE TEMP
+division= {	
+	name = "Narodna Vojska"
+	location = 9055
+	division_template = "Infantry Division"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+	 division= {	
+	name = "Narodna Vojska"
+	location = 2820
+	division_template = "Infantry Division"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+	 division= {	
+	name = "Narodna Vojska"
+	location = 12557
+	division_template = "Infantry Division"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+	 division= {	
+	name = "Narodna Vojska"
+	location = 2108
+	division_template = "Infantry Division"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+	 division= {	
+	name = "Narodna Vojska"
+	location = 7284
+	division_template = "Infantry Division"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+	 division= {	
+	name = "Narodna Vojska"
+	location = 3880
+	division_template = "Infantry Division"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+	 division= {	
+	name = "Narodna Vojska"
+	location = 12511
+	division_template = "Infantry Division"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
   }

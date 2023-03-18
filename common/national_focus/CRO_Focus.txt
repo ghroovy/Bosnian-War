@@ -10,30 +10,29 @@ focus_tree = {
 		}
 	}
 	
-	default = no
-
 	focus = {
-		id = CO1_Temporary_Peace
-		icon = GFX_CO1_Temporary_Peace
-		x = 3
-		y = 3
-	
-		mutually_exclusive = { }
+		id = CRO_Launch_a_New_Offensive
+		icon = GFX_CRO_Launch_a_New_Offensive
+		x = -12
+		y = 4
 		
-		cost = 8
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
 		available = {
-			has_war_with = SE2
+			date > 1994.1.1
 		}
+
 		available_if_capitulated = no
 		
 		bypass = {
 		}
 		
 		completion_reward = {
-			white_peace = SE2
+			add_ideas = a_new_offensive
 		}
 	}
+	
+	default = no
 }

@@ -2,7 +2,7 @@ bitmapfonts = {
     bitmapfont = {
         name = "Cairo"
         fontfiles = {
-            "gfx/fonts/Cairo"
+            "gfx/fonts/Cairo.dds"
         }
         color = 0xffffffff
 

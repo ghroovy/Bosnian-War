@@ -1,0 +1,18 @@
+### SRPSKA EVENTS
+
+add_namespace = srpska
+
+country_event = {
+	id = srpska.1
+	title = srpska.1.t
+	desc = srpska.1.desc
+	picture = GFX_report_event_SE1_beginning
+
+	is_triggered_only = yes
+
+	option = { 
+		name = srpska.1.a
+		ai_chance = { base = 100 }
+		}
+	}
+}

@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Croatia_or_Nothing
 		icon = GFX_CO1_Croatia_or_Nothing
-		x = 3
+		x = 12
 		y = 0
 
 		prerequisite = {}
@@ -40,10 +40,11 @@ focus_tree = {
 	focus = {
 		id = CO1_Cut_Bosnia_in_Two
 		icon = GFX_CO1_Cut_Bosnia_in_Two
-		x = 0
-		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
+		x = 1
+		y = 3
 
-		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		prerequisite = { focus = CO1_To_Hell_With_Heretics }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -69,10 +70,11 @@ focus_tree = {
 	focus = {
 		id = CO1_AK47_Our_Best_Friend
 		icon = GFX_CO1_AK47_Our_Best_Friend
-		x = 2
-		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
+		x = 3
+		y = 3
 
-		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		prerequisite = { focus = CO1_Strike_Against_Our_Foes }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -97,10 +99,11 @@ focus_tree = {
 	focus = {
 		id = CO1_No_Surrender
 		icon = GFX_CO1_No_Surrender
-		x = 4
-		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
+		x = 6
+		y = 2
 
-		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		prerequisite = { focus = CO1_A_Land_For_Croatians }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -128,10 +131,11 @@ focus_tree = {
 	focus = {
 		id = CO1_Ask_the_UN_for_Help
 		icon = GFX_CO1_Ask_the_UN_for_Help
-		x = 6
-		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
+		x = -3
+		y = 2
 
-		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		prerequisite = { focus = CO1_Plea_For_International_Support }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -159,13 +163,12 @@ focus_tree = {
 	focus = {
 		id = CO1_Victory_Achieved
 		icon = GFX_CO1_Victory_Achieved
-		x = 3
-		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+		x = 4
+		y = 10
 
-		prerequisite = { focus = CO1_Cut_Bosnia_in_Two }
-		prerequisite = { focus = CO1_AK47_Our_Best_Friend }
-		prerequisite = { focus = CO1_No_Surrender }
-		prerequisite = { focus = CO1_Ask_the_UN_for_Help }
+		prerequisite = { focus = CO1_Extradite_Bosnian_And_Serbs }
+		prerequisite = { focus = CO1_Achieve_Proper_Control }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -187,29 +190,1127 @@ focus_tree = {
 			add_war_support = 0.15
 		}
 	}
+	focus = {
+		id = CO1_A_Land_For_Croatians
+		icon = GFX_CO1_A_Land_For_Croatians
+		x = 6
+		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
 
-	#focus = {
-	#	id = CO1_Temporary_Peace
-	#	icon = GFX_CO1_Temporary_Peace
-	#	x = 3
-	#	y = 3
-	#
-	#	mutually_exclusive = { }
-	#	
-	#	cost = 8
-	#	ai_will_do = {
-	#		factor = 1
-	#	}
-	#	available = {
-	#		has_war_with = SE2
-	#	}
-	#	available_if_capitulated = no
-	#	
-	#	bypass = {
-	#	}
-	#	
-	#	completion_reward = {
-	#		white_peace = SE2
-	#	}
-	#}
+		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Strike_Against_Our_Foes
+		icon = GFX_CO1_Strike_Against_Our_Foes
+		x = 4
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_Land_For_Croatians }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Augment_New_Operations
+		icon = GFX_CO1_Augment_New_Operations
+		x = 8
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_Land_For_Croatians }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Croatian_Military_Support
+		icon = GFX_CO1_Croatian_Military_Support
+		x = 9
+		y = 3
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Augment_New_Operations }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Defend_Our_Rightful_Land
+		icon = GFX_CO1_Croatian_Military_Support
+		x = 7
+		y = 3
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Augment_New_Operations }
+		mutually_exclusive = { focus = CO1_Break_Through_Their_Lines }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Build_Up_Fortifications
+		icon = GFX_CO1_Build_Up_Fortifications
+		x = 8
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Defend_Our_Rightful_Land }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Champions_Of_The_Frontlines
+		icon = GFX_CO1_Champions_Of_The_Frontlines
+		x = 9
+		y = 5
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Build_Up_Fortifications }
+		prerequisite = { focus = CO1_A_Reformed_Army }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Break_Through_Their_Lines
+		icon = GFX_CO1_Break_Through_Their_Lines
+		x = 5
+		y = 3
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Strike_Against_Our_Foes }
+		mutually_exclusive = { focus = CO1_Defend_Our_Rightful_Land }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_A_New_Offensive
+		icon = GFX_CO1_A_New_Offensive
+		x = 4
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Break_Through_Their_Lines }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Heroes_of_Herzegovina
+		icon = GFX_CO1_A_New_Offensive
+		x = 3
+		y = 5
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_New_Offensive }
+		prerequisite = { focus = CO1_Streamline_Arms_Production }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Experiment_New_Tactics
+		icon = GFX_CO1_Examine_New_Tactics
+		x = 6
+		y = 5
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Break_Through_Their_Lines focus = CO1_Defend_Our_Rightful_Land }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_A_Reformed_Army
+		icon = GFX_CO1_A_Reformed_Army
+		x = 6
+		y = 5
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Experiment_New_Tactics }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Streamline_Arms_Production
+		icon = GFX_CO1_Streamline_Arms_Production
+		x = 2
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Break_Through_Their_Lines }
+		prerequisite = { focus = CO1_AK47_Our_Best_Friend }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_A_Reformed_Army
+		icon = GFX_CO1_A_Reformed_Army
+		x = 10
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Defend_Our_Rightful_Land }
+		prerequisite = { focus = CO1_Croatian_Military_Support }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_The_Righteous_Fight
+		icon = GFX_CO1_The_Righteous_Fight
+		x = 6
+		y = 6
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Experiment_New_Tactics }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Rejuvenate_The_Economy
+		icon = GFX_CO1_Rejuvenate_The_Economy
+		x = 14
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_Land_For_Croatians }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Wartime_Industry
+		icon = GFX_CO1_Wartime_Industry
+		x = 15
+		y = 3
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Rejuvenate_The_Economy }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Fast_Manuevering_Production
+		icon = GFX_CO1_Fast_Manuevering_Production
+		x = 15
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Wartime_Industry }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Grow_The_Civillian_Sector
+		icon = GFX_CO1_Grow_The_Civillian_Sector
+		x = 13
+		y = 3
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Rejuvenate_The_Economy }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Further_Industrialization_Efforts
+		icon = GFX_CO1_Grow_The_Civillian_Sector
+		x = 13
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Grow_The_Civillian_Sector }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Develop_A_Proper_Economy
+		icon = GFX_CO1_Grow_The_Civillian_Sector
+		x = 14
+		y = 6
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Further_Industrialization_Efforts }
+		prerequisite = { focus = CO1_Fast_Manuevering_Production }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_A_Proper_State
+		icon = GFX_CO1_A_Proper_State
+		x = 10
+		y = 7
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Develop_A_Proper_Economy }
+		prerequisite = { focus = CO1_The_Righteous_Fight }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Plea_For_International_Support
+		icon = GFX_CO1_Plea_For_International_Support
+		x = -4
+		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Our_Croatian_Brothers
+		icon = GFX_CO1_Our_Croatian_Brothers
+		x = -5
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Plea_For_International_Support }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Evolve_A_Proper_Identity
+		icon = GFX_CO1_Evolve_A_Proper_Identity
+		x = -4
+		y = 3
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Plea_For_International_Support }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Bring_The_War_To_An_End
+		icon = GFX_CO1_Bring_The_War_To_An_End
+		x = 2
+		y = 7
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_A_Coalition_Victory
+		icon = GFX_CO1_A_Coalition_Victory
+		x = 0
+		y = 8
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Bring_The_War_To_An_End }
+		mutually_exclusive = { focus = CO1_A_Croatian_Victory }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Further_Integration_With_Bosnia
+		icon = GFX_CO1_Further_Integration_With_Bosnia
+		x = 1
+		y = 9
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_Coalition_Victory }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Western_Recognition
+		icon = GFX_CO1_Western_Recognition
+		x = -1
+		y = 9
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_Coalition_Victory }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Peace_Achieved
+		icon = GFX_CO1_Peace_Achieved
+		x = 0
+		y = 10
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Further_Integration_With_Bosnia }
+		prerequisite = { focus = CO1_Western_Recognition }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_A_Croatian_Victory
+		icon = GFX_CO1_A_Coalition_Victory
+		x = 4
+		y = 8
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Bring_The_War_To_An_End }
+		mutually_exclusive = { focus = CO1_A_Coalition_Victory }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Extradite_Bosnian_And_Serbs
+		icon = GFX_CO1_A_Coalition_Victory
+		x = 3
+		y = 9
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_Croatian_Victory }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Extradite_Bosnian_And_Serbs
+		icon = GFX_CO1_A_Coalition_Victory
+		x = 3
+		y = 9
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_Croatian_Victory }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Achieve_Proper_Control
+		icon = GFX_CO1_A_Coalition_Victory
+		x = 5
+		y = 9
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_Croatian_Victory }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Recognized_Statehood ### AVAILABLE AFTER COMPLETED A PROPER STATE NOT AVAILABLE IF AGREED TO WASHINGTON AGREEMENTS
+		icon = GFX_CO1_Recognized_Statehood
+		x = -3
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Evolve_A_Proper_Identity }
+		mutually_exclusive = { focus = CO1_United_In_One }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_United_In_One ### AVAILABLE AFTER COMPLETED A PROPER STATE NOT AVAILABLE IF AGREED TO WASHINGTON AGREEMENTS
+		icon = GFX_CO1_United_In_One
+		x = -5
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Evolve_A_Proper_Identity }
+		mutually_exclusive = { focus = CO1_Recognized_Statehood }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = { 
+		id = CO1_The_Washington_Agreement ### ONLY COMPLETED VIA EVENT
+		icon = GFX_CO1_The_Washington_Agreement
+		x = 0
+		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = { 
+		id = CO1_To_Hell_With_Heretics ### ONLY COMPLETED VIA EVENT
+		icon = GFX_CO1_To_Hell_With_Heretics
+		x = 1
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_The_Washington_Agreement }
+		mutually_exclusive = { focus = CO1_A_Common_Fight }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = { 
+		id = CO1_A_Common_Fight ### ONLY COMPLETED VIA EVENT
+		icon = GFX_CO1_A_Common_Fight
+		x = -1
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_The_Washington_Agreement }
+		mutually_exclusive = { focus = CO1_To_Hell_With_Heretics }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = { 
+		id = CO1_A_United_State_Solution
+		icon = GFX_CO1_A_United_State_Solution
+		x = -1
+		y = 3
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_A_Common_Fight }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+
+
+
+# SHITTY NAVAL FOCUS TREE
+	focus = {
+		id = CO1_Master_The_Croatian_Doctrine
+		icon = GFX_CO1_Master_The_Croatian_Doctrine
+		x = 19
+		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Western_Naval_Advisors
+		icon = GFX_CO1_Western_Naval_Advisors
+		x = 19
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Master_The_Croatian_Doctrine }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Ruler_of_The_Seas
+		icon = GFX_CO1_Ruler_of_The_Seas
+		x = 19
+		y = 3
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Western_Naval_Advisors }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Sink_Their_Fleets
+		icon = GFX_CO1_Sink_Their_Fleets
+		x = 17
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Ruler_of_The_Seas }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Shatter_Their_Shores
+		icon = GFX_CO1_Sink_Their_Fleets
+		x = 21
+		y = 4
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Ruler_of_The_Seas }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_The_Adriatic_A_Croatian_Sea
+		icon = GFX_CO1_The_Adriatic_A_Croatian_Sea
+		x = 19
+		y = 5
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Sink_Their_Fleets }
+		prerequisite = { focus = CO1_Shatter_Their_Shores }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
 }

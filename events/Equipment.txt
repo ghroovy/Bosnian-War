@@ -1,0 +1,138 @@
+### EQUIPMENT EVENTS
+
+add_namespace = eqp
+
+### SRPSKA
+
+country_event = {
+	id = eqp.1
+	title = eqp.1.t
+	desc = eqp.1.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.1.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = SER
+		}
+	}
+}
+
+country_event = {
+	id = eqp.2
+	title = eqp.2.t
+	desc = eqp.2.desc
+	picture = GFX_report_event_EQP_shipment_failed
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.2.a
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+	id = eqp.5
+	title = eqp.5.t
+	desc = eqp.5.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.5.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 700
+			producer = SER
+		}
+	}
+}
+
+country_event = {
+	id = eqp.6
+	title = eqp.6.t
+	desc = eqp.6.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.6.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 500
+			producer = SER
+		}
+	}
+}
+
+country_event = {
+	id = eqp.7
+	title = eqp.7.t
+	desc = eqp.7.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.7.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_1
+			amount = 50
+			variant_name = "M-84"
+			producer = SER
+		}
+	}
+}
+
+### HERZEG BOSNIA
+
+country_event = {
+	id = eqp.3
+	title = eqp.3.t
+	desc = eqp.3.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.3.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = CRO
+		}
+	}
+}
+
+### BOSNIA
+
+country_event = {
+	id = eqp.4
+	title = eqp.4.t
+	desc = eqp.4.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.4.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = UN1
+		}
+	}
+}

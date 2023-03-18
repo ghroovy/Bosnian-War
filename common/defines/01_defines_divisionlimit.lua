@@ -1,0 +1,1 @@
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 42			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked

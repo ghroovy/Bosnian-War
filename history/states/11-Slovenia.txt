@@ -10,7 +10,7 @@ state={
 		add_core_of = SLV
 	}
     
-	manpower=1
+	manpower=1994084
 	state_category=town
 	buildings_max_level_factor=1.000
 }

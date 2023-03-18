@@ -14,6 +14,41 @@
  SE1_Serbians_of_Bosnia:0 "An Independent Serb State"
  SE1_Armed_Volunteers:0 "A Fierce Volunteer Force"
  SE1_From_Novi_to_Zvornik:0 "From Novi, to Zvornik!"
+ SE1_Slobodan_Our_Friend:0 "Slobodan, Our Friend"
+ SE1_Independent_From_All:0 "Independent From All!"
+ 
+ ### SRPSKA NEW FOCUSES
+ 
+ SE1_Review_Our_Army:0 "Review Our Army"
+ SE1_Superior_Serb_Forces:0 "Superior Serb Forces"
+ SE1_Dig_Up_Yugoslavian_Caches:0 "Dig Up Yugoslavian Caches"
+ SE1_Outpace_The_Enemy:0 "Outpace the Enemy"
+ SE1_Bolster_Conscription:0 "Bolster Conscription"
+ SE1_Extend_Mobilization_Efforts:0 "Extend Mobilization Efforts"
+ SE1_Up_To_Arms_Srpska:0 "Up To Arms, Srpska!"
+ SE1_Streamline_Our_Production:0 "Streamline Our Production"
+ SE1_A_Vehicular_Focus:0 "A Vehicular Focus"
+ SE1_Expand_The_Volunteer_Guard:0 "Expand The Volunteer Guard"
+ SE1_Drive_Out_The_Menace:0 "Drive Out The Menace"
+ SE1_Our_Orthodox_Friends:0 "Our Orthodox Friends"
+ SE1_The_International_Community:0 "The International Community"
+ SE1_Support_From_Orthodox_Brothers:0 "Support From Orthodox Brothers"
+ SE1_Pursue_Overseas_Support:0 "Pursue Overseas Support"
+ SE1_Protect_Supply_Lines:0 "Guard Supply Lines"
+ SE1_Ostracize_The_Croats:0 "Ostracize The Croats"
+ SE1_Displace_The_Masses:0 "Displace The Masses"
+ SE1_Serbian_Land_For_Serbs:0 "Serbian Land For Serbs"
+ SE1_Restructure_The_Government:0 "Restructure The Government"
+ SE1_Invigorate_The_Industry:0 "Invigorate The Industry"
+ SE1_Amplify_Our_War_Efforts:0 "Amplify Our War Efforts"
+ SE1_Revive_The_Economy:0 "Revive The Economy"
+ SE1_A_New_Identity:0 "A New Identity"
+ SE1_Bring_The_War_To_An_End:0 "Bring The War To An End"
+ SE1_To_Hell_And_Forward:0 "To Hell And Forward"
+ SE1_Settle_For_Dayton:0 "Settle For Dayton"
+ SE1_Cooperate_With_The_West:0 "Cooperate With The West"
+ SE1_Withdraw_Our_Forces:0 "Withdraw Our Forces"
+ SE1_A_Compromise:0 "Reach a Compromise"
  
  BOS_Bosnia_Rises:0 "Arise, Bosnia!"
  BOS_Bosnia_Rises_desc:0 "This march, our nation has finally declared its independence from the Serbian yoke. Unfortunately, the chetniks and ustasha have backstabbed the nation and started a war of destruction. We must destroy them. BOSNIA, ARISE! "
@@ -40,3 +75,12 @@
  CO1_Ask_the_UN_for_Help:0 "NATO, Our Friend" # no war crimes pretty pls ### shut up cestino
  CO1_Victory_Achieved:0 "A Croat State in Bosnia!"
  CO1_Temporary_Peace:0 "Temporary Peace" # Cuckoldry ### shut up cestino
+ 
+ ### Croatian-Bosnia Naval Tree
+ 
+ CO1_Master_The_Croatian_Doctrine:0 "Master the Croatian Doctrine"
+ CO1_Western_Naval_Advisors:0 "Western Naval Advisors"
+ CO1_Ruler_of_The_Seas:0 "Ruler of The Seas"
+ CO1_Sink_Their_Fleets:0 "Sink Their Fleets"
+ CO1_Shatter_Their_Shores:0 "Shatter Their Shores"
+ CO1_The_Adriatic_A_Croatian_Sea:0 "The Adriatic, A Croatian Sea"

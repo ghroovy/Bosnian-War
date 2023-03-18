@@ -1,0 +1,31 @@
+### Herzeg bosnia Events
+
+add_namespace = herzeg
+
+country_event = {
+	id = herzeg.1
+	title = herzeg.1.t
+	desc = herzeg.1.desc
+	picture = GFX_report_event_CO1_washington_agreement
+
+	is_triggered_only = yes
+
+	option = { 
+		name = herzeg.1.a
+		ai_chance = { base = 80 }
+		set_country_flag = CO1_peace
+		hidden_effect = {
+		complete_national_focus = CO1_The_Washington_Agreement
+		complete_national_focus = CO1_A_Common_Fight
+		}
+	}
+	
+	option = { 
+		name = herzeg.2.a
+		ai_chance = { base = 20 }
+		hidden_effect = {
+		complete_national_focus = CO1_The_Washington_Agreement
+		complete_national_focus = CO1_To_Hell_With_Heretics
+		}
+	}
+}

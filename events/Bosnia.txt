@@ -1,0 +1,31 @@
+### BOSNIA EVENTS
+
+add_namespace = bosnia
+
+country_event = {
+	id = bosnia.1
+	title = bosnia.1.t
+	desc = bosnia.1.desc
+	picture = GFX_report_event_BOS_washington_agreement
+
+	is_triggered_only = yes
+
+	option = { 
+		name = bosnia.1.a
+		ai_chance = { base = 90 }
+		set_country_flag = BOS_peace
+		hidden_effect = {
+		complete_national_focus = BOS_The_Washington_Agreement
+		complete_national_focus = BOS_Appeal_To_The_Terms
+		}
+	}
+	
+	option = { 
+		name = bosnia.2.a
+		ai_chance = { base = 10 }
+		hidden_effect = {
+		complete_national_focus = BOS_The_Washington_Agreement
+		complete_national_focus = BOS_No_Cooperation
+		}
+	}
+}

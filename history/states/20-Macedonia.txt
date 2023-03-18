@@ -11,7 +11,7 @@ state={
 		add_core_of = MAC
 	}
     
-	manpower=1
+	manpower=2018022
 	state_category=town
 	buildings_max_level_factor=1.000
 }
