@@ -1,0 +1,274 @@
+category = {
+	name = "Effects"
+	soundeffects = {
+		AK74_rifle_attack
+		
+	}
+}
+## SRPSKA ##
+
+#AK74#
+soundeffect = {
+	name = AK74_rifle_attack
+	falloff = "falloff_100"
+	sounds = {
+		sound = AK74_rifle_attack01
+		sound = AK74_rifle_attack02
+		sound = AK74_rifle_attack03
+		sound = AK74_rifle_attack04
+		sound = AK74_rifle_attack05
+		sound = AK74_rifle_attack06
+		sound = AK74_rifle_attack07
+		sound = AK74_rifle_attack08
+		sound = AK74_rifle_attack09
+		sound = AK74_rifle_attack10
+		sound = AK74_rifle_attack11
+		sound = AK74_rifle_attack12
+		sound = AK74_rifle_attack13
+		sound = AK74_rifle_attack14
+		sound = AK74_rifle_attack15
+		sound = AK74_rifle_attack16
+		sound = AK74_rifle_attack17
+		sound = AK74_rifle_attack18
+		sound = AK74_rifle_attack19
+		sound = AK74_rifle_attack20
+		sound = AK74_rifle_attack21
+		sound = AK74_rifle_attack22
+		sound = AK74_rifle_attack23
+		sound = AK74_rifle_attack24
+		sound = AK74_rifle_attack25
+		sound = AK74_rifle_attack26
+		sound = AK74_rifle_attack27
+		sound = AK74_rifle_attack28
+		sound = AK74_rifle_attack29
+		sound = AK74_rifle_attack30
+		sound = AK74_rifle_attack31
+		sound = AK74_rifle_attack32
+		sound = AK74_rifle_attack33
+		sound = AK74_rifle_attack34
+		sound = AK74_rifle_attack35
+		sound = AK74_rifle_attack36
+	} 
+	max_audible = 12
+	delay_random_offset = { 0.0 0.15 }
+	playbackrate_random_offset = { -0.15 0.15 }
+	max_audible_behaviour = fail
+	is3d = yes
+	volume = 0.3
+}
+sound =
+{
+	name = "AK74_rifle_attack01"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack02"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack03"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack04"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack05"
+	file = "animations/rifle/artillery_distance_fire.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack06"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack07"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack08"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack09"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack10"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack11"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack12"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack13"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack14"
+	file = "animations/rifle/anti_air_distance_fire.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack15"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack16"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack17"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack18"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack19"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack20"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack21"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack22"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack23"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack24"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack25"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack26"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack27"
+	file = "animations/rifle/infantry_mg_distance_fire.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack28"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack29"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack30"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack31"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack32"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack33"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack34"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack35"
+	file = "animations/rifle/AK74.wav"
+	always_load = no
+}
+sound =
+{
+	name = "AK74_rifle_attack36"
+	file = "animations/rifle/infantry_mg_close_fire.wav"
+	always_load = no
+}
