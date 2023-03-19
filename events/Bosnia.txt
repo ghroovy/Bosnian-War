@@ -21,11 +21,17 @@ country_event = {
 	}
 	
 	option = { 
-		name = bosnia.2.a
+		name = bosnia.1.b
 		ai_chance = { base = 10 }
 		hidden_effect = {
 		complete_national_focus = BOS_The_Washington_Agreement
 		complete_national_focus = BOS_No_Cooperation
+		}
+		add_political_power = -50
+		custom_effect_tooltip = BOS_us_sour_relations
+		reverse_add_opinion_modifier = {
+			target = UN1
+			modifier = western_betrayal
 		}
 	}
 }

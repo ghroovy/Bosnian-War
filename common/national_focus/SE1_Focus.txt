@@ -734,7 +734,7 @@
 			factor = 1
 		}
 		available = {
-			always = no ###AVAILABLE ONCE COMPLETED ALL DECISIONS
+			always = yes ###AVAILABLE ONCE COMPLETED ALL DECISIONS
 		}
 
 		available_if_capitulated = no
@@ -1299,12 +1299,10 @@
 			factor = 1
 		}
 		available = {
-					SE1 = { surrender_progress > 0.5 }
 					OR = {
-					BOS = { surrender_progress > 0.5 }
-					CO1 = { surrender_progress > 0.5 }
-					}
-					OR = {
+					SE1 = { surrender_progress > 0.8 }
+					BOS = { surrender_progress > 0.8 }
+					CO1 = { surrender_progress > 0.8 }
 					date > 1995.7.1
 					}
 				}

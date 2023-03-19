@@ -104,33 +104,43 @@ create_country_leader = {
 	}
 } 
     create_field_marshal = {
-	name = "Momir Talic"
-	picture = "Portrait_SE1_Momir.dds"
-	traits = { career_officer }
+	name = "Ratko Mladić"
+	picture = "Portrait_SE1_Ratko.dds"
+	traits = { career_officer politically_connected }
 	skill = 5
     attack_skill = 5
     defense_skill = 1
-    planning_skill = 1
+    planning_skill = 2
     logistics_skill = 4
 }
     create_corps_commander = {
-	name = "Novak Dukic"
-	picture = "Portrait_SE1_Novak.dds"
-	traits = { logistics_wizard organizer }
+	name = "Momir Talic"
+	picture = "Portrait_SE1_Momir.dds"
+	traits = { brilliant_strategist harsh_leader }
 	skill = 3
     attack_skill = 4
     defense_skill = 2
     planning_skill = 3
+    logistics_skill = 4
+}
+    create_corps_commander = {
+	name = "Novak Djukic"
+	picture = "Portrait_SE1_Novak.dds"
+	traits = { logistics_wizard organizer }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 2
     logistics_skill = 5
 }
     create_corps_commander = {
 	name = "Arkan"
 	picture = "Portrait_SE1_Arkan.dds"
-	traits = { trait_cautious }
+	traits = { trait_reckless }
 	skill = 1
-    attack_skill = 1
+    attack_skill = 2
     defense_skill = 1
-    planning_skill = 1
+    planning_skill = 2
     logistics_skill = 1
 }
 

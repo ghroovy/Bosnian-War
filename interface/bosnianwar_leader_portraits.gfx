@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+spriteType = {
+		name = "GFX_portrait_kresimir_zubak"
+		texturefile = "gfx/leaders/CO1/Portrait_CO1_Kresimir_Zubak.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mate_boban"
+		texturefile = "gfx/leaders/croat_bosnia.dds"
+		alwaystransparent = yes
+	}
+}

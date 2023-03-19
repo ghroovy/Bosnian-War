@@ -154,7 +154,7 @@ BOS_Arms_Deal_Shipments = {
         }
 	}
 		 fixed_random_seed = no
-		 complete_effect = {
+		 remove_effect = {
 			random_list = {
 				85 = {
 				  country_event = eqp.4
@@ -178,7 +178,7 @@ BOS_Arms_Deal_Shipments = {
         }
 	}
 		 fixed_random_seed = no
-		 complete_effect = {
+		 remove_effect = {
 			random_list = {
 				85 = {
 				  country_event = eqp.11
@@ -196,7 +196,7 @@ BOS_Arms_Deal_Shipments = {
          base = 50
         }
 		 fixed_random_seed = no
-		 complete_effect = {
+		 remove_effect = {
 			random_list = {
 				80 = {
 				  country_event = eqp.12
@@ -214,7 +214,7 @@ BOS_Arms_Deal_Shipments = {
          base = 30
         }
 		 fixed_random_seed = no
-		 complete_effect = {
+		 remove_effect = {
 			random_list = {
 				80 = {
 				  country_event = eqp.13

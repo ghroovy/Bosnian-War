@@ -67,4 +67,27 @@ country_event = {
 			}
 		}
 	}
+	
+news_event = {
+	id = NATOUN.3
+	title = NATOUN.3.t
+	desc = NATOUN.3.desc
+	picture = GFX_news_event_UN1_washington_agreement
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.3.a
+        trigger = {
+            NOT = { tag = SE1 }
+        }
+		ai_chance = { base = 100 }
+	}
+	option = { 
+		name = NATOUN.3.b
+        trigger = {
+            tag = SE1
+        }
+		ai_chance = { base = 100 }
+	}
 }

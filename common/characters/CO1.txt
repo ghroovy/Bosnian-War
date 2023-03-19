@@ -1,0 +1,28 @@
+characters={
+	CO1_Kresimir_Zubak={
+		name=CO1_Kresimir_Zubak
+		portraits={
+			civilian={
+				large="GFX_portrait_kresimir_zubak"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	CO1_Mate_Boban={
+		name=CO1_Mate_Boban
+		portraits={
+			civilian={
+				large="GFX_portrait_mate_boban"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

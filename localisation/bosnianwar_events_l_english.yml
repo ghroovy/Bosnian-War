@@ -11,11 +11,38 @@
  srpska.1.desc:0 "The people of Srpska have been fighting for a proper Serb state within Bosnia for several months, with no clause and no end to this bloodshed, we must continue further to establish and protect our representation as a minority within the region. The Ustasha and the Bosniaks are turning their guns against eachother and it may be our time to strike and achieve victory."
  srpska.1.a:0 "Samo sloga Srbina spasava!"
  
+ #BOSNIA
+ bosnia.1.t:0 "The Washington Proposal"
+ bosnia.1.desc:0 "D.C. has proposed us to come to terms with the Bosnian-Croatians and approach them with a ceasefire and creation of a Unified State to push back the Bosnian Serbs."
+ bosnia.1.a:0 "It would be the best option for both sides."
+ bosnia.1.b:0 "We will not negotiate with genociders!"
+ 
  #CROATIA
  croatia.2.t:0 "Operation Storm"
  croatia.2.d:0 "Following several decisive victories, Croatian forces have overwhelmed Serbian Rebel Forces and have taken hold of the rebelling Republic of Serbian Krajina and are predicted to push further south into Bosnia and disrupt Serb Forces currently waging a war against Croatian and Bosnian forces alike."
  croatia.2.a:0 "Worrying."
  
+ ###HERZEG BOSNIA
+ herzeg.1.t:0 "The Washington Proposal"
+ herzeg.1.desc:0 "Officials from D.C. have come forward with a new deal to pursue peace within the region, they approached us with the offer to negotiate a potential ceasefire with the Bosnian-Muslims. Internal Ministers have expressed their concerns for this offer, but it would possibly be the best for us to drive out the Bosnian-Serbs once and for all."
+ herzeg.1.a:0 "We shall accept the offer."
+ herzeg.1.b:0 "No peace for backstabbers!"
+ 
+ herzeg.2.t:0 "Mate Boban Expresses Resignation"
+ herzeg.2.desc:0 "Mate Boban has indicated several signs of his possible resignation as President of Herzeg-Bosnia. Franjo Tudman, president of Croatia has expressed his distain of Mate Boban through diplomatic pressure for the support of Bosnian Muslims and stating that he was "never Zagreb's choice for acting duties in Bosnia" for the hardliner Mate Boban is. Recent events have raised questions about his current reign."
+ herzeg.2.a:0 "Tudman is right. He must step down."
+ herzeg.2.b:0 "He is the only one holding this nation together!"
+ 
+ herzeg.3.t:0 "Mate Boban Resigns from Presidency"
+ herzeg.3.desc:0 "Mate Boban, President of The Croatian Republic of Herzeg-Bosnia has announced his resignation from active duty. The authority of new leadership was granted to the parliament of which Krešimir Zubak was chosen as his replacement. This recent and stunning move is speculated to be a result of the further termination of relations with Bosnian Muslims and political pressure from Zagreb, though nothing is certain, as Mostar still faces religious clashes being divided along lines."
+ herzeg.3.a:0 "What does this mean for the future of Herzeg-Bosnia?"
+ 
  #EQUIPMENT
  eqp.1.t:0 "Arms Transport Succesful!"
  eqp.2.t:0 "Convoy seized by the Enemy"
+ 
+ #NATO UN
+ NATOUN.3.t:0 "The Washington Agreement"
+ NATOUN.3.desc:0 "Today, Officials from the Republic of Bosnia and Herzegovina, the Croatian Republic and the Croatian Republic of Herzeg-Bosnia gathered today at Washington D.C. to come to terms with their ongoing conflict. Peace talks between the Croats and Bosnians have already been looming over the cloud of possibility with Franjo Tudman leading the charge. The ceasefire brings waves of hope across the region, but complete peace is still uncertain with the Republika Srpska still commencing offensives and continuing their genocide of Bosnian Muslims and Croatians, though the new United Coalition of the Federation of Bosnia and Herzegovina could finally bring an end to this."
+ NATOUN.3.a:0 "One step closer to peace."
+ NATOUN.3.b:0 "We will hold no matter what!"

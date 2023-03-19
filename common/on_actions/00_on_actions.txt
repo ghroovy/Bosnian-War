@@ -30,16 +30,19 @@ on_actions = {
             country_event = { id = NATOUN.2 days = 440 }
             }
         BOS = {
-            country_event = { id = bosnia.1 days = 520 }
+            country_event = { id = bosnia.1 days = 516 }
             }
         SE1 = {
             country_event = { id = srpska.1 }
             }
         CO1 = {
-            country_event = { id = herzeg.1 days = 520 }
+            country_event = { id = herzeg.2 days = 478 }
+            }
+        CO1 = {
+            country_event = { id = herzeg.1 days = 516 }
             }
         UN1 = {
-            country_event = { id = NATOUN.1 days = 530 }
+            country_event = { id = NATOUN.1 days = 529 }
             }
 		SE2 = {
 		add_timed_idea = {

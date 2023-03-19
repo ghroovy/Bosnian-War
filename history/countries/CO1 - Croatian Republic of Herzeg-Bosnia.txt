@@ -54,6 +54,9 @@ set_popularities = {
 	neutrality = 0
 }
 
+recruit_character = CO1_Mate_Boban
+recruit_character = CO1_Kresimir_Zubak
+
 add_ideas = {
 idea_the_bosnian_war
 CO1_HVO
@@ -61,13 +64,6 @@ limited_exports
 extensive_conscription
 war_economy
 }
-
-create_country_leader = {
-	name = "Mate Boban"
-	desc = ""
-	picture = "gfx/leaders/croat_bosnia.dds"
-	ideology = liberalism
-	} 
 	
     create_field_marshal = {
 	name = "Slobodan Praljak"
@@ -110,3 +106,4 @@ create_country_leader = {
         type = civil_war
         }
         add_civil_war_target = SE1	
+		

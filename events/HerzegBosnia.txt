@@ -12,7 +12,13 @@ country_event = {
 
 	option = { 
 		name = herzeg.1.a
-		ai_chance = { base = 80 }
+		ai_chance = { 
+		base = 0
+		 modifier = {
+		 	add = 100 
+			has_country_leader = CO1_Kresimir_Zubak
+			}
+		}
 		set_country_flag = CO1_peace
 		hidden_effect = {
 		complete_national_focus = CO1_The_Washington_Agreement
@@ -21,11 +27,62 @@ country_event = {
 	}
 	
 	option = { 
-		name = herzeg.2.a
-		ai_chance = { base = 20 }
+		name = herzeg.1.b
+		ai_chance = { 
+		base = 0
+		 modifier = {
+		 	add = 100
+			has_country_leader = CO1_Mate_Boban
+			}
+		}
 		hidden_effect = {
 		complete_national_focus = CO1_The_Washington_Agreement
 		complete_national_focus = CO1_To_Hell_With_Heretics
 		}
+		add_political_power = -50
+		custom_effect_tooltip = CO1_us_sour_relations
+		reverse_add_opinion_modifier = {
+			target = UN1
+			modifier = western_betrayal
+		}
+	}
+}
+
+country_event = {
+	id = herzeg.2
+	title = herzeg.2.t
+	desc = herzeg.2.desc
+	picture = GFX_report_event_CO1_mate_boban_resignation
+
+	is_triggered_only = yes
+
+	option = { 
+		name = herzeg.2.a
+		ai_chance = { base = 80 }
+		retire_country_leader = CO1_Mate_Boban
+		promote_character = {
+    	character = CO1_Kresimir_Zubak
+    	ideology = liberalism
+		}
+		news_event = { id = herzeg.3 }
+}
+	option = { 
+		name = herzeg.2.b
+		ai_chance = { base = 20 }
+		add_political_power = -100
+	}
+}
+
+news_event = {
+	id = herzeg.3
+	title = herzeg.3.t
+	desc = herzeg.3.desc
+	picture = GFX_news_event_CO1_mate_boban_resignation
+
+	is_triggered_only = yes
+
+	option = { 
+		name = herzeg.3.a
+		ai_chance = { base = 100 }
 	}
 }

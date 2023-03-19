@@ -1,8 +1,26 @@
 spriteTypes = {	
 
+### NEWS EVENTS
 spriteType = {
 		name = "GFX_news_event_CRO_Operation_Storm"
 		texturefile = "gfx/event_pictures/news_event_CRO_Operation_Storm.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_UN1_washington_agreement"
+		texturefile = "gfx/event_pictures/news_event_UN1_washington_agreement.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_CO1_mate_boban_resignation"
+		texturefile = "gfx/event_pictures/news_event_mate_boban_resignation.dds"
+		alwaystransparent = yes
+	}
+	
+### COUNTRY EVENTS
+spriteType = {
+		name = "GFX_report_event_CO1_mate_boban_resignation"
+		texturefile = "gfx/event_pictures/report_event_CO1_mate_boban_resignation.dds"
 		alwaystransparent = yes
 	}
 }

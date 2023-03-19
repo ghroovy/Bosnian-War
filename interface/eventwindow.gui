@@ -81,7 +81,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "bottom_Window"
 			position = { x=-2 y=221 }	
-			size = { width = 581 height = 206 }
+			size = { width = 590 height = 220 }
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
@@ -114,7 +114,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 215 y = -1 }
+				position = { x = 200 y = -1 }
 				size = { width = 300 height = 30 }
 				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1
