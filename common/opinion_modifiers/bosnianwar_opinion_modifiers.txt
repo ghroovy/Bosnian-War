@@ -15,3 +15,11 @@ opinion_modifiers = {
 	}
 
 }	
+
+opinion_modifiers = {
+
+	muslim_kin = {
+		value = 100
+	}
+
+}	

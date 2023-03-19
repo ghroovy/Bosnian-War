@@ -1120,7 +1120,8 @@
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			army_experience =  100
+			
 		}
 	}
 	focus = {

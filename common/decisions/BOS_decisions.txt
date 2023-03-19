@@ -96,7 +96,7 @@ BOS_The_Defense_of_Bosnia = {
 		 days_remove = 50
 	  }
 	Invite_Muslim_Fighters_BOS = {
-	visible = { has_completed_focus = BOS_Our_Own_Mujahideen }
+	visible = { has_completed_focus = BOS_Invite_Muslim_Volunteers }
 	available = {
 		controls_province = 17181
 	}
