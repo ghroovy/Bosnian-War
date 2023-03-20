@@ -20,6 +20,25 @@ ideas = {
 				army_strength_factor = 0.05
 			}
 		}
+		SE1_Divergent_Army_Command = {
+			picture = GFX_SE1_Divergent_Army_Command
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				coordination_bonus = -0.2
+				experience_loss_factor = 0.15
+				max_planning_factor = -0.15
+				org_loss_when_moving = 0.1
+			}
+		}
 		SE1_Every_Man_For_Srpska = {
 			picture = GFX_SE1_Every_Man_For_Srpska
 			allowed = {
