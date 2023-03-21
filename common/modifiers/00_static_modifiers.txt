@@ -673,10 +673,3 @@ BOS_sarajevo_heroes_2 = {
 SE1_srebrenica_gen = { 
 	monthly_population = -0.5
 }
-
-UN1_un_peacekeepers = { 
-	dig_in_speed_factor = 0.5
-	army_attack_speed_factor = -1
-	army_attack_factor = -0.5
-	breakthrough_factor = -0.25
-}

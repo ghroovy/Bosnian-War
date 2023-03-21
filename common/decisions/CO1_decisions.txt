@@ -1,73 +1,4 @@
 CO1_For_The_Croatian_Motherlanda = {
-	The_Sarajevo_Offensive = {
-		available = { has_completed_focus = CO1_Augment_New_Operations }
-		 cost = 150
-		 ai_will_do = {
-         base = 50
-        }
-		 complete_effect = {
-		 	22 = {
-    		 	add_dynamic_modifier = {
-        		modifier = CO1_start_offensive
-        		scope = CO1
-        		days = 30
-    		 }
-		 }
-		 	33 = {
-    		 	add_dynamic_modifier = {
-        		modifier = CO1_start_offensive
-        		scope = CO1
-        		days = 30
-    		 }
-		 }
-	}
-}
-    Pierce_Into_Bosna = {
-	available = { has_completed_focus = CO1_Augment_New_Operations }
-	 cost = 150
-	 ai_will_do = {
-	 base = 50
-	}
-	 complete_effect = {
-		 23 = {
-			 add_dynamic_modifier = {
-			modifier = CO1_start_offensive
-			scope = CO1
-			days = 30
-		 }
-	 }
-		 123 = {
-			 add_dynamic_modifier = {
-			modifier = CO1_start_offensive
-			scope = CO1
-			days = 30
-		   }
-		}
-	}
-}
-    Hold_Our_Enclaves = {
-	available = { has_completed_focus = CO1_Augment_New_Operations }
-	 cost = 150
-	 ai_will_do = {
-	 base = 50
-	}
-	 complete_effect = {
-		 36 = {
-			 add_dynamic_modifier = {
-			modifier = CO1_defense
-			scope = CO1
-			days = 30
-		 }
-	 }
-		 37 = {
-			 add_dynamic_modifier = {
-			modifier = CO1_defense
-			scope = CO1
-			days = 30
-		   }
-		}
-	}
-}
 	Raise_Militia_CO1 = {
 	available = {
 		has_army_experience > 4.99
@@ -84,7 +15,7 @@ CO1_For_The_Croatian_Motherlanda = {
 	}
 			 days_remove = 20
 	  }
-}
+	}
 
 	CO1_Reclaim_Bosnia = {
 #		Operation_Bura = {

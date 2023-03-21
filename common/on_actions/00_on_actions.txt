@@ -26,13 +26,6 @@ on_actions = {
 	
     on_startup = {
         effect = {
-			33 = {
-                add_province_modifier = {
-                    static_modifiers = { UN1_un_peacekeepers }
-                    province = { id = 11994
-				}
-              }
-            }
         UN1 = {
             country_event = { id = NATOUN.2 days = 440 }
             }

@@ -827,11 +827,15 @@ default_stockpile_management = {
 
 
 dont_build_capitals_if_on_treaty = {
+	enable = {
+		has_idea = MTG_naval_treaty_adherent
+	}
 
 	abort = {
 		OR = {
 				original_tag = ITA
 				original_tag = ENG
+				NOT = { has_idea = MTG_naval_treaty_adherent }
 			}	
 	}
 
@@ -1300,6 +1304,21 @@ comintern_avoid_starting_wars_during_endgame = { #Sov should avoid attacking all
 		id = "POL"
 		value = 200
 	}
+	ai_strategy = {
+		type = conquer
+		id = JAP
+		value = 400 #These values offset each other. Basically we won't start wars with anyone except for japan while this strategy is active
+	}
+	ai_strategy = {
+		type = conquer
+		id = FIN
+		value = 400 #These values offset each other. Basically we won't start wars with anyone except for finland while this strategy is active
+	}
+	ai_strategy = {
+		type = conquer
+		id = PER
+		value = 400 #These values offset each other. Basically we won't start wars with anyone except for iran while this strategy is active
+	}
 }
 
 allies_avoid_starting_wars_during_endgame = { #Allies should avoid attacking.. well, anyone while ww2 is in endgame
@@ -1315,6 +1334,10 @@ allies_avoid_starting_wars_during_endgame = { #Allies should avoid attacking.. w
 		OR = {
 			tag = ENG
 			is_in_faction_with = ENG
+		}
+		has_war_with = JAP
+		JAP = {
+			has_government = fascism #Just to make sure we're not looking at a puppet or sth
 		}
 		date > 1943.1.1
 		date < 1945.1.1

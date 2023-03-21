@@ -211,8 +211,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 100
-			custom_effect_tooltip = CO1_push_invaders_out_tt
+			add_political_power = 1
 		}
 	}
 	focus = {
