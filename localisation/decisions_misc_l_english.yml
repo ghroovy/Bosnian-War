@@ -1,11 +1,38 @@
 ﻿l_english:
 
+### SRPSKA
  SE1_Dreams_Of_Serbian_Bosnia:0 "Dreams of a Serbian Bosnia"
+ Expel_Bosnian_Muslims:0 "Expel Bosnian Muslims"
+ Cast_Out_The_Croats:0 "Cast Out The Croats"
+ Displace_Srebrenica:0 "Displace Srebrenica"
+ The_Sarajevo_Offensive:0 "The Sarajevo Offensive"
+ The_Usora_Offensive:0 "The Usora Offensive"
+ The_Tropolje_Offensive:0 "The Tropolje Offensive"
  Raise_Militia_SE1:0 "Raise a Militia Brigade"
  Expand_Volunteer_Guard_SE1:0 "Expand the Volunteer Guard"
- 
-#EQUIPMENT
+ Guns_For_All_SE1:0 "Guns for All!"
  SE1_Arms_Deal_Shipments:0 "Arms Deal Shipments"
+ 
+ ### BOSNIA
+ BOS_The_Defense_of_Bosnia:0 "The Defense of Bosnia"
+ Push_Into_Rogatica:0 "Push Into Rogatica"
+ Strike_Banja_Luka:0 "Strike Banja Luka"
+ Raise_Militia_BOS:0 "Raise a Militia Brigade"
+ Invite_Muslim_Fighters_BOS:0 "Invite Muslim Fighters"
+ Guns_For_All_BOS:0 "Guns for All!"
+ BOS_Arms_Deal_Shipments:0 "Arms Deal Shipments"
+ 
+ ### HERZEG BOSNIA
+ CO1_For_The_Croatian_Motherland:0 "For the Croatian Motherland!"
+ The_Sarajevo_Offensive:0 "The Sarajevo Offensive"
+ Pierce_Into_Bosna:0 "Pierce Into Bosna"
+ Hold_Our_Enclaves:0 "Defend our Enclaves"
+ Raise_Militia_CO1:0 "Raise a Militia Brigade"
+ Fighters_From_Zagreb_CO1:0 "Fighters From Zagreb"
+ Guns_For_All_CO1:0 "Guns for All!"
+ 
+ 
+### EQUIPMENT
  Request_Infantry_Equipment:0 "Request Infantry Equipment"
  Request_Support_Equipment:0 "Request Support Equipment"
  Request_Artillery:0 "Request Artillery"

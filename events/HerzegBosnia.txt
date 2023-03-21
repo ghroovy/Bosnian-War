@@ -15,8 +15,11 @@ country_event = {
 		ai_chance = { 
 		base = 0
 		 modifier = {
-		 	add = 100 
-			has_country_leader = CO1_Kresimir_Zubak
+		 	add = 100
+			has_country_leader = {
+			character = CO1_Kresimir_Zubak
+			ruling_only = yes
+				}
 			}
 		}
 		set_country_flag = CO1_peace
@@ -32,7 +35,10 @@ country_event = {
 		base = 0
 		 modifier = {
 		 	add = 100
-			has_country_leader = CO1_Mate_Boban
+			has_country_leader = {
+			character = CO1_Mate_Boban
+			ruling_only = yes
+				}
 			}
 		}
 		hidden_effect = {
