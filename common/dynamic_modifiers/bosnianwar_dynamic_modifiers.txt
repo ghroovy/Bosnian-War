@@ -59,3 +59,25 @@ BOS_defense = { #STATE MODIFIER
 	dig_in_speed = 0.5
 	max_dig_in = 0.5
 }
+
+CO1_start_offensive = { #STATE MODIFIER
+	enable = { always = yes }
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	breakthrough_factor = 0.1
+	army_attack_factor = 0.1
+	recon_factor = 0.05
+	cas_damage_reduction = 0.5
+	army_attack_speed_factor = 0.2
+}
+
+CO1_defense = { #STATE MODIFIER
+	enable = { always = yes }
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	army_defence_factor = 0.3
+	dig_in_speed = 0.5
+	max_dig_in = 0.5
+}

@@ -337,7 +337,7 @@
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 3000
+				amount = 2000
 				producer = SER
 			}
 		}
@@ -546,7 +546,7 @@
 		
 		completion_reward = {
 			army_experience = 30
-    		remove_idea = SE1_Divergent_Army_Command
+    		remove_ideas = SE1_Divergent_Army_Command
 		}
 	}
 	focus = {
@@ -1298,8 +1298,8 @@
 		available = {
 					OR = {
 					SE1 = { surrender_progress > 0.4 }
-					BOS = { surrender_progress > 0.6 }
-					CO1 = { surrender_progress > 0.6 }
+					BOS = { surrender_progress > 0.5 }
+					CO1 = { surrender_progress > 0.5 }
 					date > 1995.7.1
 					}
 				}
