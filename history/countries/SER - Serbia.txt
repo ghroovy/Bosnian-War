@@ -1,6 +1,6 @@
 capital = 13
 
-oob = "standard_templates"
+oob = "SER_1992"
 
 # Starting tech
 set_technology = {

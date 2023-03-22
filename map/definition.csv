@@ -7166,7 +7166,7 @@
 7165;156;175;218;land;false;plains;1
 7166;245;208;201;land;false;hills;1
 7167;126;175;222;land;false;hills;1
-7168;169;219;185;land;false;hills;1
+7168;169;219;185;land;false;urban;1
 7169;237;90;219;land;false;mountain;1
 7170;248;101;243;land;false;plains;1
 7171;137;233;167;land;false;plains;1
@@ -17186,3 +17186,9 @@
 17185;75;28;24;land;false;urban;1
 17186;31;213;67;land;true;urban;1
 17187;20;229;78;land;false;urban;1
+17188;226;106;125;land;false;hills;1
+17189;21;122;104;land;false;hills;1
+17190;82;80;99;land;false;hills;1
+17191;64;130;75;land;false;hills;1
+17192;152;106;147;land;false;hills;1
+17193;62;250;57;land;false;hills;1

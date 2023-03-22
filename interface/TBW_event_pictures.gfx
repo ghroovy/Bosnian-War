@@ -16,6 +16,16 @@ spriteType = {
 		texturefile = "gfx/event_pictures/news_event_mate_boban_resignation.dds"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_news_event_fall_of_sarajevo_srpska"
+		texturefile = "gfx/event_pictures/news_event_fall_of_sarajevo_srpska.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_fall_of_sarajevo_herzeg"
+		texturefile = "gfx/event_pictures/news_event_fall_of_sarajevo_herzeg.dds"
+		alwaystransparent = yes
+	}
 	
 ### COUNTRY EVENTS
 spriteType = {

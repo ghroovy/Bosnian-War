@@ -2,7 +2,7 @@ state={
 	id=59
 	name="STATE_59"
 	provinces={
-		7168
+		7168 17188 17189 17190 17191 17192 17193
 	}
 
 	history={
@@ -14,6 +14,11 @@ state={
         }
 		add_core_of = BOS
 		add_core_of = CO1
+		
+		victory_points = {
+			7168 5.0 
+	}
+	
 	}
 
 	manpower=8000

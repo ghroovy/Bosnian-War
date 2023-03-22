@@ -7,19 +7,29 @@ country_event = {
 	title = croatia.1.t
 	desc = croatia.1.desc
 	picture = GFX_report_event_CRO_Operation_Storm
-
-	is_triggered_only = yes
+	
+	trigger = {
+		tag = CRO
+		date > 1994.1.1
+		SE2 = {
+		surrender_progress = 0.5
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
 
 	option = {
 		name = croatia.1.a
-		trigger = {
-			add_political_power = 1
+		ai_chance = { base = 100 }
+		declare_war_on = {
+    		target = SE1
+    		type = annex_everything
 		}
-		ai_chance = { factor = 1 }
-		
-		hidden_effect = {
-			
-		}
+		news_event = croatia.2
+		BOS = { give_military_access = CRO }
+		CO1 = { give_military_access = CRO }
 	}
 }
 news_event = {
@@ -33,13 +43,6 @@ news_event = {
 	picture = GFX_news_event_CRO_Operation_Storm
 	option = {
 		name = croatia.2.a
-		trigger = {
-			add_political_power = 1
-		}
 		ai_chance = { factor = 1 }
-		
-		hidden_effect = {
-			
-		}
 	}
 }

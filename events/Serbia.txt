@@ -12,7 +12,7 @@ country_event = {
 
 	option = { 
 		name = serbia.1.a
-		ai_chance = { base = 65 }
+		ai_chance = { base = 85 }
 		SE1 = { 
 			add_offsite_building = { 
 				type = arms_factory level = 2 
@@ -24,7 +24,7 @@ country_event = {
 			}
 			army_experience = 40
 		}
-		give_guarantee = SE1
+		set_rule = { can_send_volunteers = yes }
 		reverse_add_opinion_modifier = {
 			target = UN1
 			modifier = western_betrayal
@@ -33,7 +33,7 @@ country_event = {
 	
 	option = { 
 		name = serbia.1.b
-		ai_chance = { base = 35 }
+		ai_chance = { base = 15 }
 		add_political_power = 75
 		reverse_add_opinion_modifier = {
 			target = SE1

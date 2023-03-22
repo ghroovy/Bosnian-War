@@ -1,0 +1,22 @@
+CRO_offensive = {
+
+	enable = {
+		tag = CRO
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+ 	type = front_control
+
+	tag = SE2
+
+	ratio = 0.0  
+
+	priority = 100 
+	ordertype = front 
+	execution_type = rush 
+	execute_order = yes 
+	manual_attack = yes 
+	}
+}

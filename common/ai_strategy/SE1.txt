@@ -1,0 +1,39 @@
+SE1_serbian_brothers = {
+
+	enable = {
+		tag = SER
+		SE1 = { 
+			has_completed_focus = SE1_Serbian_Brothers_In_Arms
+		}
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = SE1
+		value = 400
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = SE1
+		value = 400
+	}
+}
+SE1_scorched_earth = {
+
+	enable = {
+		tag = SE1
+	}
+	
+ ai_strategy = {
+	type = scorched_earth_prio
+	id = BOS
+	value = 100
+}
+
+ ai_strategy = {
+	type = scorched_earth_prio
+	id = CO1
+	value = 100
+}

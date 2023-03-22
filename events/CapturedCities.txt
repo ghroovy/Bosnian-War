@@ -1,0 +1,159 @@
+### CAPTURED CITIES
+
+add_namespace = city
+
+### Fall of Sarajevo SRPSKA
+news_event = { 
+	id = city.1
+	title = city.1.t
+	desc = city.1.desc
+	picture = GFX_news_event_fall_of_sarajevo_srpska
+	
+	trigger = {
+		SE1 = {
+		controls_province =  17181
+		controls_province =  17180
+		controls_province =  17182
+		controls_province =  12035
+		controls_province =  7682
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = { 
+		name = city.1.a
+		ai_chance = { base = 100 }
+        trigger = {
+            NOT = { tag = SE1 }
+		    NOT = { tag = BOS }
+			NOT = { tag = CO1 }
+        }
+	}
+	option = { 
+		name = city.1.b
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = SE1
+        }
+	}
+	option = { 
+		name = city.1.c
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = BOS
+        }
+	}
+	option = { 
+		name = city.1.d
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = CO1
+        }
+	}
+}
+	
+### Fall of Sarajevo HERZEG-BOSNIA
+news_event = { 
+	id = city.2
+	title = city.2.t
+	desc = city.2.desc
+	picture = GFX_news_event_fall_of_sarajevo_herzeg
+	
+	trigger = {
+		CO1 = {
+		controls_province =  17181
+		controls_province =  17180
+		controls_province =  17182
+		controls_province =  12035
+		controls_province =  7682
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = { 
+		name = city.2.a
+		ai_chance = { base = 100 }
+        trigger = {
+            NOT = { tag = SE1 }
+		    NOT = { tag = BOS }
+			NOT = { tag = CO1 }
+        }
+	}
+	option = { 
+		name = city.2.b
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = SE1
+        }
+	}
+	option = { 
+		name = city.2.c
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = BOS
+        }
+	}
+	option = { 
+		name = city.2.d
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = CO1
+        }
+	}
+}
+
+### Fall of Srebrenica SRPSKA
+news_event = { 
+	id = city.3
+	title = city.3.t
+	desc = city.3.desc
+	picture = GFX_news_event_fall_of_srebrenica_srpska
+	
+	trigger = {
+		SE1 = {
+		controls_province =  17193
+		controls_province =  7168
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = { 
+		name = city.3.a
+		ai_chance = { base = 100 }
+        trigger = {
+            NOT = { tag = SE1 }
+		    NOT = { tag = BOS }
+			NOT = { tag = CO1 }
+        }
+	}
+	option = { 
+		name = city.3.b
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = SE1
+        }
+	}
+	option = { 
+		name = city.3.c
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = BOS
+        }
+	}
+	option = { 
+		name = city.3.d
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = CO1
+        }
+	}
+}
