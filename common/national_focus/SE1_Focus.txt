@@ -273,7 +273,7 @@
 		
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		available = {
 		has_completed_focus = SE1_Srpska_my_Beloved
@@ -635,8 +635,8 @@
 		ai_will_do = {
 			factor = 1
 		}
-
-		available_if_capitulated = no
+		available = {
+		}
 		
 		bypass = {
 		}

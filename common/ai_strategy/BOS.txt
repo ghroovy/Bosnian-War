@@ -1,0 +1,21 @@
+BOS_guerilla = {
+
+	enable = {
+		tag = BOS
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+ 	type = front_control
+
+	tag = SE1
+
+	ratio = 0.0  
+
+	priority = 100 
+	ordertype = front 
+	execution_type = careful
+	execute_order = yes 
+	}
+}
