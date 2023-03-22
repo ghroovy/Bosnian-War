@@ -16,9 +16,9 @@ country_event = {
 		}
 	}
 	
-	mean_time_to_happen = {
-		days = 3
-	}
+#	mean_time_to_happen = {
+#		days = 3
+#	}
 
 	option = {
 		name = croatia.1.a

@@ -115,7 +115,7 @@ ideas = {
 			
 			modifier = {				
 				production_speed_buildings_factor = 0.1
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.05
 			}
 		}
 		SE1_Reformed_Economy = {
@@ -132,7 +132,7 @@ ideas = {
 			
 			modifier = {				
 				production_speed_buildings_factor = 0.2
-				consumer_goods_factor = -0.2
+				consumer_goods_factor = -0.1
 				industry_repair_factor = 0.15
 			}
 		}

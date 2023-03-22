@@ -236,7 +236,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_ideas = CO1_Superior_Intrusion_Tactics
 		}
 	}
 	focus = {
@@ -260,7 +260,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			army_experience = 50
 		}
 	}
 	focus = {
@@ -284,7 +284,21 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 800
+				producer = CRO
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 300
+				producer = CRO
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 100
+				producer = CRO
+			}
 		}
 	}
 	focus = {
@@ -308,12 +322,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			swap_ideas = {
+    			remove_idea = CO1_HVO
+    			add_idea = CO1_HVO_DEFENSE
+			}
 		}
 	}
 	focus = {
-		id = CO1_Build_Up_Fortifications
-		icon = GFX_CO1_Build_Up_Fortifications
+		id = CO1_Safeguard_The_Nation
+		icon = GFX_CO1_Safeguard_The_Nation
 		x = 8
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
@@ -332,7 +349,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_ideas = CO1_National_Shelter_Construction
 		}
 	}
 	focus = {
@@ -342,7 +359,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = CO1_Croatia_or_Nothing
 
-		prerequisite = { focus = CO1_Build_Up_Fortifications }
+		prerequisite = { focus = CO1_Safeguard_The_Nation }
 		prerequisite = { focus = CO1_A_Reformed_Army }
 		mutually_exclusive = { }
 		
@@ -381,7 +398,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			swap_ideas = {
+    			remove_idea = CO1_HVO
+    			add_idea = CO1_HVO_OFFENSE
+			}
 		}
 	}
 	focus = {
@@ -416,7 +436,7 @@ focus_tree = {
 		relative_position_id = CO1_Croatia_or_Nothing
 
 		prerequisite = { focus = CO1_A_New_Offensive }
-		prerequisite = { focus = CO1_Streamline_Arms_Production }
+		prerequisite = { focus = CO1_Ambush_Their_Lines }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -482,8 +502,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = CO1_Streamline_Arms_Production
-		icon = GFX_CO1_Streamline_Arms_Production
+		id = CO1_Ambush_Their_Lines
+		icon = GFX_CO1_Ambush_Their_Lines
 		x = 2
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
@@ -528,7 +548,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_ideas = CO1_A_Reformed_Army
 		}
 	}
 	focus = {

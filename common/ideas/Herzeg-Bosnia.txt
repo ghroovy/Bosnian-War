@@ -1,0 +1,60 @@
+ideas = {
+
+	country = {
+
+		CO1_Superior_Intrusion_Tactics = {
+			picture = GFX_CO1_Superior_Intrusion_Tactics
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = CO1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				army_morale_factor = 0.1
+				army_strength_factor = 0.1
+				initiative_factor = 0.15
+			}
+		}
+		
+		CO1_National_Shelter_Construction = {
+			picture = GFX_CO1_National_Shelter_Construction
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = CO1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				production_speed_bunker_factor = 0.3
+				repair_speed_bunker_factor = 0.5
+			}
+		}
+		
+		CO1_A_Reformed_Army = {
+			picture = GFX_CO1_A_Reformed_Army
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = CO1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				terrain_penalty_reduction = 0.1
+				army_org_regain = 0.1
+			}
+		}
+	}
+}

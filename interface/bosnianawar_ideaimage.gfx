@@ -1,0 +1,18 @@
+spriteTypes = {	
+
+##GENERAL
+
+	SpriteType = {
+		name = "GFX_Idea_Bosnian_War_Texticon"
+		texturefile = "gfx/interface/ideaimages/idea_image_bosnianwar.dds"	
+		legacy_lazy_load = no
+	}
+	
+##SRPSKA
+
+	SpriteType = {
+		name = "GFX_SE1_VRS_Texticon"
+		texturefile = "gfx/interface/ideaimages/idea_image_VRS.dds"	
+		legacy_lazy_load = no
+	}
+}
