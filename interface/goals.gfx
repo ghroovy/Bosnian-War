@@ -165,6 +165,11 @@ spriteTypes = {
 		name = "GFX_SE1_Restructure_The_Government"
 		texturefile = "gfx/interface/goals/SE1_Restructure_The_Government.png"			
 	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Dig_Up_Yugoslavian_Caches"
+		texturefile = "gfx/interface/goals/SE1_Dig_Up_Yugoslavian_Caches.png"			
+	}
 
 
 	#### Generic continuous goal icons	
