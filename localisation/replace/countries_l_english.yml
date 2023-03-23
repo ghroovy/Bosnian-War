@@ -55,6 +55,9 @@
  SE2:0 "Republic of Serbian Krajina"
  SE2_DEF:0 "Republic of Serbian Krajina"
  SE2_ADJ:0 "Citizen of Republic of Serbian Krajina"
+ WBS:0 "Autonomous Province of Western Bosnia"
+ WBS_DEF:0 "Autonomous Province of Western Bosnia"
+ WBS_ADJ:0 "Citizen of Western Bosnia"
 
  ###Eastern/Southern Europe
  YUG:0 "Yugoslavia"

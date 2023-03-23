@@ -51,6 +51,10 @@ BOS = {
 	color = rgb { 54 95 79 }
 	color_ui = rgb { 54 95 79 }
 }
+WBS = {
+	color = rgb { 53 81 70 }
+	color_ui = rgb { 53 81 70 }
+}
 MAC = {
 	color = rgb { 137 30 30 }
 	color_ui = rgb { 137 30 30 }

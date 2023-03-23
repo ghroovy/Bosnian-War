@@ -1,0 +1,15 @@
+characters={
+	CO1_Fikret_Abdic={
+		name=CO1_Fikret_Abdic
+		portraits={
+			civilian={
+				large="GFX_portrait_fikret_abdic"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

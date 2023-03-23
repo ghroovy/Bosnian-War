@@ -10,4 +10,9 @@ spriteType = {
 		texturefile = "gfx/leaders/croat_bosnia.dds"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_portrait_fikret_abdic"
+		texturefile = "gfx/leaders/WBS/fikret_abdic.dds"
+		alwaystransparent = yes
+	}
 }

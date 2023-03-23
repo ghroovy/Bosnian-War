@@ -12,6 +12,11 @@ spriteType = {
 		alwaystransparent = yes
 	}
 spriteType = {
+		name = "GFX_news_event_BOS_western_bosnia_secession"
+		texturefile = "gfx/event_pictures/news_event_BOS_western_bosnia_secession.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
 		name = "GFX_news_event_CO1_mate_boban_resignation"
 		texturefile = "gfx/event_pictures/news_event_mate_boban_resignation.dds"
 		alwaystransparent = yes

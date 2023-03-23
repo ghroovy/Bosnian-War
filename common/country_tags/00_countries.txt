@@ -25,6 +25,7 @@ KOS = "countries/Kosovo.txt"
 CO1 = "countries/Republika Srpska.txt"
 SE1 = "countries/Republika Srpska.txt"
 SE2 = "countries/Republic of Serbian Krajina.txt"
+WBS = "countries/Western Bosnia.txt"
 
 ##Eastern/Southern Europe
 UKR = "countries/Ukraine.txt"

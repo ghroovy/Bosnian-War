@@ -15,4 +15,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideaimages/idea_image_VRS.dds"	
 		legacy_lazy_load = no
 	}
+	SpriteType = {
+		name = "GFX_BOS_ARBiH_Texticon"
+		texturefile = "gfx/interface/ideaimages/idea_image_ARBiH.png"	
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_CO1_HVO_Texticon"
+		texturefile = "gfx/interface/ideaimages/idea_image_HVO.png"	
+		legacy_lazy_load = no
+	}
 }

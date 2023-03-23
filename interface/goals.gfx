@@ -143,6 +143,28 @@ spriteTypes = {
 		name = "GFX_SE1_From_Novi_to_Zvornik"
 		texturefile = "gfx/interface/goals/SE1_From_Novi_to_Zvornik.dds"			
 	}
+	
+	### NEW SRPSKA FOCUSES
+	
+	SpriteType = {
+		name = "GFX_SE1_Ostracize_The_Croats"
+		texturefile = "gfx/interface/goals/SE1_Ostracize_The_Croats.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Review_Our_Army"
+		texturefile = "gfx/interface/goals/SE1_Review_Our_Army.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_The_International_Community"
+		texturefile = "gfx/interface/goals/SE1_The_International_Community.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Restructure_The_Government"
+		texturefile = "gfx/interface/goals/SE1_Restructure_The_Government.png"			
+	}
 
 
 	#### Generic continuous goal icons	

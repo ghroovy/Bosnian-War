@@ -1069,8 +1069,11 @@ ideas = {
 			picture = the_croatian_war
 			
 			modifier = {
+				attrition = -0.4
 				ai_focus_aggressive_factor = 1
-				terrain_penalty_reduction = -0.15
+				terrain_penalty_reduction = -0.2
+				army_attack_speed_factor = -0.7
+				pocket_penalty = -0.8
 				experience_gain_army_factor = 0.15
 				army_core_defence_factor = 0.2
 				surrender_limit = 1

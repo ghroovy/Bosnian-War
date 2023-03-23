@@ -35,3 +35,51 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = bosnia.2
+	title = bosnia.2.t
+	desc = bosnia.2.desc
+	picture = GFX_report_event_BOS_western_bosnia_secession
+
+	is_triggered_only = yes
+
+	option = { 
+		name = bosnia.2.a
+		ai_chance = { base = 100 }
+		WBS = {
+		declare_war_on = {
+    		target = BOS
+    		type = civil_war
+			}
+		load_oob = WBS_1993
+		transfer_state = 89
+		news_event = bosnia.3
+		}
+	}
+}
+
+news_event = {
+	id = bosnia.3
+	title = bosnia.3.t
+	desc = bosnia.3.desc
+	picture = GFX_news_event_BOS_western_bosnia_secession
+
+	is_triggered_only = yes
+
+	option = { 
+		name = bosnia.3.a
+        trigger = {
+            NOT = { tag = BOS }
+        }
+		ai_chance = { base = 100 }
+	}
+	
+	option = { 
+		name = bosnia.3.b
+        trigger = {
+            tag = BOS
+        }
+		ai_chance = { base = 100 }
+	}
+}
