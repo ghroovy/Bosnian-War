@@ -128,140 +128,140 @@
 	}
 		 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 			 division= {	
 		name = "millita"
-		location = 511
+		location = 6669
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

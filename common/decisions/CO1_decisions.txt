@@ -22,6 +22,29 @@ CO1_For_The_Croatian_Motherland = {
 		 }
 	}
 }
+    Pierce_Into_Bosna = {
+	available = { has_completed_focus = CO1_Augment_New_Operations }
+	 cost = 150
+	 ai_will_do = {
+	 base = 50
+	}
+	 complete_effect = {
+		 23 = {
+			 add_dynamic_modifier = {
+			modifier = CO1_start_offensive
+			scope = CO1
+			days = 30
+		 }
+	 }
+		 123 = {
+			 add_dynamic_modifier = {
+			modifier = CO1_start_offensive
+			scope = CO1
+			days = 30
+		   }
+		  }
+		}
+	}
     Strike_The_Srpskan_Line = {
 	visible = { has_war_with = SE1 }
 	available = { has_completed_focus = CO1_A_New_Offensive }

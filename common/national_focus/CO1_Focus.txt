@@ -261,6 +261,7 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 50
+			custom_effect_tooltip = CO1_New_Operations
 		}
 	}
 	focus = {
@@ -374,7 +375,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_manpower = 5000
+			army_experience = 30
 		}
 	}
 	focus = {
@@ -425,7 +427,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			custom_effect_tooltip = CO1_unlock_offensive
 		}
 	}
 	focus = {
@@ -450,7 +452,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_manpower = 5000
+			army_experience = 30
 		}
 	}
 	focus = {
@@ -523,7 +526,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_manpower = 2500
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = CO1
+			}
 		}
 	}
 	focus = {

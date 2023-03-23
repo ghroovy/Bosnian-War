@@ -11,6 +11,20 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 		NOT = {
 			OR = {
 				original_tag = JAP
+				tag = SER
+				tag = ALB
+				tag = MAC
+				tag = BUL
+				tag = ROM
+				tag = POL
+				tag = HUN
+				tag = SLV
+				tag = AUS
+				tag = SLO
+				tag = UKR
+				tag = TUR
+				tag = GRE
+				tag = MOL
 			}
 		}
 	}

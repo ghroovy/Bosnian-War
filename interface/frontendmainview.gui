@@ -127,7 +127,21 @@ guiTypes = {
             Orientation = "UPPER_LEFT"
             alwaystransparent = yes
         }
+		iconType = {
+			name = "sp_continue_flag_right"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 629 y = 874 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
 		
+		iconType = {
+			name = "sp_continue_flag_right_overlay"
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 629 y = 874 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
 		ButtonType = {
 			name = "sp_new_button"
 			position = { x = 800 y = 870}
@@ -198,6 +212,19 @@ guiTypes = {
 			name = "single_player_button_warn"
 			position = { x = 695 y = 875 }
 			spriteType = "GFX_missing_dlc_warning_sign"
+		}
+		
+		instantTextBoxType = {
+
+			name ="version_label"
+			position = { x= 77 y = 960 }
+			textureFile = ""
+			font = "hoi_18b"
+			borderSize = {x = 0 y = 0}
+			text = "ALPHA"	
+			format = centre
+			maxWidth = 250
+			maxHeight = 20	
 		}
 
 		

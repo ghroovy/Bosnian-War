@@ -15,9 +15,7 @@ state={
             arms_factory = 0
             industrial_complex = 1
         }
-		add_core_of = SE1 
 		add_core_of = BOS
-		add_core_of = CO1
 
 		victory_points = {
 			12071 5.0 

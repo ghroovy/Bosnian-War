@@ -12,7 +12,6 @@ state={
         }
 		add_core_of = SE1 
 		add_core_of = BOS
-		add_core_of = CO1 
 
 	}
 	
