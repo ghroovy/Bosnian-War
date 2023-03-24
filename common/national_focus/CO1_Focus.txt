@@ -481,30 +481,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = CO1_A_Reformed_Army
-		icon = GFX_CO1_A_Reformed_Army
-		x = 6
-		y = 5
-		relative_position_id = CO1_Croatia_or_Nothing
-
-		prerequisite = { focus = CO1_Experiment_New_Tactics }
-		mutually_exclusive = { }
-		
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = no
-		
-		bypass = {
-		}
-		
-		completion_reward = {
-			add_political_power = 1
-		}
-	}
-	focus = {
 		id = CO1_Ambush_Their_Lines
 		icon = GFX_CO1_Ambush_Their_Lines
 		x = 2
@@ -954,30 +930,6 @@ focus_tree = {
 
 		prerequisite = { focus = CO1_Bring_The_War_To_An_End }
 		mutually_exclusive = { focus = CO1_A_Coalition_Victory }
-		
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = no
-		
-		bypass = {
-		}
-		
-		completion_reward = {
-			add_political_power = 1
-		}
-	}
-	focus = {
-		id = CO1_Extradite_Bosnian_And_Serbs
-		icon = GFX_CO1_A_Coalition_Victory
-		x = 3
-		y = 9
-		relative_position_id = CO1_Croatia_or_Nothing
-
-		prerequisite = { focus = CO1_A_Croatian_Victory }
-		mutually_exclusive = { }
 		
 		cost = 5
 		ai_will_do = {

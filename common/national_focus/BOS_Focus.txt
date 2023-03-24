@@ -45,7 +45,7 @@ focus_tree = {
 		relative_position_id = BOS_Bosnia_Rises
 
 		prerequisite = { focus = BOS_A_New_Guerilla_Warfare }
-		prerequisite = { focus = BOS_Support_Islamic_Community_BIH }
+		prerequisite = { focus = BOS_Support_Islamic_Community }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -737,8 +737,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BOS_Support_Islamic_Community_BIH
-		icon = GFX_BOS_Support_Islamic_Community_BIH
+		id = BOS_Support_Islamic_Community
+		icon = GFX_BOS_Support_Islamic_Community
 		x = 2
 		y = 1
 		relative_position_id = BOS_Bosnia_Rises
@@ -767,7 +767,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_Support_Islamic_Community_BIH }
+		prerequisite = { focus = BOS_Support_Islamic_Community }
 		prerequisite = { focus = BOS_A_New_Guerilla_Warfare }
 		mutually_exclusive = { }
 		
@@ -1211,30 +1211,6 @@ focus_tree = {
 		relative_position_id = BOS_Bosnia_Rises
 
 		prerequisite = { focus = BOS_Destroy_the_Serbian_Menace }
-		mutually_exclusive = { }
-		
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = no
-		
-		bypass = {
-		}
-		
-		completion_reward = {
-			add_political_power = 1
-		}
-	}
-	focus = {
-		id = BOS_Two_Entities_One_State
-		icon = GFX_BOS_Two_Entities_One_State
-		x = -5
-		y = 9
-		relative_position_id = BOS_Bosnia_Rises
-
-		prerequisite = { focus = BOS_NATO_Peacekeepers }
 		mutually_exclusive = { }
 		
 		cost = 5

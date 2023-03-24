@@ -33,10 +33,7 @@ pdxmesh = {
 		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
 		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
 	}
-meshsettings = {
-   		 texture_diffuse = "CO1_infantry_diffuse.dds"
-   	 }
-	}
+}
 
 
 

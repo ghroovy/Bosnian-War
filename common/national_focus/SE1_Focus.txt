@@ -778,30 +778,6 @@
 		}
 		
 		completion_reward = {
-			add_political_power = 1
-		}
-	}
-	focus = {
-		id = SE1_Invigorate_The_Industry
-		icon = GFX_SE1_Invigorate_The_Industry
-		x = 5
-		y = 2
-		relative_position_id = SE1_Srpska_my_Beloved
-
-		prerequisite = { focus = SE1_Restructure_The_Government }
-		mutually_exclusive = { }
-		
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = no
-		
-		bypass = {
-		}
-		
-		completion_reward = {
 			add_ideas = SE1_Restructured_Economy
 		}
 	}
