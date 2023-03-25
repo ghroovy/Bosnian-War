@@ -6,6 +6,14 @@ BOS_The_Defense_of_Bosnia = {
 		}	
 }
 
+BOS_Arms_Deal_Shipments = {
+	icon = generic_formable_nations
+	priority = 1
+	visible = {
+		tag = BOS
+		}	
+}
+
 BOS_Reclaim_Bosnia = {
 	icon = generic_formable_nations
 	priority = 1

@@ -156,7 +156,6 @@ CO1_For_The_Croatian_Motherland = {
 			add_political_power = -80
 			}
 		}
-	}
 			 days_remove = 50
 	  }
 	Fighters_From_Zagreb_CO1 = {
@@ -207,7 +206,7 @@ CO1_For_The_Croatian_Motherland = {
 		}
 	}
 		 days_remove = 50
-	  }
+	}
 }
 
 CO1_Arms_Deal_Shipments = {

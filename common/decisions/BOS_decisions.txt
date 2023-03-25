@@ -168,7 +168,7 @@ BOS_The_Defense_of_Bosnia = {
 	}
 	
 BOS_Arms_Deal_Shipments = {
-	Request_Infantry_Equipment = {
+	BOS_Request_Infantry_Equipment = {
 		 cost = 70
 		 ai_will_do = {
          base = 0
@@ -192,7 +192,7 @@ BOS_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-	Request_Support_Equipment = {
+	BOS_Request_Support_Equipment = {
 		 cost = 70
 		 ai_will_do = {
          base = 0
@@ -216,7 +216,7 @@ BOS_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-		Request_Artillery = {
+		BOS_Request_Artillery = {
 		 cost = 90
 		 ai_will_do = {
          base = 50
@@ -234,7 +234,7 @@ BOS_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-	Request_Trucks = {
+	BOS_Request_Trucks = {
 		 cost = 100
 		 ai_will_do = {
          base = 30
