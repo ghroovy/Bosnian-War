@@ -42,7 +42,11 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 	  }
 	The_Sarajevo_Offensive = {
 		available = { has_completed_focus = SE1_Expand_Operations }
-		 cost = 150
+	custom_cost_trigger = {
+    	has_political_power > 119.99
+		command_power > 19.99
+	}
+	custom_cost_text = decision_cost_offensive
 		 ai_will_do = {
          base = 50
         }
@@ -61,11 +65,19 @@ SE1_Dreams_Of_Serbian_Bosnia = {
         		days = 30
     		 }
 		 }
+		 hidden_effect = {
+		 add_command_power = -20
+		 add_political_power = -120
+		 }
 	}
 }
 	The_Usora_Offensive = {
 		available = { has_completed_focus = SE1_Expand_Operations }
-		 cost = 150
+	custom_cost_trigger = {
+    	has_political_power > 119.99
+		command_power > 19.99
+	}
+	custom_cost_text = decision_cost_offensive
 		 ai_will_do = {
          base = 50
         }
@@ -98,11 +110,19 @@ SE1_Dreams_Of_Serbian_Bosnia = {
         		days = 30
     		 }
 		 }
+		 hidden_effect = {
+		 add_command_power = -20
+		 add_political_power = -120
+		 }
 	}
 }
 	The_Tropolje_Offensive = {
 		available = { has_completed_focus = SE1_Expand_Operations }
-		 cost = 150
+	custom_cost_trigger = {
+    	has_political_power > 119.99
+		command_power > 19.99
+	}
+	custom_cost_text = decision_cost_offensive
 		 ai_will_do = {
          base = 50
         }
@@ -128,19 +148,25 @@ SE1_Dreams_Of_Serbian_Bosnia = {
         		days = 30
     		 }
 		 }
+		 hidden_effect = {
+		 add_command_power = -20
+		 add_political_power = -120
+		 }
 	}
 }
 	Raise_Militia_SE1 = {
 	available = {
-		has_army_experience > 14.99
 		controls_province = 2040
 	}
-		 cost = 40
+	custom_cost_trigger = {
+    	has_army_experience > 14.99
+		has_political_power > 79.99
+	}
+	custom_cost_text = decision_cost_militia
 		 ai_will_do = {
          base = 100
         }
 		 complete_effect = {
-			army_experience = -15
 			custom_effect_tooltip = Raise_Militia_tt
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
@@ -148,6 +174,8 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 			}
 			hidden_effect = {
 			load_oob = Militia_SE1
+			army_experience = -15
+			add_political_power = -80
 		}
 	}
 		 days_remove = 50
@@ -176,15 +204,20 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 	Guns_For_All_SE1 = {
 	visible = { surrender_progress > 0.49 }
 	available = {
-		has_army_experience > 9.99
 		controls_province = 2040
 	}
-		 cost = 30
+	custom_cost_trigger = {
+    	has_army_experience > 9.99
+		has_political_power > 29.99
+	}
+	custom_cost_text = decision_cost_gunsforall
+		 ai_will_do = {
+         base = 100
+        }
 		 ai_will_do = {
          base = 100
         }
 		 complete_effect = {
-			army_experience = -10
 			custom_effect_tooltip = Raise_Militia_tt
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
@@ -192,6 +225,8 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 			}
 			hidden_effect = {
 			load_oob = Militia_SE1
+			army_experience = -10
+			add_political_power = -30
 		}
 	}
 		 days_remove = 30

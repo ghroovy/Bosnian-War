@@ -1,7 +1,11 @@
 CO1_For_The_Croatian_Motherland = {
-	The_Sarajevo_Offensive = {
+	CO1_The_Sarajevo_Offensive = {
 		available = { has_completed_focus = CO1_Augment_New_Operations }
-		 cost = 150
+	custom_cost_trigger = {
+    	has_political_power > 119.99
+		command_power > 19.99
+	}
+	custom_cost_text = decision_cost_offensive
 		 ai_will_do = {
          base = 50
         }
@@ -20,11 +24,19 @@ CO1_For_The_Croatian_Motherland = {
         		days = 30
     		 }
 		 }
+		 hidden_effect = {
+		 add_command_power = -20
+		 add_political_power = -120
+		 }
 	}
 }
     Pierce_Into_Bosna = {
 	available = { has_completed_focus = CO1_Augment_New_Operations }
-	 cost = 150
+	custom_cost_trigger = {
+    	has_political_power > 119.99
+		command_power > 19.99
+	}
+	custom_cost_text = decision_cost_offensive
 	 ai_will_do = {
 	 base = 50
 	}
@@ -43,12 +55,20 @@ CO1_For_The_Croatian_Motherland = {
 			days = 30
 		   }
 		  }
+		 hidden_effect = {
+		 add_command_power = -20
+		 add_political_power = -120
+		 }
 		}
 	}
     Strike_The_Srpskan_Line = {
 	visible = { has_war_with = SE1 }
 	available = { has_completed_focus = CO1_A_New_Offensive }
-	 cost = 100
+	custom_cost_trigger = {
+    	has_political_power > 149.99
+		command_power > 29.99
+	}
+	custom_cost_text = decision_cost_full_offensive
 	 ai_will_do = {
 	 base = 50
 	}
@@ -58,12 +78,20 @@ CO1_For_The_Croatian_Motherland = {
     		attack_bonus_against = 0.15
 			breakthrough_factor = 0.1
 		}
+		 hidden_effect = {
+		 add_command_power = -30
+		 add_political_power = -150
+		 }
 	}
 }
     Blitz_The_Bosnian_Defenses = {
 	visible = { has_war_with = BOS }
 	available = { has_completed_focus = CO1_A_New_Offensive }
-	 cost = 100
+	custom_cost_trigger = {
+    	has_political_power > 149.99
+		command_power > 29.99
+	}
+	custom_cost_text = decision_cost_full_offensive
 	 ai_will_do = {
 	 base = 50
 	}
@@ -73,11 +101,19 @@ CO1_For_The_Croatian_Motherland = {
     		attack_bonus_against = 0.15
 			breakthrough_factor = 0.1
 		}
+		 hidden_effect = {
+		 add_command_power = -30
+		 add_political_power = -150
+		 }
 	}
 }
     Hold_Our_Enclaves = {
 	available = { has_completed_focus = CO1_Augment_New_Operations }
-	 cost = 150
+	custom_cost_trigger = {
+    	has_political_power > 99.99
+		command_power > 14.99
+	}
+	custom_cost_text = decision_cost_defense
 	 ai_will_do = {
 	 base = 50
 	}
@@ -96,24 +132,32 @@ CO1_For_The_Croatian_Motherland = {
 			days = 30
 		   }
 		}
+		 hidden_effect = {
+		 add_command_power = -15
+		 add_political_power = -99
+		 }
 	}
 }
 	Raise_Militia_CO1 = {
 	available = {
 		controls_province = 12413
-		has_army_experience > 14.99
 	}
-		 cost = 10
+	custom_cost_trigger = {
+    	has_army_experience > 14.99
+		has_political_power > 79.99
+	}
+	custom_cost_text = decision_cost_militia
 		 complete_effect = {
 			army_experience = -15
 			custom_effect_tooltip = Raise_Militia_tt
 			hidden_effect = {
-			capital_scope = {
 			load_oob = Militia_CO1
+			army_experience = -15
+			add_political_power = -80
 			}
 		}
 	}
-			 days_remove = 20
+			 days_remove = 50
 	  }
 	Fighters_From_Zagreb_CO1 = {
 	visible = { has_completed_focus = CO1_Croatian_Military_Support }
@@ -134,15 +178,18 @@ CO1_For_The_Croatian_Motherland = {
 			load_oob = Volunteers_CO1
 		}
 	}
-			 days_remove = 20
+			 days_remove = 150
 	  }
 	Guns_For_All_CO1 = {
 	visible = { surrender_progress > 0.49 }
 	available = {
-		has_army_experience > 9.99
 		controls_province = 12413
 	}
-		 cost = 30
+	custom_cost_trigger = {
+    	has_army_experience > 14.99
+		has_political_power > 79.99
+	}
+	custom_cost_text = decision_cost_militia
 		 ai_will_do = {
          base = 100
         }
@@ -154,10 +201,12 @@ CO1_For_The_Croatian_Motherland = {
 				amount = -280
 			}
 			hidden_effect = {
-			load_oob = Militia_BOS
+			load_oob = Militia_CO1
+			army_experience = -15
+			add_political_power = -80
 		}
 	}
-		 days_remove = 30
+		 days_remove = 50
 	  }
 }
 

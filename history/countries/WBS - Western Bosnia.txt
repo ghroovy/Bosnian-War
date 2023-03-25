@@ -58,6 +58,7 @@ add_ideas = {
 limited_exports
 extensive_conscription
 war_economy
+idea_the_bosnian_war
 }
 
 recruit_character = CO1_Fikret_Abdic

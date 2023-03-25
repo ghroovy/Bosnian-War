@@ -1,7 +1,11 @@
 BOS_The_Defense_of_Bosnia = {
 	Push_Into_Rogatica = {
 		available = { has_completed_focus = BOS_Defence_of_the_Nation }
-		 cost = 150
+	custom_cost_trigger = {
+    	has_political_power > 119.99
+		command_power > 19.99
+	}
+	custom_cost_text = decision_cost_offensive
 		 ai_will_do = {
          base = 50
         }
@@ -41,11 +45,19 @@ BOS_The_Defense_of_Bosnia = {
         		days = 30
     		 }
 		 }
+		 hidden_effect = {
+		 add_command_power = -20
+		 add_political_power = -120
+		 }
 	}
 }
 	Strike_Banja_Luka = {
 		available = { has_completed_focus = BOS_Defence_of_the_Nation }
-		 cost = 150
+	custom_cost_trigger = {
+    	has_political_power > 119.99
+		command_power > 19.99
+	}
+	custom_cost_text = decision_cost_offensive
 		 ai_will_do = {
          base = 50
         }
@@ -71,14 +83,21 @@ BOS_The_Defense_of_Bosnia = {
         		days = 30
     		 }
 		 }
+		 hidden_effect = {
+		 add_command_power = -20
+		 add_political_power = -120
+		 }
 	}
 }
 	Raise_Militia_BOS = {
 	available = {
-		has_army_experience > 14.99
 		controls_province = 17181
 	}
-		 cost = 40
+	custom_cost_trigger = {
+    	has_army_experience > 14.99
+		has_political_power > 79.99
+	}
+	custom_cost_text = decision_cost_militia
 		 ai_will_do = {
          base = 100
         }
@@ -91,6 +110,8 @@ BOS_The_Defense_of_Bosnia = {
 			}
 			hidden_effect = {
 			load_oob = Militia_BOS
+			army_experience = -15
+			add_political_power = -80
 		}
 	}
 		 days_remove = 50
@@ -119,10 +140,13 @@ BOS_The_Defense_of_Bosnia = {
 	Guns_For_All_BOS = {
 	visible = { surrender_progress > 0.49 }
 	available = {
-		has_army_experience > 9.99
 		controls_province = 17181
 	}
-		 cost = 30
+	custom_cost_trigger = {
+    	has_army_experience > 14.99
+		has_political_power > 79.99
+	}
+	custom_cost_text = decision_cost_militia
 		 ai_will_do = {
          base = 100
         }
@@ -135,6 +159,8 @@ BOS_The_Defense_of_Bosnia = {
 			}
 			hidden_effect = {
 			load_oob = Militia_BOS
+			army_experience = -15
+			add_political_power = -80
 		}
 	}
 		 days_remove = 30
