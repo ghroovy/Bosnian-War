@@ -1202,7 +1202,7 @@
 		available = {
 					OR = {
 					SE1 = { surrender_progress > 0.4 }
-					BOS = { surrender_progress > 0.5 }
+					BOS = { surrender_progress > 0.9 }
 					CO1 = { surrender_progress > 0.5 }
 					date > 1995.7.1
 					}

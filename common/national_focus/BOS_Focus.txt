@@ -1060,10 +1060,13 @@ focus_tree = {
 		relative_position_id = BOS_Bosnia_Rises
 
 		available = {
-			has_completed_focus = BOS_Joe_Bidens_Promises
-			has_completed_focus = BOS_Seek_National_Unity
-			has_completed_focus = BOS_New_Army_Reforms
-		}
+					OR = {
+					BOS = { surrender_progress > 0.5 }
+					CO1 = { surrender_progress > 0.7 }
+					SE1 = { surrender_progress > 0.5 }
+					date > 1995.7.1
+					}
+				}
 		mutually_exclusive = { }
 		
 		cost = 5

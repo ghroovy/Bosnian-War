@@ -9,6 +9,12 @@
  BOS_ARBIH_desc:0 "\n\n\n\n£GFX_BOS_ARBiH_Texticon \n\n\n\n\nWhere can one start to talk about the Army of the Republic of Bosnia and Herzegovina? When the war started, we didn't really have an army. We were disarmed, ready to be carnaged by the Serbs. However, our brave citizens helped us form our glorious army, the Republican Army. We pray to Allah for their success on the battlefield. Inshallah we will come out as victors."
  CO1_HVO:0 "Hrvatska Vojna Odbrana"
  CO1_HVO_desc:0 "\n\n\n\n£GFX_CO1_HVO_Texticon \n\n\n\n\ntemporary"
+ UN1_Operation_Deliberate_Force:0 "NATO Bombing Raids"
+ UN1_Operation_Deliberate_Force_desc:0 "\n\n\n\n£GFX_SE1_Operation_Deliberate_Force_Texticon \n\n\n\n\nAmerican jets dominate our skies, with futile efforts to bring them down. They strike our forces, our people, our land."
+ UN1_Operation_Deny_Flight:0 "Operation Deny Flight"
+ UN1_Operation_Deny_Flight_desc:0 "WIP"
+ UN1_Operation_Deny_Flight_2:0 "NATO Air Support"
+ UN1_Operation_Deny_Flight_2_desc:0 "WIP"
  
  ###IDEA UPGRADES
  SE1_VRS_2:0 "Vojska Republike Srpske"

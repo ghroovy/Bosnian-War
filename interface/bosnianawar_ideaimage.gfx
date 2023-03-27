@@ -27,4 +27,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideaimages/idea_image_divergent_army_command.png"	
 		legacy_lazy_load = no
 	}
+	SpriteType = {
+		name = "GFX_SE1_Operation_Deliberate_Force_Texticon"
+		texturefile = "gfx/interface/ideaimages/idea_image_Operation_Deliberate_Force.png"	
+		legacy_lazy_load = no
+	}
 }

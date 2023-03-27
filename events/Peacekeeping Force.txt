@@ -92,3 +92,142 @@ news_event = {
 		ai_chance = { base = 100 }
 	}
 }
+
+news_event = {
+	id = NATOUN.4
+	title = NATOUN.4.t
+	desc = NATOUN.4.desc
+	picture = GFX_news_event_UN1_deny_flight
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.4.a
+        trigger = {
+            NOT = { tag = SE1 }
+        }
+		ai_chance = { base = 100 }
+	}
+	option = { 
+		name = NATOUN.4.b
+        trigger = {
+            tag = SE1
+        }
+		ai_chance = { base = 100 }
+	}
+}
+
+news_event = {
+	id = NATOUN.5
+	title = NATOUN.5.t
+	desc = NATOUN.5.desc
+	picture = GFX_news_event_UN1_deny_flight_airsupport
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.5.a
+        trigger = {
+            NOT = { tag = SE1 }
+        }
+		ai_chance = { base = 100 }
+	}
+	option = { 
+		name = NATOUN.5.b
+        trigger = {
+            tag = SE1
+        }
+		ai_chance = { base = 100 }
+	}
+}
+
+news_event = {
+	id = NATOUN.6
+	title = NATOUN.6.t
+	desc = NATOUN.6.desc
+	picture = GFX_news_event_UN1_deliberate_force
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.6.a
+        trigger = {
+            NOT = { tag = SE1 }
+        }
+		ai_chance = { base = 100 }
+	}
+	option = { 
+		name = NATOUN.6.b
+        trigger = {
+            tag = SE1
+        }
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+	id = NATOUN.7
+	title = NATOUN.7.t
+	desc = NATOUN.7.desc
+	picture = GFX_report_event_UN1_deny_flight
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.7.a
+		ai_chance = { base = 100 }
+		SE1 = {
+		add_ideas = UN1_Operation_Deny_Flight
+		}
+		news_event = NATOUN.4
+	}
+}
+
+country_event = {
+	id = NATOUN.8
+	title = NATOUN.8.t
+	desc = NATOUN.8.desc
+	picture = GFX_report_event_UN1_deny_flight_airsupport
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.8.a
+		ai_chance = { base = 100 }
+		SE1 = {
+			add_ideas = UN1_Operation_Deny_Flight_2
+		}
+		news_event = NATOUN.5
+	}
+}
+
+country_event = {
+	id = NATOUN.9
+	title = NATOUN.9.t
+	desc = NATOUN.9.desc
+	picture = GFX_report_event_UN1_deliberate_force
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.9.a
+		ai_chance = { base = 100 }
+		SE1 = {
+			add_ideas = UN1_Operation_Deliberate_Force
+		}
+		news_event = NATOUN.6
+	}
+}
+
+country_event = {
+	id = hidden.NATOUN.1
+	title = hidden.NATOUN.1.t
+	desc = hidden.NATOUN.1.desc
+	picture = GFX_report_event_UN1_enforce_embargo
+
+	is_triggered_only = yes
+
+	option = { 
+		name = hidden.NATOUN.1.a
+		ai_chance = { base = 100 }
+	}

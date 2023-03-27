@@ -2,8 +2,8 @@ ideas = {
 
 	country = {
 
-		CO1_Superior_Intrusion_Tactics = {
-			picture = GFX_CO1_Superior_Intrusion_Tactics
+		CO1_A_Fighting_Heart = {
+			picture = GFX_CO1_A_Fighting_Heart
 			allowed = {
 				always = no
 			}
@@ -21,8 +21,8 @@ ideas = {
 			}
 		}
 		
-		CO1_National_Shelter_Construction = {
-			picture = GFX_CO1_National_Shelter_Construction
+		CO1_Statewide_Shelter_Construction = {
+			picture = GFX_CO1_Statewide_Shelter_Construction
 			allowed = {
 				always = no
 			}
@@ -54,6 +54,81 @@ ideas = {
 			modifier = {				
 				terrain_penalty_reduction = 0.1
 				army_org_regain = 0.1
+			}
+		}
+		
+		CO1_The_Righteous_Fight = {
+			picture = GFX_CO1_The_Righteous_Fight
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = CO1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				army_attack_factor = 0.1
+				army_defence_factor = 0.15
+				army_morale_factor = 0.1
+			}
+		}
+		
+		CO1_Restructured_Economy = {
+			picture = GFX_CO1_Restructured_Economy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = CO1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		CO1_Reformed_Economy = {
+			picture = GFX_CO1_Restructured_Economy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = CO1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				production_speed_buildings_factor = 0.2
+				consumer_goods_factor = -0.15
+				industry_repair_factor = 0.15
+			}
+		}
+		
+		CO1_Optimized_Production = {
+			picture = GFX_CO1_Optimized_Production
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = CO1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				industrial_capacity_factory = 0.1
+				civilian_factory_use = 1
+				industry_repair_factor = 0.05
 			}
 		}
 	}

@@ -3,7 +3,7 @@ ideas = {
 	country = {
 
 		SE1_VRS = {
-			picture = GFX_SE1_VRS
+			picture = SE1_VRS
 			allowed = {
 				always = yes
 			}
@@ -26,7 +26,7 @@ ideas = {
 		   }		
 	   }
 		SE1_VRS_2 = {
-			picture = GFX_SE1_VRS
+			picture = SE1_VRS
 			allowed = {
 				always = yes
 			}

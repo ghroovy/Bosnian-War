@@ -5609,5 +5609,15 @@ spriteTypes = {
 		name = "GFX_idea_the_bosnian_war"
 		texturefile = "gfx/interface/ideas/idea_the_bosnian_war.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_SE1_VRS"
+		texturefile = "gfx/interface/ideas/SE1_VRS.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Operation_Deliberate_Force"
+		texturefile = "gfx/interface/ideas/Operation_Deliberate_Force.png"
+	}
 
 }

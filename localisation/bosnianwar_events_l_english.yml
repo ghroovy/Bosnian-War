@@ -52,6 +52,21 @@
  NATOUN.3.a:0 "One step closer to peace."
  NATOUN.3.b:0 "We will hold no matter what!"
  
+ NATOUN.4.t:0 "Operation Deny Flight"
+ NATOUN.4.desc:0 "WIP"
+ NATOUN.4.a:0 "WIP"
+ NATOUN.4.b:0 "WIP"
+ 
+ NATOUN.5.t:0 "Operation Deny Flight: Lift and Strike"
+ NATOUN.5.desc:0 "WIP"
+ NATOUN.5.a:0 "WIP"
+ NATOUN.5.b:0 "WIP"
+ 
+ NATOUN.6.t:0 "Operation Deliberate Force"
+ NATOUN.6.desc:0 "The North Atlantic Treaty Organization, in collaboration with the United Nations Protection Force have launched the largest military operation conducted by NATO to date with a massive airrun and target-destruction campaign across Bosnia aimed to subvert the military capacity of the Bosnian Serbs. Dubbed "Operation Deliberate Force", a successor to Operation Deny Flight initiated after the Vojska Republika Srpske intentionally targeted Bosnian Civillians in Srebrenica and Markale with their arms, resulting in a massacre. Western Warplanes cover the clouds over Bosnia, and some hope this campaign will finally coerce the Bosnian Serbs into settling for peace."
+ NATOUN.6.a:0 "Will this conflict finally be brought to an end?"
+ NATOUN.6.b:0 "All will be struck down!"
+ 
  ### CAPTURED CITIES
  
  city.1.t:0 "The Fall of Sarajevo"

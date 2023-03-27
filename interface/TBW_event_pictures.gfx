@@ -31,6 +31,21 @@ spriteType = {
 		texturefile = "gfx/event_pictures/news_event_fall_of_sarajevo_herzeg.dds"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_news_event_UN1_deliberate_force"
+		texturefile = "gfx/event_pictures/news_event_deliberate_force.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_UN1_deny_flight"
+		texturefile = "gfx/event_pictures/news_event_deny_flight.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_UN1_deny_flight_airsupport"
+		texturefile = "gfx/event_pictures/news_event_deny_flight_2.dds"
+		alwaystransparent = yes
+	}
 	
 ### COUNTRY EVENTS
 spriteType = {
