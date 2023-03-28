@@ -21,7 +21,7 @@ ideas = {
 			}
 		}
 		SE1_Divergent_Army_Command = {
-			picture = GFX_SE1_Divergent_Army_Command
+			picture = SE1_Divergent_Army_Command
 			allowed = {
 				always = no
 			}

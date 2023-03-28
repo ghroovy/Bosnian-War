@@ -54,7 +54,7 @@ ideas = {
 	country = {
 
 		BOS_ARBIH = {
-			picture = GFX_BOS_ARBIH
+			picture = BOS_ARBIH
 			allowed = {
 				always = yes
 			}
@@ -83,7 +83,7 @@ ideas = {
 	country = {
 
 		CO1_HVO = {
-			picture = GFX_CO1_HVO
+			picture = CO1_HVO
 			allowed = {
 				always = yes
 			}
@@ -106,7 +106,7 @@ ideas = {
 		   }		
 	   }
 		CO1_HVO_OFFENSE = {
-			picture = GFX_CO1_HVO
+			picture = CO1_HVO
 			allowed = {
 				always = yes
 			}
@@ -130,7 +130,7 @@ ideas = {
 		   }		
 	   }
 		CO1_HVO_DEFENSE = {
-			picture = GFX_CO1_HVO
+			picture = CO1_HVO
 			allowed = {
 				always = yes
 			}

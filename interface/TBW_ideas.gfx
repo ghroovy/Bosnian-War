@@ -5616,8 +5616,23 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_CO1_HVO"
+		texturefile = "gfx/interface/ideas/CO1_HVO.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BOS_ARBIH"
+		texturefile = "gfx/interface/ideas/BOS_ARBIH.png"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_Operation_Deliberate_Force"
 		texturefile = "gfx/interface/ideas/Operation_Deliberate_Force.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SE1_Divergent_Army_Command"
+		texturefile = "gfx/interface/ideas/SE1_Divergent_Army_Command.png"
 	}
 
 }
