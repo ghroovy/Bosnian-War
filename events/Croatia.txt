@@ -10,15 +10,19 @@ country_event = {
 	
 	trigger = {
 		tag = CRO
-		date > 1994.1.1
+		date > 1995.8.1
 		SE2 = {
 		surrender_progress = 0.5
 		}
+		BOS = { has_country_flag = BOS_peace }
+		CO1 = { has_country_flag = CO1_peace }
 	}
 	
 	mean_time_to_happen = {
 		days = 3
 	}
+	
+	fire_only_once = yes
 
 	option = {
 		name = croatia.1.a
@@ -27,6 +31,22 @@ country_event = {
     		target = SE1
     		type = annex_everything
 		}
+		declare_war_on = {
+    		target = WBS
+    		type = annex_everything
+		}
+		CO1 = {
+		declare_war_on = {
+    		target = WBS
+    		type = civil_war
+		}
+	}
+		BOS = {
+		declare_war_on = {
+    		target = WBS
+    		type = civil_war
+		}
+	}
 		news_event = croatia.2
 		BOS = { give_military_access = CRO }
 		CO1 = { give_military_access = CRO }
