@@ -842,7 +842,7 @@
 	}
 	focus = {
 		id = SE1_Revive_The_Economy
-		icon = GFX_SE1_Amplify_Our_War_Efforts
+		icon = GFX_SE1_Revive_The_Economy
 		x = 6
 		y = 3
 		relative_position_id = SE1_Srpska_my_Beloved
@@ -965,7 +965,10 @@
 		}
 		
 		completion_reward = {
-			add_ideas = SE1_Optimized_Production
+			hidden_effect = {
+			load_oob = Beli_Orlovi
+			}
+			custom_effect_tooltip = beli_orlovi_tt
 		}
 	}
 	focus = {

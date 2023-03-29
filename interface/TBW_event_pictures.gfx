@@ -53,4 +53,10 @@ spriteType = {
 		texturefile = "gfx/event_pictures/report_event_CO1_mate_boban_resignation.dds"
 		alwaystransparent = yes
 	}
+	
+spriteType = {
+		name = "GFX_report_event_SE1_beginning"
+		texturefile = "gfx/event_pictures/report_event_SE1_beginning.png"
+		alwaystransparent = yes
+	}
 }

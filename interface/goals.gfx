@@ -230,6 +230,41 @@ spriteTypes = {
 		name = "GFX_SE1_Serbian_Land_For_Serbs"
 		texturefile = "gfx/interface/goals/SE1_Serbian_Land_For_Serbs.png"			
 	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Amplify_Our_War_Efforts"
+		texturefile = "gfx/interface/goals/SE1_Amplify_Our_War_Efforts.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Revive_The_Economy"
+		texturefile = "gfx/interface/goals/SE1_Revive_The_Economy.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Drive_Out_The_Menace"
+		texturefile = "gfx/interface/goals/SE1_Drive_Out_The_Menace.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Streamline_Our_Production"
+		texturefile = "gfx/interface/goals/SE1_Streamline_Our_Production.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Protect_Supply_Lines"
+		texturefile = "gfx/interface/goals/SE1_Protect_Supply_Lines.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Our_Orthodox_Friends"
+		texturefile = "gfx/interface/goals/SE1_Our_Orthodox_Friends.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_A_New_Identity"
+		texturefile = "gfx/interface/goals/SE1_A_New_Identity.png"			
+	}
 
 
 	#### Generic continuous goal icons	
