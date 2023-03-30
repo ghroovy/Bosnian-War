@@ -134,13 +134,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 50
-			add_manpower = 7000
+			add_political_power = 75
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 5000
+				amount = 3000
 				producer = BOS
 			}
+			army_experience = 40
 		}
 	}
 
@@ -234,10 +234,10 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = BOS_Modern_Guerilla
 			add_war_support = 0.05
-			add_manpower = 3000
+			add_manpower = 1200
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 2000
+				amount = 1200
 				producer = BOS
 			}
 		}
@@ -423,8 +423,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = BOS_establish_core_institutions
-			add_stability = 0.05
+			add_political_power = 80
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -506,21 +506,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_equipment_to_stockpile = {
+		add_equipment_to_stockpile = {
         type = support_equipment
-        amount = 1950
-        producer = BOS
-    }
-			add_equipment_to_stockpile = {
-        type = medium_tank_chassis_1
-        amount = 90
-        producer = BOS
-    }
-			add_equipment_to_stockpile = {
-        type = infantry_equipment
-        amount = 1150
-        producer = BOS
-    }
+        amount = 800
+        producer = UN1
+		}
+		army_experience = 80
 		}
 	}
 	focus = {
@@ -553,6 +544,7 @@ focus_tree = {
 				target = ALB
 				modifier = muslim_kin
 			}
+			add_ideas = BOS_Financial_Aid
 		}
 	}
 	focus = {
@@ -709,9 +701,29 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			34 = {
+				add_dynamic_modifier = {
+			   modifier = BOS_defense
+			   scope = BOS
+			   days = 150
+			}
+		}
+			90 = {
+				add_dynamic_modifier = {
+			   modifier = BOS_defense
+			   scope = BOS
+			   days = 150
+			}
+		}
+			91 = {
+				add_dynamic_modifier = {
+	   			modifier = BOS_defense
+	   			scope = BOS
+	   			days = 150
+			}
 		}
 	}
+}
 	focus = {
 		id = BOS_Improve_Our_Army_Logistics
 		icon = GFX_BOS_Improve_Our_Army_Logistics
@@ -782,7 +794,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_ideas = BOS_Bosnias_Mujahideen
 		}
 	}
 	focus = {
@@ -807,7 +819,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_manpower = 5000
 		}
 	}
 	focus = {
@@ -881,7 +893,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_political_power = 100
 		}
 	}
 	focus = {

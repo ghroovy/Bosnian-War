@@ -55,9 +55,9 @@ BOS_defense = { #STATE MODIFIER
 	
 	icon = GFX_modifiers_generic_military_plans
 	
-	army_defence_factor = 0.3
-	dig_in_speed = 0.5
-	max_dig_in = 0.5
+	army_defence_factor = 0.25
+	dig_in_speed = 0.4
+	max_dig_in = 0.4
 }
 
 CO1_start_offensive = { #STATE MODIFIER
@@ -77,7 +77,7 @@ CO1_defense = { #STATE MODIFIER
 	
 	icon = GFX_modifiers_generic_military_plans
 	
-	army_defence_factor = 0.3
-	dig_in_speed = 0.5
-	max_dig_in = 0.5
+	army_defence_factor = 0.25
+	dig_in_speed = 0.4
+	max_dig_in = 0.4
 }

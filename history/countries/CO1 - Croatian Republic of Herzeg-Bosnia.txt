@@ -1,8 +1,8 @@
 ﻿capital = 24
 oob = "CO1_1992"
 set_research_slots = 3
-set_stability = 100
-set_war_support = 100
+set_stability = 0.5
+set_war_support = 0.7
 #Starting tech
 set_technology = {
 infantry_weapons = 1
@@ -100,10 +100,3 @@ war_economy
          target = BOS
         type = annex_everything
         }
-					
-        declare_war_on = {
-        target = SE1
-        type = civil_war
-        }
-        add_civil_war_target = SE1	
-		

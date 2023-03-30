@@ -78,6 +78,59 @@ ideas = {
 				planning_speed = -0.2
 			}
 		}
+		
+		BOS_Financial_Aid = {
+			picture = GFX_BOS_Financial_Aid
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		BOS_Streamlined_Logistics = {
+			picture = GFX_BOS_Streamlined_Logistics
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				supply_consumption_factor = -0.2
+				out_of_supply_factor = -0.15
+			}
+		}
+		
+		BOS_Bosnias_Mujahideen = {
+			picture = GFX_BOS_Bosnias_Mujahideen
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				war_support_factor = 0.1
+				army_morale_factor = 0.15
+			}
+		}
 
 		BOS_Modern_Guerilla = {
 			picture = GFX_BOS_Modern_Guerilla

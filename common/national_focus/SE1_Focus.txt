@@ -365,7 +365,7 @@
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 3000
+				amount = 1000
 				producer = SER
 			}
 		}
@@ -393,7 +393,7 @@
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 3000
+				amount = 100
 				producer = SER
 			}
 		}
@@ -641,7 +641,7 @@
 		
 		completion_reward = {
 			custom_effect_tooltip = bs_tt
-			custom_effect_tooltip = SE1_croat_decisions_tt
+			custom_effect_tooltip = SE1_masses_decisions_tt
 		}
 	}
 	focus = {

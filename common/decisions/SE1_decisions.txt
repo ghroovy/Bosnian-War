@@ -282,7 +282,7 @@ SE1_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-		Request_Artillery = {
+	Request_Artillery = {
 		 cost = 90
 		 ai_will_do = {
          base = 50

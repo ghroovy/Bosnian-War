@@ -41,6 +41,9 @@ if = {
 	}
 }
 
+set_stability = 0.5
+set_war_support = 0.7
+
 set_convoys = 20
 
 set_politics = {
@@ -105,14 +108,3 @@ create_country_leader = {
     planning_skill = 4
     logistics_skill = 3
 }
-
-     declare_war_on = {
-         target = CO1
-        type = annex_everything
-        }
-					
-     declare_war_on = {
-        target = SE1
-        type = civil_war
-        }
-        add_civil_war_target = SE1	

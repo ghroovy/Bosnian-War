@@ -210,7 +210,7 @@ CO1_For_The_Croatian_Motherland = {
 }
 
 CO1_Arms_Deal_Shipments = {
-	Request_Infantry_Equipment = {
+	CO1_Request_Infantry_Equipment = {
 		 cost = 70
 		 ai_will_do = {
          base = 0
@@ -234,7 +234,7 @@ CO1_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-	Request_Support_Equipment = {
+	CO1_Request_Support_Equipment = {
 		 cost = 70
 		 ai_will_do = {
          base = 0
@@ -258,7 +258,7 @@ CO1_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-		Request_Artillery = {
+		CO1_Request_Artillery = {
 		 cost = 90
 		 ai_will_do = {
          base = 50
@@ -276,7 +276,7 @@ CO1_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-	Request_Trucks = {
+	CO1_Request_Trucks = {
 		 cost = 100
 		 ai_will_do = {
          base = 30
