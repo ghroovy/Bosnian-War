@@ -28,7 +28,7 @@ ideas = {
 			}
 			modifier = {
 				army_core_defence_factor = 0.15
-                dig_in_speed = 5
+                dig_in_speed_factor = 0.1
 			}
 		}
 
@@ -43,20 +43,6 @@ ideas = {
 			}
 			modifier = {
 				army_core_attack_factor = 0.15
-			}
-		}
-
-		BOS_establish_core_institutions = {
-			picture = BOS_establish_core_institutions
-			removal_cost = -1
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				TAG = BOS
-			}
-			modifier = {
-				army_core_defence_factor = 0.15
 			}
 		}
 

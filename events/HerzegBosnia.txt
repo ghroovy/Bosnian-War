@@ -92,3 +92,31 @@ news_event = {
 		ai_chance = { base = 100 }
 	}
 }
+
+country_event = {
+    id = herzeg.4
+    title = herzeg.4.t
+    desc = herzeg.4.d
+    fire_only_once = yes
+    trigger = {
+        tag = CO1
+		CO1 = {
+		OR {
+		has_war_with = SE1
+		has_war_with = BOS
+		}
+	}
+}
+    option = {
+        name = bosnia.4.a
+		ai_chance = { base = 80 }
+		set_global_flag = CO1_vanceowen_accepted
+        ### SETS BORDERS TO VANCE-OWEN PLAN BORDERS
+    }
+    option = {
+        name = bosnia.4.b
+		ai_chance = { base = 20 }
+		set_global_flag = CO1_vanceowen_denied
+		### DENIED
+    }
+}

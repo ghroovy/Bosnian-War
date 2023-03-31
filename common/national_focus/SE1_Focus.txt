@@ -169,7 +169,7 @@
 		completion_reward = {
 			add_political_power = 50
 			add_war_support = 0.1
-			add_stability = 0.1 # war crimes are based
+			add_stability = 0.1 # war crimes are based ###shut the fuck up cestino
 		}
 	}
 
@@ -363,11 +363,7 @@
 		}
 		
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 1000
-				producer = SER
-			}
+			custom_effect_tooltip = serbian_volunteers_tt
 		}
 	}
 
@@ -890,7 +886,8 @@
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_stability = 0.15
+			add_ideas = SE1_Idea_A_New_Identity
 		}
 	}
 	focus = {
@@ -1109,7 +1106,7 @@
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_political_power = 75
 		}
 	}
 	focus = {

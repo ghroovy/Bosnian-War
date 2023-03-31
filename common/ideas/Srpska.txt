@@ -154,5 +154,24 @@ ideas = {
 				industry_repair_factor = 0.05
 			}
 		}
+		
+		SE1_Idea_A_New_Identity = {
+			picture = GFX_SE1_Optimized_Production
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				resistance_decay_on_our_occupied_states = 0.3
+				compliance_growth_on_our_occupied_states = 0.15
+				political_power_gain = 0.35
+			}
+		}
 	}
 }

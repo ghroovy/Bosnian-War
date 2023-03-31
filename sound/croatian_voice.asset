@@ -2,17 +2,11 @@ category =
 {
  name = "Voices"
  soundeffects = {
-	CO1_infantry_Move_001
-	CO1_infantry_Move_002
-	CO1_infantry_Move_003
-	CO1_infantry_Move_004
-	CO1_infantry_Idle_001
-	CO1_infantry_Idle_002
-	CO1_infantry_Retreat_001
-	CO1_infantry_Combat_001
-	CO1_infantry_Combat_002
-	CO1_infantry_Combat_003
-	CO1_infantry_Combat_004
+	CO1_infantry_move_out
+	CO1_infantry_retreat
+	CO1_infantry_neutral_combat
+	CO1_infantry_positive_combat
+	CO1_infantry_idle
 	
  }
   compressor = 
@@ -125,13 +119,13 @@ sound =
 
 sound =
 {
-	name = "CO1_Move_003.wav"
+	name = "CO1_Move_003"
 	file = "voice/CO1_Move_003.wav"
 }
 
 sound =
 {
-	name = "CO1_Move_004.wav"
+	name = "CO1_Move_004"
 	file = "voice/CO1_Move_004.wav"
 }
 

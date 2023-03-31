@@ -2,17 +2,11 @@ category =
 {
  name = "Voices"
  soundeffects = {
-	SE1_infantry_Move_001
-	SE1_infantry_Move_002
-	SE1_infantry_Move_003
-	SE1_infantry_Move_004
-	SE1_infantry_Idle_001
-	SE1_infantry_Idle_002
-	SE1_infantry_Retreat_001
-	SE1_infantry_Combat_001
-	SE1_infantry_Combat_002
-	SE1_infantry_Combat_003
-	SE1_infantry_Combat_004
+	SE1_infantry_move_out
+	SE1_infantry_retreat
+	SE1_infantry_neutral_combat
+	SE1_infantry_positive_combat
+	SE1_infantry_idle
 	
  }
   compressor = 
@@ -125,13 +119,13 @@ sound =
 
 sound =
 {
-	name = "SE1_Move_003.wav"
+	name = "SE1_Move_003"
 	file = "voice/SE1_Move_003.wav"
 }
 
 sound =
 {
-	name = "SE1_Move_004.wav"
+	name = "SE1_Move_004"
 	file = "voice/SE1_Move_004.wav"
 }
 

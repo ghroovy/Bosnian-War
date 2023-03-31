@@ -12,7 +12,7 @@ country_event = {
 		tag = CRO
 		date > 1995.8.1
 		SE2 = {
-		surrender_progress = 0.5
+		surrender_progress = 0.3
 		}
 		BOS = { has_country_flag = BOS_peace }
 		CO1 = { has_country_flag = CO1_peace }

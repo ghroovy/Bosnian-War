@@ -220,14 +220,21 @@ country_event = {
 }
 
 country_event = {
-	id = hidden.NATOUN.1
-	title = hidden.NATOUN.1.t
-	desc = hidden.NATOUN.1.desc
-	picture = GFX_report_event_UN1_enforce_embargo
+	id = NATOUN.10
+	title = NATOUN.10.t
+	desc = NATOUN.10.desc
+	picture = GFX_report_event_UN1_peacekeepers
 
 	is_triggered_only = yes
 
 	option = { 
-		name = hidden.NATOUN.1.a
+		name = NATOUN.10.a
 		ai_chance = { base = 100 }
+        add_province_modifier = {
+            static_modifiers = { UN1_un_peacekeepers }
+            province = { 
+			id = 11994
+			}
+        }
 	}
+}

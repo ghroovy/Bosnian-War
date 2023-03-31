@@ -62,7 +62,7 @@ focus_tree = {
 			add_manpower = 3000
 			add_equipment_to_stockpile = {
 				type = artillery_equipment
-				amount = 2700
+				amount = 1500
 				producer = BOS
 			}
 		}
@@ -745,7 +745,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_ideas = BOS_Streamlined_Logistics
 		}
 	}
 	focus = {

@@ -26,11 +26,9 @@ on_actions = {
 	
     on_startup = {
         effect = {
-                add_province_modifier = {
-                    static_modifiers = { UN1_un_peacekeepers }
-                    province = { id = 11994
-				}
-              }
+        UN1 = {
+            country_event = { id = NATOUN.10 }
+            }
         UN1 = {
             country_event = { id = NATOUN.2 days = 440 }
             }
@@ -51,6 +49,15 @@ on_actions = {
             }
         SE1 = {
             country_event = { id = srpska.1 }
+            }
+        SE1 = {
+            country_event = { id = srpska.3 days = 194 }
+            }
+        CO1 = {
+            country_event = { id = herzeg.4 days = 194 }
+            }
+        BOS = {
+            country_event = { id = bosnia.4 days = 194 }
             }
         CO1 = {
             country_event = { id = herzeg.2 days = 478 }
