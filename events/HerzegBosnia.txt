@@ -86,6 +86,7 @@ news_event = {
 	picture = GFX_news_event_CO1_mate_boban_resignation
 
 	is_triggered_only = yes
+	major = yes
 
 	option = { 
 		name = herzeg.3.a

@@ -156,7 +156,7 @@ ideas = {
 		}
 		
 		SE1_Idea_A_New_Identity = {
-			picture = GFX_SE1_Optimized_Production
+			picture = GFX_SE1_Idea_A_New_Identity
 			allowed = {
 				always = no
 			}
@@ -171,6 +171,25 @@ ideas = {
 				resistance_decay_on_our_occupied_states = 0.3
 				compliance_growth_on_our_occupied_states = 0.15
 				political_power_gain = 0.35
+			}
+		}
+		
+		SE1_Autonomous_State = {
+			picture = GFX_SE1_Autonomous_State
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				stability_factor = 0.15
+				consumer_goods_factor = -0.2
+				political_power_gain_factor = 0.2
 			}
 		}
 	}

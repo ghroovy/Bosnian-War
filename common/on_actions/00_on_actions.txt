@@ -68,6 +68,9 @@ on_actions = {
         UN1 = {
             country_event = { id = NATOUN.1 days = 529 }
             }
+        CRO = {
+            country_event = { id = croatia.1 days = 1020 }
+            }
 		SE2 = {
 		add_timed_idea = {
   		idea = idea_the_croatian_war

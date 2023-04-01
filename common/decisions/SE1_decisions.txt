@@ -4,7 +4,10 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 		 cost = 45
 		 complete_effect = {
 			random_controlled_state = {
-                limit = { is_owned_by = SE1 }
+            limit = { 
+			is_owned_by = SE1
+			is_core_of = BOS
+			}
 			  add_resistance = 5 }
 			  add_stability = 0.07
 			  add_war_support = 0.04
@@ -16,7 +19,10 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 		 cost = 45
 		 complete_effect = {
 			random_controlled_state = {
-                limit = { is_owned_by = SE1 }
+            limit = { 
+			is_owned_by = SE1
+			is_core_of = CO1
+			}
 			  add_resistance = 5 }
 			  add_stability = 0.07
 			  add_war_support = 0.04

@@ -76,6 +76,7 @@ news_event = {
 	picture = GFX_news_event_UN1_washington_agreement
 
 	is_triggered_only = yes
+	major = yes
 
 	option = { 
 		name = NATOUN.3.a
@@ -100,6 +101,7 @@ news_event = {
 	picture = GFX_news_event_UN1_deny_flight
 
 	is_triggered_only = yes
+	major = yes
 
 	option = { 
 		name = NATOUN.4.a
@@ -124,6 +126,7 @@ news_event = {
 	picture = GFX_news_event_UN1_deny_flight_airsupport
 
 	is_triggered_only = yes
+	major = yes
 
 	option = { 
 		name = NATOUN.5.a
@@ -148,6 +151,7 @@ news_event = {
 	picture = GFX_news_event_UN1_deliberate_force
 
 	is_triggered_only = yes
+	major = yes
 
 	option = { 
 		name = NATOUN.6.a
