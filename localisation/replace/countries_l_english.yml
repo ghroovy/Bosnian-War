@@ -82,6 +82,7 @@
  GRE_DEF:0 "Greece"
  GRE_ADJ:0 "Greek"
  TUR:0 "Turkey"
+ TUR_liberalism:0 "Turkey"
  TUR_DEF:0 "Turkey"
  TUR_ADJ:0 "Turkish"
  
