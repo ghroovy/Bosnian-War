@@ -295,12 +295,12 @@
 		x = 28
 		y = 0
 
-		prerequisite = {}P
+		prerequisite = {}
 		mutually_exclusive = { focus = SE1_Serbian_Brothers_In_Arms }
 		
 		cost = 5
 		ai_will_do = {
-			factor = 5OPP
+			factor = 5
 		}
 		available = {
 			has_completed_focus = SE1_Srpska_my_Beloved
@@ -1128,7 +1128,11 @@
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = SE1
+			}
 		}
 	}
 	focus = {

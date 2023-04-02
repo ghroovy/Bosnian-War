@@ -5634,5 +5634,10 @@ spriteTypes = {
 		name = "GFX_idea_SE1_Divergent_Army_Command"
 		texturefile = "gfx/interface/ideas/SE1_Divergent_Army_Command.png"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_Rampant_Looters"
+		texturefile = "gfx/interface/ideas/Rampant_Looters.png"
+	}
 
 }

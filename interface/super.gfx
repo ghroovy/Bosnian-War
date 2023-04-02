@@ -13,15 +13,8 @@ spriteTypes = {
 		textureFile = "/gfx/super_events/SPEVNT_Polish_Uprising.dds"
 	}
 	
-	frameAnimatedSpriteType = {
+	spriteType = {
     	name = "GFX_Super_Event_Image_China_Revolution"
-    	texturefile = "gfx/super_events/SUPEVENT_ANIMATED_Srpska_Victory.png"
-    	noOfFrames = 110
-    	loadType = "INGAME"
-    	transparencecheck = no
-    	animation_rate_fps = 13
-    	looping = yes
-    	play_on_show = yes
-    	pause_on_loop = 0.0
+    	texturefile = "gfx/super_events/SPEVNT_Wuchang_Revolution.dds"
 	}
 }

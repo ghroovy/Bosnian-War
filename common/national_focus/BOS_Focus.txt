@@ -594,7 +594,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = BOS_defenders_of_bosnia
+			add_timed_idea = { idea = BOS_defenders_of_bosnia days = 250 }
 		}
 	}
 	focus = {
@@ -669,6 +669,7 @@ focus_tree = {
 			type = bunker
         	province = 8434
 				level = 5
+			}
 			120 = {
   		 	add_dynamic_modifier = {
         		modifier = BOS_defense
@@ -676,7 +677,6 @@ focus_tree = {
         		days = 50
             }
 	     }
-	  }
 	}
 }
 	focus = {
@@ -769,7 +769,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -820,6 +820,10 @@ focus_tree = {
 		
 		completion_reward = {
 			add_manpower = 5000
+			swap_ideas = {
+    			remove_idea = BOS_ARBIH
+    			add_idea = BOS_ARBIH_2
+			}
 		}
 	}
 	focus = {
@@ -869,7 +873,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			army_experience = 50
+			swap_ideas = {
+    			remove_idea = BOS_ARBIH_2
+    			add_idea = BOS_ARBIH_3
+			}
 		}
 	}
 	focus = {
@@ -917,7 +925,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_ideas = BOS_The_Bosnian_Economy
 		}
 	}
 	focus = {
@@ -966,7 +974,36 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                    OR = {
+                        is_in_home_area = yes
+                        NOT = {
+                            owner = {
+                                any_owned_state = {
+                                    free_building_slots = {
+                                        building = industrial_complex
+                                        size > 0
+                                        include_locked = yes
+                                    }
+                                    is_in_home_area = yes
+                                }
+                            }
+                        }
+                    }
+                }
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                    }
+                }
 		}
 	}
 	focus = {
@@ -990,7 +1027,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			swap_ideas = {
+    			remove_idea = BOS_The_Bosnian_Economy
+    			add_idea = BOS_The_Bosnian_Economy_2
+			}
 		}
 	}
 	focus = {
@@ -1061,7 +1101,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			swap_ideas = {
+    			remove_idea = BOS_The_Bosnian_Economy_2
+    			add_idea = BOS_The_Bosnian_Economy_3
+			}
 		}
 	}
 	focus = {

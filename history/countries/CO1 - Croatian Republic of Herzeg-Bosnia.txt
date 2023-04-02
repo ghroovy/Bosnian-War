@@ -59,6 +59,7 @@ recruit_character = CO1_Kresimir_Zubak
 
 add_ideas = {
 idea_the_bosnian_war
+rampant_looting
 CO1_HVO
 limited_exports
 extensive_conscription

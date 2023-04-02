@@ -78,6 +78,61 @@ ideas = {
 			ai_focus_defense_factor = 0.3
 		   }		
 	   }
+	
+		BOS_ARBIH_2 = {
+			picture = BOS_ARBIH
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				hidden_modifier = {
+				    tech_air_damage_factor = 0.01 
+			}
+		    custom_modifier_tooltip = ARBIH_tt
+			dig_in_speed_factor = 0.15
+			pocket_penalty = -0.1
+			recon_factor = -0.2
+			minimum_training_level = -0.08
+			conscription_factor = 0.1
+			ai_focus_defense_factor = 0.3
+		   }		
+	   }
+	   
+		BOS_ARBIH_3 = {
+			picture = BOS_ARBIH
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				hidden_modifier = {
+				    tech_air_damage_factor = 0.01 
+			}
+		    custom_modifier_tooltip = ARBIH_tt
+			dig_in_speed_factor = 0.15
+			pocket_penalty = -0.1
+			recon_factor = -0.2
+			minimum_training_level = -0.08
+			conscription_factor = 0.1
+			command_power_gain_mult = 0.15
+			army_morale_factor = 0.1
+			experience_gain_army_unit_factor = 0.05
+			ai_focus_defense_factor = 0.3
+		   }		
+	   }
 	}	
 
 	country = {

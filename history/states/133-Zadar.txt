@@ -1,0 +1,19 @@
+state={
+	id=133
+	name="STATE_133"
+	provinces={
+		3177 3200 3258 4205 6302 6394 6961 7068 7099 7673 7750 8251 9131 9231 11721 11742 11743 11746 11803 11843 11872 11919 13938 13939 13940 13941 13942 13943 13944 13945 13946 16988 6049 8714 11563 11626 11637 11660 11697 11733 13932 13934 13935 13936 13937 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 4
+            arms_factory = 0
+            industrial_complex = 1
+        }
+		add_core_of = CRO
+	}
+	manpower=86550
+	buildings_max_level_factor=1.000
+    state_category = town
+}

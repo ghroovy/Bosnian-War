@@ -139,5 +139,76 @@ ideas = {
 				org_loss_at_low_org_factor = 0.15
 			}
 		}
+		
+		BOS_The_Bosnian_Economy = {
+			picture = GFX_BOS_The_Bosnian_Economy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+
+			removal_cost = -1
+			
+		}
+			
+		BOS_The_Bosnian_Economy_2 = {
+			picture = GFX_BOS_The_Bosnian_Economy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.15
+				line_change_production_efficiency_factor = 0.1
+			}
+		}
+		
+		BOS_The_Bosnian_Economy_2 = {
+			picture = GFX_BOS_The_Bosnian_Economy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+			}
+		}
+		
+		BOS_The_Bosnian_Economy_3 = {
+			picture = GFX_BOS_The_Bosnian_Economy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				consumer_goods_factor = -0.25
+				production_speed_buildings_factor = 0.3
+				line_change_production_efficiency_factor = 0.3
+			}
+		}
 	}	
 }

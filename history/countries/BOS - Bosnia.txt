@@ -61,6 +61,7 @@ set_popularities = {
 
 add_ideas = {
 idea_the_bosnian_war
+rampant_looting
 BOS_ARBIH
 limited_exports
 extensive_conscription

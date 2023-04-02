@@ -87,6 +87,7 @@ set_popularities = {
 
 add_ideas = {
 idea_the_bosnian_war
+rampant_looting
 SE1_VRS
 SE1_Divergent_Army_Command
 limited_exports
