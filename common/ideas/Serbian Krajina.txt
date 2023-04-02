@@ -1,0 +1,22 @@
+ideas = {
+
+	hidden_ideas = {
+		
+		SE2_more_manpower = {
+			picture = GFX_SE2_more_manpower
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = SE2
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				conscription_factor = 0.1
+			}
+		}
+	}
+}
