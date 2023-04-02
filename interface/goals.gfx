@@ -265,6 +265,23 @@ spriteTypes = {
 		name = "GFX_SE1_A_New_Identity"
 		texturefile = "gfx/interface/goals/SE1_A_New_Identity.png"			
 	}
+	
+### NEW BOSNIA FOCUSES ###
+
+	SpriteType = {
+		name = "GFX_BOS_Support_Islamic_Community"
+		texturefile = "gfx/interface/goals/BOS_Support_Islamic_Community.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_A_Speech_To_The_UN"
+		texturefile = "gfx/interface/goals/BOS_A_Speech_To_The_UN.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Defence_of_the_Nation"
+		texturefile = "gfx/interface/goals/BOS_Defence_of_the_Nation.png"			
+	}
 
 
 	#### Generic continuous goal icons	

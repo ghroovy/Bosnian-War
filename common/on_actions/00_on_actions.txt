@@ -51,6 +51,9 @@ on_actions = {
             country_event = { id = srpska.1 }
             }
         SE1 = {
+            country_event = { id = srpska.4 days = 326 }
+            }
+        SE1 = {
             country_event = { id = srpska.3 days = 194 }
             }
         CO1 = {

@@ -14,23 +14,23 @@
  SE1_Arms_Deal_Shipments:0 "Arms Deal Shipments"
  
  decision_cost_militia:0 "£GFX_pol_power §Y80§! £GFX_army_experience  §Y15§!"
- decision_cost_militia_blocked:0 "£GFX_pol_power §Y80§! £GFX_army_experience §R15§!"
+ decision_cost_militia_blocked:0 "£GFX_pol_power §R80§! £GFX_army_experience §R15§!"
  decision_cost_militia_tooltip:0 "It costs £GFX_pol_power §Y80§! and £GFX_army_experience §Y15§! to raise a brigade!"
  
  decision_cost_gunsforall:0 "£GFX_pol_power §Y30§! £GFX_army_experience  §Y10§!"
- decision_cost_gunsforall_blocked:0 "£GFX_pol_power §Y30§! £GFX_army_experience §R10§!"
+ decision_cost_gunsforall_blocked:0 "£GFX_pol_power §R30§! £GFX_army_experience §R10§!"
  decision_cost_gunsforall_tooltip:0 "It costs £GFX_pol_power §Y30§! and £GFX_army_experience §Y10§! to raise a brigade!"
  
  decision_cost_offensive:0 "£GFX_pol_power §Y120§! £GFX_command_power  §Y20§!"
- decision_cost_offensive_blocked:0 "£GFX_pol_power §Y120§! £GFX_command_power §R20§!"
+ decision_cost_offensive_blocked:0 "£GFX_pol_power §R120§! £GFX_command_power §R20§!"
  decision_cost_offensive_tooltip:0 "It costs £GFX_pol_power §Y120§! and £GFX_command_power §Y20§! to launch the operation!"
  
  decision_cost_full_offensive:0 "£GFX_pol_power §Y150§! £GFX_command_power  §Y30§!"
- decision_cost_full_offensive_blocked:0 "£GFX_pol_power §Y150§! £GFX_command_power §R30§!"
+ decision_cost_full_offensive_blocked:0 "£GFX_pol_power §R150§! £GFX_command_power §R30§!"
  decision_cost_full_offensive_tooltip:0 "It costs £GFX_pol_power §Y150§! and £GFX_command_power §Y30§! to launch the operation!"
  
  decision_cost_defense:0 "£GFX_pol_power §Y100§! £GFX_command_power  §Y15§!"
- decision_cost_defense_blocked:0 "£GFX_pol_power §Y100§! £GFX_command_power §R15§!"
+ decision_cost_defense_blocked:0 "£GFX_pol_power §R100§! £GFX_command_power §R15§!"
  decision_cost_defense_tooltip:0 "It costs £GFX_pol_power §Y100§! and £GFX_command_power §Y15§! to launch the operation!"
  
  ### BOSNIA

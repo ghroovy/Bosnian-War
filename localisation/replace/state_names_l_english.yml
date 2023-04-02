@@ -23,7 +23,7 @@
  STATE_22:0 "Sarajevo"
  STATE_23:0 "Klanac"
  STATE_24:0 "Babin Do"
- STATE_25:0 "Serb Croatia"
+ STATE_25:0 "Vukovar"
  STATE_26:0 "Zavait"
  STATE_27:0 "Istocni Mostar"
  STATE_28:0 "Sokolac"
@@ -127,7 +127,7 @@
  STATE_126:0 "Lika"
  STATE_127:0 "Kordun"
  STATE_128:0 "Banija"
- STATE_129:0 "Zapadna Slavonija
+ STATE_129:0 "Zapadna Slavonija"
  STATE_130:0 "Dubrovnik"
  STATE_131:0 "Split"
  STATE_132:0 "Sibenik"

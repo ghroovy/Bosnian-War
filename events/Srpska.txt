@@ -19,7 +19,8 @@ country_event = {
 country_event = {
     id = srpska.2
     title = srpska.2.t
-    desc = srpska.2.d
+    desc = srpska.2.desc
+	picture = GFX_report_event_dayton
     fire_only_once = yes
     trigger = {
         tag = SE1
@@ -46,7 +47,8 @@ country_event = {
 country_event = {
     id = srpska.3
     title = srpska.3.t
-    desc = srpska.3.d
+    desc = srpska.3.desc
+	picture = GFX_report_event_vanceowen
     fire_only_once = yes
     trigger = {
         tag = SE1
@@ -68,5 +70,33 @@ country_event = {
 		ai_chance = { base = 4 }
 		set_global_flag = SE1_vanceowen_denied
 		### DENIED
+    }
+}
+
+country_event = {
+    id = srpska.4
+    title = srpska.4.t
+    desc = srpska.4.desc
+	is_triggered_only = yes
+	picture = GFX_report_event_SE1_crisis_banja_luka
+	
+    option = {
+        name = srpska.4.a
+		ai_chance = { base = 100 }
+		news_event = srpska.5
+    }
+}
+
+news_event = {
+    id = srpska.5
+    title = srpska.5.t
+    desc = srpska.5.desc
+	is_triggered_only = yes
+	picture = GFX_news_event_SE1_crisis_banja_luka
+	major = yes
+	
+    option = {
+        name = srpska.5.a
+		ai_chance = { base = 100 }
     }
 }

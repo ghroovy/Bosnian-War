@@ -46,6 +46,11 @@ spriteType = {
 		texturefile = "gfx/event_pictures/news_event_deny_flight_2.dds"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_news_event_SE1_crisis_banja_luka"
+		texturefile = "gfx/event_pictures/news_event_SE1_crisis_banja_luka.dds"
+		alwaystransparent = yes
+	}
 	
 ### COUNTRY EVENTS
 spriteType = {

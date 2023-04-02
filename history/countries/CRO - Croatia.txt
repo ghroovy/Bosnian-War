@@ -1,4 +1,4 @@
-capital = 12
+capital = 136
 
 oob = "CRO_1992"
 

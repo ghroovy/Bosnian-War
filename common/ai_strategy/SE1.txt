@@ -20,22 +20,3 @@ SE1_serbian_brothers = {
 		value = 400
 	}
 }
-SE1_scorched_earth = {
-
-	enable = {
-		tag = SE1
-	}
-	
- ai_strategy = {
-	type = scorched_earth_prio
-	id = BOS
-	value = 100
-}
-
- ai_strategy = {
-	type = scorched_earth_prio
-	id = CO1
-	value = 100
-}
-
-}

@@ -184,7 +184,7 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 			add_political_power = -80
 		}
 	}
-		 days_remove = 50
+		 days_remove = 80
 	  }
 	Expand_Volunteer_Guard_SE1 = {
 	visible = { has_completed_focus = SE1_Expand_The_Volunteer_Guard }

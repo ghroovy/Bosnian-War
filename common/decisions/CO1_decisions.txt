@@ -156,7 +156,7 @@ CO1_For_The_Croatian_Motherland = {
 			add_political_power = -80
 			}
 		}
-			 days_remove = 50
+			 days_remove = 140
 	  }
 	Fighters_From_Zagreb_CO1 = {
 	visible = { has_completed_focus = CO1_Croatian_Military_Support }
