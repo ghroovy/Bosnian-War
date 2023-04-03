@@ -266,6 +266,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SE1_A_New_Identity.png"			
 	}
 	
+	SpriteType = {
+		name = "GFX_SE1_Zastava_Arms_Shipments"
+		texturefile = "gfx/interface/goals/SE1_Zastava_Arms_Shipments.png"			
+	}
+	
 ### NEW BOSNIA FOCUSES ###
 
 	SpriteType = {

@@ -600,20 +600,20 @@ sub_units = {
 			category_militia
 		}
 		
-		combat_width = 2
+		combat_width = 1
 		
 		#Size Definitions
-		max_strength = 25
-		max_organisation = 50 #reg infantry 60
-		default_morale = 0.3
-		manpower = 1000
+		max_strength = 15
+		max_organisation = 40 #reg infantry 60
+		default_morale = 0.4
+		manpower = 100
 
 		#Misc Abilities
-		training_time = 80 #reg infantry 90
-		suppression = 1.5
-		weight = 0.5
+		training_time = 60 #reg infantry 90
+		suppression = 0.7
+		weight = 0.3
 		
-		supply_consumption = 0.06
+		supply_consumption = 0.01
 	
 		need = {
 			infantry_equipment = 100

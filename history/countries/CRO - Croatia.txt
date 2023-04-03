@@ -46,3 +46,6 @@ create_country_leader = {
 	picture = "gfx/leaders/coratian.dds"
 	ideology = liberalism
 	} 
+	
+recruit_character = CRO_Mirko_Norac
+recruit_character = CRO_Ante_Gotovina

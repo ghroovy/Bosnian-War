@@ -1,0 +1,70 @@
+characters={
+	SE2_Milan_Martic={
+		name=SE2_Milan_Martic
+		portraits={
+			army={
+				large="GFX_portrait_milan_martic"
+			}
+		}
+		field_marshal={
+			traits={ logistics_wizard war_hero offensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SE2_Mile_Mrksic={
+		name=SE2_Mile_Mrksic
+		portraits={
+			army={
+				large="GFX_portrait_mile_mrksic"
+			}
+		}
+		corps_commander={
+			traits={ adaptable commando }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SE2_Dragan_Vasiljkovic={
+		name=SE2_Dragan_Vasiljkovic
+		portraits={
+			army={
+				large="GFX_portrait_dragan_vasiljkovic"
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader trait_mountaineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SE2_Mile_Novakovic={
+		name=SE2_Mile_Novakovic
+		portraits={
+			army={
+				large="GFX_portrait_mile_novakovic"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

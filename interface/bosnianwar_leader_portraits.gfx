@@ -15,4 +15,37 @@ spriteType = {
 		texturefile = "gfx/leaders/WBS/fikret_abdic.dds"
 		alwaystransparent = yes
 	}
+	
+### GENERALS AND FIELD MARSHALS
+
+spriteType = {
+		name = "GFX_portrait_milan_martic"
+		texturefile = "gfx/leaders/SE2/Portrait_SE2_Milan_Martic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mile_mrksic"
+		texturefile = "gfx/leaders/SE2/Portrait_SE2_Mile_Mrksic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_dragan_vasiljkovic"
+		texturefile = "gfx/leaders/SE2/Portrait_SE2_Dragan_Vasiljkovic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mile_novakovic"
+		texturefile = "gfx/leaders/SE2/Portrait_SE2_Mile_Novakovic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mirko_norac"
+		texturefile = "gfx/leaders/CRO/Portrait_CRO_Mirko_Norac.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_ante_gotovina"
+		texturefile = "gfx/leaders/CRO/Portrait_CRO_Ante_Gotovina.png"
+		alwaystransparent = yes
+	}
 }
