@@ -58,7 +58,6 @@
 		}
 		
 		completion_reward = {
-			hidden_effect = { set_country_flag = focusSE1_done }
 			custom_effect_tooltip = bs_tt
 			custom_effect_tooltip = SE1_bosniaks_decisions_tt
 		}
@@ -329,6 +328,7 @@
 			factor = 1
 		}
 		available = {
+		has_country_flag = focusSE1_done
 		}
 		
 		bypass = {
@@ -1204,7 +1204,7 @@
 		available = {
 					OR = {
 					SE1 = { surrender_progress > 0.4 }
-					BOS = { surrender_progress > 0.9 }
+					BOS = { surrender_progress > 0.8 }
 					CO1 = { surrender_progress > 0.5 }
 					date > 1995.7.1
 					}

@@ -2,21 +2,6 @@ ideas = {
 
 	country = {
 
-		BOS_future_of_the_bosnian_state1 = {
-			picture = BOS_future_of_the_bosnian_state
-			removal_cost = -1
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				TAG = BOS
-			}
-			modifier = {
-				production_speed_buildings_factor = 0.25
-                        consumer_goods_factor = -0.05
-			}
-		}
-
 		BOS_defenders_of_bosnia = {
 			picture = BOS_defenders_of_bosnia
 			removal_cost = -1
@@ -42,7 +27,7 @@ ideas = {
 				TAG = BOS
 			}
 			modifier = {
-				army_core_attack_factor = 0.15
+				army_core_attack_factor = 0.1
 			}
 		}
 
@@ -60,8 +45,8 @@ ideas = {
 			
 			modifier = {				
 				army_core_defence_factor = 0.1
-				max_dig_in_factor = 0.25
-				planning_speed = -0.2
+				max_dig_in_factor = 0.2
+				planning_speed = -0.3
 			}
 		}
 		
@@ -95,8 +80,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {				
-				supply_consumption_factor = -0.2
-				out_of_supply_factor = -0.15
+				supply_consumption_factor = -0.15
+				out_of_supply_factor = -0.1
 			}
 		}
 		
@@ -113,8 +98,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {				
-				war_support_factor = 0.1
-				army_morale_factor = 0.15
+				war_support_factor = 0.15
 			}
 		}
 
@@ -173,7 +157,7 @@ ideas = {
 			}
 		}
 		
-		BOS_The_Bosnian_Economy_2 = {
+		BOS_The_Bosnian_Economy_3 = {
 			picture = GFX_BOS_The_Bosnian_Economy
 			allowed = {
 				always = no
@@ -192,7 +176,7 @@ ideas = {
 			}
 		}
 		
-		BOS_The_Bosnian_Economy_3 = {
+		BOS_The_Bosnian_Economy_4 = {
 			picture = GFX_BOS_The_Bosnian_Economy
 			allowed = {
 				always = no
@@ -208,6 +192,25 @@ ideas = {
 				consumer_goods_factor = -0.25
 				production_speed_buildings_factor = 0.3
 				line_change_production_efficiency_factor = 0.3
+			}
+		}
+		
+		BOS_International_Human_Aid = {
+			picture = GFX_BOS_International_Human_Aid
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = BOS
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				consumer_goods_factor = -0.1
+				monthly_population = 0.1
+				research_speed_factor = 0.05
 			}
 		}
 	}	

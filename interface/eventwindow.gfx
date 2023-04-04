@@ -4,6 +4,11 @@ spriteTypes = {
 		name = "GFX_event_news_pic_overlay"
 		texturefile = "gfx/interface/event_news_pic_overlay.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_event_news_pic_effect"
+		texturefile = "gfx/interface/event_news_pic_effect.png"
+	}
 
 	spriteType = {
 		name = "GFX_event_news_bg"

@@ -1,6 +1,6 @@
 SE1_Dreams_Of_Serbian_Bosnia = {
 	Expel_Bosnian_Muslims = {
-		visible = { has_country_flag = focusSE1_done }
+		visible = { has_completed_focus = SE1_Bosniaks_Out }
 		 cost = 45
 		 complete_effect = {
 			random_controlled_state = {
@@ -30,7 +30,7 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 		days_remove = 80
 	}
 	Displace_Srebrenica = {
-		visible = { has_country_flag = focusSE1_done }
+		visible = { has_completed_focus = SE1_Bosniaks_Out }
 		available = { has_full_control_of_state = 59 }
 		 cost = 150
 		 complete_effect = {

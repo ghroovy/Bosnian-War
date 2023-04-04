@@ -100,3 +100,31 @@ news_event = {
 		ai_chance = { base = 100 }
     }
 }
+
+country_event = {
+    id = srpska.6
+    title = srpska.6.t
+    desc = srpska.6.desc
+	is_triggered_only = yes
+	picture = GFX_report_event_SE1_serbia_accepts_aid
+	
+    option = {
+        name = srpska.6.a
+		ai_chance = { base = 100 }
+		hidden_effect = { set_country_flag = focusSE1_done }
+    }
+}
+
+country_event = {
+    id = srpska.7
+    title = srpska.7.t
+    desc = srpska.7.desc
+	is_triggered_only = yes
+	picture = GFX_report_event_SE1_serbia_refuses_aid
+	
+    option = {
+        name = srpska.7.a
+		ai_chance = { base = 100 }
+		unlock_national_focus = SE1_Our_Own_Vision
+    }
+}

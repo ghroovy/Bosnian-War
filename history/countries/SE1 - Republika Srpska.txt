@@ -106,16 +106,6 @@ create_country_leader = {
 		
 	}
 } 
-    create_field_marshal = {
-	name = "Ratko Mladić"
-	picture = "Portrait_SE1_Ratko.dds"
-	traits = { career_officer politically_connected }
-	skill = 5
-    attack_skill = 5
-    defense_skill = 1
-    planning_skill = 2
-    logistics_skill = 4
-}
     create_corps_commander = {
 	name = "Momir Talic"
 	picture = "Portrait_SE1_Momir.dds"
@@ -146,6 +136,9 @@ create_country_leader = {
     planning_skill = 2
     logistics_skill = 1
 }
+
+recruit_character = SE1_Ratko_Mladic
+
 
                     declare_war_on = {
                         target = CO1

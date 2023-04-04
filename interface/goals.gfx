@@ -120,28 +120,23 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_SE1_Zastava_Arms_Shipments"
-		texturefile = "gfx/interface/goals/SE1_Zastava_Arms_Shipments.dds"			
-	}
-	
-	SpriteType = {
 		name = "GFX_SE1_Armed_Volunteers"
-		texturefile = "gfx/interface/goals/SE1_Armed_Volunteers.dds"			
+		texturefile = "gfx/interface/goals/SE1_Armed_Volunteers.png"			
 	}
 	
 	SpriteType = {
 		name = "GFX_SE1_Our_Own_Vision"
-		texturefile = "gfx/interface/goals/SE1_Our_Own_Vision.dds"			
+		texturefile = "gfx/interface/goals/SE1_Our_Own_Vision.png"			
 	}
 	
 	SpriteType = {
 		name = "GFX_SE1_Serbians_of_Bosnia"
-		texturefile = "gfx/interface/goals/SE1_Serbians_of_Bosnia.dds"			
+		texturefile = "gfx/interface/goals/SE1_Serbians_of_Bosnia.png"			
 	}
 	
 	SpriteType = {
 		name = "GFX_SE1_From_Novi_to_Zvornik"
-		texturefile = "gfx/interface/goals/SE1_From_Novi_to_Zvornik.dds"			
+		texturefile = "gfx/interface/goals/SE1_From_Novi_to_Zvornik.png"			
 	}
 	
 	### NEW SRPSKA FOCUSES
@@ -269,6 +264,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SE1_Zastava_Arms_Shipments"
 		texturefile = "gfx/interface/goals/SE1_Zastava_Arms_Shipments.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Slobodan_Our_Friend"
+		texturefile = "gfx/interface/goals/SE1_Slobodan_Our_Friend.png"			
 	}
 	
 ### NEW BOSNIA FOCUSES ###

@@ -83,6 +83,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			controls_province = 17181
+			controls_province = 12018
+			controls_province = 17183
 		}
 		
 		bypass = {
@@ -103,13 +106,6 @@ focus_tree = {
 				}
               }
             }
-				
-			59 = {
-                add_province_modifier = {
-                    static_modifiers = { BOS_sarajevo_heroes_2 }
-                    province = { id = 7168}
-              }
-            }	
 		}
 	}
 
@@ -159,6 +155,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			controls_province = 17181
+			controls_province = 12018
+			controls_province = 17183
 		}
 		
 		bypass = {
@@ -265,11 +264,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = CAS_equipment
-				amount = 500
-				producer = BOS
-			}
+			#add_equipment_to_stockpile = {
+			#	type = CAS_equipment
+			#	amount = 500
+			#	producer = BOS
+			#}
 		}
 	}
 
@@ -324,8 +323,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 50
-			add_ideas = BOS_future_of_the_bosnian_state1
+			add_political_power = 80
 		}
 	}
 	focus = {
@@ -695,6 +693,11 @@ focus_tree = {
 			factor = 1
 		}
 
+		available = {
+			controls_state = 91
+			controls_state = 90
+		}
+
 		available_if_capitulated = no
 		
 		bypass = {
@@ -841,6 +844,12 @@ focus_tree = {
 			factor = 1
 		}
 
+		available = {
+			controls_province = 17181
+			controls_province = 12018
+			controls_province = 17183
+		}
+
 		available_if_capitulated = no
 		
 		bypass = {
@@ -890,7 +899,7 @@ focus_tree = {
 		prerequisite = { focus = BOS_Bosnia_Rises }
 		mutually_exclusive = { }
 		
-		cost = 5
+		cost = 2.5
 		ai_will_do = {
 			factor = 1
 		}
@@ -950,7 +959,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			add_ideas = BOS_International_Human_Aid
 		}
 	}
 	focus = {
@@ -1016,7 +1025,7 @@ focus_tree = {
 		prerequisite = { focus = BOS_International_Human_Aid }
 		mutually_exclusive = { }
 		
-		cost = 5
+		cost = 8
 		ai_will_do = {
 			factor = 1
 		}
@@ -1090,7 +1099,7 @@ focus_tree = {
 
 		prerequisite = { focus = BOS_Establish_The_Convertible_Mark focus = BOS_A_True_Bosnian_Currency }
 		
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}

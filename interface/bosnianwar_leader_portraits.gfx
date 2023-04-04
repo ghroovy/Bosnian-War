@@ -48,4 +48,9 @@ spriteType = {
 		texturefile = "gfx/leaders/CRO/Portrait_CRO_Ante_Gotovina.png"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_portrait_ratko_mladic"
+		texturefile = "gfx/leaders/SE1/Portrait_SE1_Ratko.png"
+		alwaystransparent = yes
+	}
 }

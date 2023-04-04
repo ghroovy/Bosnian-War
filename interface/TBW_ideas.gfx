@@ -5639,5 +5639,12 @@ spriteTypes = {
 		name = "GFX_idea_Rampant_Looters"
 		texturefile = "gfx/interface/ideas/Rampant_Looters.png"
 	}
+	
+### ADVISORS ###
+
+	spriteType = {
+		name = "GFX_idea_ratko_mladic"
+		texturefile = "gfx/interface/ideas/idea_ratko_mladic.png"
+	}
 
 }

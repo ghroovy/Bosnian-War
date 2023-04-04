@@ -501,7 +501,7 @@ guiTypes = {
 				position = { x = 60 y = 91 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
-			}			
+			}					
 			
 			instantTextBoxType = {
 				name = "Title"
