@@ -389,7 +389,7 @@
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 100
+				amount = 1000
 				producer = SER
 			}
 		}
@@ -653,7 +653,7 @@
 			factor = 1
 		}
 		available = {
-			always = yes ###AVAILABLE ONCE COMPLETED ALL DECISIONS
+			#always = no ###AVAILABLE ONCE COMPLETED ALL DECISIONS
 		}
 
 		available_if_capitulated = no
@@ -1175,7 +1175,6 @@
 			factor = 1
 		}
 		available = {
-			always = no
 		}
 
 		available_if_capitulated = no
@@ -1234,7 +1233,6 @@
 			factor = 1
 		}
 		available = {
-			always = no
 		}
 
 		available_if_capitulated = no

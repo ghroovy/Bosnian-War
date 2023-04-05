@@ -160,6 +160,52 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 		 }
 	}
 }
+    Assault_On_The_Croats = {
+	visible = { has_war_with = CO1 }
+	available = { has_completed_focus = SE1_Ostracize_The_Croats }
+	custom_cost_trigger = {
+    	has_political_power > 149.99
+		command_power > 29.99
+	}
+	custom_cost_text = decision_cost_full_offensive
+	 ai_will_do = {
+	 base = 50
+	}
+	 complete_effect = {
+		 targeted_modifier = {
+    		tag = CO1
+    		attack_bonus_against = 0.15
+			breakthrough_factor = 0.1
+		}
+		 hidden_effect = {
+		 add_command_power = -30
+		 add_political_power = -150
+		 }
+	}
+}
+    Ambush_The_Bosnians = {
+	visible = { has_war_with = BOS }
+	available = { has_completed_focus = SE1_Bosniaks_Out }
+	custom_cost_trigger = {
+    	has_political_power > 149.99
+		command_power > 29.99
+	}
+	custom_cost_text = decision_cost_full_offensive
+	 ai_will_do = {
+	 base = 50
+	}
+	 complete_effect = {
+		 targeted_modifier = {
+    		tag = BOS
+    		attack_bonus_against = 0.15
+			breakthrough_factor = 0.1
+		}
+		 hidden_effect = {
+		 add_command_power = -30
+		 add_political_power = -150
+		 }
+	}
+}
 	Raise_Militia_SE1 = {
 	available = {
 		controls_province = 2040

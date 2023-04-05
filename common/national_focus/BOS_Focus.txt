@@ -797,7 +797,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = BOS_Bosnias_Mujahideen
+			add_war_support = 0.1
+			custom_effect_tooltip = el_mudzahid_tt
+			hidden_effect = { load_oob = El_Mudzahid }
+			country_event = bosnia.5
 		}
 	}
 	focus = {

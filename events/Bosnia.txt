@@ -88,6 +88,7 @@ country_event = {
     id = bosnia.4
     title = bosnia.4.t
     desc = bosnia.4.d
+	picture = GFX_report_event_BOS_vanceowen
     fire_only_once = yes
     trigger = {
         tag = BOS
@@ -109,5 +110,20 @@ country_event = {
 		ai_chance = { base = 20 }
 		set_global_flag = BOS_vanceowen_denied
 		### DENIED
+    }
+}
+
+country_event = {
+    id = bosnia.5
+    title = bosnia.5.t
+    desc = bosnia.5.desc
+	picture = GFX_report_event_BOS_mujahideen
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    option = {
+        name = bosnia.5.a
+		ai_chance = { base = 100 }
     }
 }

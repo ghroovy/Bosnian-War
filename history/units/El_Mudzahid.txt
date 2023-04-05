@@ -1,7 +1,7 @@
 ﻿
 
 division_template = {
-	name = "Beli Orlovi"
+	name = "El Mudžahid"
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -23,16 +23,23 @@ division_template = {
 
   units = { 
 	 division= {	
-		name = "Beli Orlovi"
-		location = 2040
-		division_template = "Beli Orlovi"
+		name = "El Mudžahid"
+		location = 3636
+		division_template = "El Mudžahid"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1
 	}
 	 division= {	
-		name = "Beli Orlovi"
-		location = 2040
-		division_template = "Beli Orlovi"
+		name = "El Mudžahid"
+		location = 11259
+		division_template = "El Mudžahid"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+	}
+	 division= {	
+		name = "El Mudžahid"
+		location = 17181
+		division_template = "El Mudžahid"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1
 	}

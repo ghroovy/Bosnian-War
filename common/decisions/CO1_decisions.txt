@@ -61,7 +61,7 @@ CO1_For_The_Croatian_Motherland = {
 		 }
 		}
 	}
-    Strike_The_Srpskan_Line = {
+    Strike_The_Serbian_Line = {
 	visible = { has_war_with = SE1 }
 	available = { has_completed_focus = CO1_A_New_Offensive }
 	custom_cost_trigger = {

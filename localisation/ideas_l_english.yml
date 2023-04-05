@@ -1,16 +1,41 @@
 ﻿l_english:
+ ### GENERAL IDEAS ###
  idea_the_bosnian_war:0 "The Bosnian War"
  idea_the_bosnian_war_desc:0 "\n\n\n\n£GFX_Idea_Bosnian_War_Texticon \n\n\n\n\nThe Bosnian War was an international armed conflict that took place in Bosnia and Herzegovina between the Republic of Bosnia and Herzegovina, Republika Srpska and Herceg-Bosnia which started in 1992. The war is commonly seen as having started on 6 April 1992, following a number of violent incidents earlier in the year"
  rampant_looting:0 "Rampant Looting"
  rampant_looting_desc:0 "WIP"
+ 
+ ### SRPSKA ###
  SE1_VRS:0 "Vojska Republike Srpske"
  SE1_VRS_desc:0 "\n\n\n\n£GFX_SE1_VRS_Texticon \n\n\n\n\nThe Vojska Republike Srpske, the national defence force of our nation, forged from the ashes of the JNA and the Bosnian Serb Territorial Defence Forces with glorious and proud personnel and infantry ready to die and fight for their country, with the Glavni Stab serving as the lead of all operations comprosing of seasoned officers. With this glorious army, we will push them back out of this land!"
  SE1_Divergent_Army_Command:0 "Divergent Army Command"
  SE1_Divergent_Army_Command_desc:0 "\n\n\n\n£GFX_SE1_divergent_army_command \n\n\n\n\A significant majority of our military staff are ex-communst JNA officers who conflict with our Serbian ideals and the SDS, a large portion will still only take orders directly from Belgrade and Miloslevic than to our government. The rushed assimilation between the clear-cut JNA and our Bosnian Serb Territorial Defences still shows it effects."
+ 
+ ### BOSNIA ###
  BOS_ARBIH:0 "Armija Republike Bosne i Hercegovine"
  BOS_ARBIH_desc:0 "\n\n\n\n£GFX_BOS_ARBiH_Texticon \n\n\n\n\nWhere can one start to talk about the Army of the Republic of Bosnia and Herzegovina? When the war started, we didn't really have an army. We were disarmed, ready to be carnaged by the Serbs. However, our brave citizens helped us form our glorious army, the Republican Army. We pray to Allah for their success on the battlefield. Inshallah we will come out as victors."
+ BOS_defenders_of_bosnia:0 "Defenders of Bosnia"
+ BOS_defenders_of_bosnia_desc:0 "WIP"
+ BOS_declare_jihad_against_srpska:0 "Jihad Against Srpska"
+ BOS_declare_jihad_against_srpska_desc:0 "WIP"
+ BOS_Defense_of_Bosnia:0 "Defense of Bosnia"
+ BOS_Defense_of_Bosnia_desc:0 "WIP"
+ BOS_Financial_Aid:0 "Financial Aid"
+ BOS_Financial_Aid_desc:0 "WIP"
+ BOS_Streamlined_Logistics:0 "Streamlined Logistics"
+ BOS_Streamlined_Logistics_desc:0 "WIP"
+ BOS_Modern_Guerilla:0 "A Modern Guerilla"
+ BOS_Modern_Guerilla_desc:0 "WIP"
+ BOS_The_Bosnian_Economy:0 "The Bosnian Economy"
+ BOS_The_Bosnian_Economy_desc:0 "WIP"
+ BOS_International_Human_Aid:0 "International Human Aid"
+ BOS_International_Human_Aid_desc:0 "WIP"
+ 
+ ### HERZEG-BOSNIA ###
  CO1_HVO:0 "Hrvatska Vojna Odbrana"
  CO1_HVO_desc:0 "\n\n\n\n£GFX_CO1_HVO_Texticon \n\n\n\n\ntemporary"
+ 
+ ### UN/NATO ###
  UN1_Operation_Deliberate_Force:0 "NATO Bombing Raids"
  UN1_Operation_Deliberate_Force_desc:0 "\n\n\n\n£GFX_SE1_Operation_Deliberate_Force_Texticon \n\n\n\n\nAmerican jets dominate our skies, with futile efforts to bring them down. They strike our forces, our people, our land."
  UN1_Operation_Deny_Flight:0 "Operation Deny Flight"

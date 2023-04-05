@@ -89,6 +89,52 @@ BOS_The_Defense_of_Bosnia = {
 		 }
 	}
 }
+    Shell_The_Serbian_Front = {
+	visible = { has_war_with = SE1 }
+	available = { has_completed_focus = BOS_Bosanska_Artiljerija }
+	custom_cost_trigger = {
+    	has_political_power > 149.99
+		command_power > 29.99
+	}
+	custom_cost_text = decision_cost_full_offensive
+	 ai_will_do = {
+	 base = 50
+	}
+	 complete_effect = {
+		 targeted_modifier = {
+    		tag = SE1
+    		attack_bonus_against = 0.15
+			breakthrough_factor = 0.1
+		}
+		 hidden_effect = {
+		 add_command_power = -30
+		 add_political_power = -150
+		 }
+	}
+}
+    Bombard_Croatian_Defenses = {
+	visible = { has_war_with = CO1 }
+	available = { has_completed_focus = BOS_Bosanska_Artiljerija }
+	custom_cost_trigger = {
+    	has_political_power > 149.99
+		command_power > 29.99
+	}
+	custom_cost_text = decision_cost_full_offensive
+	 ai_will_do = {
+	 base = 50
+	}
+	 complete_effect = {
+		 targeted_modifier = {
+    		tag = CO1
+    		attack_bonus_against = 0.15
+			breakthrough_factor = 0.1
+		}
+		 hidden_effect = {
+		 add_command_power = -30
+		 add_political_power = -150
+		 }
+	}
+}
 	Raise_Militia_BOS = {
 	available = {
 		controls_province = 17181

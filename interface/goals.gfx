@@ -49,7 +49,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_BOS_Sarajevo_Mustnt_Fall"
-		texturefile = "gfx/interface/goals/BOS_Sarajevo_Mustnt_Fall.dds"			
+		texturefile = "gfx/interface/goals/BOS_Sarajevo_Mustnt_Fall.png"			
 	}
 
 	SpriteType = {
@@ -286,6 +286,16 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BOS_Defence_of_the_Nation"
 		texturefile = "gfx/interface/goals/BOS_Defence_of_the_Nation.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Our_Own_Mujahideen"
+		texturefile = "gfx/interface/goals/BOS_Our_Own_Mujahideen.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Seek_Foreign_Aid"
+		texturefile = "gfx/interface/goals/BOS_Seek_Foreign_Aid.png"			
 	}
 
 
