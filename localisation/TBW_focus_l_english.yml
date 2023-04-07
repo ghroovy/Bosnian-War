@@ -56,7 +56,7 @@
  BOS_Bosanska_Artiljerija_desc:0 "The Chetniks are bombing our mosques and killing our women and children. The time has come that we bomb them. We immedieately need to start producing artillery. The genocidal maniacs will explode. ARTILJERIJA, BOSANAC SAM BEKRIJA!"
  BOS_American_Aid:0 "American Grants"
  BOS_American_Aid_desc:0 "We have convinced the United States to grant us more support in the war. We will ask them for some Money Grants so that we can finally purchase some much needed guns for ARBiH."
- BOS_Sarajevo_Mustnt_Fall:0 "Iron Heart of Bosnia"
+ BOS_Sarajevo_Mustnt_Fall:0 "Sarajevo, The Iron Heart"
  BOS_Sarajevo_Mustnt_Fall_desc:0 "Sarajevo is the heart of Bosnia, the Jerusalem of Europe. It is our glorious, beautiful capital city built by Isa-Beg Ishakovic centuries ago. The Serbs are trying to destroy it, they say they will take it within a few months. We will see about that. SARAJEVO, LJUBAVI MOJA!"
  BOS_Joe_Bidens_Promises:0 "Big Joe's Promise" # to wake up ### shut up cestino
  BOS_Joe_Bidens_Promises_desc:0 "American Democrat Senator Joe Biden has continously fought for us in the US senate. He has promised to send over fighter jets to help defeat the Chetniks. The end has come, the time to destroy the Serbs through the Air. We will bomb the bombers!"
@@ -75,15 +75,6 @@
  CO1_Ask_the_UN_for_Help:0 "NATO, Our Friend" # no war crimes pretty pls ### shut up cestino
  CO1_Victory_Achieved:0 "A Croat State in Bosnia!"
  CO1_Temporary_Peace:0 "Temporary Peace" # Cuckoldry ### shut up cestino
- 
- ### Croatian-Bosnia Naval Tree
- 
- CO1_Master_The_Croatian_Doctrine:0 "Master the Croatian Doctrine"
- CO1_Western_Naval_Advisors:0 "Western Naval Advisors"
- CO1_Ruler_of_The_Seas:0 "Ruler of The Seas"
- CO1_Sink_Their_Fleets:0 "Sink Their Fleets"
- CO1_Shatter_Their_Shores:0 "Shatter Their Shores"
- CO1_The_Adriatic_A_Croatian_Sea:0 "The Adriatic, A Croatian Sea"
  
  ### BOSNIA NEW FOCUSES
  
@@ -129,6 +120,7 @@
  BOS_One_Bosnia_Only:0 "One Bosnia Only!"
  BOS_A_True_Bosnia:0 "A True Bosnia"
  BOS_Jihad_Onto_Belgrade:0 "Jihad Onto Belgrade!"
+ BOS_The_Smuggling_Line:0 "The Smuggling Line"
  
  ### HERZEG BOSNIA NEW FOCUSES
  

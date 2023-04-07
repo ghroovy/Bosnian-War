@@ -107,7 +107,7 @@ guiTypes = {
 			iconType = {
 				name ="event_pic_clip"
 				spriteType = "GFX_event_pic_clip"
-				position = { x = -3 y = 35 }
+				position = { x = -3 y = 170 }
 				Orientation = "UPPER_LEFT"
 			}
 

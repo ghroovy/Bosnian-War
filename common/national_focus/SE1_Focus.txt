@@ -303,7 +303,7 @@
 		}
 		available = {
 			has_completed_focus = SE1_Srpska_my_Beloved
-			}
+		}
 		
 		bypass = {
 		}
@@ -515,6 +515,7 @@
 		
 		completion_reward = {
 			army_experience = 25
+			country_event = srpska.8
 			### UNLOCK FURTHER DECISIONS
 		}
 	}
@@ -1188,7 +1189,7 @@
 	}
 	focus = {
 		id = SE1_Bring_The_War_To_An_End
-		icon = GFX_SE1_Bring_The_War_To_An_End
+		icon = GFX_Bring_The_War_To_An_End
 		x = 0
 		y = 6
 		relative_position_id = SE1_Srpska_my_Beloved

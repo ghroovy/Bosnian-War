@@ -128,3 +128,16 @@ country_event = {
 		unlock_national_focus = SE1_Our_Own_Vision
     }
 }
+
+country_event = {
+    id = srpska.8
+    title = srpska.8.t
+    desc = srpska.8.desc
+	is_triggered_only = yes
+	picture = GFX_report_event_SE1_review_our_army
+	
+    option = {
+        name = srpska.8.a
+		ai_chance = { base = 100 }
+    }
+}

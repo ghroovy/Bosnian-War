@@ -885,7 +885,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CO1_Bring_The_War_To_An_End
-		icon = GFX_CO1_Bring_The_War_To_An_End
+		icon = GFX_Bring_The_War_To_An_End
 		x = 2
 		y = 7
 		relative_position_id = CO1_Croatia_or_Nothing

@@ -1,20 +1,15 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_super_event_background"
-		texturefile = "/gfx/super_events/super_event_background.dds"
-		legacy_lazy_load = no
+		name = "GFX_Super_Event_Image_Bosnian_Victory"
+		textureFile = "/gfx/super_events/SUPER_Bosnian_Victory.dds"
 	}
 	spriteType = {
-		name = "GFX_Super_Event_Image_Georve_V_Death"
-		textureFile = "/gfx/super_events/SPEVNT_George_V_Death.dds"
-	}
-	spriteType = {
-		name = "GFX_Super_Event_Image_Polish_Uprising"
-		textureFile = "/gfx/super_events/SPEVNT_Polish_Uprising.dds"
+		name = "GFX_Super_Event_Image_Croatian_Victory"
+		textureFile = "/gfx/super_events/SUPER_Croatian_Victory.dds"
 	}
 	
 	spriteType = {
-    	name = "GFX_Super_Event_Image_China_Revolution"
-    	texturefile = "gfx/super_events/SPEVNT_Wuchang_Revolution.dds"
+    	name = "GFX_Super_Event_Image_Serbian_Victory"
+    	texturefile = "gfx/super_events/SUPER_Serb_Victory.dds"
 	}
 }

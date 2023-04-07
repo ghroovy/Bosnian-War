@@ -27,6 +27,10 @@
  srpska.7.desc:0 "WIP"
  srpska.7.a:0 "WIP"
  
+ srpska.8.t:0 "The Vojska Republike Srpske"
+ srpska.8.desc:0 "Our Formidable Defense Force is the pride of our nation, bringing us great victories across the frontlines. Hundreds of thousands of freedom fighters willing and wanting to create a greater Serbia Nation and restore the old Yugoslav order."
+ srpska.8.a:0 "Uvek pobedi!"
+ 
  #BOSNIA
  bosnia.1.t:0 "The Washington Proposal"
  bosnia.1.desc:0 "D.C. has proposed us to come to terms with the Bosnian-Croatians and approach them with a ceasefire and creation of a Unified State to push back the Bosnian Serbs."
@@ -95,6 +99,12 @@
  city.1.b:0 "Nema krsta bez tri prsta!"
  city.1.c:0 "Bosnia will prevail!"
  city.1.d:0 "This is worrying."
+ 
+ city.4.t:0 "A "Peacekeeping" Failure"
+ city.4.desc:0 "The Fall of Srebrenica and the inaction and cowardice of the United Nations Peacekeepers to provide solitude for the Bosnian-Muslim populous who were droven out of the land sets a landmark disaster for Peacekeeping Efforts in Bosnia and brings into question the ineffective and slow bureaucracy of the United Nations Security Council, with the representatives in their chairs cowardly gritting their teeth unable to take a step forward."
+ city.4.a:0 "A tragedy."
+ city.4.b:0 "Nema krsta bez tri prsta!"
+ city.4.c:0 "Never another."
  
  ### VANCE-OWEN PLAN
  

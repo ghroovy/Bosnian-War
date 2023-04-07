@@ -52,9 +52,20 @@ country_event = {
     		target = BOS
     		type = civil_war
 			}
-		load_oob = WBS_1993
+		load_oob = "WBS_1993"
 		transfer_state = 89
 		news_event = bosnia.3
+		}
+		start_border_war = {
+    	change_state_after_war = no
+    	attacker = {
+     	   state = 89
+     	   num_provinces = 2
+    	}	
+    	defender = {
+    	    state = 91
+    	    num_provinces = 2
+    		}
 		}
 	}
 }
@@ -66,6 +77,7 @@ news_event = {
 	picture = GFX_news_event_BOS_western_bosnia_secession
 
 	is_triggered_only = yes
+	major = yes
 
 	option = { 
 		name = bosnia.3.a

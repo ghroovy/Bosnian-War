@@ -124,6 +124,7 @@ news_event = {
 	trigger = {
 		SE1 = {
 		controls_province =  17193
+		controls_province =  17192
 		controls_province =  7168
 		}
 	}
@@ -163,6 +164,52 @@ news_event = {
 		ai_chance = { base = 100 }
         trigger = {
             tag = CO1
+        }
+	}
+}
+
+news_event = { 
+	id = city.4
+	title = city.4.t
+	desc = city.4.desc
+	picture = GFX_news_event_a_peacekeeping_failure
+	
+	trigger = {
+		date > 1992.3.12
+		SE1 = {
+		controls_province =  17193
+		controls_province =  17192
+		controls_province =  7168
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	option = { 
+		name = city.4.a
+		ai_chance = { base = 100 }
+        trigger = {
+            NOT = { tag = SE1 }
+		    NOT = { tag = BOS }
+        }
+	}
+	option = { 
+		name = city.4.b
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = SE1
+        }
+	}
+	option = { 
+		name = city.4.c
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = BOS
         }
 	}
 }

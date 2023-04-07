@@ -1,9 +1,13 @@
 spriteTypes = {	
 
+### GENERIC ###
+
 	SpriteType = {
-		name = "GFX_CO1_Temporary_Peace"
-		texturefile = "gfx/interface/goals/BOS_Sarajevo_Mustnt_Fall.dds"			
-	}	
+		name = "GFX_Bring_The_War_To_An_End"
+		texturefile = "gfx/interface/goals/Bring_The_War_To_An_End.png"			
+	}
+	
+###########################################################################################
 
 	SpriteType = {
 		name = "GFX_CO1_Victory_Achieved"
@@ -59,7 +63,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_BOS_Bosanska_Artiljerija"
-		texturefile = "gfx/interface/goals/BOS_Bosanska_Artiljerija.dds"			
+		texturefile = "gfx/interface/goals/BOS_Bosanska_Artiljerija.png"			
 	}
 
 	SpriteType = {
@@ -271,6 +275,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SE1_Slobodan_Our_Friend.png"			
 	}
 	
+	SpriteType = {
+		name = "GFX_SE1_To_Hell_And_Forward"
+		texturefile = "gfx/interface/goals/SE1_To_Hell_And_Forward.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Our_Own_Vision"
+		texturefile = "gfx/interface/goals/SE1_Our_Own_Vision.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Settle_For_Dayton"
+		texturefile = "gfx/interface/goals/SE1_Settle_For_Dayton.png"			
+	}
+	
 ### NEW BOSNIA FOCUSES ###
 
 	SpriteType = {
@@ -296,6 +315,26 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BOS_Seek_Foreign_Aid"
 		texturefile = "gfx/interface/goals/BOS_Seek_Foreign_Aid.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Fortify_Zenica"
+		texturefile = "gfx/interface/goals/BOS_Fortify_Zenica.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Persuade_NATO_Advisors"
+		texturefile = "gfx/interface/goals/BOS_Persuade_NATO_Advisors.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Expand_The_ARBIH"
+		texturefile = "gfx/interface/goals/BOS_Expand_The_ARBIH.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_The_Smuggling_Line"
+		texturefile = "gfx/interface/goals/BOS_The_Smuggling_Line.png"			
 	}
 
 

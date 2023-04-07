@@ -110,8 +110,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BOS_American_Aid
-		icon = GFX_BOS_American_Aid
+		id = BOS_The_Smuggling_Line
+		icon = GFX_BOS_The_Smuggling_Line
 		x = -11
 		y = 3
 		relative_position_id = BOS_Bosnia_Rises
@@ -133,7 +133,7 @@ focus_tree = {
 			add_political_power = 75
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 3000
+				amount = 2000
 				producer = BOS
 			}
 			army_experience = 40
@@ -161,6 +161,7 @@ focus_tree = {
 		}
 		
 		bypass = {
+
 		}
 		
 		completion_reward = { #adds level 7 bunkers for bumfuck reason
@@ -250,7 +251,7 @@ focus_tree = {
 		relative_position_id = BOS_Bosnia_Rises
 
 		prerequisite = { focus = BOS_Invite_Muslim_Volunteers }
-		prerequisite = { focus = BOS_American_Aid }
+		prerequisite = { focus = BOS_The_Smuggling_Line }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -473,14 +474,14 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
         type = infantry_equipment
-        amount = 2750
+        amount = 2000
         producer = BOS
-    }
+	        }
 			add_equipment_to_stockpile = {
-        type = artillery_equipment
-        amount = 750
+        type = support_equipment
+        amount = 700
         producer = BOS
-    }
+            }
 		}
 	}
 	focus = {
@@ -504,12 +505,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		add_equipment_to_stockpile = {
-        type = support_equipment
-        amount = 800
-        producer = UN1
-		}
-		army_experience = 80
+			army_experience = 80
 		}
 	}
 	focus = {
@@ -618,6 +614,10 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		bypass = {
+			OR = {
+				SE1 = { controls_province = 11780 }
+				CO1 = { controls_province = 11780 }
+			}
 		}
 		
 		completion_reward = {
@@ -638,7 +638,7 @@ focus_tree = {
 }
 	focus = {
 		id = BOS_Protect_Doboj_From_Chetniks
-		icon = GFX_BOS_Fortify_Zenica
+		icon = GFX_BOS_Protect_Doboj_From_Chetniks
 		x = -3
 		y = 3
 		relative_position_id = BOS_Bosnia_Rises
@@ -659,6 +659,10 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		bypass = {
+			OR = {
+				SE1 = { controls_province = 8434 }
+				CO1 = { controls_province = 8434 }
+			}
 		}
 		
 		completion_reward = {
@@ -918,7 +922,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BOS_The_State_of_The_Economy
-		icon = GFX_BOS_The_State_of_The_Economy
+		icon = GFX_SE1_Revive_The_Economy
 		x = 9
 		y = 1
 		relative_position_id = BOS_Bosnia_Rises
@@ -941,38 +945,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BOS_International_Human_Aid
-		icon = GFX_BOS_International_Human_Aid
-		x = 8
+		id = BOS_Build_A_New_Industry
+		icon = GFX_BOS_Build_A_New_Industry
+		x = 7
 		y = 2
 		relative_position_id = BOS_Bosnia_Rises
 
 		prerequisite = { focus = BOS_A_Speech_To_The_UN }
-		prerequisite = { focus = BOS_The_State_of_The_Economy }
-		mutually_exclusive = { }
-		
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = no
-		
-		bypass = {
-		}
-		
-		completion_reward = {
-			add_ideas = BOS_International_Human_Aid
-		}
-	}
-	focus = {
-		id = BOS_Build_A_New_Industry
-		icon = GFX_BOS_Build_A_New_Industry
-		x = 9
-		y = 3
-		relative_position_id = BOS_Bosnia_Rises
-
-		prerequisite = { focus = BOS_International_Human_Aid }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -1021,11 +1000,11 @@ focus_tree = {
 	focus = {
 		id = BOS_A_Strong_Bosnian_Economy
 		icon = GFX_BOS_A_Strong_Bosnian_Economy
-		x = 7
-		y = 3
+		x = 9
+		y = 2
 		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_International_Human_Aid }
+		prerequisite = { focus = BOS_The_State_of_The_Economy }
 		mutually_exclusive = { }
 		
 		cost = 8
@@ -1121,7 +1100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BOS_Bring_The_War_To_An_End
-		icon = GFX_BOS_Bring_The_War_To_An_End
+		icon = GFX_Bring_The_War_To_An_End
 		x = -3
 		y = 6
 		relative_position_id = BOS_Bosnia_Rises
@@ -1141,7 +1120,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			always = no
+			#always = no
 		}
 
 		available_if_capitulated = no
