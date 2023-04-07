@@ -18,5 +18,21 @@ ideas = {
 				conscription = 0.3
 			}
 		}
+		
+		SE1_more_manpower = {
+			picture = GFX_SE1_more_manpower
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = SE1
+			}
+
+			removal_cost = -1
+			
+			modifier = {				
+				conscription = 0.02
+			}
+		}
 	}
-}

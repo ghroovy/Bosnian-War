@@ -11,11 +11,45 @@ BOS_guerilla = {
 
 	tag = SE1
 
-	ratio = 0.0  
+	ratio = 0.5
 
 	priority = 100 
 	ordertype = front 
 	execution_type = careful
 	execute_order = yes 
 	}
+}
+
+BOS_garrisons = {
+
+	enable = {
+		tag = BOS
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+ 	type = put_unit_buffers
+	ratio = 1
+	order_id = 1
+	states = {
+	59
+	}
+    area = europe
+	}
+}
+
+BOS_washington_agreement = {
+
+	enable = {
+		tag = BOS
+		is_ally_with = CO1
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = CO1
+		value = 1
+	}
+	
 }

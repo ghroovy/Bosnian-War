@@ -93,6 +93,7 @@ SE1_Divergent_Army_Command
 limited_exports
 extensive_conscription
 war_economy
+SE1_more_manpower
 }
 
 create_country_leader = {
