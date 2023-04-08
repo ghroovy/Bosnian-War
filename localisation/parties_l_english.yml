@@ -1,6 +1,7 @@
 ﻿l_english:
- communism:0 "Croatian Aligned"
- communism_noun:0 "Croatian Aligned"
+ croatia_aligned:0 "Croatian Aligned"
+ croatia_aligned_noun:0 "Croatian Aligned"
+ croatia_aligned_desc:0 "Croatian Aligned"
  democratic:0 "Western Aligned"
  democratic_noun:0 "Western Aligned"
  democratic_desc:0 "Democratic"
@@ -16,6 +17,14 @@
  neutrality:0 "Bosnian Aligned"
  neutrality_noun:0 "Bosnian Aligned"
  neutrality_desc:0 "Authoritarian Regime"
+ 
+ SE1_fascism_party:0 "SDS"
+ SE1_fascism_party_long:0 "Srpska Demokratska Stranka"
+ BOS_neutrality_party:0 "SDA"
+ BOS_neutrality_party:0 "Stranka Demokratske Akcije"
+ CO1_croatia_aligned_party:0 "HDZ BiH"
+ CO1_croatia_aligned_party_long:0 "Hrvatska Demokratska Zajednica Bosne i Hercegovine"
+ 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  GER_communism_party:0 "KPD"
