@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=croatian_aligned 
+			ideology=liberalism
 			expire="2020.1.1.1"
 			id=-1
 		}

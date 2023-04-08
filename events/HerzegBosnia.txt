@@ -66,6 +66,10 @@ country_event = {
 		name = herzeg.2.a
 		ai_chance = { base = 80 }
 		retire_country_leader = CO1_Mate_Boban
+		add_popularity = {
+        ideology = democratic
+        popularity = 1
+        }
 		promote_character = {
     	character = CO1_Kresimir_Zubak
     	ideology = liberalism

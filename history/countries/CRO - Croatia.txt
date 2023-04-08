@@ -44,7 +44,7 @@ create_country_leader = {
 	name = "Franjo Tuđman"
 	desc = ""
 	picture = "gfx/leaders/coratian.dds"
-	ideology = croatia_aligned
+	ideology = croatian_aligned
 	} 
 	
 recruit_character = CRO_Mirko_Norac
