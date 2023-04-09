@@ -70,6 +70,9 @@ country_event = {
         ideology = democratic
         popularity = 1
         }
+		set_politics = {
+		ruling_party = democratic
+		}
 		promote_character = {
     	character = CO1_Kresimir_Zubak
     	ideology = liberalism

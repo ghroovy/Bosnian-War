@@ -70,7 +70,7 @@ focus_tree = {
 
 	focus = {
 		id = BOS_Our_Heroes_In_Sarajevo
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_BOS_Our_Heroes_In_Sarajevo
 		x = -1
 		y = 3
 		relative_position_id = BOS_Bosnia_Rises
@@ -208,6 +208,7 @@ focus_tree = {
 				amount = 2000
 				producer = BOS
 			}
+			country_event = bosnia.6
 		}
 	}
 

@@ -336,6 +336,21 @@ spriteTypes = {
 		name = "GFX_BOS_The_Smuggling_Line"
 		texturefile = "gfx/interface/goals/BOS_The_Smuggling_Line.png"			
 	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Our_Heroes_In_Sarajevo"
+		texturefile = "gfx/interface/goals/BOS_Our_Heroes_In_Sarajevo.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Protect_Doboj_From_Chetniks"
+		texturefile = "gfx/interface/goals/BOS_Protect_Doboj_From_Chetniks.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Defense_Of_Bihac"
+		texturefile = "gfx/interface/goals/BOS_Defense_Of_Bihac.png"			
+	}
 
 
 	#### Generic continuous goal icons	

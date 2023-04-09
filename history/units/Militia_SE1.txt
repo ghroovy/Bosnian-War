@@ -22,11 +22,4 @@ division_template = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 	}
-	 division= {	
-		name = "Milicija Brigada"
-		location = 2040
-		division_template = "Brigada Milicije"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-	}
   }
