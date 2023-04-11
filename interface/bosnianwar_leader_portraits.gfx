@@ -1,5 +1,7 @@
 spriteTypes = {	
 
+### LEADERS
+
 spriteType = {
 		name = "GFX_portrait_kresimir_zubak"
 		texturefile = "gfx/leaders/CO1/Portrait_CO1_Kresimir_Zubak.dds"
@@ -13,6 +15,11 @@ spriteType = {
 spriteType = {
 		name = "GFX_portrait_fikret_abdic"
 		texturefile = "gfx/leaders/WBS/fikret_abdic.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_atif_dudakovic"
+		texturefile = "gfx/leaders/FCR/Portrait_FCR_Atif_Dudakovic.png"
 		alwaystransparent = yes
 	}
 	

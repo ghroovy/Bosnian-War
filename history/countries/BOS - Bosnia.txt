@@ -46,6 +46,11 @@ set_war_support = 0.7
 
 set_convoys = 20
 
+set_autonomy = {
+	target = FCR
+	autonomous_state = autonomy_puppet
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

@@ -1,9 +1,9 @@
 characters={
-	WBS_Fikret_Abdic={
-		name=WBS_Fikret_Abdic
+	FCR_Atif_Dudakovic={
+		name=FCR_Atif_Dudakovic
 		portraits={
 			civilian={
-				large="GFX_portrait_fikret_abdic"
+				large="GFX_portrait_atif_dudakovic"
 			}
 		}
 		country_leader={

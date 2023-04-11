@@ -351,6 +351,16 @@ spriteTypes = {
 		name = "GFX_BOS_Defense_Of_Bihac"
 		texturefile = "gfx/interface/goals/BOS_Defense_Of_Bihac.png"			
 	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Help_From_Our_Muslim_Brothers"
+		texturefile = "gfx/interface/goals/BOS_Help_From_Our_Muslim_Brothers.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Invite_Muslim_Volunteers"
+		texturefile = "gfx/interface/goals/BOS_Invite_Muslim_Volunteers.png"			
+	}
 
 
 	#### Generic continuous goal icons	

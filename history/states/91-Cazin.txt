@@ -6,12 +6,13 @@ state={
 	}
 
 	history={
-		owner = BOS
+		owner = FCR
         buildings = {
             infrastructure = 1
             arms_factory = 0
             industrial_complex = 0
         }
+		add_core_of = FCR
 		add_core_of = BOS
 
 		victory_points = {

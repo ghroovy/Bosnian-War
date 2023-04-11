@@ -141,14 +141,20 @@ create_country_leader = {
 recruit_character = SE1_Ratko_Mladic
 
 
-                    declare_war_on = {
-                        target = CO1
-                        type = annex_everything
-                    }
-                    add_civil_war_target = CO1
-					
-                    declare_war_on = {
-                        target = BOS
-                        type = annex_everything
-                    }
-                    add_civil_war_target = BOS					
+declare_war_on = {
+    target = CO1
+    type = annex_everything
+}
+add_civil_war_target = CO1
+
+declare_war_on = {
+    target = BOS
+    type = annex_everything
+}
+add_civil_war_target = BOS					
+
+declare_war_on = {
+    target = FCR
+    type = annex_everything
+}
+add_civil_war_target = BOS		

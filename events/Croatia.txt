@@ -49,6 +49,7 @@ country_event = {
 	}
 		news_event = croatia.2
 		BOS = { give_military_access = CRO }
+		FCR = { give_military_access = CRO }
 		CO1 = { give_military_access = CRO }
 		cancel_border_war = {
     	dont_fire_events = yes
