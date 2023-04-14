@@ -22,6 +22,11 @@ spriteType = {
 		texturefile = "gfx/leaders/FCR/Portrait_FCR_Atif_Dudakovic.png"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_portrait_philippe_morillon"
+		texturefile = "gfx/leaders/UN2/Portrait_UN2_Philippe_Morillon.png"
+		alwaystransparent = yes
+	}
 	
 ### GENERALS AND FIELD MARSHALS
 

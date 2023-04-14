@@ -135,6 +135,18 @@ BOS_The_Defense_of_Bosnia = {
 		 }
 	}
 }
+    Integrate_The_Fifth_Corps = {
+	visible = { has_war = no }
+	 ai_will_do = {
+	 base = 100
+	}
+	 complete_effect = {
+		annex_country = {
+    	target = FCR
+    	transfer_troops = yes
+		}
+	}
+}
 	Raise_Militia_BOS = {
 	available = {
 		controls_province = 17181

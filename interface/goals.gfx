@@ -290,6 +290,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SE1_Settle_For_Dayton.png"			
 	}
 	
+	SpriteType = {
+		name = "GFX_SE1_Cooperate_With_The_West"
+		texturefile = "gfx/interface/goals/SE1_Cooperate_With_The_West.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_Withdraw_Our_Forces"
+		texturefile = "gfx/interface/goals/SE1_Withdraw_Our_Forces.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_SE1_A_Compromise"
+		texturefile = "gfx/interface/goals/SE1_A_Compromise.png"			
+	}
+	
 ### NEW BOSNIA FOCUSES ###
 
 	SpriteType = {
@@ -360,6 +375,16 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BOS_Invite_Muslim_Volunteers"
 		texturefile = "gfx/interface/goals/BOS_Invite_Muslim_Volunteers.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Build_A_New_Industry"
+		texturefile = "gfx/interface/goals/BOS_Build_A_New_Industry.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Miracle_of_Sarajevo"
+		texturefile = "gfx/interface/goals/BOS_Miracle_of_Sarajevo.png"			
 	}
 
 

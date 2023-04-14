@@ -61,4 +61,4 @@ war_economy
 idea_the_bosnian_war
 }
 
-recruit_character = CO1_Fikret_Abdic
+recruit_character = WBS_Fikret_Abdic

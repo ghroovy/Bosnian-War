@@ -129,7 +129,13 @@ TUR = {
 	color_ui = rgb { 161 69 69 }
 }
 
+###Miscellaneous
+
 UN1 = {
 	color = rgb { 109 138 165 }
 	color_ui = rgb { 109 138 165 }
+}
+UN2 = {
+	color = rgb { 70 110 163 }
+	color_ui = rgb { 70 110 163 }
 }

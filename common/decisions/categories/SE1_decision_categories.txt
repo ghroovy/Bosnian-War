@@ -1,5 +1,6 @@
 SE1_Dreams_Of_Serbian_Bosnia = {
 	icon = generic_formable_nations
+	picture = GFX_decision_cat_picture_serb_bosnia
 	priority = 1
 	visible = {
 		tag = SE1

@@ -56,6 +56,11 @@ spriteType = {
 		texturefile = "gfx/event_pictures/news_event_a_peacekeeping_failure.png"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_news_event_UN1_peacekeepers_srebrenica"
+		texturefile = "gfx/event_pictures/news_event_UN1_peacekeepers_srebrenica.png"
+		alwaystransparent = yes
+	}
 	
 ### COUNTRY EVENTS
 spriteType = {

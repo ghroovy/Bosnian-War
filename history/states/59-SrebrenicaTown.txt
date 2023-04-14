@@ -17,24 +17,6 @@ state={
 		victory_points = {
 			7168 5.0 
 	}
-		victory_points = {
-			17192 1.0 
-	}
-		victory_points = {
-			17193 1.0 
-	}
-		victory_points = {
-			17189 1.0 
-	}
-		victory_points = {
-			17188 1.0 
-	}
-		victory_points = {
-			17191 1.0 
-	}
-		victory_points = {
-			17190 1.0 
-	}
 	
 	}
 

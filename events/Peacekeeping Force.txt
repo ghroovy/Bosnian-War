@@ -227,18 +227,36 @@ country_event = {
 	id = NATOUN.10
 	title = NATOUN.10.t
 	desc = NATOUN.10.desc
-	picture = GFX_report_event_UN1_peacekeepers
+	picture = GFX_report_event_UN1_peacekeepers_srebrenica
 
 	is_triggered_only = yes
+	
+	trigger = {
+		BOS = {
+		controls_state = 59
+		}
+	}
 
 	option = { 
 		name = NATOUN.10.a
 		ai_chance = { base = 100 }
-        add_province_modifier = {
-            static_modifiers = { UN1_un_peacekeepers }
-            province = { 
-			id = 11994
-			}
-        }
+		UN2 = {
+		transfer_state = 59
+		}
+		news_event = NATOUN.11
+	}
+}
+
+news_event = {
+	id = NATOUN.11
+	title = NATOUN.11.t
+	desc = NATOUN.11.desc
+	picture = GFX_news_event_UN1_peacekeepers_srebrenica
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.11.a
+		ai_chance = { base = 100 }
 	}
 }

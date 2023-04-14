@@ -360,6 +360,34 @@
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
+	division= {	
+		name = "Oslobodilacka Vojska"
+		location = 11850
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
+	division= {	
+		name = "Oslobodilacka Vojska"
+		location = 11867
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
+	division= {	
+		name = "Oslobodilacka Vojska"
+		location = 9226
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
+	division= {	
+		name = "Oslobodilacka Vojska"
+		location = 11846
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
 	 division= {	
 		name = "Bosnian Mujahideen Volunteers "
 		location = 1509

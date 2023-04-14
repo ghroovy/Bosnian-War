@@ -3,7 +3,11 @@ ENG = "countries/England.txt"
 SOV = "countries/Soviet Union.txt"
 FRA	= "countries/France.txt"
 USA = "countries/USA.txt"
+
+###Miscellaneous
+
 UN1 = "countries/UN Peacekeeping Force.txt"
+UN2 = "countries/UNPROFOR Safe Zones.txt"
 
 ##Western/Central Europe
 ITA = "countries/Italy.txt"

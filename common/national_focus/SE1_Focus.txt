@@ -1295,7 +1295,7 @@
 	}
 	focus = {
 		id = SE1_A_Compromise
-		icon = GFX_SE1_Withdraw_Our_Forces
+		icon = GFX_SE1_A_Compromise
 		x = 2
 		y = 9
 		relative_position_id = SE1_Srpska_my_Beloved
