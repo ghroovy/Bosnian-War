@@ -27,6 +27,11 @@ spriteType = {
 		texturefile = "gfx/leaders/UN2/Portrait_UN2_Philippe_Morillon.png"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_portrait_naser_oric"
+		texturefile = "gfx/leaders/SRE/Portrait_SRE_Naser_Oric.png"
+		alwaystransparent = yes
+	}
 	
 ### GENERALS AND FIELD MARSHALS
 

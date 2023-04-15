@@ -232,7 +232,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		BOS = {
+		SRE = {
 		controls_state = 59
 		}
 	}
@@ -257,6 +257,46 @@ news_event = {
 
 	option = { 
 		name = NATOUN.11.a
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+	id = NATOUN.12
+	title = NATOUN.12.t
+	desc = NATOUN.12.desc
+	picture = GFX_report_event_UN1_peacekeepers_extension
+
+	is_triggered_only = yes
+	
+	trigger = {
+		SRE = {
+		controls_state = 137
+		controls_state = 138
+		}
+	}
+
+	option = { 
+		name = NATOUN.12.a
+		ai_chance = { base = 100 }
+		UN2 = {
+		transfer_state = 137
+		transfer_state = 138
+		}
+		news_event = NATOUN.13
+	}
+}
+
+news_event = {
+	id = NATOUN.13
+	title = NATOUN.13.t
+	desc = NATOUN.13.desc
+	picture = GFX_news_event_UN1_peacekeepers_extension
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.13.a
 		ai_chance = { base = 100 }
 	}
 }

@@ -30,6 +30,9 @@ on_actions = {
             country_event = { id = NATOUN.10 days = 180 }
             }
         UN1 = {
+            country_event = { id = NATOUN.12 days = 200 }
+            }
+        UN1 = {
             country_event = { id = NATOUN.2 days = 440 }
             }
         UN1 = {

@@ -59,6 +59,10 @@ FCR = {
 	color = rgb { 57 79 66 }
 	color_ui = rgb { 57 79 66 }
 }
+SRE = {
+	color = rgb { 57 79 66 }
+	color_ui = rgb { 57 79 66 }
+}
 MAC = {
 	color = rgb { 137 30 30 }
 	color_ui = rgb { 137 30 30 }

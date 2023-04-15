@@ -61,6 +61,9 @@
  FCR:0 "5th Korpus"
  FCR_DEF:0 "5th Korpus"
  FCR_ADJ:0 "Bosnian"
+ SRE:0 "Bosnian Enclaves"
+ SRE_DEF:0 "Bosnian Enclaves"
+ SRE_ADJ:0 "Bosnian"
 
  ###Eastern/Southern Europe
  YUG:0 "Yugoslavia"

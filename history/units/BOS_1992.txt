@@ -243,7 +243,7 @@
     } 
 	 division= {	
 		name = "Oslobodilacka Vojska"
-		location = 11994
+		location = 1728
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -488,14 +488,14 @@
 	}
 					 division= {	
 		name = "9th Zvornik Infantry Brigade"
-		location = 17189
+		location = 11725
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 	division= {	
 		name = "9th Zvornik Infantry Brigade"
-		location = 17190
+		location = 11762
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1

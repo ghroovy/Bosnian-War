@@ -1,0 +1,15 @@
+characters={
+	SRE_Naser_Oric={
+		name=SRE_Naser_Oric
+		portraits={
+			civilian={
+				large="GFX_portrait_naser_oric"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
