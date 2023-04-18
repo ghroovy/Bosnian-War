@@ -386,7 +386,46 @@ spriteTypes = {
 		name = "GFX_BOS_Miracle_of_Sarajevo"
 		texturefile = "gfx/interface/goals/BOS_Miracle_of_Sarajevo.png"			
 	}
-
+	
+	SpriteType = {
+		name = "GFX_BOS_Future_Of_The_Bosnian_State"
+		texturefile = "gfx/interface/goals/BOS_Future_Of_The_Bosnian_State.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Establish_The_Convertible_Mark"
+		texturefile = "gfx/interface/goals/BOS_Establish_The_Convertible_Mark.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_A_True_Bosnian_Currency"
+		texturefile = "gfx/interface/goals/BOS_A_True_Bosnian_Currency.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Usher_In_Western_Investments"
+		texturefile = "gfx/interface/goals/BOS_Usher_In_Western_Investments.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_New_Army_Reforms"
+		texturefile = "gfx/interface/goals/BOS_New_Army_Reforms.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Islamic_State_In_Europe"
+		texturefile = "gfx/interface/goals/BOS_Islamic_State_In_Europe.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_The_Washington_Agreement"
+		texturefile = "gfx/interface/goals/BOS_The_Washington_Agreement.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Declare_Jihad_Against_Srpska"
+		texturefile = "gfx/interface/goals/BOS_Declare_Jihad_Against_Srpska.png"			
+	}
 
 	#### Generic continuous goal icons	
 	

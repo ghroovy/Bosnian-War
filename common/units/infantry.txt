@@ -42,7 +42,7 @@ sub_units = {
 		supply_consumption = 0.03
 	
 		need = {
-			infantry_equipment = 100
+			infantry_equipment = 40
 		}
 	}
 

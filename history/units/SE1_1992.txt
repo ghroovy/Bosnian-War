@@ -544,7 +544,7 @@ division= {
 }
 division= {	
 	name = "Divizije Pantera"
-	location = 6133
+	location = 11385
 	division_template = "Pešadijske Divizije"
 	start_experience_factor = 0.1
 	start_equipment_factor = 1

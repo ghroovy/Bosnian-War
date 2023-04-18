@@ -245,8 +245,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BOS_Joe_Bidens_Promises
-		icon = GFX_BOS_Joe_Bidens_Promises
+		id = BOS_United_Muslim_Support
+		icon = GFX_BOS_United_Muslim_Support
 		x = -10
 		y = 4
 		relative_position_id = BOS_Bosnia_Rises
@@ -699,8 +699,10 @@ focus_tree = {
 		}
 
 		available = {
+			FCR = {
 			controls_state = 91
 			controls_state = 90
+			}
 		}
 
 		available_if_capitulated = no
@@ -1032,7 +1034,8 @@ focus_tree = {
 		y = 4
 		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_A_Strong_Bosnian_Economy focus = BOS_Build_A_New_Industry }
+		prerequisite = { focus = BOS_A_Strong_Bosnian_Economy }
+		prerequisite = { focus = BOS_Build_A_New_Industry }
 		mutually_exclusive = { focus = BOS_A_True_Bosnian_Currency }
 		
 		cost = 5
@@ -1056,7 +1059,8 @@ focus_tree = {
 		y = 4
 		relative_position_id = BOS_Bosnia_Rises
 
-		prerequisite = { focus = BOS_A_Strong_Bosnian_Economy focus = BOS_Build_A_New_Industry }
+		prerequisite = { focus = BOS_A_Strong_Bosnian_Economy }
+		prerequisite = { focus = BOS_Build_A_New_Industry }
 		mutually_exclusive = { focus = BOS_Establish_The_Convertible_Mark }
 		
 		cost = 5
