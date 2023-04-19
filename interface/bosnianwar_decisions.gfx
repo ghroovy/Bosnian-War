@@ -1,10 +1,109 @@
 spriteTypes = {	
 
-	### categories
+	### category icons
+	
+	spriteType = {
+		name = "GFX_decision_category_dreams_serb_bosnia"
+		texturefile = "gfx/interface/decisions/decision_category_dreams_serb_bosnia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_category_defense_bosnia"
+		texturefile = "gfx/interface/decisions/decision_category_defense_bosnia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_category_arms_deals"
+		texturefile = "gfx/interface/decisions/decision_category_arms_deals.png"
+	}
+
+	### category pics
 	
 	spriteType = {
 		name = "GFX_decision_cat_picture_serb_bosnia"
-		texturefile = "gfx/interface/decisions/decision_cat_dreams_serb_bosnia.dds"
+		texturefile = "gfx/interface/decisions/decision_cat_dreams_serb_bosnia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_picture_defense_bosnia"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_defense_bosnia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_picture_arms_deals"
+		texturefile = "gfx/interface/decisions/decision_cat_arms_deals.png"
+	}
+	
+	### decision icons
+	
+	spriteType = {
+		name = "GFX_decision_raise_militia"
+		texturefile = "gfx/interface/decisions/decision_raise_militia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_bosnia_destroy"
+		texturefile = "gfx/interface/decisions/decision_bosnia_destroy.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_herzeg_destroy"
+		texturefile = "gfx/interface/decisions/decision_herzeg_destroy.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_srpska_destroy"
+		texturefile = "gfx/interface/decisions/decision_srpska_destroy.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_tropolje_offensive"
+		texturefile = "gfx/interface/decisions/decision_tropolje_offensive.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_sarajevo_offensive"
+		texturefile = "gfx/interface/decisions/decision_sarajevo_offensive.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_usora_offensive"
+		texturefile = "gfx/interface/decisions/decision_usora_offensive.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_banja_luka_offensive"
+		texturefile = "gfx/interface/decisions/decision_banja_luka_offensive.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_rogatica_offensive"
+		texturefile = "gfx/interface/decisions/decision_rogatica_offensive.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_request_guns"
+		texturefile = "gfx/interface/decisions/decision_request_guns.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_request_support"
+		texturefile = "gfx/interface/decisions/decision_request_support.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_request_artillery"
+		texturefile = "gfx/interface/decisions/decision_request_artillery.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_request_trucks"
+		texturefile = "gfx/interface/decisions/decision_request_trucks.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_request_tanks"
+		texturefile = "gfx/interface/decisions/decision_request_tanks.png"
 	}
 
 	### claim state decisions

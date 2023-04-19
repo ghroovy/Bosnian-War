@@ -1085,24 +1085,24 @@ ideas = {
 			}
 		}
 		
-		rampant_looting = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = Rampant_Looters
-			
-			modifier = {
-				#consumer_goods_factor = 0.3
-				#industry_free_repair_factor = -0.5
-			}
-		}
+#		rampant_looting = {
+#
+#			allowed = {
+#				always = no
+#			}
+#
+#			allowed_civil_war = {
+#				always = yes
+#			}
+#			
+#			removal_cost = -1
+#
+#			picture = Rampant_Looters
+#			
+#			modifier = {
+#				#consumer_goods_factor = 0.3
+#				#industry_free_repair_factor = -0.5
+#			}
+#		}
     }
 }

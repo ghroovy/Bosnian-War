@@ -42,7 +42,7 @@ if = {
 }
 
 set_stability = 0.5
-set_war_support = 0.7
+set_war_support = 0.4
 
 set_convoys = 20
 
@@ -65,13 +65,13 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	fascism = 0
-	communism = 0
+	croatia_aligned = 0
 	neutrality = 100
 }
 
 add_ideas = {
 idea_the_bosnian_war
-rampant_looting
+BOS_newly_bred_forces
 BOS_ARBIH
 limited_exports
 extensive_conscription

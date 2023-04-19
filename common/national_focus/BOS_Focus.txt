@@ -233,7 +233,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = BOS_Modern_Guerilla
+			swap_ideas = {
+    			remove_idea = BOS_Newly_Bred_Forces
+    			add_idea = BOS_Newly_Bred_Forces_2
+			}
 			add_war_support = 0.05
 			add_manpower = 1200
 			add_equipment_to_stockpile = {
@@ -881,7 +884,7 @@ focus_tree = {
 		prerequisite = { focus = BOS_Expand_The_ARBIH }
 		mutually_exclusive = { }
 		
-		cost = 5
+		cost = 15
 		ai_will_do = {
 			factor = 1
 		}
@@ -893,10 +896,7 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 50
-			swap_ideas = {
-    			remove_idea = BOS_ARBIH_2
-    			add_idea = BOS_ARBIH_3
-			}
+			remove_idea = BOS_Newly_Bred_Forces_2
 		}
 	}
 	focus = {

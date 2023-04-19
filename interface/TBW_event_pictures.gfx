@@ -85,4 +85,9 @@ spriteType = {
 		texturefile = "gfx/event_pictures/report_event_BOS_sarajevo_tunnel.png"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_report_event_BOS_beginning"
+		texturefile = "gfx/event_pictures/report_event_BOS_beginning.png"
+		alwaystransparent = yes
+	}
 }

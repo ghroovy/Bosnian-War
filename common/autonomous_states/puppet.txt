@@ -12,7 +12,6 @@ autonomy_state = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
 		
 		can_not_declare_war = yes
-		can_decline_call_to_war = no
 		can_be_spymaster = no
 		contributes_operatives = no
 		can_create_collaboration_government = no

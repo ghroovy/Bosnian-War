@@ -32,4 +32,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideaimages/idea_image_Operation_Deliberate_Force.png"	
 		legacy_lazy_load = no
 	}
+	SpriteType = {
+		name = "GFX_BOS_Newly_Bred_Army_Texticon"
+		texturefile = "gfx/interface/ideaimages/idea_image_newly_bred_army.png"	
+		legacy_lazy_load = no
+	}
 }

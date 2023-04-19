@@ -250,3 +250,23 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = eqp.14
+	title = eqp.14.t
+	desc = eqp.14.desc
+	picture = GFX_report_event_EQP_shipment_success
+
+	is_triggered_only = yes
+
+	option = { 
+		name = eqp.14.a
+		ai_chance = { base = 100 }
+		add_equipment_to_stockpile = {
+			type = motorised_infantry
+			amount = 300
+			producer = SER
+		}
+	}
+}
+

@@ -41,10 +41,6 @@ spriteTypes = {
 
 
 
-	SpriteType = {
-		name = "GFX_BOS_Victory_Achieved"
-		texturefile = "gfx/interface/goals/BOS_Victory_Achieved.dds"			
-	}
 
 	SpriteType = {
 		name = "GFX_BOS_Joe_Bidens_Promises"
@@ -425,6 +421,46 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BOS_Declare_Jihad_Against_Srpska"
 		texturefile = "gfx/interface/goals/BOS_Declare_Jihad_Against_Srpska.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_United_Muslim_Support"
+		texturefile = "gfx/interface/goals/BOS_United_Muslim_Support.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_A_Young_Democracy"
+		texturefile = "gfx/interface/goals/BOS_A_Young_Democracy.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Establish_Core_Institutions"
+		texturefile = "gfx/interface/goals/BOS_Establish_Core_Institutions.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Seek_National_Unity"
+		texturefile = "gfx/interface/goals/BOS_Seek_National_Unity.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Improve_Our_Army_Logistics"
+		texturefile = "gfx/interface/goals/BOS_Improve_Our_Army_Logistics.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Appeal_To_The_Terms"
+		texturefile = "gfx/interface/goals/BOS_Appeal_To_The_Terms.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_No_Cooperation"
+		texturefile = "gfx/interface/goals/BOS_No_Cooperation.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BOS_A_Strong_Bosnian_Economy"
+		texturefile = "gfx/interface/goals/BOS_A_Strong_Bosnian_Economy.png"			
 	}
 
 	#### Generic continuous goal icons	

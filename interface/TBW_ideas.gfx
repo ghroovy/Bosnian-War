@@ -5605,6 +5605,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_gre_metaxism_empowered.dds"
 	}
 	
+################ BOSNIAN WAR ################
+	
 	spriteType = {
 		name = "GFX_idea_the_bosnian_war"
 		texturefile = "gfx/interface/ideas/idea_the_bosnian_war.dds"
@@ -5638,6 +5640,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Rampant_Looters"
 		texturefile = "gfx/interface/ideas/Rampant_Looters.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BOS_Newly_Bred_Forces"
+		texturefile = "gfx/interface/ideas/BOS_Newly_Bred_Forces.png"
 	}
 	
 ### ADVISORS ###

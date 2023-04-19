@@ -50,7 +50,7 @@ set_politics = {
 set_popularities = {
 	croatia_aligned = 100
 	fascism = 0
-	communism = 0
+	croatia_aligned = 0
 	neutrality = 0
 }
 

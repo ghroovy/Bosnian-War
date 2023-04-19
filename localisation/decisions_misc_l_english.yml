@@ -2,18 +2,58 @@
 
 ### SRPSKA
  SE1_Dreams_Of_Serbian_Bosnia:0 "Dreams of a Serbian Bosnia"
- SE1_Dreams_Of_Serbian_Bosnia_desc:0 "WIP"
+ SE1_Dreams_Of_Serbian_Bosnia_desc:0 "The Homeland of ours, Bosnia, has been unjustly seized and controlled by rebelling Bosnian-Muslim and Croat Forces, we must do all in our power to reaffirm our control over our land."
  Expel_Bosnian_Muslims:0 "Expel Bosnian Muslims"
  Cast_Out_The_Croats:0 "Cast Out The Croats"
  Displace_Srebrenica:0 "Displace Srebrenica"
  The_Sarajevo_Offensive:0 "The Sarajevo Offensive"
  The_Usora_Offensive:0 "The Usora Offensive"
  The_Tropolje_Offensive:0 "The Tropolje Offensive"
+ Assault_On_The_Croats:0 "Assault On The Croats"
+ Ambush_The_Bosnians:0 "Ambush The Bosnians"
  Raise_Militia_SE1:0 "Raise a Militia Brigade"
  Expand_Volunteer_Guard_SE1:0 "Expand the Volunteer Guard"
  Guns_For_All_SE1:0 "Guns for All!"
  SE1_Arms_Deal_Shipments:0 "Arms Deal Shipments"
+ SE1_Arms_Deal_Shipments_desc:0 "Though The International Blockade of Bosnia has thwarted and limited the route of supply and weaponry, the Arms Industry and Smuggling is still a thriving industry throughout Bosnia. As far as Malaysia and Russia have contributed towards the industry, providing arms for their suited purpose, conflict."
  
+ ### BOSNIA
+ BOS_The_Defense_of_Bosnia:0 "The Defense of Bosnia"
+ BOS_The_Defense_of_Bosnia_desc:0 "The Ravaging Serbs and Croats have caused great tragedy towards our people, our land and our unity. They've looted and razed our homes, stabbed us in the back, and tortured our men. We must take back what is our people's righteous home, and exact a new Bosnia."
+ Push_Into_Rogatica:0 "Push Into Rogatica"
+ Strike_Banja_Luka:0 "Strike Banja Luka"
+ Shell_The_Serbian_Front:0 "Shell The Serbian Front"
+ Bombard_Croatian_Defenses:0 "Bombard Croatian Defenses"
+ Raise_Militia_BOS:0 "Raise a Militia Brigade"
+ Invite_Muslim_Fighters_BOS:0 "Invite Muslim Fighters"
+ Guns_For_All_BOS:0 "Guns for All!"
+ BOS_Arms_Deal_Shipments:0 "Arms Deal Shipments"
+ BOS_Arms_Deal_Shipments_desc:0 "Though The International Blockade of Bosnia has thwarted and limited the route of supply and weaponry, the Arms Industry and Smuggling is still a thriving industry throughout Bosnia. As far as Malaysia and Russia have contributed towards the industry, providing arms for their suited purpose, conflict."
+ 
+ ### HERZEG BOSNIA
+ CO1_For_The_Croatian_Motherland:0 "For the Croatian Motherland!"
+ The_Sarajevo_Offensive:0 "The Sarajevo Offensive"
+ Pierce_Into_Bosna:0 "Pierce Into Bosna"
+ Hold_Our_Enclaves:0 "Defend our Enclaves"
+ Raise_Militia_CO1:0 "Raise a Militia Brigade"
+ Fighters_From_Zagreb_CO1:0 "Fighters From Zagreb"
+ Guns_For_All_CO1:0 "Guns for All!"
+ CO1_Arms_Deal_Shipments:0 "Arms Deal Shipments"
+ CO1_Arms_Deal_Shipments_desc:0 "Though The International Blockade of Bosnia has thwarted and limited the route of supply and weaponry, the Arms Industry and Smuggling is still a thriving industry throughout Bosnia. As far as Malaysia and Russia have contributed towards the industry, providing arms for their suited purpose, conflict."
+ 
+### EQUIPMENT
+ Request_Infantry_Equipment:0 "Request Infantry Equipment"
+ Request_Support_Equipment:0 "Request Support Equipment"
+ Request_Artillery:0 "Request Artillery"
+ Request_Tanks:0 "Request Armored Tanks"
+ Request_Trucks:0 "Request Trucks"
+ 
+ BOS_Request_Infantry_Equipment:0 "Request Infantry Equipment"
+ BOS_Request_Support_Equipment:0 "Request Support Equipment"
+ BOS_Request_Artillery:0 "Request Artillery"
+ BOS_Request_Trucks:0 "Request Trucks"
+ 
+ ## MISCELLANEOUS
  decision_cost_militia:0 "£GFX_pol_power §Y80§! £GFX_army_experience  §Y15§!"
  decision_cost_militia_blocked:0 "£GFX_pol_power §R80§! £GFX_army_experience §R15§!"
  decision_cost_militia_tooltip:0 "It costs £GFX_pol_power §Y80§! and £GFX_army_experience §Y15§! to raise a brigade!"
@@ -34,27 +74,6 @@
  decision_cost_defense_blocked:0 "£GFX_pol_power §R100§! £GFX_command_power §R15§!"
  decision_cost_defense_tooltip:0 "It costs £GFX_pol_power §Y100§! and £GFX_command_power §Y15§! to launch the operation!"
  
- ### BOSNIA
- BOS_The_Defense_of_Bosnia:0 "The Defense of Bosnia"
- Push_Into_Rogatica:0 "Push Into Rogatica"
- Strike_Banja_Luka:0 "Strike Banja Luka"
- Raise_Militia_BOS:0 "Raise a Militia Brigade"
- Invite_Muslim_Fighters_BOS:0 "Invite Muslim Fighters"
- Guns_For_All_BOS:0 "Guns for All!"
- BOS_Arms_Deal_Shipments:0 "Arms Deal Shipments"
- 
- ### HERZEG BOSNIA
- CO1_For_The_Croatian_Motherland:0 "For the Croatian Motherland!"
- The_Sarajevo_Offensive:0 "The Sarajevo Offensive"
- Pierce_Into_Bosna:0 "Pierce Into Bosna"
- Hold_Our_Enclaves:0 "Defend our Enclaves"
- Raise_Militia_CO1:0 "Raise a Militia Brigade"
- Fighters_From_Zagreb_CO1:0 "Fighters From Zagreb"
- Guns_For_All_CO1:0 "Guns for All!"
- 
- 
-### EQUIPMENT
- Request_Infantry_Equipment:0 "Request Infantry Equipment"
- Request_Support_Equipment:0 "Request Support Equipment"
- Request_Artillery:0 "Request Artillery"
- Request_Tanks:0 "Request Armored Tanks"
+ BOS_targeted_buff_tt:0 "(@BOS§YBosnia§!) A §G+15.0%§! Attack Bonus and §G+10.0%§! Defense Bonus against Bosnia will be gained for §Y60 days§!."
+ CO1_targeted_buff_tt:0 "(@CO1§YCroatian Republic of Herzeg-Bosnia§!) A §G+15.0%§! Attack Bonus and §G+10.0%§! Defense Bonus against Herzeg-Bosnia will be gained for §Y60 days§!."
+ SE1_targeted_buff_tt:0 "(@SE1§YRepublika Srpska§!) A §G+15.0%§! Attack Bonus and §G+10.0%§! Defense Bonus against Srpska will be gained for §Y60 days§!."

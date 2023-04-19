@@ -26,6 +26,19 @@ on_actions = {
 	
     on_startup = {
         effect = {
+		
+		### SRPSKA VRS BUFF DEGREDATION ###
+		
+        SE1 = {
+            country_event = { id = hidden.1 days = 100 }
+            }
+			
+        SE1 = {
+            country_event = { id = hidden.2 days = 800 }
+            }
+		
+		#####################################
+		
         UN1 = {
             country_event = { id = NATOUN.10 days = 180 }
             }
@@ -52,6 +65,9 @@ on_actions = {
             }
         SE1 = {
             country_event = { id = srpska.1 }
+            }
+        BOS = {
+            country_event = { id = bosnia.7 }
             }
         SE1 = {
             country_event = { id = srpska.4 days = 326 }

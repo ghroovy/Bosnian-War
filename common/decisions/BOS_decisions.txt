@@ -1,6 +1,7 @@
 BOS_The_Defense_of_Bosnia = {
 	Push_Into_Rogatica = {
-		available = { has_completed_focus = BOS_Defence_of_the_Nation }
+	available = { has_completed_focus = BOS_Defence_of_the_Nation }
+	icon = GFX_decision_rogatica_offensive
 	custom_cost_trigger = {
     	has_political_power > 119.99
 		command_power > 19.99
@@ -52,7 +53,8 @@ BOS_The_Defense_of_Bosnia = {
 	}
 }
 	Strike_Banja_Luka = {
-		available = { has_completed_focus = BOS_Defence_of_the_Nation }
+	available = { has_completed_focus = BOS_Defence_of_the_Nation }
+	icon = GFX_decision_banja_luka_offensive
 	custom_cost_trigger = {
     	has_political_power > 119.99
 		command_power > 19.99
@@ -91,6 +93,7 @@ BOS_The_Defense_of_Bosnia = {
 }
     Shell_The_Serbian_Front = {
 	visible = { has_war_with = SE1 }
+	icon = GFX_decision_srpska_destroy
 	available = { has_completed_focus = BOS_Bosanska_Artiljerija }
 	custom_cost_trigger = {
     	has_political_power > 149.99
@@ -101,19 +104,18 @@ BOS_The_Defense_of_Bosnia = {
 	 base = 50
 	}
 	 complete_effect = {
-		 targeted_modifier = {
-    		tag = SE1
-    		attack_bonus_against = 0.15
-			breakthrough_factor = 0.1
-		}
+		 custom_effect_tooltip = SE1_targeted_buff_tt
 		 hidden_effect = {
 		 add_command_power = -30
 		 add_political_power = -150
+		 add_timed_idea = { idea = SE1_targeted_buff days = 60 }
 		 }
 	}
+	days_remove = 240
 }
     Bombard_Croatian_Defenses = {
 	visible = { has_war_with = CO1 }
+	icon = GFX_decision_herzeg_destroy
 	available = { has_completed_focus = BOS_Bosanska_Artiljerija }
 	custom_cost_trigger = {
     	has_political_power > 149.99
@@ -124,19 +126,22 @@ BOS_The_Defense_of_Bosnia = {
 	 base = 50
 	}
 	 complete_effect = {
-		 targeted_modifier = {
-    		tag = CO1
-    		attack_bonus_against = 0.15
-			breakthrough_factor = 0.1
-		}
+		 custom_effect_tooltip = CO1_targeted_buff_tt
 		 hidden_effect = {
 		 add_command_power = -30
 		 add_political_power = -150
+		 add_timed_idea = { idea = CO1_targeted_buff days = 60 }
 		 }
 	}
+	days_remove = 240
 }
     Integrate_The_Fifth_Corps = {
-	visible = { has_war = no }
+	visible = { 
+	OR = {
+	has_war = no
+	surrender_progress = 0.6
+	}
+}
 	 ai_will_do = {
 	 base = 100
 	}
@@ -151,6 +156,7 @@ BOS_The_Defense_of_Bosnia = {
 	available = {
 		controls_province = 17181
 	}
+	icon = GFX_decision_raise_militia
 	custom_cost_trigger = {
     	has_army_experience > 14.99
 		has_political_power > 79.99
@@ -227,6 +233,7 @@ BOS_The_Defense_of_Bosnia = {
 	
 BOS_Arms_Deal_Shipments = {
 	BOS_Request_Infantry_Equipment = {
+	icon = GFX_decision_request_guns
 		 cost = 70
 		 ai_will_do = {
          base = 0
@@ -251,6 +258,7 @@ BOS_Arms_Deal_Shipments = {
 			 days_remove = 40
 	  }
 	BOS_Request_Support_Equipment = {
+	icon = GFX_decision_request_support
 		 cost = 70
 		 ai_will_do = {
          base = 0
@@ -274,7 +282,8 @@ BOS_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-		BOS_Request_Artillery = {
+	BOS_Request_Artillery = {
+	icon = GFX_decision_request_artillery
 		 cost = 90
 		 ai_will_do = {
          base = 50
@@ -293,6 +302,7 @@ BOS_Arms_Deal_Shipments = {
 			 days_remove = 40
 	  }
 	BOS_Request_Trucks = {
+	icon = GFX_decision_request_trucks
 		 cost = 100
 		 ai_will_do = {
          base = 30

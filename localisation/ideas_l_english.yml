@@ -13,7 +13,7 @@
  
  ### BOSNIA ###
  BOS_ARBIH:0 "Armija Republike Bosne i Hercegovine"
- BOS_ARBIH_desc:0 "\n\n\n\n£GFX_BOS_ARBiH_Texticon \n\n\n\n\nWhere can one start to talk about the Army of the Republic of Bosnia and Herzegovina? When the war started, we didn't really have an army. We were disarmed, ready to be carnaged by the Serbs. However, our brave citizens helped us form our glorious army, the Republican Army. We pray to Allah for their success on the battlefield. Inshallah we will come out as victors."
+ BOS_ARBIH_desc:0 "\n\n\n\n£GFX_BOS_ARBiH_Texticon \n\n\n\n\nThe Armija Republike Bosne i Hercegovine, the line of defense for the heart of Bosnia, comprised of our brave fighters, once regular citizens, fighting for the liberation of Bosnian Muslims and for Allah. Through our blood and Allah's grace we will push the Croats back to Zagreb and the Serbs out to the Drina and further! Inshallah!"
  BOS_defenders_of_bosnia:0 "Defenders of Bosnia"
  BOS_defenders_of_bosnia_desc:0 "WIP"
  BOS_declare_jihad_against_srpska:0 "Jihad Against Srpska"
@@ -24,12 +24,12 @@
  BOS_Financial_Aid_desc:0 "WIP"
  BOS_Streamlined_Logistics:0 "Streamlined Logistics"
  BOS_Streamlined_Logistics_desc:0 "WIP"
- BOS_Modern_Guerilla:0 "A Modern Guerilla"
- BOS_Modern_Guerilla_desc:0 "WIP"
  BOS_The_Bosnian_Economy:0 "The Bosnian Economy"
  BOS_The_Bosnian_Economy_desc:0 "WIP"
  BOS_International_Human_Aid:0 "International Human Aid"
  BOS_International_Human_Aid_desc:0 "WIP"
+ BOS_Newly_Bred_Forces:0 "A Newly Bred Force"
+ BOS_Newly_Bred_Forces_desc:0 "\n\n\n\n£GFX_BOS_Newly_Bred_Army_Texticon \n\n\n\n\nThe ARBiH was formed out of desperation for a defence force of Bosnia, as a result the inexperienced nature of the force and a more strategic focus towards holding our land allows limited operational capability for offensive missions and advances in general."
  
  ### HERZEG-BOSNIA ###
  CO1_HVO:0 "Hrvatska Vojna Odbrana"

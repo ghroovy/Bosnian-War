@@ -60,65 +60,6 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-
-	communism = {
-		
-		types = {
-		
-			marxism = {
-			}
-			
-			leninism = {
-			}
-			
-			stalinism = {
-			}
-			
-			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-		
-		color = { 101 60 78 }
-		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
-		
-		ai_communist = yes # uses the commie AI behaviour
-		
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-		
-		can_collaborate = yes
-		
-		modifiers = {
-			puppet_cost_factor = -0.3
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
-		}
-		
-		faction_modifiers = {
-			
-		}
-
-	}
-
 	fascism = {
 	
 		types = {
