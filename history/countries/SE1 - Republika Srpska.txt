@@ -139,6 +139,9 @@ create_country_leader = {
 }
 
 recruit_character = SE1_Ratko_Mladic
+recruit_character = SE1_Zdravko_Tolimir
+recruit_character = SE1_Novica_Simic
+recruit_character = SE1_Pero_Colic
 
 
 declare_war_on = {

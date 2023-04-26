@@ -119,3 +119,6 @@ create_country_leader = {
     planning_skill = 4
     logistics_skill = 3
 }
+
+recruit_character = BOS_Mustafa_Hajrulahovic
+recruit_character = BOS_Enver_Hadzihasanovic

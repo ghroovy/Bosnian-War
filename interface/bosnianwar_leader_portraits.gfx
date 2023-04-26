@@ -70,4 +70,29 @@ spriteType = {
 		texturefile = "gfx/leaders/SE1/Portrait_SE1_Ratko.png"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_portrait_zdravko_tolimir"
+		texturefile = "gfx/leaders/SE1/Portrait_SE1_Zdravko_Tolimir.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_novica_simic"
+		texturefile = "gfx/leaders/SE1/Portrait_SE1_Novica_Simic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_pero_colic"
+		texturefile = "gfx/leaders/SE1/Portrait_SE1_Pero_Colic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mustafa_hajrulahovic"
+		texturefile = "gfx/leaders/BOS/Portrait_BOS_Mustafa_Hajrulahovic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_enver_hadzihasanovic"
+		texturefile = "gfx/leaders/BOS/Portrait_BOS_Enver_Hadzihasanovic.png"
+		alwaystransparent = yes
+	}
 }

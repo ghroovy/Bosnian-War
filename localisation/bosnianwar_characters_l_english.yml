@@ -19,6 +19,9 @@
  
  #SRPSKA
  SE1_Ratko_Mladic:0 "Ratko Mladić"
+ SE1_Zdravko_Tolimir:0 "Zdravko Tolimir"
+ SE1_Novica_Simic:0 "Novica Simić"
+ SE1_Pero_Colic:0 "Pero Colic"
  
  #5TH CORPS
  FCR_Atif_Dudakovic:0 "Atif Dudaković"
@@ -28,3 +31,7 @@
  
  #BOSNIAN ENCLAVES
  SRE_Naser_Oric:0 "Naser Orić"
+ 
+ #BOSNIA
+ BOS_Mustafa_Hajrulahovic:0 "Mustafa Hajrulahović Talijan"
+ BOS_Enver_Hadzihasanovic:0 "Enver Hadžihasanović"
