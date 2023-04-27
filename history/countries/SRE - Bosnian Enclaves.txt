@@ -1,4 +1,5 @@
 capital = 59
+load_oob = SRE_1992
 
 # Starting tech
 set_technology = {

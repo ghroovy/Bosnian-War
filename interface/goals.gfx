@@ -462,6 +462,11 @@ spriteTypes = {
 		name = "GFX_BOS_A_Strong_Bosnian_Economy"
 		texturefile = "gfx/interface/goals/BOS_A_Strong_Bosnian_Economy.png"			
 	}
+	
+	SpriteType = {
+		name = "GFX_BOS_Jihad_Onto_Belgrade"
+		texturefile = "gfx/interface/goals/BOS_Jihad_Onto_Belgrade.png"			
+	}
 
 	#### Generic continuous goal icons	
 	

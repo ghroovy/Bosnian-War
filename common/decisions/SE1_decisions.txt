@@ -217,6 +217,11 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 		has_political_power > 79.99
 	}
 	custom_cost_text = decision_cost_militia
+		highlight_states = {
+		 highlight_state_targets = {
+			state = 103
+		}
+	}
 		 ai_will_do = {
          base = 100
         }
@@ -240,6 +245,11 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 		controls_province = 2040
 	}
 		 cost = 150
+		highlight_states = {
+		 highlight_state_targets = {
+			state = 103
+		}
+	}
 		 ai_will_do = {
          base = 100
         }
@@ -265,6 +275,11 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 		has_political_power > 29.99
 	}
 	custom_cost_text = decision_cost_gunsforall
+		highlight_states = {
+		 highlight_state_targets = {
+			state = 103
+		}
+	}
 		 ai_will_do = {
          base = 100
         }
@@ -286,6 +301,243 @@ SE1_Dreams_Of_Serbian_Bosnia = {
 		 days_remove = 30
 	  }
 	}
+	
+SE1_Strategic_Captures = {
+	Capture_Srebrenica = {
+	icon = GFX_decision_bosnia_destroy
+	available = {
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 4
+    		state = 58
+    		border_state = 59
+			}
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 4
+    		state = 57
+    		border_state = 59
+			}
+		}
+		highlight_states = {
+		 highlight_state_targets = {
+			state = 59
+		}
+	}
+		 ai_will_do = {
+         base = 100
+        }
+		 complete_effect = {
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 58
+    	    	    num_provinces = 4
+    	    	}	
+    	    	defender = {
+    	    	    state = 59
+    	    	    num_provinces = 4
+    	    	}
+	    	}
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 57
+    	    	    num_provinces = 4
+    	    	}	
+    	    	defender = {
+    	    	    state = 59
+    	    	    num_provinces = 4
+    	    	}
+	    	}
+		}
+		add_to_variable = { western_intervention = 10 }
+	}
+	Capture_Zepa = {
+	icon = GFX_decision_bosnia_destroy
+	available = {
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 1
+    		state = 57
+    		border_state = 137
+			}
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 1
+    		state = 65
+    		border_state = 137
+			}
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 1
+    		state = 64
+    		border_state = 137
+			}
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 1
+    		state = 60
+    		border_state = 137
+			}
+		}
+		highlight_states = {
+		 highlight_state_targets = {
+			state = 137
+		}
+	}
+		 ai_will_do = {
+         base = 100
+        }
+		 complete_effect = {
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 57
+    	    	    num_provinces = 1
+    	    	}	
+    	    	defender = {
+    	    	    state = 137
+    	    	    num_provinces = 1
+    	    	}
+	    	}
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 65
+    	    	    num_provinces = 1
+    	    	}	
+    	    	defender = {
+    	    	    state = 137
+    	    	    num_provinces = 1
+    	    	}
+	    	}
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 64
+    	    	    num_provinces = 1
+    	    	}	
+    	    	defender = {
+    	    	    state = 137
+    	    	    num_provinces = 1
+    	    	}
+	    	}
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 60
+    	    	    num_provinces = 1
+    	    	}	
+    	    	defender = {
+    	    	    state = 137
+    	    	    num_provinces = 1
+    	    	}
+	    	}
+			add_to_variable = { western_intervention = 10 }
+		}
+	}
+	Capture_Gorazde = {
+	icon = GFX_decision_bosnia_destroy
+	available = {
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 1
+    		state = 62
+    		border_state = 138
+			}
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 1
+    		state = 70
+    		border_state = 138
+			}
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 1
+    		state = 64
+    		border_state = 138
+			}
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 1
+    		state = 67
+    		border_state = 138
+			}
+			divisions_in_border_state = {
+    		type = infantry
+    		size > 1
+    		state = 65
+    		border_state = 138
+			}
+		}
+		highlight_states = {
+		 highlight_state_targets = {
+			state = 138
+		}
+	}
+		 ai_will_do = {
+         base = 100
+        }
+		 complete_effect = {
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 62
+    	    	    num_provinces = 1
+    	    	}	
+    	    	defender = {
+    	    	    state = 138
+    	    	    num_provinces = 1
+    	    	}
+	    	}
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 65
+    	    	    num_provinces = 1
+    	    	}	
+    	    	defender = {
+    	    	    state = 138
+    	    	    num_provinces = 1
+    	    	}
+	    	}
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 64
+    	    	    num_provinces = 1
+    	    	}	
+    	    	defender = {
+    	    	    state = 138
+    	    	    num_provinces = 1
+    	    	}
+	    	}
+		    	start_border_war = {
+    	    	change_state_after_war = yes
+    	    	attacker = {
+    	    	    state = 70
+    	    	    num_provinces = 1
+    	    	}	
+    	    	defender = {
+    	    	    state = 138
+    	    	    num_provinces = 1
+    	    	}
+	    	}
+			add_to_variable = { western_intervention = 10 }
+		}
+	}
+    test = {
+	icon = GFX_decision_bosnia_destroy
+	 ai_will_do = {
+	 base = 100
+	}
+	 complete_effect = {
+		 custom_effect_tooltip = BOS_targeted_buff_tt
+		add_to_variable = { western_intervention = 100 }
+	}
+	}
+}
 	
 SE1_Arms_Deal_Shipments = {
 	Request_Infantry_Equipment = {

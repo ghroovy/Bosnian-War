@@ -96,13 +96,3 @@ war_economy
     planning_skill = 4
     logistics_skill = 3
 }
-
-declare_war_on = {
-    target = BOS
-    type = annex_everything
-}
-
-declare_war_on = {
-    target = FCR
-    type = annex_everything
-}

@@ -25,11 +25,9 @@ country_event = {
     trigger = {
         tag = SE1
 		SE1 = {
-		OR {
 		has_war_with = BOS
 		has_war_with = CO1
 		surrender_progress = 0.3
-		}
 	}
 }
     option = {

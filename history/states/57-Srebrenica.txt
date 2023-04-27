@@ -10,6 +10,7 @@ state={
 		7331
 		4619
 		8832
+		6237 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

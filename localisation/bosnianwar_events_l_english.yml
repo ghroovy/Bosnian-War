@@ -124,11 +124,32 @@
  city.1.c:0 "Bosnia will prevail!"
  city.1.d:0 "This is worrying."
  
+ city.2.t:0 "The Fall of Sarajevo"
+ city.2.desc:0 "With the Croatian flag raised over the Sarajevo parliament building, it is now clear that the Bosnian "Iron Heart" has fell into the hands of Herzeg-Bosna. City's importance was hard to underestimate for the Bosniak forces, since it served as a capital for their high command, yet it has failed to withstand the brutal seige. Alija Izetbegovic and main military personnel are reported to have fled elsewhere, leaving behind the burning ruins that the city has, sadly, become. And while Mate Boban congratulates the partying Croatian soldiers on their important victory, with such a significant loss, Bosnia now has much less chances to endure in the conflict."
+ city.2.a:0 "Our prayers out to the civillians."
+ city.2.b:0 "Worrying."
+ city.2.c:0 "No..."
+ city.2.d:0 "We will push them further!"
+ 
+ city.3.t:0 "The Fall of Srebrenica"
+ city.3.desc:0 "Today marks as the day when Bosnian forces have been pushed out of Srebrenica by the Srpska forces. While Bosniak divisions have dispersed elsewhere with their current location unknown, this small town of Muslim miners has now been completely captured by the Serbian army. Despite its small size, it served as an important supply hub for the Alija's soldiers, and with it's fall, Bosnian war efforts in the region have undoubtedly suffered significantly."
+ city.3.a:0 "Let's hope the civilians are fine"
+ city.3.b:0 "Nema krsta bez tri prsta!"
+ city.3.c:0 "Tragedy has struck."
+ city.3.d:0 "This is worrying."
+ 
  city.4.t:0 "A "Peacekeeping" Failure"
  city.4.desc:0 "The Fall of Srebrenica and the inaction and cowardice of the United Nations Peacekeepers to provide solitude for the Bosnian-Muslim populous who were droven out of the land sets a landmark disaster for Peacekeeping Efforts in Bosnia and brings into question the ineffective and slow bureaucracy of the United Nations Security Council, with the representatives in their chairs cowardly gritting their teeth unable to take a step forward."
  city.4.a:0 "A tragedy."
  city.4.b:0 "Nema krsta bez tri prsta!"
  city.4.c:0 "Never another."
+ 
+ city.5.t:0 "The Fall of Tuzla"
+ city.5.desc:0 "With Bosniak forces being pushed out to the defensive positions behind Tuzla after fierce battle and harsh artillery strikes, Republika Srpska has now officially captured the city. Though this small city is now reduced to nothing more but rubble due to the violent VRS attacks from all sides, it is after all still a major victory for Serbians, who have practically captured Alija's "fortress", the fall of which now has a fair chance of resulting in an entire Bosnian Northern frontline crumbling down on itself."
+ city.5.a:0 "Our prayers out to the civillians."
+ city.5.b:0 "Nema krsta bez tri prsta!"
+ city.5.c:0 "Tragedy has struck."
+ city.5.d:0 "This is worrying."
  
  ### VANCE-OWEN PLAN
  

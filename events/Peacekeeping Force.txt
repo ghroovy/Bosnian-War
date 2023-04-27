@@ -280,8 +280,10 @@ country_event = {
 		name = NATOUN.12.a
 		ai_chance = { base = 100 }
 		UN2 = {
-		transfer_state = 137
-		transfer_state = 138
+		annex_country = {
+    		target = SRE
+    		transfer_troops = yes
+			}
 		}
 		news_event = NATOUN.13
 	}

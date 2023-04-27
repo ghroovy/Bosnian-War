@@ -123,9 +123,7 @@ news_event = {
 	
 	trigger = {
 		SE1 = {
-		controls_province =  17193
-		controls_province =  17192
-		controls_province =  7168
+		controls_state = 59
 		}
 	}
 	
@@ -177,9 +175,7 @@ news_event = {
 	trigger = {
 		date > 1992.3.12
 		SE1 = {
-		controls_province =  17193
-		controls_province =  17192
-		controls_province =  7168
+		controls_state = 59
 		}
 	}
 	
@@ -210,6 +206,57 @@ news_event = {
 		ai_chance = { base = 100 }
         trigger = {
             tag = BOS
+        }
+	}
+}
+
+news_event = { 
+	id = city.5
+	title = city.5.t
+	desc = city.5.desc
+	picture = GFX_news_event_fall_of_tuzla_srpska
+	
+	trigger = {
+		SE1 = {
+		controls_province = 6340
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	option = { 
+		name = city.5.a
+		ai_chance = { base = 100 }
+        trigger = {
+            NOT = { tag = SE1 }
+		    NOT = { tag = BOS }
+			NOT = { tag = CO1 }
+        }
+	}
+	option = { 
+		name = city.5.b
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = SE1
+        }
+	}
+	option = { 
+		name = city.5.c
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = BOS
+        }
+	}
+	option = { 
+		name = city.5.d
+		ai_chance = { base = 100 }
+        trigger = {
+            tag = CO1
         }
 	}
 }
