@@ -9,13 +9,6 @@ on_actions = {
 			}
 		}
 	}
-	
-        on_daily = {
-          effect = {
-            set_variable = { western_intervention = 10 }
-          }
-        }
-    }
     
     on_ruling_party_change = { 
 		# temp var old_ideology_token is available for effects
