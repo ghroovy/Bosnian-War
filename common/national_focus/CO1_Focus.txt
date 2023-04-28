@@ -260,9 +260,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			replace_idea = {
-			add_idea = CO1_an_unprepared_force_2
-			remove_idea = CO1_an_unprepared_force
+			swap_ideas = {
+				add_idea = CO1_an_unprepared_force_2
+				remove_idea = CO1_an_unprepared_force
 			}
 			army_experience = 50
 			custom_effect_tooltip = CO1_New_Operations
