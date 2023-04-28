@@ -214,7 +214,7 @@ news_event = {
 	id = city.5
 	title = city.5.t
 	desc = city.5.desc
-	picture = GFX_news_event_fall_of_tuzla_srpska
+	picture = GFX_news_event_fall_of_zenica_srpska
 	
 	trigger = {
 		SE1 = {

@@ -159,5 +159,4 @@ add_civil_war_target = BOS
 declare_war_on = {
     target = FCR
     type = annex_everything
-}
-add_civil_war_target = BOS		
+}	

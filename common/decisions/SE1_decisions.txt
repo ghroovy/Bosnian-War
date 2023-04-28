@@ -527,16 +527,6 @@ SE1_Strategic_Captures = {
 			add_to_variable = { western_intervention = 10 }
 		}
 	}
-    test = {
-	icon = GFX_decision_bosnia_destroy
-	 ai_will_do = {
-	 base = 100
-	}
-	 complete_effect = {
-		 custom_effect_tooltip = BOS_targeted_buff_tt
-		add_to_variable = { western_intervention = 100 }
-	}
-	}
 }
 	
 SE1_Arms_Deal_Shipments = {

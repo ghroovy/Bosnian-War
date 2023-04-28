@@ -209,6 +209,35 @@ CO1_For_The_Croatian_Motherland = {
 	}
 }
 
+CO1_Croat_Bosniak_Tensions = {
+	CO1_Escalate_Border_Conflicts = {
+	icon = GFX_decision_bosnia_destroy
+		 cost = 15
+		 complete_effect = {
+		 custom_effect_tooltip = escalate_border_tt
+			multiply_variable = {
+			var = croat_bosniak_tensions
+			value = 1.2
+			}
+			round_variable = croat_bosniak_tensions
+		}
+		days_remove = 10
+	}
+	CO1_Make_Concessions_To_The_Bosniaks = {
+	icon = GFX_decision_bosnia_agree
+		 cost = 30
+		 complete_effect = {
+		 custom_effect_tooltip = concessions_bosniaks_tt
+			divide_variable = {
+			var = croat_bosniak_tensions
+			value = 1.3
+			}
+			round_variable = croat_bosniak_tensions
+		}
+		days_remove = 20
+	}
+}
+
 CO1_Arms_Deal_Shipments = {
 	CO1_Request_Infantry_Equipment = {
 	icon = GFX_decision_request_guns

@@ -128,3 +128,51 @@ country_event = {
 		### DENIED
     }
 }
+
+### CROAT-BOSNIAK WAR ###
+
+country_event = { 
+    id = herzeg.5
+    title = herzeg.5.t
+    desc = herzeg.5.d
+	picture = GFX_report_event_CO1_croat_bosniak_war
+	
+	trigger = {
+		check_variable = { croat_bosniak_tensions > 85 }
+		date > 1993.01.19
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+    fire_only_once = yes
+	
+    option = {
+        name = herzeg.5.a
+		ai_chance = { base = 100 }
+		CO1 = {
+		declare_war_on = {
+    		target = BOS
+    		type = annex_everything
+			}
+		}
+    }
+}
+
+### CROAT-BOSNIAK WAR, CROATS INSTIGATED ###
+
+country_event = { 
+    id = herzeg.6
+    title = herzeg.6.t
+    desc = herzeg.6.d
+	picture = GFX_report_event_CO1_croat_bosniak_war_alt
+	
+    fire_only_once = yes
+	
+    option = {
+        name = herzeg.6.a
+		ai_chance = { base = 100 }
+		add_stability = 0.05
+    }
+}

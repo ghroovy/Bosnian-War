@@ -6,6 +6,18 @@ CO1_For_The_Croatian_Motherland = {
 		}	
 }
 
+CO1_Croat_Bosniak_Tensions = {
+	icon = GFX_decision_category_croat_bosniak_tension
+	picture = GFX_decision_cat_croat_bosniak_tensions
+	priority = 1
+	visible = {
+		tag = CO1
+		NOT = {
+		has_war_with = BOS
+		}
+	}	
+}
+
 CO1_Arms_Deal_Shipments = {
 	icon = GFX_decision_category_arms_deals
 	picture = GFX_decision_cat_picture_arms_deals

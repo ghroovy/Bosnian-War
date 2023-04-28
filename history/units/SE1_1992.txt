@@ -605,4 +605,88 @@ division= {
 	start_experience_factor = 0.1
 	start_equipment_factor = 1
 }
+division= {	
+	name = "Divizije Pantera"
+	location = 4575
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 7004
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 8935
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 12594
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 12215
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 5023
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 8053
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 11754
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 9159
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 11710
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 8403
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Divizije Pantera"
+	location = 8028
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 0.1
+	start_equipment_factor = 1
+}
 }

@@ -56,9 +56,3 @@ recruit_character = SE2_Mile_Mrksic
 recruit_character = SE2_Dragan_Vasiljkovic
 recruit_character = SE2_Mile_Novakovic
 
-
-		declare_war_on = {
-		target = CRO
-		type = annex_everything
-	}
-

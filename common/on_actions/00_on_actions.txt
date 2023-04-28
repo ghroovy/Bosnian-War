@@ -24,10 +24,36 @@ on_actions = {
 		}
 	}
 	
-    on_startup = {
+    on_daily = {
         effect = {
 		
-        set_variable = { western_intervention = 10 }
+		add_to_variable = {
+			var = croat_bosniak_tensions
+			value = 0.5
+		}
+			
+		clamp_variable = { 
+			var = croat_bosniak_tensions
+			min = 0 
+			max = 100
+		}
+		if = {
+    		limit = {
+    		    check_variable = { croat_bosniak_tensions = 100 }
+    		}
+			CO1 = {
+			declare_war_on = {
+    			target = BOS
+    			type = annex_everything
+				}
+			country_event = herzeg.5
+			}
+		  }
+		}
+	}
+	
+    on_startup = {
+        effect = {
 	
 		start_border_war = {
     	change_state_after_war = no
@@ -65,6 +91,9 @@ on_actions = {
 		
 		#####################################
 		
+        CO1 = {
+            country_event = { id = hidden.3 }
+            }
         UN1 = {
             country_event = { id = NATOUN.10 days = 180 }
             }

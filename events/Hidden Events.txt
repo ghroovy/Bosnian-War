@@ -35,3 +35,31 @@ country_event = {
 		}
 	}
 }
+
+### VARIABLE SETTING ###
+
+country_event = {
+	id = hidden.3
+	hidden = yes
+
+	is_triggered_only = yes
+
+	option = { 
+		name = hidden.3.a
+		ai_chance = { base = 100 }
+		set_variable = { croat_bosniak_tensions = 45 }
+	}
+}
+
+country_event = {
+	id = hidden.4
+	hidden = yes
+
+	is_triggered_only = yes
+
+	option = { 
+		name = hidden.4.a
+		ai_chance = { base = 100 }
+		set_variable = { western_intervention = 10 }
+	}
+}
