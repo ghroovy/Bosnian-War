@@ -169,3 +169,101 @@ country_event = {
 		ai_chance = { base = 100 }
     }
 }
+
+### CROAT-BOSNIAK WAR ALERTS ###
+
+country_event = {
+    id = bosnia.8
+    title = bosnia.8.t
+    desc = bosnia.8.desc
+	picture = GFX_report_event_BOS_tensions_1
+    fire_only_once = yes
+	
+	trigger = {
+		check_variable = { global.croat_bosniak_tensions > 80 }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	is_triggered_only = yes
+
+    option = {
+        name = bosnia.8.a
+		ai_chance = { base = 100 }
+    }
+}
+
+country_event = {
+    id = bosnia.9
+    title = bosnia.9.t
+    desc = bosnia.9.desc
+	picture = GFX_report_event_BOS_tensions_2
+    fire_only_once = yes
+	
+	trigger = {
+		check_variable = { global.croat_bosniak_tensions > 90 }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	is_triggered_only = yes
+
+    option = {
+        name = bosnia.9.a
+		ai_chance = { base = 100 }
+    }
+}
+
+### CROAT-BOSNIAK WAR ###
+
+country_event = { 
+    id = bosnia.10
+    title = bosnia.10.t
+    desc = bosnia.10.desc
+	picture = GFX_report_event_BOS_croat_bosniak_war
+	
+    fire_only_once = yes
+	
+    option = {
+        name = bosnia.10.a
+		ai_chance = { base = 100 }
+    }
+}
+
+### CROAT-BOSNIAK WAR, CROATS INSTIGATED ###
+
+country_event = { 
+    id = bosnia.11
+    title = bosnia.11.t
+    desc = bosnia.11.desc
+	picture = GFX_report_event_BOS_croat_bosniak_war_alt
+	
+    fire_only_once = yes
+	
+    option = {
+        name = bosnia.11.a
+		ai_chance = { base = 100 }
+		add_stability = 0.05
+    }
+}
+
+### CROAT-BOSNIAK WAR, BOSNIAKS INSTIGATED ###
+
+country_event = { 
+    id = bosnia.12
+    title = bosnia.12.t
+    desc = bosnia.12.desc
+	picture = GFX_report_event_BOS_croat_bosniak_war_alt_2
+	
+    fire_only_once = yes
+	
+    option = {
+        name = bosnia.12.a
+		ai_chance = { base = 100 }
+		add_stability = -0.05
+    }
+}

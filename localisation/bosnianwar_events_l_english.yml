@@ -54,6 +54,26 @@
  bosnia.7.desc:0 "By Allah's Grace, his unending mercy, Bosnian Muslims have finally acquired Independent Representation from decades of being oppressed by Monarchal Dictatorships and Communist Governments. The Bosnian People prevail, even with the challenges of The Serb and Croatian Forces of the HV and VRS. Never before and never again will this gift be offered to our people, for we must take advantage of it as soon as possible."
  bosnia.7.a:0 "Allahu Akbar!"
  
+ bosnia.8.t:0 "Conflict on the Croat Border"
+ bosnia.8.desc:0 "The unruly Croatians to the south have once again tested the camel's back and how far we are willing to go. Tensions between us have reached a considerable point as small skirmishes and disagreements between local Bosniak and Croat forces pop up, we should never rule out the question of a potential war."
+ bosnia.8.a:0 "Is this alliance just a faux?"
+ 
+ bosnia.9.t:0 "A New War on the Horizon"
+ bosnia.9.desc:0 "War between the Croats is just on the brink as tensions are at an all time high. Those backstabbing Croats handling agreements with the Serbs will finally get what they deserve."
+ bosnia.9.a:0 "A grim future for Bosnia."
+ 
+ bosnia.10.t:0 "The Engines of War"
+ bosnia.10.desc:0 "War has ignited between the Croats, as our forces moved in to secure their areas of control within Central Bosnia. The Bosnian fighting spirit will move us past forward this and the guidance of Allah we will get our revenge on the Croatians!"
+ bosnia.10.a:0 "Samo jedan Bog, Allah!"
+ 
+ bosnia.11.t:0 "A New War Arises"
+ bosnia.11.desc:0 "Croatian and Bosnian soldiers have open fired on one another during a raged confusion. The height of the tensions between the Croats has been reached as all-out-war is in effect. The Bosnian fighting spirit holds strong towards these tough times being surrounded by enemies all around, but we will prevail through thick and thin."
+ bosnia.11.a:0 "Inshallah!"
+ 
+ bosnia.12.t:0 "A New War Arises"
+ bosnia.12.desc:0 "Under the cover of the dark, The ARBiH has made several advances in crushing Croatian Resistance and seizing Croatian Occupied Territory. The Croatians have quickly reacted to our seizure of their territories and it has devolved into an all out war as has been speculated from the rising tension. The paper alliance between us has folded and broken into several pieces, and it is time to exact revenge on the Croats."
+ bosnia.12.a:0 "Allahu Akbar!"
+ 
  #CROATIA
  croatia.2.t:0 "Operation Storm"
  croatia.2.d:0 "Following several decisive victories, Croatian forces have overwhelmed Serbian Rebel Forces and have taken hold of the rebelling Republic of Serbian Krajina and are predicted to push further south into Bosnia and disrupt Serb Forces currently waging a war against Croatian and Bosnian forces alike."
@@ -73,6 +93,26 @@
  herzeg.3.t:0 "Mate Boban Resigns from Presidency"
  herzeg.3.desc:0 "Mate Boban, President of The Croatian Republic of Herzeg-Bosnia has announced his resignation from active duty. The authority of new leadership was granted to the parliament of which Krešimir Zubak was chosen as his replacement. This recent and stunning move is speculated to be a result of the further termination of relations with Bosnian Muslims and political pressure from Zagreb, though nothing is certain, as Mostar still faces religious clashes being divided along lines."
  herzeg.3.a:0 "What does this mean for the future of Herzeg-Bosnia?"
+ 
+ herzeg.5.t:0 "War between Bosnia"
+ herzeg.5.desc:0 "The Bosniaks have shattered their paper alliance between us and have been spotted moving in to seize key Croatian enclaves within Central Bosnia! Talks for a settlement which satisfies both parties are now futile and we must now act quick to stop their forces from maneuvering further across our line."
+ herzeg.5.a:0 "Za Hrvatsku domovinu!"
+ 
+ herzeg.6.t:0 "A New War Arises"
+ herzeg.6.desc:0 "Croatian and Bosniak soldiers have started firing upon one another in a sea of confusion! With this recent upbringing, maintaining our brittle alliance with the Bosnians is now a thought of a past, talks to calm down the tension are now a thing of the past as we prepare our arms for a new conflict."
+ herzeg.6.a:0 "This will be dealt with swiftly."
+ 
+ herzeg.7.t:0 "Tensions Reaching A Breaking Point"
+ herzeg.7.desc:0 "Tensions between us and Bosniaks have reached a high point, with disagreements over claims and supplies. The future of our alliance looks increasingly grim every second that passes, we must either shatter it first or buy our time for now, as a war seems increasingly more likely between us."
+ herzeg.7.a:0 "Let us hope for the best."
+ 
+ herzeg.8.t:0 "War on the Horizon"
+ herzeg.8.desc:0 "Relations have decreased even further from what was thought the stopping point, as turning our guns on eachother becomes much more of a reality each day. Reports from across the border reveal plans of an advance into Herzeg-Bosnia by the Bosniaks and the seizing of our enclaves in Central Bosnia, with the likelihood of them encroaching on our land at any point, we must act quick. \n \n §RBosnia may ignite the fuels of war at any moment before the goal is reached.§! "
+ herzeg.8.a:0 "We must react quick."
+ 
+ herzeg.9.t:0 "Fire and Flame"
+ herzeg.9.desc:0 "Soldiers of the ARBiH have aggressively pushed into our core territories of enclaves within Central Bosnia under what seems to be direct order from high command wishing to seize the territory for themselves. Our brave Croatian resistance fighters will push them back to Doboj and greater!"
+ herzeg.9.a:0 "Za Hrvatsku domovinu!"
  
  #EQUIPMENT
  eqp.1.t:0 "Arms Transport Succesful!"
@@ -167,3 +207,12 @@
  herzeg.4.d:0 "A new peace agreement and division of Bosnia has been proposed by UN Representatives to stop the ongoing conflict. It has been forwarded to our legislative body for further discussion and contemplation"
  herzeg.4.a:0 "This is acceptable."
  herzeg.4.b:0 "Do they think we're dumb? This is a sham!"
+ 
+ ### NEWS SHIT IDK
+ 
+ news.1.t:0 "The Croat-Bosniak War"
+ news.1.desc:0 "In a raged confusion with one another over captured stashes, Bosniak and Croatian soldiers fired upon eachother in villages within Central Bosnia. This violence quickly spread like a plague throughout the frontlines as the body count piles up. The alighted conflict between the former allies was speculated heavily as they very quickly grew to distain one another and their differing views began to take hold over their brotherhood, all it took was one small spark to blow up the fragile alliance and a brighter future for Bosnia."
+ news.1.a:0 "A grim future for Bosnia."
+ news.1.b:0 "Tudjman will lead you thirsty across the water!"
+ news.1.c:0 "All against Bosnia, Bosnia will prevail!
+ news.1.d:0 "The Croatian people stand strong!"

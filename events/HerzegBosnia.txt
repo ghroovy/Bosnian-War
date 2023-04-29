@@ -116,13 +116,13 @@ country_event = {
 	}
 }
     option = {
-        name = bosnia.4.a
+        name = herzeg.4.a
 		ai_chance = { base = 80 }
 		set_global_flag = CO1_vanceowen_accepted
         ### SETS BORDERS TO VANCE-OWEN PLAN BORDERS
     }
     option = {
-        name = bosnia.4.b
+        name = herzeg.4.b
 		ai_chance = { base = 20 }
 		set_global_flag = CO1_vanceowen_denied
 		### DENIED
@@ -138,8 +138,8 @@ country_event = {
 	picture = GFX_report_event_CO1_croat_bosniak_war
 	
 	trigger = {
-		check_variable = { croat_bosniak_tensions > 85 }
-		date > 1993.01.19
+		check_variable = { global.croat_bosniak_tensions > 85 }
+		date > 1993.01.23
 	}
 	
 	mean_time_to_happen = {
@@ -151,9 +151,9 @@ country_event = {
     option = {
         name = herzeg.5.a
 		ai_chance = { base = 100 }
-		CO1 = {
+		BOS = {
 		declare_war_on = {
-    		target = BOS
+    		target = CO1
     		type = annex_everything
 			}
 		}
@@ -165,13 +165,75 @@ country_event = {
 country_event = { 
     id = herzeg.6
     title = herzeg.6.t
-    desc = herzeg.6.d
+    desc = herzeg.6.desc
 	picture = GFX_report_event_CO1_croat_bosniak_war_alt
 	
     fire_only_once = yes
 	
     option = {
         name = herzeg.6.a
+		ai_chance = { base = 100 }
+    }
+}
+
+### CROAT-BOSNIAK WAR ALERTS ###
+
+country_event = {
+    id = herzeg.7
+    title = herzeg.7.t
+    desc = herzeg.7.desc
+	picture = GFX_report_event_CO1_tensions_1
+    fire_only_once = yes
+	
+	trigger = {
+		check_variable = { global.croat_bosniak_tensions > 79.99 }
+		original_tag = CO1
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    option = {
+        name = herzeg.7.a
+		ai_chance = { base = 100 }
+    }
+}
+
+country_event = {
+    id = herzeg.8
+    title = herzeg.8.t
+    desc = herzeg.8.desc
+	picture = GFX_report_event_CO1_tensions_2
+    fire_only_once = yes
+	
+	trigger = {
+		check_variable = { global.croat_bosniak_tensions > 89.99 }
+		original_tag = CO1
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    option = {
+        name = herzeg.8.a
+		ai_chance = { base = 100 }
+    }
+}
+
+### CROAT-BOSNIAK WAR, BOSNIAKS INSTIGATED ###
+
+country_event = { 
+    id = herzeg.9
+    title = herzeg.9.t
+    desc = herzeg.9.desc
+	picture = GFX_report_event_CO1_croat_bosniak_war_alt_2
+	
+    fire_only_once = yes
+	
+    option = {
+        name = herzeg.9.a
 		ai_chance = { base = 100 }
 		add_stability = 0.05
     }

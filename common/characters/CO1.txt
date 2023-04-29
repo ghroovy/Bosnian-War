@@ -21,6 +21,7 @@ characters={
 		}
 		country_leader={
 			ideology=croatian_aligned 
+			desc = mate_boban_desc
 			expire="2020.1.1.1"
 			id=-1
 		}

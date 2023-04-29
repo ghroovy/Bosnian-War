@@ -4,3 +4,9 @@
  wi_mild:0 "§YMild.§!"
  wi_serious:0 "§RSerious.§!"
  wi_immense:0 "§tMild.§!"
+ 
+ cbt_empty_bos:0 "   "
+ cbt_war_bos:0 "§RWar is inevitable with the Croats. Us as the non-benefactors, should strike first.§!"
+ 
+ cbt_empty_co1:0 "   "
+ cbt_war_co1:0 "§RWar is dangerously close! The Bosniaks may strike first at any moment against us, we should be on guard at all times.§!"

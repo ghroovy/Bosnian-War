@@ -231,6 +231,45 @@ BOS_The_Defense_of_Bosnia = {
 	  }
 	}
 	
+BOS_Croat_Bosniak_Tensions = {
+	BOS_Reconcile_With_The_Croats = {
+	icon = GFX_decision_herzeg_agree
+		 cost = 30
+		 complete_effect = {
+			custom_effect_tooltip = reconcile_bosniaks_tt
+			divide_variable = {
+			var = global.croat_bosniak_tensions
+			value = 1.2
+			}
+			round_variable = global.croat_bosniak_tensions
+		}
+		days_remove = 25
+	}
+	BOS_Strike_Against_The_Heartless = {
+	icon = GFX_decision_herzeg_destroy
+	visible = {
+		check_variable = { global.croat_bosniak_tensions > 89.9 }
+	}
+	fire_only_once = yes
+		 cost = 10
+		 remove_effect = {
+			declare_war_on = {
+    		 target = CO1
+   			 type = annex_everything
+			}
+			BOS = {
+				country_event = bosnia.12
+			}
+			hidden_effect = {
+				CO1 = { 
+					country_event = herzeg.9 
+				}
+			}
+		}
+		days_remove = 5
+	}
+}
+	
 BOS_Arms_Deal_Shipments = {
 	BOS_Request_Infantry_Equipment = {
 	icon = GFX_decision_request_guns

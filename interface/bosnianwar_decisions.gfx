@@ -67,8 +67,18 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_decision_herzeg"
+		texturefile = "gfx/interface/decisions/decision_herzeg.png"
+	}
+	
+	spriteType = {
 		name = "GFX_decision_herzeg_destroy"
 		texturefile = "gfx/interface/decisions/decision_herzeg_destroy.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_herzeg_agree"
+		texturefile = "gfx/interface/decisions/decision_herzeg_agree.png"
 	}
 	
 	spriteType = {

@@ -28,18 +28,18 @@ on_actions = {
         effect = {
 		
 		add_to_variable = {
-			var = croat_bosniak_tensions
-			value = 0.5
+			var = global.croat_bosniak_tensions
+			value = 0.02
 		}
 			
 		clamp_variable = { 
-			var = croat_bosniak_tensions
+			var = global.croat_bosniak_tensions
 			min = 0 
 			max = 100
 		}
 		if = {
     		limit = {
-    		    check_variable = { croat_bosniak_tensions = 100 }
+    		    check_variable = { global.croat_bosniak_tensions = 100 }
     		}
 			CO1 = {
 			declare_war_on = {
@@ -48,12 +48,23 @@ on_actions = {
 				}
 			country_event = herzeg.5
 			}
+			BOS = {
+			country_event = bosnia.11
+			}
 		  }
 		}
 	}
 	
     on_startup = {
         effect = {
+		
+		CO1 = {
+		    set_variable = { global.croat_bosniak_tensions = 45 }
+            }
+			
+		SE1 = {
+		    set_variable = { western_intervention = 10 }
+            }
 		
 		### SRPSKA VRS BUFF DEGREDATION ###
 		
@@ -67,9 +78,6 @@ on_actions = {
 		
 		#####################################
 		
-        CO1 = {
-            country_event = { id = hidden.3 }
-            }
         UN1 = {
             country_event = { id = NATOUN.10 days = 180 }
             }
