@@ -66,6 +66,11 @@ spriteType = {
 		texturefile = "gfx/event_pictures/news_event_fall_of_srebrenica_srpska.dds"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_news_event_croat_bosniak_war"
+		texturefile = "gfx/event_pictures/news_event_croat_bosniak_war.png"
+		alwaystransparent = yes
+	}
 	
 ### COUNTRY EVENTS
 spriteType = {
@@ -93,6 +98,33 @@ spriteType = {
 spriteType = {
 		name = "GFX_report_event_BOS_beginning"
 		texturefile = "gfx/event_pictures/report_event_BOS_beginning.png"
+		alwaystransparent = yes
+	}
+	
+## CROAT BOSNIAK WAR ##
+spriteType = {
+		name = "GFX_report_event_CO1_croat_bosniak_war"
+		texturefile = "gfx/event_pictures/report_event_CO1_croat_bosniak_war.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_CO1_croat_bosniak_war_alt"
+		texturefile = "gfx/event_pictures/report_event_CO1_croat_bosniak_war_alt.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_CO1_croat_bosniak_war_alt_2"
+		texturefile = "gfx/event_pictures/report_event_CO1_croat_bosniak_war_alt_2.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_CO1_tensions_1"
+		texturefile = "gfx/event_pictures/report_event_CO1_tensions_1.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_CO1_tensions_2"
+		texturefile = "gfx/event_pictures/report_event_CO1_tensions_2.png"
 		alwaystransparent = yes
 	}
 }

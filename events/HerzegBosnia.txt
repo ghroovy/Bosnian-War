@@ -134,7 +134,7 @@ country_event = {
 country_event = { 
     id = herzeg.5
     title = herzeg.5.t
-    desc = herzeg.5.d
+    desc = herzeg.5.desc
 	picture = GFX_report_event_CO1_croat_bosniak_war
 	
 	trigger = {
