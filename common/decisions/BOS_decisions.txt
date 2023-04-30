@@ -239,11 +239,11 @@ BOS_Croat_Bosniak_Tensions = {
 			custom_effect_tooltip = reconcile_bosniaks_tt
 			divide_variable = {
 			var = global.croat_bosniak_tensions
-			value = 1.2
+			value = 1.1
 			}
 			round_variable = global.croat_bosniak_tensions
 		}
-		days_remove = 25
+		days_remove = 50
 	}
 	BOS_Strike_Against_The_Heartless = {
 	icon = GFX_decision_herzeg_destroy
@@ -266,7 +266,7 @@ BOS_Croat_Bosniak_Tensions = {
 				}
 			}
 		}
-		days_remove = 5
+		days_remove = 1
 	}
 }
 	

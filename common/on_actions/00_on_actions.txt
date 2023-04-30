@@ -46,12 +46,19 @@ on_actions = {
     			target = BOS
     			type = annex_everything
 				}
-			country_event = herzeg.5
+			country_event = herzeg.6
 			}
 			BOS = {
 			country_event = bosnia.11
 			}
 		  }
+		if = {
+    		limit = {
+    		    check_variable = { global.croat_bosniak_tensions > 89.99 }
+    		}
+			CO1 = { country_event = herzeg.8 }
+			BOS = { country_event = bosnia.9 }
+			}
 		}
 	}
 	

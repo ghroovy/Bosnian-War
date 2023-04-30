@@ -71,7 +71,7 @@ focus_tree = {
 		id = CO1_AK47_Our_Best_Friend
 		icon = GFX_CO1_AK47_Our_Best_Friend
 		relative_position_id = CO1_Croatia_or_Nothing
-		x = 3
+		x = 4
 		y = 3
 
 		prerequisite = { focus = CO1_Strike_Against_Our_Foes }
@@ -100,7 +100,7 @@ focus_tree = {
 		id = CO1_No_Surrender
 		icon = GFX_CO1_No_Surrender
 		relative_position_id = CO1_Croatia_or_Nothing
-		x = 6
+		x = 7
 		y = 2
 
 		prerequisite = { focus = CO1_A_Land_For_Croatians }
@@ -129,8 +129,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CO1_Ask_the_UN_for_Help
-		icon = GFX_CO1_Ask_the_UN_for_Help
+		id = CO1_Humanitarian_Aid
+		icon = GFX_CO1_Humanitarian_Aid
 		relative_position_id = CO1_Croatia_or_Nothing
 		x = -3
 		y = 2
@@ -193,7 +193,7 @@ focus_tree = {
 	focus = {
 		id = CO1_A_Land_For_Croatians
 		icon = GFX_CO1_A_Land_For_Croatians
-		x = 6
+		x = 7
 		y = 1
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -218,7 +218,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Strike_Against_Our_Foes
 		icon = GFX_CO1_Strike_Against_Our_Foes
-		x = 4
+		x = 5
 		y = 2
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -242,7 +242,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Augment_New_Operations
 		icon = GFX_CO1_Augment_New_Operations
-		x = 8
+		x = 9
 		y = 2
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -271,7 +271,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Croatian_Military_Support
 		icon = GFX_CO1_Croatian_Military_Support
-		x = 9
+		x = 10
 		y = 3
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -309,7 +309,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Defend_Our_Rightful_Land
 		icon = GFX_CO1_Croatian_Military_Support
-		x = 7
+		x = 8
 		y = 3
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -336,7 +336,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Safeguard_The_Nation
 		icon = GFX_CO1_Safeguard_The_Nation
-		x = 8
+		x = 9
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -360,7 +360,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Champions_Of_The_Frontlines
 		icon = GFX_CO1_Champions_Of_The_Frontlines
-		x = 9
+		x = 10
 		y = 5
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -386,7 +386,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Break_Through_Their_Lines
 		icon = GFX_CO1_Break_Through_Their_Lines
-		x = 5
+		x = 6
 		y = 3
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -413,7 +413,7 @@ focus_tree = {
 	focus = {
 		id = CO1_A_New_Offensive
 		icon = GFX_CO1_A_New_Offensive
-		x = 4
+		x = 5
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -437,7 +437,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Heroes_of_Herzegovina
 		icon = GFX_CO1_A_New_Offensive
-		x = 3
+		x = 4
 		y = 5
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -463,7 +463,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Experiment_New_Tactics
 		icon = GFX_CO1_Examine_New_Tactics
-		x = 6
+		x = 7
 		y = 5
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -487,7 +487,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Ambush_Their_Lines
 		icon = GFX_CO1_Ambush_Their_Lines
-		x = 2
+		x = 3
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -517,7 +517,7 @@ focus_tree = {
 	focus = {
 		id = CO1_A_Reformed_Army
 		icon = GFX_CO1_A_Reformed_Army
-		x = 10
+		x = 11
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -542,7 +542,7 @@ focus_tree = {
 	focus = {
 		id = CO1_The_Righteous_Fight
 		icon = GFX_CO1_The_Righteous_Fight
-		x = 6
+		x = 7
 		y = 6
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -569,7 +569,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Rejuvenate_The_Economy
 		icon = GFX_CO1_Rejuvenate_The_Economy
-		x = 14
+		x = 15
 		y = 2
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -593,7 +593,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Wartime_Industry
 		icon = GFX_CO1_Wartime_Industry
-		x = 15
+		x = 16
 		y = 3
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -652,7 +652,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Fast_Manuevering_Production
 		icon = GFX_CO1_Fast_Manuevering_Production
-		x = 15
+		x = 16
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -676,7 +676,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Grow_The_Civillian_Sector
 		icon = GFX_CO1_Grow_The_Civillian_Sector
-		x = 13
+		x = 14
 		y = 3
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -729,7 +729,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Further_Industrialization_Efforts
 		icon = GFX_CO1_Grow_The_Civillian_Sector
-		x = 13
+		x = 14
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -764,7 +764,7 @@ focus_tree = {
 	focus = {
 		id = CO1_Develop_A_Proper_Economy
 		icon = GFX_CO1_Grow_The_Civillian_Sector
-		x = 14
+		x = 15
 		y = 6
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -792,7 +792,7 @@ focus_tree = {
 	focus = {
 		id = CO1_A_Proper_State
 		icon = GFX_CO1_A_Proper_State
-		x = 10
+		x = 11
 		y = 7
 		relative_position_id = CO1_Croatia_or_Nothing
 
@@ -840,8 +840,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = CO1_Our_Croatian_Brothers
-		icon = GFX_CO1_Our_Croatian_Brothers
+		id = CO1_Tudjmans_Full_Support
+		icon = GFX_CO1_Tudjmans_Full_Support
 		x = -5
 		y = 2
 		relative_position_id = CO1_Croatia_or_Nothing
@@ -871,6 +871,151 @@ focus_tree = {
 		relative_position_id = CO1_Croatia_or_Nothing
 
 		prerequisite = { focus = CO1_Plea_For_International_Support }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Quell_The_Bosniaks
+		icon = GFX_CO1_Quell_The_Bosniaks
+		x = -7
+		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Crush_Their_Spirits
+		icon = GFX_CO1_Evolve_A_Proper_Identity
+		x = -7
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Shatter_The_Bosniaks }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Crush_Their_Spirits
+		icon = GFX_CO1_Crush_Their_Spirits
+		x = -7
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Quell_The_Bosniaks }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Shatter_The_Serbians
+		icon = GFX_CO1_Shatter_The_Serbians
+		x = -9
+		y = 1
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Croatia_or_Nothing }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_Extinguish_The_Menace
+		icon = GFX_CO1_Extinguish_The_Menace
+		x = -9
+		y = 2
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Shatter_The_Serbians }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = CO1_The_Tri_Ethnic_Conflict
+		icon = GFX_CO1_The_Tri_Ethnic_Conflict
+		x = -8
+		y = 3
+		relative_position_id = CO1_Croatia_or_Nothing
+
+		prerequisite = { focus = CO1_Extinguish_The_Menace }
+		prerequisite = { focus = CO1_Crush_Their_Spirits }
 		mutually_exclusive = { }
 		
 		cost = 5

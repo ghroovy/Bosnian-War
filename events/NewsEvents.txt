@@ -1,11 +1,11 @@
-﻿### MISC. NEWS EVENTS ###
+﻿### MISC. newsbos EVENTS ###
 
-add_namespace = news
+add_namespace = newsbos
 
 news_event = { 
-	id = news.1
-	title = news.1.t
-	desc = news.1.desc
+	id = newsbos.1
+	title = newsbos.1.t
+	desc = newsbos.1.desc
 	picture = GFX_news_event_croat_bosniak_war
 	
 	trigger = {
@@ -22,7 +22,7 @@ news_event = {
 	major = yes
 
 	option = { 
-		name = news.1.a
+		name = newsbos.1.a
 		ai_chance = { base = 100 }
         trigger = {
             NOT = { tag = SE1 }
@@ -31,21 +31,21 @@ news_event = {
         }
 	}
 	option = { 
-		name = news.1.b
+		name = newsbos.1.b
 		ai_chance = { base = 100 }
         trigger = {
             tag = SE1
         }
 	}
 	option = { 
-		name = news.1.c
+		name = newsbos.1.c
 		ai_chance = { base = 100 }
         trigger = {
             tag = BOS
         }
 	}
 	option = { 
-		name = news.1.d
+		name = newsbos.1.d
 		ai_chance = { base = 100 }
         trigger = {
             tag = CO1

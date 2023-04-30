@@ -28,7 +28,7 @@
  Raise_Militia_BOS:0 "Raise a Militia Brigade"
  Invite_Muslim_Fighters_BOS:0 "Invite Muslim Fighters"
  BOS_Croat_Bosniak_Tensions:0 "Croat-Bosniak Tensions"
- BOS_Croat_Bosniak_Tensions_desc:0 "The distrustful Croats have proved over time this sentiment correct, securing supplies for themselves to use and signing a truce with the Serbs in Mainland Croatia. Losing faith with us Bosniak Muslims in securing a better future for Bosnia and making deals with genocidal maniacs. \n \n \n \n  Current Tensions between @CO1§HCroats§! and @BOS§HBosniaks§! are at: §R[?global.croat_bosniak_tensions]%.§! \n \n  If the percentage reaches §t100%§! or is more than §R85%§! by §HJanuary 24th 1993§! and after, war will break loose. \n \n[croat_bosniak_tensions_flavor_BOS] "
+ BOS_Croat_Bosniak_Tensions_desc:0 "The distrustful Croats have proved over time this sentiment correct, securing supplies for themselves to use and signing a truce with the Serbs in Mainland Croatia. Losing faith with us Bosniak Muslims in securing a better future for Bosnia and making deals with genocidal maniacs. \n \n \n  Current Tensions between @CO1§HCroats§! and @BOS§HBosniaks§! are at: \n \n \n  If the percentage reaches §t100%§! or is more than §R85%§! by §HJanuary 24th 1993§! and after, war will break loose. \n \n[croat_bosniak_tensions_flavor_BOS] "
  BOS_Reconcile_With_The_Croats:0 "Reconcile with the Croats"
  BOS_Strike_Against_The_Heartless:0 "Strike Against The Heartless"
  Guns_For_All_BOS:0 "Guns for All!"
@@ -43,7 +43,7 @@
  Raise_Militia_CO1:0 "Raise a Militia Brigade"
  Fighters_From_Zagreb_CO1:0 "Fighters From Zagreb"
  CO1_Croat_Bosniak_Tensions:0 "Croat-Bosniak Tensions"
- CO1_Croat_Bosniak_Tensions_desc:0 "The Croat-Bosniak Alliance has been a shaky alliance from the start of the conflict, with both sides uneasy with one another. The alledged Graz Agreement between the Croats and Serbs has propelled forward hostile relations and a future war may be inevitable. \n \n \n \n  Current Tensions between @CO1§HCroats§! and @BOS§HBosniaks§! are at: §R[?global.croat_bosniak_tensions]%.§! \n \n  If the percentage reaches §t100%§! or is more than §R85%§! by §HJanuary 24th 1993§! and after, war will break loose. \n \n[croat_bosniak_tensions_flavor_CO1]"
+ CO1_Croat_Bosniak_Tensions_desc:0 "The Croat-Bosniak Alliance has been a shaky alliance from the start of the conflict, with both sides uneasy with one another. The alledged Graz Agreement between the Croats and Serbs has propelled forward hostile relations and a future war may be inevitable. \n \n \n \n  Current Tensions between @CO1§HCroats§! and @BOS§HBosniaks§! are at: \n \n \n  If the percentage reaches §t100%§! or is more than §R85%§! by §HJanuary 24th 1993§! and after, war will break loose. \n \n [croat_bosniak_tensions_flavor_CO1]"
  CO1_Escalate_Border_Conflicts:0 "Escalate Border Conflicts"
  CO1_Make_Concessions_To_The_Bosniaks:0 "Make Concessions to the Bosniaks"
  Guns_For_All_CO1:0 "Guns for All!"
@@ -90,3 +90,5 @@
  escalate_border_tt:0 "Will §Rraise the tension§! with the @BOS§HBosniaks§! by a considerable amount."
  concessions_bosniaks_tt:0 "Will §Gdecrease the tension§! with the @BOS§HBosniaks§! by a considerable amount."
  reconcile_bosniaks_tt:0 "Will §Gdecrease the tension§! with the @CO1§HCroats§! by a considerable amount."
+ 
+ croat_bosniak_war_percentage_gui:0 "§R[?global.croat_bosniak_tensions]%.§!"

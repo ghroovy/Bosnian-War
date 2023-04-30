@@ -235,11 +235,11 @@ CO1_Croat_Bosniak_Tensions = {
 		 	custom_effect_tooltip = global.concessions_bosniaks_tt
 			divide_variable = {
 			var = global.croat_bosniak_tensions
-			value = 1.3
+			value = 1.2
 			}
 			round_variable = global.croat_bosniak_tensions
 		}
-		days_remove = 20
+		days_remove = 50
 	}
 }
 

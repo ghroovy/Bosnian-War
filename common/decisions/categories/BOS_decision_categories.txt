@@ -10,10 +10,14 @@ BOS_The_Defense_of_Bosnia = {
 BOS_Croat_Bosniak_Tensions = {
 	icon = GFX_decision_category_croat_bosniak_tension
 	picture = GFX_decision_cat_croat_bosniak_tensions
+	scripted_gui = croat_bosniak_war_ui
 	priority = 1
 	visible = {
 		tag = BOS
-		}	
+		NOT = {
+		has_war_with = CO1
+		}
+	}
 }
 
 BOS_Arms_Deal_Shipments = {

@@ -292,28 +292,28 @@
     } 
 	 division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17187
+		location = 11541
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17187
+		location = 11541
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17187
+		location = 11541
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17187
+		location = 11541
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

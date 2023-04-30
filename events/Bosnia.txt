@@ -184,7 +184,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 2
+		days = 1
 	}
 	
 	is_triggered_only = yes
@@ -201,14 +201,6 @@ country_event = {
     desc = bosnia.9.desc
 	picture = GFX_report_event_BOS_tensions_2
     fire_only_once = yes
-	
-	trigger = {
-		check_variable = { global.croat_bosniak_tensions > 90 }
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
 	
 	is_triggered_only = yes
 
