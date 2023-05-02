@@ -191,6 +191,13 @@
  city.5.c:0 "Tragedy has struck."
  city.5.d:0 "This is worrying."
  
+ city.6.t:0 "The Fall of Bihac"
+ city.6.desc:0 "With the loss of Bosnian 5th Korpus, their main stronghold of Bihac has now fallen under the pressure of the Serbian forces. Though as a result of a brutal seige, city has ended up in ruins and with a humanitarian crisis, Serbian flag still waves on what is left on Bihac's most prominent buildings. With most of Dudakovic's men ending up captured or killed, Bosniak efforts in holding the isolated North-West have now proved themselves to be completely failed."
+ city.6.a:0 "Our prayers out to the civillians."
+ city.6.b:0 "Nema krsta bez tri prsta!"
+ city.6.c:0 "Tragedy has struck."
+ city.6.d:0 "This is worrying."
+ 
  ### VANCE-OWEN PLAN
  
  srpska.3.t:0 "Vance-Owen Plan Proposed"

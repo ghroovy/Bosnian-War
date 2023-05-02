@@ -71,6 +71,11 @@ spriteType = {
 		texturefile = "gfx/event_pictures/news_event_croat_bosniak_war.png"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_news_event_fall_of_bihac_srpska"
+		texturefile = "gfx/event_pictures/news_event_fall_of_bihac_srpska.png"
+		alwaystransparent = yes
+	}
 	
 ### COUNTRY EVENTS
 spriteType = {
