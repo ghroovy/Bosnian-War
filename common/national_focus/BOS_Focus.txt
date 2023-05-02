@@ -1377,7 +1377,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 1
+			create_wargoal = {
+				type = Jihad
+				target = SER
+			}
 		}
 	}
 	focus = {

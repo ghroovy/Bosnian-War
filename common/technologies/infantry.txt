@@ -31,7 +31,11 @@ technologies = {
 		path = {
 			leads_to_tech = infantry_weapons1
 			research_cost_coeff = 1
-		}		
+		}	
+		path = {
+			leads_to_tech = infantry_at
+			research_cost_coeff = 1
+		}				
 
 		research_cost = 1.5
 		start_year = 1970
@@ -161,10 +165,6 @@ technologies = {
 			leads_to_tech = improved_infantry_weapons_2
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = infantry_at
-			research_cost_coeff = 1
-		}		
 
 		research_cost = 2
 		start_year = 1995
@@ -271,10 +271,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1998
+		start_year = 1992
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1998 }
+			position = { x = 2 y = @1992 }
 		}
 		
 		categories = {
@@ -309,10 +309,10 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 1995
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 2 y = @1995 }
 		}
 		
 		categories = {
@@ -1123,85 +1123,6 @@ technologies = {
 
 	}
 
-	night_vision = {
-
-		land_night_attack = 0.1
-		
-		path = {
-			leads_to_tech = night_vision2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.5
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1943 }
-		}
-		
-		categories = {
-			night_vision
-		}
-		
-		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 2
-				date > "1998.1.9"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1943.1.6"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "2001.1.1"
-			}
-		}
-	}
-	
-	night_vision2 = {
-
-		land_night_attack = 0.15	
-
-		research_cost = 2
-		start_year = 2001
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @2001 }
-		}
-		
-		categories = {
-			night_vision
-		}
-		
-		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 2
-				date > "2000.1.9"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "2001.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "2001.1.6"
-			}
-		}
-	}
 	
 	support_weapons = {
 

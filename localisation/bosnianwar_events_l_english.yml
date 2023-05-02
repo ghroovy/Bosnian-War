@@ -125,14 +125,14 @@
  NATOUN.3.b:0 "We will hold no matter what!"
  
  NATOUN.4.t:0 "Operation Deny Flight"
- NATOUN.4.desc:0 "WIP"
- NATOUN.4.a:0 "WIP"
- NATOUN.4.b:0 "WIP"
+ NATOUN.4.desc:0 "NATO has officially started Operation Deny Flight, a military operation that is supposed to prohibit aircraft in the bosnian airspace. While the official intent of the operations is to enforce the no fly zone that is currently active in bosnian airspace, many NATO countries hope that by Deny Flight, they can end the war faster that is currently raging on in Bosnia. Before Deny Flight, there was Operation Sky Monitor, but there were so many blatant violations of the no fly zone recorded, that they had to intervene. Will it shorten the war? Will it successfully enforce the no fly zone? We will see."
+ NATOUN.4.a:0 "Will proper intervention finally kick in?"
+ NATOUN.4.b:0 "A futile effort."
  
  NATOUN.5.t:0 "Operation Deny Flight: Lift and Strike"
- NATOUN.5.desc:0 "WIP"
- NATOUN.5.a:0 "WIP"
- NATOUN.5.b:0 "WIP"
+ NATOUN.5.desc:0 "Before Deny Flight began, people wanted to see NATO air power in Bosnia against the bosnian-serbs to coerce them to give up. Now, NATO planes started defending themselves against serb forces that attacked them in the sky, and shot them down. Will this attitude towards serbian aircraft continue, and the serbs might lose this conflict because of NATO air and bombing raids."
+ NATOUN.5.a:0 "This needs to be ramped up."
+ NATOUN.5.b:0 "Srpska will strike them down, all of them!"
  
  NATOUN.6.t:0 "Operation Deliberate Force"
  NATOUN.6.desc:0 "The North Atlantic Treaty Organization, in collaboration with the United Nations Protection Force have launched the largest military operation conducted by NATO to date with a massive airrun and target-destruction campaign across Bosnia aimed to subvert the military capacity of the Bosnian Serbs. Dubbed "Operation Deliberate Force", a successor to Operation Deny Flight initiated after the Vojska Republika Srpske intentionally targeted Bosnian Civillians in Srebrenica and Markale with their arms, resulting in a massacre. Western Warplanes cover the clouds over Bosnia, and some hope this campaign will finally coerce the Bosnian Serbs into settling for peace."
@@ -152,7 +152,7 @@
  NATOUN.12.a:0 "WIP"
  
  NATOUN.13.t:0 "UN Extends Safe Areas"
- NATOUN.13.desc:0 "WIP"
+ NATOUN.13.desc:0 "As the United Nations Security Council has signed Resolution 824, cities and towns of Sarajevo, Tuzla, Bihac, Zepa and Goradze now are officially UN safe areas with a peacekeeping force present. Though the decision was widely controversial for being unclear about the protection procedures in a warzone reality and for causing a minor diplomatic crisis, it still has invoked hope into the hearts of those who are tired of all the mindless bloodshed."
  NATOUN.13.a:0 "WIP"
  
  ### CAPTURED CITIES

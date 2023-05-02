@@ -36,7 +36,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_CO1_Croatia_or_Nothing"
-		texturefile = "gfx/interface/goals/CO1_Croatia_or_Nothing.dds"			
+		texturefile = "gfx/interface/goals/CO1_Croatia_or_Nothing.png"			
 	}
 
 
@@ -466,6 +466,13 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BOS_Jihad_Onto_Belgrade"
 		texturefile = "gfx/interface/goals/BOS_Jihad_Onto_Belgrade.png"			
+	}
+	
+### NEW HERZEG FOCUSES ###
+
+	SpriteType = {
+		name = "GFX_CO1_A_Land_For_Croatians"
+		texturefile = "gfx/interface/goals/CO1_A_Land_For_Croatians.png"			
 	}
 
 	#### Generic continuous goal icons	

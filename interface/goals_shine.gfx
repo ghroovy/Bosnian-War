@@ -198,10 +198,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_CO1_Croatia_or_Nothing"
-		texturefile = "gfx/interface/goals/CO1_Croatia_or_Nothing.dds"
+		texturefile = "gfx/interface/goals/CO1_Croatia_or_Nothing.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CO1_Croatia_or_Nothing.dds"
+			animationmaskfile = "gfx/interface/goals/CO1_Croatia_or_Nothing.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -214,8 +214,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CO1_Croatia_or_Nothing.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationmaskfile = "gfx/interface/goals/CO1_Croatia_or_Nothing.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
 			animationtime = 0.75				# in seconds
@@ -2852,6 +2852,40 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/BOS_Jihad_Onto_Belgrade.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+### NEW HERZEG FOCUSES ###
+
+	SpriteType = {
+		name = "GFX_CO1_A_Land_For_Croatians"
+		texturefile = "gfx/interface/goals/CO1_A_Land_For_Croatians.png"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CO1_A_Land_For_Croatians.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CO1_A_Land_For_Croatians.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
