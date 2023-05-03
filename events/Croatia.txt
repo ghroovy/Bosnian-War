@@ -35,10 +35,14 @@ country_event = {
     		target = WBS
     		type = annex_everything
 		}
+		declare_war_on = {
+    		target = SE2
+    		type = annex_everything
+		}
 		CO1 = {
 		declare_war_on = {
     		target = WBS
-    		type = civil_war
+    		type = annex_everything
 		}
 	}
 		BOS = {

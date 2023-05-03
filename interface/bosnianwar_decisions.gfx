@@ -44,6 +44,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_croat_bosniak_tensions.png"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_western_bosnia_incursion"
+		texturefile = "gfx/interface/decisions/decision_cat_western_bosnia_incursion.png"
+	}
+	
 	### decision icons
 	
 	spriteType = {

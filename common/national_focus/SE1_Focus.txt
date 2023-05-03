@@ -487,9 +487,11 @@
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-    			remove_idea = SE1_VRS
-    			add_idea = SE1_VRS_2
+			add_manpower = 4000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1300
+				producer = SE1
 			}
 		}
 	}

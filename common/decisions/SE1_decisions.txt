@@ -319,6 +319,7 @@ SE1_Strategic_Captures = {
     		border_state = 59
 			}
 		}
+		fire_only_once = yes
 		highlight_states = {
 		 highlight_state_targets = {
 			state = 59
@@ -381,6 +382,7 @@ SE1_Strategic_Captures = {
     		border_state = 137
 			}
 		}
+		fire_only_once = yes
 		highlight_states = {
 		 highlight_state_targets = {
 			state = 137
@@ -471,6 +473,7 @@ SE1_Strategic_Captures = {
     		border_state = 138
 			}
 		}
+		fire_only_once = yes
 		highlight_states = {
 		 highlight_state_targets = {
 			state = 138

@@ -39,21 +39,6 @@ on_actions = {
 		}
 		if = {
     		limit = {
-    		    check_variable = { global.croat_bosniak_tensions = 100 }
-    		}
-			CO1 = {
-			declare_war_on = {
-    			target = BOS
-    			type = annex_everything
-				}
-			country_event = herzeg.6
-			}
-			BOS = {
-			country_event = bosnia.11
-			}
-		  }
-		if = {
-    		limit = {
     		    check_variable = { global.croat_bosniak_tensions > 89.99 }
     		}
 			CO1 = { country_event = herzeg.8 }

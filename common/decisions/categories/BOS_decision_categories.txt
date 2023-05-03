@@ -20,6 +20,23 @@ BOS_Croat_Bosniak_Tensions = {
 	}
 }
 
+BOS_Western_Bosnia_Incursion = {
+	icon = GFX_decision_category_defense_bosnia
+	picture = GFX_decision_cat_western_bosnia_incursion
+	priority = 1
+	visible = {
+		tag = BOS
+		WBS = {
+			owns_state = 89
+		}
+		NOT = {
+			CRO = {
+				has_war_with = WBS
+			}
+		}
+	}
+}
+
 BOS_Arms_Deal_Shipments = {
 	icon = GFX_decision_category_arms_deals
 	picture = GFX_decision_cat_picture_arms_deals
