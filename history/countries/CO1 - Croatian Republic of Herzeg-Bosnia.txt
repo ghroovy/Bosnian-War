@@ -56,6 +56,9 @@ set_popularities = {
 
 recruit_character = CO1_Mate_Boban
 recruit_character = CO1_Kresimir_Zubak
+recruit_character = CO1_Tihomir_Blaskic
+recruit_character = CO1_Ivica_Rajic
+recruit_character = CO1_Dario_Kordic
 
 add_ideas = {
 idea_the_bosnian_war

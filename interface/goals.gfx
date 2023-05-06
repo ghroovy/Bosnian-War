@@ -484,6 +484,11 @@ spriteTypes = {
 		name = "GFX_CO1_Break_Through_Their_Lines"
 		texturefile = "gfx/interface/goals/CO1_Break_Through_Their_Lines.png"			
 	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Defend_Our_Rightful_Land"
+		texturefile = "gfx/interface/goals/CO1_Defend_Our_Rightful_Land.png"			
+	}
 
 	#### Generic continuous goal icons	
 	

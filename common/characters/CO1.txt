@@ -26,4 +26,55 @@ characters={
 			id=-1
 		}
 	}
+	CO1_Tihomir_Blaskic={
+		name=CO1_Tihomir_Blaskic
+		portraits={
+			army={
+				large="GFX_portrait_tihomir_blaskic"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CO1_Ivica_Rajic={
+		name=CO1_Ivica_Rajic
+		portraits={
+			army={
+				large="GFX_portrait_ivica_rajic"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CO1_Dario_Kordic={
+		name=CO1_Dario_Kordic
+		portraits={
+			army={
+				large="GFX_portrait_dario_kordic"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 }

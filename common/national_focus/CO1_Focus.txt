@@ -338,7 +338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CO1_Defend_Our_Rightful_Land
-		icon = GFX_CO1_Croatian_Military_Support
+		icon = GFX_CO1_Defend_Our_Rightful_Land
 		x = 8
 		y = 3
 		relative_position_id = CO1_Croatia_or_Nothing
@@ -492,7 +492,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CO1_Experiment_New_Tactics
-		icon = GFX_CO1_Examine_New_Tactics
+		icon = GFX_SE1_Expand_Operations
 		x = 7
 		y = 5
 		relative_position_id = CO1_Croatia_or_Nothing
@@ -1313,7 +1313,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = CO1_The_Washington_Agreement ### ONLY COMPLETED VIA EVENT
-		icon = GFX_CO1_The_Washington_Agreement
+		icon = GFX_BOS_The_Washington_Agreement
 		x = 0
 		y = 1
 		relative_position_id = CO1_Croatia_or_Nothing

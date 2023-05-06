@@ -95,4 +95,19 @@ spriteType = {
 		texturefile = "gfx/leaders/BOS/Portrait_BOS_Enver_Hadzihasanovic.png"
 		alwaystransparent = yes
 	}
+spriteType = {
+		name = "GFX_portrait_tihomir_blaskic"
+		texturefile = "gfx/leaders/CO1/Portrait_CO1_Tihomir_Blaskic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_ivica_rajic"
+		texturefile = "gfx/leaders/CO1/Portrait_CO1_Ivica_Rajic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_dario_kordic"
+		texturefile = "gfx/leaders/CO1/Portrait_CO1_Dario_Kordic.png"
+		alwaystransparent = yes
+	}
 }
