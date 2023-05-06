@@ -21,7 +21,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_CO1_No_Surrender"
-		texturefile = "gfx/interface/goals/CO1_No_Surrender.dds"			
+		texturefile = "gfx/interface/goals/CO1_No_Surrender.png"			
 	}
 
 	SpriteType = {
@@ -473,6 +473,16 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_CO1_A_Land_For_Croatians"
 		texturefile = "gfx/interface/goals/CO1_A_Land_For_Croatians.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Augment_New_Operations"
+		texturefile = "gfx/interface/goals/CO1_Augment_New_Operations.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Break_Through_Their_Lines"
+		texturefile = "gfx/interface/goals/CO1_Break_Through_Their_Lines.png"			
 	}
 
 	#### Generic continuous goal icons	

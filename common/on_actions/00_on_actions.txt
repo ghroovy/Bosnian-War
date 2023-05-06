@@ -94,6 +94,9 @@ on_actions = {
         BOS = {
             country_event = { id = bosnia.2 days = 344 }
             }
+        CO1 = {
+            country_event = { id = herzeg.10 }
+            }
         SE1 = {
             country_event = { id = srpska.1 }
             }

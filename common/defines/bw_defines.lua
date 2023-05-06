@@ -21,3 +21,16 @@ NDefines.NMilitary.UNIT_DIGIN_CAP = 6;                           -- how "deep" y
 NDefines.NMilitary.UNIT_DIGIN_SPEED = 1.3;						   -- how "deep" you can dig a day.
 NDefines.NMilitary.OUT_OF_SUPPLY_MORALE = -0.1;                   -- max org regain reduction from supply
 NDefines.NMilitary.LOW_SUPPLY = 0.29;							   -- When the supply status of an unit becomes low.
+
+NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 8;
+NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION  = 0.3;
+NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.5;
+NDefines.NCountry.AIR_VOLUNTEER_PLANES_LIMIT = 2;
+NDefines.NCountry.AIR_VOLUNTEER_BASES_CAPACITY_LIMIT = 1;
+NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.35;
+NDefines.NDiplomacy.VOLUNTEERS_RETURN_EQUIPMENT = 0.75;
+NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 12;
+
+NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0.002;
+
+NDefines.NAI.AGGRESSIVENESS_CHECK_CAREFUL = 0.3;						-- at what front strength balance do we go careful

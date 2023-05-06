@@ -12,12 +12,12 @@ CO1_frontline = {
 
 	tag = BOS
 
-	ratio = 0.0  
+	ratio = 1.0  
 
 	priority = 100 
 	ordertype = front 
 	execution_type = rush 
 	execute_order = yes 
-	manual_attack = yes 
+	manual_attack = no
 	}
 }

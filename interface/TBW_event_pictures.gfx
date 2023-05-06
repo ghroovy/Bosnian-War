@@ -91,6 +91,12 @@ spriteType = {
 	}
 	
 spriteType = {
+		name = "GFX_report_event_CO1_beginning"
+		texturefile = "gfx/event_pictures/report_event_CO1_beginning.png"
+		alwaystransparent = yes
+	}
+	
+spriteType = {
 		name = "GFX_report_event_BOS_mujahideen"
 		texturefile = "gfx/event_pictures/report_event_BOS_mujahideen.png"
 		alwaystransparent = yes
