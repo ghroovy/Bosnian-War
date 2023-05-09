@@ -489,6 +489,26 @@ spriteTypes = {
 		name = "GFX_CO1_Defend_Our_Rightful_Land"
 		texturefile = "gfx/interface/goals/CO1_Defend_Our_Rightful_Land.png"			
 	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Strike_Against_Our_Foes"
+		texturefile = "gfx/interface/goals/CO1_Strike_Against_Our_Foes.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Croatian_Military_Support"
+		texturefile = "gfx/interface/goals/CO1_Croatian_Military_Support.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Shatter_The_Front"
+		texturefile = "gfx/interface/goals/CO1_Shatter_The_Front.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Rejuvenate_The_Economy"
+		texturefile = "gfx/interface/goals/CO1_Rejuvenate_The_Economy.png"			
+	}
 
 	#### Generic continuous goal icons	
 	

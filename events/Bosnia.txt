@@ -179,13 +179,7 @@ country_event = {
 	picture = GFX_report_event_BOS_tensions_1
     fire_only_once = yes
 	
-	trigger = {
-		check_variable = { global.croat_bosniak_tensions > 80 }
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	fire_only_once = yes
 	
 	is_triggered_only = yes
 

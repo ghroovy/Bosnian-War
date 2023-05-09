@@ -137,26 +137,23 @@ country_event = {
     desc = herzeg.5.desc
 	picture = GFX_report_event_CO1_croat_bosniak_war
 	
-	trigger = {
-		check_variable = { global.croat_bosniak_tensions > 85 }
-		date > 1993.01.23
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
     fire_only_once = yes
+	
+	immediate = {
+		CO1 = {
+		declare_war_on = {
+    		target = BOS
+    			type = annex_everything
+			}
+		}	
+	}
 	
     option = {
         name = herzeg.5.a
 		ai_chance = { base = 100 }
-		CO1 = {
-		declare_war_on = {
-    		target = BOS
-    		type = annex_everything
-			}
-		}
+		news_event = newsbos.1		
     }
 }
 
@@ -168,13 +165,7 @@ country_event = {
     desc = herzeg.6.desc
 	picture = GFX_report_event_CO1_croat_bosniak_war_alt
 	
-	trigger = {
-    	check_variable = { global.croat_bosniak_tensions = 100 }
-    }
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	immediate = {
 		CO1 = {
@@ -182,7 +173,7 @@ country_event = {
     		target = BOS
     			type = annex_everything
 			}
-		}	
+		}
 	}
 	
     fire_only_once = yes
@@ -190,6 +181,7 @@ country_event = {
     option = {
         name = herzeg.6.a
 		ai_chance = { base = 100 }
+		news_event = newsbos.1		
     }
 }
 
@@ -202,14 +194,7 @@ country_event = {
 	picture = GFX_report_event_CO1_tensions_1
     fire_only_once = yes
 	
-	trigger = {
-		check_variable = { global.croat_bosniak_tensions > 79.99 }
-		original_tag = CO1
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 
     option = {
         name = herzeg.7.a
@@ -224,14 +209,7 @@ country_event = {
 	picture = GFX_report_event_CO1_tensions_2
     fire_only_once = yes
 	
-	trigger = {
-		check_variable = { global.croat_bosniak_tensions > 89.99 }
-		original_tag = CO1
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 
     option = {
         name = herzeg.8.a

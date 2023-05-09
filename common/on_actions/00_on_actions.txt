@@ -39,10 +39,40 @@ on_actions = {
 		}
 		if = {
     		limit = {
+    		    check_variable = { global.croat_bosniak_tensions = 100 }
+    		}
+			CO1 = {
+			country_event = herzeg.6
+			}
+			BOS = {
+			country_event = bosnia.11
+			}
+		}
+		if = {
+    		limit = {
+				check_variable = { global.croat_bosniak_tensions > 85 }
+				date > 1993.01.23
+    		}
+			CO1 = {
+			country_event = herzeg.6
+			}
+			BOS = {
+			country_event = bosnia.11
+			}
+		}
+		if = {
+    		limit = {
     		    check_variable = { global.croat_bosniak_tensions > 89.99 }
     		}
 			CO1 = { country_event = herzeg.8 }
 			BOS = { country_event = bosnia.9 }
+			}
+		if = {
+    		limit = {
+    		    check_variable = { global.croat_bosniak_tensions > 79.99 }
+    		}
+			CO1 = { country_event = herzeg.7 }
+			BOS = { country_event = bosnia.8 }
 			}
 		}
 	}

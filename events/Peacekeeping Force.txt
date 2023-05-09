@@ -254,6 +254,7 @@ news_event = {
 	picture = GFX_news_event_UN1_peacekeepers_srebrenica
 
 	is_triggered_only = yes
+	major = yes
 
 	option = { 
 		name = NATOUN.11.a
@@ -296,6 +297,7 @@ news_event = {
 	picture = GFX_news_event_UN1_peacekeepers_extension
 
 	is_triggered_only = yes
+	major = yes
 
 	option = { 
 		name = NATOUN.13.a

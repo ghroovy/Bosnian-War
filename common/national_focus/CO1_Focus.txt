@@ -74,7 +74,7 @@ focus_tree = {
 		x = 1
 		y = 4
 
-		prerequisite = { focus = CO1_To_Hell_With_Heretics }
+		prerequisite = { focus = CO1_The_Enemy_Of_Our_Enemy }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -98,8 +98,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CO1_AK47_Our_Best_Friend
-		icon = GFX_CO1_AK47_Our_Best_Friend
+		id = CO1_Shatter_The_Front
+		icon = GFX_CO1_Shatter_The_Front
 		relative_position_id = CO1_Croatia_or_Nothing
 		x = 4
 		y = 3
@@ -522,7 +522,7 @@ focus_tree = {
 		relative_position_id = CO1_Croatia_or_Nothing
 
 		prerequisite = { focus = CO1_Break_Through_Their_Lines }
-		prerequisite = { focus = CO1_AK47_Our_Best_Friend }
+		prerequisite = { focus = CO1_Shatter_The_Front }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -1422,7 +1422,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
-		prerequisite = { focus = CO1_A_Common_Fight }
+		prerequisite = { focus = CO1_A_United_State_Solution }
 		
 		cost = 5
 		ai_will_do = {
