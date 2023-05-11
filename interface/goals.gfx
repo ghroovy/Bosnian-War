@@ -509,6 +509,36 @@ spriteTypes = {
 		name = "GFX_CO1_Rejuvenate_The_Economy"
 		texturefile = "gfx/interface/goals/CO1_Rejuvenate_The_Economy.png"			
 	}
+	
+	SpriteType = {
+		name = "GFX_CO1_To_Hell_With_Heretics"
+		texturefile = "gfx/interface/goals/CO1_To_Hell_With_Heretics.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_The_Enemy_Of_Our_Enemy"
+		texturefile = "gfx/interface/goals/CO1_The_Enemy_Of_Our_Enemy.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_A_New_Offensive"
+		texturefile = "gfx/interface/goals/CO1_A_New_Offensive.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Safeguard_The_Nation"
+		texturefile = "gfx/interface/goals/CO1_Safeguard_The_Nation.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_A_Reformed_Army"
+		texturefile = "gfx/interface/goals/CO1_A_Reformed_Army.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Ambush_Their_Lines"
+		texturefile = "gfx/interface/goals/CO1_Ambush_Their_Lines.png"			
+	}
 
 	#### Generic continuous goal icons	
 	

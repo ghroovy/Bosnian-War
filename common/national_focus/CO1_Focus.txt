@@ -466,7 +466,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CO1_Heroes_of_Herzegovina
-		icon = GFX_CO1_A_New_Offensive
+		icon = GFX_CO1_Heroes_of_Herzegovina
 		x = 4
 		y = 5
 		relative_position_id = CO1_Croatia_or_Nothing
@@ -622,7 +622,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CO1_Wartime_Industry
-		icon = GFX_CO1_Wartime_Industry
+		icon = GFX_SE1_Amplify_Our_War_Efforts
 		x = 16
 		y = 3
 		relative_position_id = CO1_Croatia_or_Nothing
@@ -705,7 +705,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CO1_Grow_The_Civillian_Sector
-		icon = GFX_CO1_Grow_The_Civillian_Sector
+		icon = GFX_BOS_Build_A_New_Industry
 		x = 14
 		y = 3
 		relative_position_id = CO1_Croatia_or_Nothing
@@ -758,7 +758,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CO1_Further_Industrialization_Efforts
-		icon = GFX_CO1_Grow_The_Civillian_Sector
+		icon = GFX_SE1_Invigorate_The_Industry
 		x = 14
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
