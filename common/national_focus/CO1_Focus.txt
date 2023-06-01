@@ -366,11 +366,12 @@ focus_tree = {
 	focus = {
 		id = CO1_Safeguard_The_Nation
 		icon = GFX_CO1_Safeguard_The_Nation
-		x = 9
+		x = 11
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
 		prerequisite = { focus = CO1_Defend_Our_Rightful_Land }
+		prerequisite = { focus = CO1_Croatian_Military_Support }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -447,7 +448,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
-		prerequisite = { focus = CO1_Break_Through_Their_Lines }
+		prerequisite = { focus = CO1_Break_Through_Their_Lines focus = CO1_Defend_Our_Rightful_Land }
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -547,12 +548,11 @@ focus_tree = {
 	focus = {
 		id = CO1_A_Reformed_Army
 		icon = GFX_CO1_A_Reformed_Army
-		x = 11
+		x = 9
 		y = 4
 		relative_position_id = CO1_Croatia_or_Nothing
 
-		prerequisite = { focus = CO1_Defend_Our_Rightful_Land }
-		prerequisite = { focus = CO1_Croatian_Military_Support }
+		prerequisite = { focus = CO1_Defend_Our_Rightful_Land focus = CO1_Break_Through_Their_Lines }
 		mutually_exclusive = { }
 		
 		cost = 5
