@@ -544,6 +544,16 @@ spriteTypes = {
 		name = "GFX_CO1_Heroes_of_Herzegovina"
 		texturefile = "gfx/interface/goals/CO1_Heroes_of_Herzegovina.png"			
 	}
+	
+	SpriteType = {
+		name = "GFX_CO1_Champions_Of_The_Frontlines"
+		texturefile = "gfx/interface/goals/CO1_Champions_Of_The_Frontlines.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CO1_The_Righteous_Fight"
+		texturefile = "gfx/interface/goals/CO1_The_Righteous_Fight.png"			
+	}
 
 	#### Generic continuous goal icons	
 	
