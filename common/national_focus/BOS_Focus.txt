@@ -269,11 +269,20 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#add_equipment_to_stockpile = {
-			#	type = CAS_equipment
-			#	amount = 500
-			#	producer = BOS
-			#}
+		    
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 500
+				producer = BOS
+		}
+		
+		    add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 250
+				producer = BOS
+		}
+		
 		}
 	}
 
@@ -328,7 +337,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 80
+			add_political_power = 50
+			add_stability = -0.05
 		}
 	}
 	focus = {
@@ -625,7 +635,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-					add_manpower = 3500
+		            add_manpower = 3500
+		            add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 200
+				producer = BOS
+			}
 			add_building_construction = {
 			type = bunker
         	province = 11780
@@ -637,9 +652,11 @@ focus_tree = {
         		days = 50
             	}
 			}
+			
 		}
 	}
-}
+	}
+
 	focus = {
 		id = BOS_Protect_Doboj_From_Chetniks
 		icon = GFX_BOS_Protect_Doboj_From_Chetniks

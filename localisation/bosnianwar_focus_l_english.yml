@@ -80,6 +80,7 @@
  
  BOS_Defence_of_the_Nation:0 "Defence of the Nation"
  BOS_Fortify_Zenica:0 "Secure Zenica"
+ BOS_Fortify_Zenica_desc:0 "Zenica is one of the most 3 important cities under our control. It is a muslim majority city that would resist any occupation by either the Croatian Horders of the Serb War Criminals. We must defend it to the teeth, so that it will not fall to the same fate like Tuzla."
  BOS_Protect_Doboj_From_Chetniks:0 "Protect Doboj From Chetniks"
  BOS_The_Washington_Agreement:0 "The Washington Agreement"
  BOS_Appeal_To_The_Terms:0 "Appeal to the Terms"
@@ -89,7 +90,9 @@
  BOS_Help_From_Our_Muslim_Brothers:0 "Help From Our Muslim Brothers"
  BOS_Invite_Muslim_Volunteers:0 "Open Arms to Muslim Volunteers"
  BOS_Future_Of_The_Bosnian_State:0 "Future of The Bosnian State"
+ BOS_Future_Of_The_Bosnian_State_desc:0 "Out of all the sides of this war, we are truly the ones with the most uncertain future. Should we strive to align ourselves with our Western Supporters or with our Islamic Brothers? Currently, we can't even know if we will exist in a year from now. The situation is tense."
  BOS_A_Young_Democracy:0 "A Young Democracy, in Peril"
+ BOS_A_Young_Democracy_desc:0 "Bosnia should strive to embrace democratic western values, which will grant us respect and recognition from our NATO friends. The President seems to think this is the right choice, so we shall follow through with it. In a region filled with dictatorships and censorship, we shall be the last bastion of democracy."
  BOS_Islamic_State_In_Europe:0 "Islamic State in Europe"
  BOS_Establish_Core_Institutions:0 "Establish Core Institutions"
  BOS_Declare_Jihad_Against_Srpska:0 "Declare Jihad Against Srpska"
@@ -108,9 +111,11 @@
  BOS_Build_A_New_Industry:0 "Build A New Industry"
  BOS_Establish_The_Convertible_Mark:0 "Establish the Convertible Mark"
  BOS_A_True_Bosnian_Currency:0 "A True Bosnian Currency"
+ BOS_A_True_Bosnian_Currency_desc:0 "Instead of using the German Mark as a base for our new currency, we should make a new national independent currency for our country. Not only will this improve our financial independence, but it will also help our cause of improving patriotism among the youth. This new money should be called Bosnans. NOT DOLLARS, but BOSNANS!"
  BOS_Usher_In_Western_Investments:0 "Usher in Western Investments"
  BOS_Bring_The_War_To_An_End:0 "Bring The War To An End"
  BOS_Dayton_Agreements:0 "The Dayton Agreements"
+ BOS_Dayton_Agreements_desc:0 "Despite our recent victories the war seems to have no end in sight. We shall meet in Dayton with Serb and Croatian Leaders and sign a treaty which should define Bosnia's future for the next 5 years or so. Hopefully it can be replaced by something better in the future... The worst part is the menace still exists as a part of us."
  BOS_Treaty_of_Istanbul:0 "Treaty of Istanbul"
  BOS_Destroy_the_Serbian_Menace:0 "Obliterate the Serbian Menace"
  BOS_NATO_Peacekeepers:0 "International Peacekeepers"
@@ -120,8 +125,13 @@
  BOS_One_Bosnia_Only:0 "One Bosnia Only!"
  BOS_A_True_Bosnia:0 "A True Bosnia"
  BOS_Jihad_Onto_Belgrade:0 "Jihad Onto Belgrade!"
+ BOS_Jihad_Onto_Belgrade_desc:0 "These pigs killed our people for years. They supported a genocidal regime, and we won with the help of Allah. It is time to end the occupators, at last. Justice truly came, and Allah sent us help. ALLAHU EKBER! BELGADE MUST BE DESTROYED!"
  BOS_The_Smuggling_Line:0 "The Smuggling Line"
+ BOS_The_Smuggling_Line_desc:0 "Its hard to get weapons while sorrounded under an embargo. We have established smuggling lines to get weapons from supporters who want us to win the war. Lets use this opportunity to finally arm ourselves against the Dushmans."
  BOS_United_Muslim_Support:0 "United Islamic Support"
+ BOS_United_Muslim_Support_desc:0 "May Allah reward our Muslim Brothers for their humanitarian and military aid for our great cause. They have truly helped us a lot. Inshallah they will all reach Jannah."
+ FCR_5th_Korpus:0 "The 5th Korpus"
+ FCR_5th_Korpus_desc:0 "The Serb Menace has started their genocide of Bosnia. In all of this chaos, a brave and famous group of soldiers has arisen: the 5th Corp. We are defending the Bihac pocket against the Serbian Genocidal Pigs. They won't pass!."
  
  ### HERZEG BOSNIA NEW FOCUSES
  
