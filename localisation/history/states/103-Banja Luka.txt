@@ -1,0 +1,38 @@
+state={
+	id=103
+	name="STATE_103"
+	provinces={
+		2728 11505 8071 11474 5645 7290 6752 9069 1471 11559 11552 7445 6764 11547 11509 117 11434 11398 11362 9262 11287 3093 948 9164 11328 9162 2040 6702 7214 5482 11399 3419 7018 2474 11499 11533
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 3
+            arms_factory = 1
+            industrial_complex = 1
+        }
+		add_core_of = SE1 
+
+		victory_points = {
+			2040 50.0 
+	}
+
+		victory_points = {
+			11287 20.0 
+	}
+
+		victory_points = {
+			3093 20.0 
+	}
+		victory_points = {
+			3419 5.0 
+	}
+
+	}
+
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

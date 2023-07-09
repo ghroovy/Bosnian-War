@@ -1,0 +1,23 @@
+state={
+	id=67
+	name="STATE_67"
+	provinces={
+		12140 7016 12080 12054 12030 293 8555 926 11920 11980 11993 7108 729 12049 5675 7964 7185
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 2
+            arms_factory = 1
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+
+	}
+
+	manpower=45000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

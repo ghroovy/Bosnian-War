@@ -1,0 +1,11 @@
+bitmapfonts = {
+    bitmapfont = {
+        name = "Revx_Neue"
+        path = "gfx/fonts/RevxNeue"
+        color = 0xffffffff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+}

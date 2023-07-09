@@ -1,0 +1,141 @@
+spriteTypes = {	
+
+### NEWS EVENTS
+spriteType = {
+		name = "GFX_news_event_CRO_Operation_Storm"
+		texturefile = "gfx/event_pictures/news_event_CRO_Operation_Storm.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_UN1_washington_agreement"
+		texturefile = "gfx/event_pictures/news_event_UN1_washington_agreement.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_BOS_western_bosnia_secession"
+		texturefile = "gfx/event_pictures/news_event_BOS_western_bosnia_secession.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_CO1_mate_boban_resignation"
+		texturefile = "gfx/event_pictures/news_event_mate_boban_resignation.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_fall_of_sarajevo_srpska"
+		texturefile = "gfx/event_pictures/news_event_fall_of_sarajevo_srpska.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_fall_of_sarajevo_herzeg"
+		texturefile = "gfx/event_pictures/news_event_fall_of_sarajevo_herzeg.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_UN1_deliberate_force"
+		texturefile = "gfx/event_pictures/news_event_deliberate_force.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_UN1_deny_flight"
+		texturefile = "gfx/event_pictures/news_event_deny_flight.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_UN1_deny_flight_airsupport"
+		texturefile = "gfx/event_pictures/news_event_deny_flight_2.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_SE1_crisis_banja_luka"
+		texturefile = "gfx/event_pictures/news_event_SE1_crisis_banja_luka.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_a_peacekeeping_failure"
+		texturefile = "gfx/event_pictures/news_event_a_peacekeeping_failure.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_UN1_peacekeepers_srebrenica"
+		texturefile = "gfx/event_pictures/news_event_UN1_peacekeepers_srebrenica.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_fall_of_srebrenica_srpska"
+		texturefile = "gfx/event_pictures/news_event_fall_of_srebrenica_srpska.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_croat_bosniak_war"
+		texturefile = "gfx/event_pictures/news_event_croat_bosniak_war.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_news_event_fall_of_bihac_srpska"
+		texturefile = "gfx/event_pictures/news_event_fall_of_bihac_srpska.png"
+		alwaystransparent = yes
+	}
+	
+### COUNTRY EVENTS
+spriteType = {
+		name = "GFX_report_event_CO1_mate_boban_resignation"
+		texturefile = "gfx/event_pictures/report_event_CO1_mate_boban_resignation.dds"
+		alwaystransparent = yes
+	}
+	
+spriteType = {
+		name = "GFX_report_event_SE1_beginning"
+		texturefile = "gfx/event_pictures/report_event_SE1_beginning.png"
+		alwaystransparent = yes
+	}
+	
+spriteType = {
+		name = "GFX_report_event_CO1_beginning"
+		texturefile = "gfx/event_pictures/report_event_CO1_beginning.png"
+		alwaystransparent = yes
+	}
+	
+spriteType = {
+		name = "GFX_report_event_BOS_mujahideen"
+		texturefile = "gfx/event_pictures/report_event_BOS_mujahideen.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_BOS_sarajevo_tunnel"
+		texturefile = "gfx/event_pictures/report_event_BOS_sarajevo_tunnel.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_BOS_beginning"
+		texturefile = "gfx/event_pictures/report_event_BOS_beginning.png"
+		alwaystransparent = yes
+	}
+	
+## CROAT BOSNIAK WAR ##
+spriteType = {
+		name = "GFX_report_event_CO1_croat_bosniak_war"
+		texturefile = "gfx/event_pictures/report_event_CO1_croat_bosniak_war.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_CO1_croat_bosniak_war_alt"
+		texturefile = "gfx/event_pictures/report_event_CO1_croat_bosniak_war_alt.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_CO1_croat_bosniak_war_alt_2"
+		texturefile = "gfx/event_pictures/report_event_CO1_croat_bosniak_war_alt_2.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_CO1_tensions_1"
+		texturefile = "gfx/event_pictures/report_event_CO1_tensions_1.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_report_event_CO1_tensions_2"
+		texturefile = "gfx/event_pictures/report_event_CO1_tensions_2.png"
+		alwaystransparent = yes
+	}
+}

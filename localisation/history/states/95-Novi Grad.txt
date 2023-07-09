@@ -1,0 +1,23 @@
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		6437 787 11283 6926 11247 11204 11221 3113 11135 11117 11109 5422 11130 7572 7135
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = BOS
+
+	}
+
+	manpower=28000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

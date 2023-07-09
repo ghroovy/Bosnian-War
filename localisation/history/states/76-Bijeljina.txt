@@ -1,0 +1,29 @@
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		11475 11482 6859 11448 11415 9039 11414 9306 3914 11284 11288 8241 11346 4790 11376 8155 8191 7854 4528 11419 11386 4201
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+
+		victory_points = {
+			11414 20.0 
+		}
+		victory_points = {
+			4790 20.0 
+		}
+	}
+
+	manpower=115000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

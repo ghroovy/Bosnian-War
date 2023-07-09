@@ -1,0 +1,14 @@
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		4796 6080 7139 7668 8004 12840 
+	}
+		history={
+		owner = SER
+		add_core_of = SER
+	}
+	manpower=11750
+	buildings_max_level_factor=1.000
+        state_category = rural
+}

@@ -1,0 +1,19 @@
+state={
+	id=128
+	name="STATE_128"
+	provinces={
+		432 1787 2550 2654 3883 3953 4624 4926 6388 6481 6779 6788 7002 7465 7642 7784 8604 8777 9418 10935 10993 11005 11013 11036 11050 11078 
+	}
+	history={
+		owner = SE2
+        buildings = {
+            infrastructure = 5
+            arms_factory = 0
+            industrial_complex = 2
+        }
+		add_core_of = SE2
+	}
+	manpower=52345
+	buildings_max_level_factor=1.000
+    state_category = town
+}

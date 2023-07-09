@@ -1,0 +1,30 @@
+state={
+	id=38
+	name="STATE_38"
+    resources={
+        aluminium=15.000
+        steel=10.000
+        oil=3.000
+    }
+	
+	history={
+		owner = CO1
+        buildings = {
+            infrastructure = 5
+            arms_factory = 1
+            industrial_complex = 1
+        }
+		add_core_of = BOS
+		
+		victory_points = {
+			11882 5.0 
+	}
+	
+	}
+	provinces={
+		11749 7246 7149 5305 3351 7383 11838 11835 3602 11866 11878 11913 4234 3724 3132 12015 12037 12027 7012 12091 12053 12067 7075 3606 6402 2464 7528 8746 12125 12108 12141 5996 6982 8596 11945 1273 4918 2982 6215 11882 6835 11912 9426 7838 8200
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

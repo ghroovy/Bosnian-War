@@ -1,0 +1,23 @@
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		1819 5159 7263 12192 12149 7039 157 3585 2822 12168 12184 12162 12197 12232 8521 7986 8854 12208
+	}
+
+	history={
+		owner = CO1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = CO1
+
+	}
+
+	manpower=32000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

@@ -1,0 +1,23 @@
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		8858 11785 11805 6993 2831 11737 6585 11770 8723 5713 8818 11675 11711 4144 11642
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = BOS
+
+	}
+
+	manpower=3800
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

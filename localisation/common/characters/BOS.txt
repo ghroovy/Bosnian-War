@@ -1,0 +1,36 @@
+characters={
+	BOS_Mustafa_Hajrulahovic={
+		name=BOS_Mustafa_Hajrulahovic
+		portraits={
+			army={
+				large="GFX_portrait_mustafa_hajrulahovic"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	BOS_Enver_Hadzihasanovic={
+		name=BOS_Enver_Hadzihasanovic
+		portraits={
+			army={
+				large="GFX_portrait_enver_hadzihasanovic"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	UN2_Philippe_Morillon={
+		name=UN2_Philippe_Morillon
+		portraits={
+			civilian={
+				large="GFX_portrait_philippe_morillon"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

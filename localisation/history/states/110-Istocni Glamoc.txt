@@ -1,0 +1,23 @@
+state={
+	id=110
+	name="STATE_110"
+	provinces={
+		6622 11885 7880 6113 1799 3655
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+
+	}
+
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

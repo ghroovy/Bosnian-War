@@ -1,0 +1,38 @@
+focus_tree = {
+	id = SE2_Focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 1
+			tag = SE2
+		}
+	}
+	
+	focus = {
+		id = SE2_Launch_a_New_Offensive
+		icon = GFX_SE2_Launch_a_New_Offensive
+		x = -12
+		y = 4
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			date > 1994.1.1
+		}
+
+		available_if_capitulated = no
+		
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_ideas = a_new_offensive
+		}
+	}
+	
+	default = no
+}

@@ -1,0 +1,25 @@
+state={
+	id=115
+	name="STATE_115"
+	provinces={
+		2483 12404 7055 12242 1573 7218 3542 8056
+	}
+
+	history={
+		owner = CO1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+	}
+
+	manpower=100000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

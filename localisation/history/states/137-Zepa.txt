@@ -1,0 +1,28 @@
+state={
+	id=137
+	name="STATE_137"
+	provinces={
+		1728
+	}
+
+	history={
+		owner = SRE
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = BOS
+		add_core_of = SRE
+		
+		victory_points = {
+			1728 1.0 
+	}
+	
+}
+
+	manpower=462
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

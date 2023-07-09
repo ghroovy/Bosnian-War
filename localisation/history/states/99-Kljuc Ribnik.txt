@@ -1,0 +1,31 @@
+state={
+	id=99
+	name="STATE_99"
+	provinces={
+		2032 8061 11662 11625 9224 1400 5714 11699 2745 11781 8016 4633 11862 11831 3178 11769 11812 9066 5912 265 11736 3781 383 11634 11603 8624 6462 900 11666 11701
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 3
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+
+		victory_points = {
+			11736 5.0 
+	}
+
+		victory_points = {
+			6462 5.0 
+	}
+
+	}
+
+	manpower=50000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

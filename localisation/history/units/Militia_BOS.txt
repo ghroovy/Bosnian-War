@@ -1,0 +1,32 @@
+﻿
+
+division_template = {
+	name = "Brigada Milicije"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	
+	is_locked = yes
+	
+	priority = 0
+	
+	}
+
+  units = { 
+	 division= {	
+		name = "Milicija Brigada"
+		location = 17181
+		division_template = "Brigada Milicije"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	 division= {	
+		name = "Milicija Brigada"
+		location = 17181
+		division_template = "Brigada Milicije"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+  }

@@ -1,0 +1,8 @@
+areas = {
+
+	europe = {
+		continents = {
+			europe
+		}
+	}
+}

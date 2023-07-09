@@ -1,0 +1,26 @@
+state={
+	id=96
+	name="STATE_96"
+	resources={
+        aluminium=15.000
+	}
+	provinces={
+		9281 2673 11165 3045 11149 11122 11090 11174 11110 9175 3949 11063 11102 5752 11136 11164 9403 4464 8361 2488
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 3
+            arms_factory = 1
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+
+	}
+
+	manpower=23000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

@@ -1,0 +1,25 @@
+state={
+	id=125
+	name="STATE_125"
+	resources={
+        aluminium=15.000
+        steel=10.000
+    }
+
+	provinces={
+		25 508 591 714 924  1795 2397 2400 2804 3002 3324 3741 4401 5370 5601 5608 5623 6115 6318 6646 6667 6683 6768 6936 7140 7431 7510 7930 7979 8390 8554 8787 8867 9277 9312 9377 11766 11788 11796 11825 11845 11853 11855 11864 11876 11881 11924 11927 11931 11950 11961 11963 11976 11982 11987 12001 12008 12025 12060 12106 12033 17168 
+	}
+		history={
+		owner = SE2
+        buildings = {
+            infrastructure = 5
+            arms_factory = 1
+            industrial_complex = 1
+        }
+		add_core_of = SE2
+	}
+	manpower=155786
+	buildings_max_level_factor=1.000
+        state_category = town
+}
+

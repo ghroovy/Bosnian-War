@@ -1,0 +1,25 @@
+state={
+	id=68
+	name="STATE_68"
+	provinces={
+		4968 12385 12364 12345 2783 12334 944 3126 12302 6264 12301 12267 12234 665
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 2
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+	}
+
+	manpower=2000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

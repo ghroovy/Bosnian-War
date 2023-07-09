@@ -1,0 +1,30 @@
+state={
+	id=89
+	name="STATE_89"
+	resources={
+        aluminium=15.000
+        steel=10.000
+    }
+	provinces={
+		11039 8099 3860 11089 587 3270 8930 11121 385 6089
+	}
+
+	history={
+		owner = FCR
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+		add_core_of = FCR
+		add_core_of = BOS
+		add_core_of = WBS
+
+
+	}
+
+	manpower=45000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

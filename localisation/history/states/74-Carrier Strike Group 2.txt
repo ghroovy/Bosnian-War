@@ -1,0 +1,23 @@
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		17186
+	}
+
+	history={
+		owner = UN1
+        buildings = {
+            infrastructure = 3
+            arms_factory = 14
+            industrial_complex = 1
+        }
+		add_core_of = UN1
+
+	}
+
+	manpower=5000
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+	state_category = megalopolis
+}

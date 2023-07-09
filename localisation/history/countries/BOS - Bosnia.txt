@@ -1,0 +1,119 @@
+capital = 22
+
+oob = "BOS_1992"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	CAS1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	basic_train = 1
+	mechanized = 1
+	armored_car = 1
+	armored_train = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_medium_tank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_medium_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
+set_stability = 0.5
+set_war_support = 0.4
+
+set_convoys = 20
+
+set_autonomy = {
+	target = FCR
+	autonomous_state = autonomy_puppet
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	croatia_aligned = 0
+	neutrality = 100
+}
+
+add_ideas = {
+idea_the_bosnian_war
+BOS_newly_bred_forces
+BOS_ARBIH
+limited_exports
+extensive_conscription
+war_economy
+}
+
+create_country_leader = {
+
+	name = "Alija Izetbegovic"
+	desc = ""
+	picture = "gfx/leaders/bosnia.dds"
+	expire = "2020.1.1"
+	ideology = despotism
+	traits = {
+	
+	}
+} 
+    create_field_marshal = {
+	name = "Rasim Delic"
+	picture = "Portrait_BOS_Rasim.dds"
+	traits = { organizer offensive_doctrine politically_connected }
+	skill = 6
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 5
+}
+    create_corps_commander = {
+	name = "Jovan Divjak"
+	picture = "Portrait_BOS_Jovan.dds"
+	traits = { politically_connected }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 3
+}
+    create_corps_commander = {
+	name = "Atif Dudakovic"
+	picture = "Portrait_BOS_Atif.dds"
+	traits = { trait_reckless }
+	skill = 3
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+recruit_character = BOS_Mustafa_Hajrulahovic
+recruit_character = BOS_Enver_Hadzihasanovic

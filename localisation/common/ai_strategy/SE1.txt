@@ -1,0 +1,22 @@
+SE1_serbian_brothers = {
+
+	enable = {
+		tag = SER
+		SE1 = { 
+			has_completed_focus = SE1_Armed_Volunteers
+		}
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = SE1
+		value = 400
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = SE1
+		value = 400
+	}
+}

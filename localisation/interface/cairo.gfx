@@ -1,0 +1,13 @@
+bitmapfonts = {
+    bitmapfont = {
+        name = "Cairo"
+        fontfiles = {
+            "gfx/fonts/Cairo.dds"
+        }
+        color = 0xffffffff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+}

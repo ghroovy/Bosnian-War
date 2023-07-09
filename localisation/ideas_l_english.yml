@@ -10,9 +10,14 @@
  SE1_VRS_desc:0 "\n\n\n\n£GFX_SE1_VRS_Texticon \n\n\n\n\nThe Vojska Republike Srpske, the national defence force of our nation, forged from the ashes of the JNA and the Bosnian Serb Territorial Defence Forces with glorious and proud personnel and infantry ready to die and fight for their country, with the Glavni Stab serving as the lead of all operations comprosing of seasoned officers. With this glorious army, we will push them back out of this land!"
  SE1_Divergent_Army_Command:0 "Divergent Army Command"
  SE1_Divergent_Army_Command_desc:0 "\n\n\n\n£GFX_SE1_divergent_army_command \n\n\n\n\A significant majority of our military staff are ex-communst JNA officers who conflict with our Serbian ideals and the SDS, a large portion will still only take orders directly from Belgrade and Miloslevic than to our government. The rushed assimilation between the clear-cut JNA and our Bosnian Serb Territorial Defences still shows it effects."
+ SE1_Idea_A_New_Identity:0 "A New Identity for Srpska"
+ SE1_Restructured_Economy:0 "Restructured Economy"
+ SE1_Reformed_Economy:0 "Reformed Economy"
+ SE1_Every_Man_For_Srpska:0 "Every Man for Srpska"
  
  ### BOSNIA ###
  BOS_ARBIH:0 "Armija Republike Bosne i Hercegovine"
+ BOS_ARBIH_2:0 "Armija Republike Bosne i Hercegovine"
  BOS_ARBIH_desc:0 "\n\n\n\n£GFX_BOS_ARBiH_Texticon \n\n\n\n\nThe Armija Republike Bosne i Hercegovine, the line of defense for the heart of Bosnia, comprised of our brave fighters, once regular citizens, fighting for the liberation of Bosnian Muslims and for Allah. Through our blood and Allah's grace we will push the Croats back to Zagreb and the Serbs out to the Drina and further! Inshallah!"
  BOS_defenders_of_bosnia:0 "Defenders of Bosnia"
  BOS_defenders_of_bosnia_desc:0 "WIP"
@@ -25,14 +30,23 @@
  BOS_Streamlined_Logistics:0 "Streamlined Logistics"
  BOS_Streamlined_Logistics_desc:0 "WIP"
  BOS_The_Bosnian_Economy:0 "The Bosnian Economy"
- BOS_The_Bosnian_Economy_desc:0 "WIP"
+ BOS_The_Bosnian_Economy_desc:0 "We need to work on the Bosnian Economy in order to win the war."
+ BOS_The_Bosnian_Economy_2:0 "The Bosnian Economy"
+ BOS_The_Bosnian_Economy_3:0 "The Bosnian Economy"
  BOS_International_Human_Aid:0 "International Human Aid"
  BOS_International_Human_Aid_desc:0 "WIP"
+ BOS_Convertible_Mark:0 "The Convertible Mark"
+ BOS_New_Bosnian_Currency:0 "New Bosnian Currency"
+ BOS_Miracle_of_Sarajevo:0 "The Miracle of Sarajevo"
  BOS_Newly_Bred_Forces:0 "A Newly Bred Force"
  BOS_Newly_Bred_Forces_desc:0 "\n\n\n\n£GFX_BOS_Newly_Bred_Army_Texticon \n\n\n\n\nThe ARBiH was formed out of desperation for a defence force of Bosnia, as a result the inexperienced nature of the force and a more strategic focus towards holding our land allows limited operational capability for offensive missions and advances in general."
+ BOS_Newly_Bred_Forces_2:0 "A Newly Bred Force (Reformed)"
+ BOS_Newly_Bred_Forces_2_desc:0 "\n\n\n\n£GFX_BOS_Newly_Bred_Army_Texticon \n\n\n\n\nThe ARBiH was formed out of desperation for a defence force of Bosnia, as a result the inexperienced nature of the force and a more strategic focus towards holding our land allows limited operational capability for offensive missions and advances in general."
  
  ### HERZEG-BOSNIA ###
  CO1_HVO:0 "Hrvatska Vojna Odbrana"
+ CO1_A_Fighting_Heart:0 "A Fighting Heart"
+ CO1_Statewide_Shelter_Construction:0 "Statewide Shelter Construction"
  CO1_HVO_desc:0 "\n\n\n\n£GFX_CO1_HVO_Texticon \n\n\n\n\ntemporary"
  
  ### UN/NATO ###

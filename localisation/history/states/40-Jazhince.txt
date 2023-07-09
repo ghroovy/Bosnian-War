@@ -1,0 +1,14 @@
+state={
+	id=40
+	name="STATE_40"
+	provinces={
+		111 335 1118 1327 2407 3355 4146 6108 6198 6441 6756 6925 7089 7831 8230 8271 8898 12860 12870 12872 12875 12879 12885 12889 12891 12905 12906 12907 12908 12920 12937 12953 12970 12983 
+	}
+		history={
+		owner = SER
+		add_core_of = SER
+	}
+	manpower=11750
+	buildings_max_level_factor=1.000
+        state_category = rural
+}

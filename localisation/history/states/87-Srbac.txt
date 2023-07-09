@@ -1,0 +1,29 @@
+state={
+	id=87
+	name="STATE_87"
+	provinces={
+		11212 7262 8177 6960 4990 11223 8281 11239 11267 917 3511 8471 6923 8202
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+		add_core_of = BOS
+		add_core_of = CO1
+
+		victory_points = {
+			11212	 10.0 
+		}
+
+	}
+
+	manpower=20000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

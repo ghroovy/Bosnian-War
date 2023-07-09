@@ -1,0 +1,35 @@
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		5010
+		11899
+		5761
+		2885
+		11883
+		7331
+		4619
+		8832
+		6237 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 2
+            arms_factory = 0
+            industrial_complex = 1
+        }
+		add_core_of = BOS
+
+	}
+
+	manpower=21000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+
+}

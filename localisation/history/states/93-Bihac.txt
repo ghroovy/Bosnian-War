@@ -1,0 +1,23 @@
+state={
+	id=93
+	name="STATE_93"
+	provinces={
+		11693 8997 2743 2466 6157 3803 5162 11545 3388 3423 6909 11486 5316 2703 11715 3257 5190 1025 879 11829 11848
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = SE1 
+
+	}
+
+	manpower=60000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

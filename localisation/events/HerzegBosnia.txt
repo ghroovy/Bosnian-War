@@ -1,0 +1,251 @@
+### Herzeg bosnia Events
+
+add_namespace = herzeg
+
+country_event = {
+	id = herzeg.1
+	title = herzeg.1.t
+	desc = herzeg.1.desc
+	picture = GFX_report_event_CO1_washington_agreement
+
+	is_triggered_only = yes
+
+	option = { 
+		name = herzeg.1.a
+		ai_chance = { 
+		base = 0
+		 modifier = {
+		 	add = 100
+			has_country_leader = {
+			character = CO1_Kresimir_Zubak
+			ruling_only = yes
+				}
+			}
+		}
+		set_country_flag = CO1_peace
+		hidden_effect = {
+		complete_national_focus = CO1_The_Washington_Agreement
+		complete_national_focus = CO1_A_Common_Fight
+		}
+	}
+	
+	option = { 
+		name = herzeg.1.b
+		ai_chance = { 
+		base = 0
+		 modifier = {
+		 	add = 100
+			has_country_leader = {
+			character = CO1_Mate_Boban
+			ruling_only = yes
+				}
+			}
+		}
+		hidden_effect = {
+		complete_national_focus = CO1_The_Washington_Agreement
+		complete_national_focus = CO1_To_Hell_With_Heretics
+		}
+		add_political_power = -50
+		custom_effect_tooltip = CO1_us_sour_relations
+		reverse_add_opinion_modifier = {
+			target = UN1
+			modifier = western_betrayal
+		}
+	}
+}
+
+country_event = {
+	id = herzeg.2
+	title = herzeg.2.t
+	desc = herzeg.2.desc
+	picture = GFX_report_event_CO1_mate_boban_resignation
+
+	is_triggered_only = yes
+
+	option = { 
+		name = herzeg.2.a
+		ai_chance = { base = 80 }
+		retire_country_leader = CO1_Mate_Boban
+		add_popularity = {
+        ideology = democratic
+        popularity = 1
+        }
+		set_politics = {
+		ruling_party = democratic
+		}
+		promote_character = {
+    	character = CO1_Kresimir_Zubak
+    	ideology = liberalism
+		}
+		news_event = { id = herzeg.3 }
+}
+	option = { 
+		name = herzeg.2.b
+		ai_chance = { base = 20 }
+		add_political_power = -100
+	}
+}
+
+news_event = {
+	id = herzeg.3
+	title = herzeg.3.t
+	desc = herzeg.3.desc
+	picture = GFX_news_event_CO1_mate_boban_resignation
+
+	is_triggered_only = yes
+	major = yes
+
+	option = { 
+		name = herzeg.3.a
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+    id = herzeg.4
+    title = herzeg.4.t
+    desc = herzeg.4.d
+    fire_only_once = yes
+    trigger = {
+        tag = CO1
+		CO1 = {
+		OR {
+		has_war_with = SE1
+		has_war_with = BOS
+		}
+	}
+}
+    option = {
+        name = herzeg.4.a
+		ai_chance = { base = 80 }
+		set_global_flag = CO1_vanceowen_accepted
+        ### SETS BORDERS TO VANCE-OWEN PLAN BORDERS
+    }
+    option = {
+        name = herzeg.4.b
+		ai_chance = { base = 20 }
+		set_global_flag = CO1_vanceowen_denied
+		### DENIED
+    }
+}
+
+### CROAT-BOSNIAK WAR ###
+
+country_event = { 
+    id = herzeg.5
+    title = herzeg.5.t
+    desc = herzeg.5.desc
+	picture = GFX_report_event_CO1_croat_bosniak_war
+	
+	is_triggered_only = yes
+	
+    fire_only_once = yes
+	
+	immediate = {
+		CO1 = {
+		declare_war_on = {
+    		target = BOS
+    			type = annex_everything
+			}
+		}	
+	}
+	
+    option = {
+        name = herzeg.5.a
+		ai_chance = { base = 100 }
+		news_event = newsbos.1		
+    }
+}
+
+### CROAT-BOSNIAK WAR, CROATS INSTIGATED ###
+
+country_event = { 
+    id = herzeg.6
+    title = herzeg.6.t
+    desc = herzeg.6.desc
+	picture = GFX_report_event_CO1_croat_bosniak_war_alt
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		CO1 = {
+		declare_war_on = {
+    		target = BOS
+    			type = annex_everything
+			}
+		}
+	}
+	
+    fire_only_once = yes
+	
+    option = {
+        name = herzeg.6.a
+		ai_chance = { base = 100 }
+		news_event = newsbos.1		
+    }
+}
+
+### CROAT-BOSNIAK WAR ALERTS ###
+
+country_event = {
+    id = herzeg.7
+    title = herzeg.7.t
+    desc = herzeg.7.desc
+	picture = GFX_report_event_CO1_tensions_1
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    option = {
+        name = herzeg.7.a
+		ai_chance = { base = 100 }
+    }
+}
+
+country_event = {
+    id = herzeg.8
+    title = herzeg.8.t
+    desc = herzeg.8.desc
+	picture = GFX_report_event_CO1_tensions_2
+    fire_only_once = yes
+	
+	is_triggered_only = yes
+
+    option = {
+        name = herzeg.8.a
+		ai_chance = { base = 100 }
+    }
+}
+
+### CROAT-BOSNIAK WAR, BOSNIAKS INSTIGATED ###
+
+country_event = { 
+    id = herzeg.9
+    title = herzeg.9.t
+    desc = herzeg.9.desc
+	picture = GFX_report_event_CO1_croat_bosniak_war_alt_2
+	
+    fire_only_once = yes
+	
+    option = {
+        name = herzeg.9.a
+		ai_chance = { base = 100 }
+		add_stability = 0.05
+    }
+}
+
+### END ###
+
+country_event = { 
+    id = herzeg.10
+    title = herzeg.10.t
+    desc = herzeg.10.desc
+	picture = GFX_report_event_CO1_beginning
+	
+    fire_only_once = yes
+	
+    option = {
+        name = herzeg.10.a
+		ai_chance = { base = 100 }
+    }
+}

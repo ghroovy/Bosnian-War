@@ -1,0 +1,23 @@
+state={
+	id=121
+	name="STATE_121"
+	provinces={
+		11673 3903 5290 8871 11584 6122 11613 1113 11674 3636
+	}
+
+	history={
+		owner = BOS
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = BOS
+
+	}
+
+	manpower=5000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

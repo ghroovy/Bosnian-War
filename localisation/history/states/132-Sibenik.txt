@@ -1,0 +1,19 @@
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		978 13956 2288 2493 3685 4736 4863 4953 5959 5997 6050 7566 8258 8324 8767 8774 12044 12098 12102 12116 12120 12121 12130 12145 12186 12196 12202 13947 13948 13949 13950 13951 13952 13953 13954 13955 17170 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 3
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = CRO
+	}
+	manpower=82150
+	buildings_max_level_factor=1.000
+    state_category = town
+}

@@ -1,0 +1,113 @@
+spriteTypes = {	
+
+### LEADERS
+
+spriteType = {
+		name = "GFX_portrait_kresimir_zubak"
+		texturefile = "gfx/leaders/CO1/Portrait_CO1_Kresimir_Zubak.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mate_boban"
+		texturefile = "gfx/leaders/croat_bosnia.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_fikret_abdic"
+		texturefile = "gfx/leaders/WBS/fikret_abdic.dds"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_atif_dudakovic"
+		texturefile = "gfx/leaders/FCR/Portrait_FCR_Atif_Dudakovic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_philippe_morillon"
+		texturefile = "gfx/leaders/UN2/Portrait_UN2_Philippe_Morillon.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_naser_oric"
+		texturefile = "gfx/leaders/SRE/Portrait_SRE_Naser_Oric.png"
+		alwaystransparent = yes
+	}
+	
+### GENERALS AND FIELD MARSHALS
+
+spriteType = {
+		name = "GFX_portrait_milan_martic"
+		texturefile = "gfx/leaders/SE2/Portrait_SE2_Milan_Martic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mile_mrksic"
+		texturefile = "gfx/leaders/SE2/Portrait_SE2_Mile_Mrksic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_dragan_vasiljkovic"
+		texturefile = "gfx/leaders/SE2/Portrait_SE2_Dragan_Vasiljkovic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mile_novakovic"
+		texturefile = "gfx/leaders/SE2/Portrait_SE2_Mile_Novakovic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mirko_norac"
+		texturefile = "gfx/leaders/CRO/Portrait_CRO_Mirko_Norac.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_ante_gotovina"
+		texturefile = "gfx/leaders/CRO/Portrait_CRO_Ante_Gotovina.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_ratko_mladic"
+		texturefile = "gfx/leaders/SE1/Portrait_SE1_Ratko.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_zdravko_tolimir"
+		texturefile = "gfx/leaders/SE1/Portrait_SE1_Zdravko_Tolimir.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_novica_simic"
+		texturefile = "gfx/leaders/SE1/Portrait_SE1_Novica_Simic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_pero_colic"
+		texturefile = "gfx/leaders/SE1/Portrait_SE1_Pero_Colic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_mustafa_hajrulahovic"
+		texturefile = "gfx/leaders/BOS/Portrait_BOS_Mustafa_Hajrulahovic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_enver_hadzihasanovic"
+		texturefile = "gfx/leaders/BOS/Portrait_BOS_Enver_Hadzihasanovic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_tihomir_blaskic"
+		texturefile = "gfx/leaders/CO1/Portrait_CO1_Tihomir_Blaskic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_ivica_rajic"
+		texturefile = "gfx/leaders/CO1/Portrait_CO1_Ivica_Rajic.png"
+		alwaystransparent = yes
+	}
+spriteType = {
+		name = "GFX_portrait_dario_kordic"
+		texturefile = "gfx/leaders/CO1/Portrait_CO1_Dario_Kordic.png"
+		alwaystransparent = yes
+	}
+}

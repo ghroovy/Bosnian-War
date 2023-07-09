@@ -1,0 +1,306 @@
+### NATOUN EVENTS
+
+add_namespace = NATOUN
+
+country_event = {
+	id = NATOUN.1
+	title = NATOUN.1.t
+	desc = NATOUN.1.desc
+	picture = GFX_report_event_UN1_washington_agreement
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.1.a
+		ai_chance = { base = 100 }
+		if = {
+           limit = {
+		   BOS = { has_country_flag = BOS_peace }
+		   CO1 = { has_country_flag = CO1_peace }
+		   }
+		BOS = { 
+		create_faction = herzeg_bosnia
+		add_to_faction = CO1
+		white_peace = CO1
+			}
+		}
+		news_event = NATOUN.3
+	}
+}
+	
+country_event = {
+	id = NATOUN.2
+	title = NATOUN.2.t
+	desc = NATOUN.2.desc
+	picture = GFX_report_event_UN1_enforce_embargo
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.2.a
+		ai_chance = { base = 100 }
+		GER = { 
+		send_embargo = SE1
+			}
+		SLO = { 
+		send_embargo = SE1
+			}
+		ROM = { 
+		send_embargo = SE1
+			}
+		UN1 = { 
+		send_embargo = SE1
+			}
+		UKR = { 
+		send_embargo = SE1
+			}
+		ITA = { 
+		send_embargo = SE1
+			}
+		AUS = { 
+		send_embargo = SE1
+			}
+		CZE = { 
+		send_embargo = SE1
+			}
+		TUR = { 
+		send_embargo = SE1
+			}
+		}
+	}
+	
+news_event = {
+	id = NATOUN.3
+	title = NATOUN.3.t
+	desc = NATOUN.3.desc
+	picture = GFX_news_event_UN1_washington_agreement
+
+	is_triggered_only = yes
+	major = yes
+
+	option = { 
+		name = NATOUN.3.a
+        trigger = {
+            NOT = { tag = SE1 }
+        }
+		ai_chance = { base = 100 }
+	}
+	option = { 
+		name = NATOUN.3.b
+        trigger = {
+            tag = SE1
+        }
+		ai_chance = { base = 100 }
+	}
+}
+
+news_event = {
+	id = NATOUN.4
+	title = NATOUN.4.t
+	desc = NATOUN.4.desc
+	picture = GFX_news_event_UN1_deny_flight
+
+	is_triggered_only = yes
+	major = yes
+
+	option = { 
+		name = NATOUN.4.a
+        trigger = {
+            NOT = { tag = SE1 }
+        }
+		ai_chance = { base = 100 }
+	}
+	option = { 
+		name = NATOUN.4.b
+        trigger = {
+            tag = SE1
+        }
+		ai_chance = { base = 100 }
+	}
+}
+
+news_event = {
+	id = NATOUN.5
+	title = NATOUN.5.t
+	desc = NATOUN.5.desc
+	picture = GFX_news_event_UN1_deny_flight_airsupport
+
+	is_triggered_only = yes
+	major = yes
+
+	option = { 
+		name = NATOUN.5.a
+        trigger = {
+            NOT = { tag = SE1 }
+        }
+		ai_chance = { base = 100 }
+	}
+	option = { 
+		name = NATOUN.5.b
+        trigger = {
+            tag = SE1
+        }
+		ai_chance = { base = 100 }
+	}
+}
+
+news_event = {
+	id = NATOUN.6
+	title = NATOUN.6.t
+	desc = NATOUN.6.desc
+	picture = GFX_news_event_UN1_deliberate_force
+
+	is_triggered_only = yes
+	major = yes
+
+	option = { 
+		name = NATOUN.6.a
+        trigger = {
+            NOT = { tag = SE1 }
+        }
+		ai_chance = { base = 100 }
+	}
+	option = { 
+		name = NATOUN.6.b
+        trigger = {
+            tag = SE1
+        }
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+	id = NATOUN.7
+	title = NATOUN.7.t
+	desc = NATOUN.7.desc
+	picture = GFX_report_event_UN1_deny_flight
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.7.a
+		ai_chance = { base = 100 }
+		SE1 = {
+		add_ideas = UN1_Operation_Deny_Flight
+		}
+		news_event = NATOUN.4
+	}
+}
+
+country_event = {
+	id = NATOUN.8
+	title = NATOUN.8.t
+	desc = NATOUN.8.desc
+	picture = GFX_report_event_UN1_deny_flight_airsupport
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.8.a
+		ai_chance = { base = 100 }
+		SE1 = {
+			add_ideas = UN1_Operation_Deny_Flight_2
+		}
+		news_event = NATOUN.5
+	}
+}
+
+country_event = {
+	id = NATOUN.9
+	title = NATOUN.9.t
+	desc = NATOUN.9.desc
+	picture = GFX_report_event_UN1_deliberate_force
+
+	is_triggered_only = yes
+
+	option = { 
+		name = NATOUN.9.a
+		ai_chance = { base = 100 }
+		SE1 = {
+			add_ideas = UN1_Operation_Deliberate_Force
+		}
+		news_event = NATOUN.6
+	}
+}
+
+country_event = {
+	id = NATOUN.10
+	title = NATOUN.10.t
+	desc = NATOUN.10.desc
+	picture = GFX_report_event_UN1_peacekeepers_srebrenica
+
+	is_triggered_only = yes
+	
+	trigger = {
+		SRE = {
+		controls_state = 59
+		}
+	}
+
+	option = { 
+		name = NATOUN.10.a
+		ai_chance = { base = 100 }
+		UN2 = {
+		transfer_state = 59
+		}
+		news_event = NATOUN.11
+	}
+}
+
+news_event = {
+	id = NATOUN.11
+	title = NATOUN.11.t
+	desc = NATOUN.11.desc
+	picture = GFX_news_event_UN1_peacekeepers_srebrenica
+
+	is_triggered_only = yes
+	major = yes
+
+	option = { 
+		name = NATOUN.11.a
+		ai_chance = { base = 100 }
+	}
+}
+
+country_event = {
+	id = NATOUN.12
+	title = NATOUN.12.t
+	desc = NATOUN.12.desc
+	picture = GFX_report_event_UN1_peacekeepers_extension
+
+	is_triggered_only = yes
+	
+	trigger = {
+		SRE = {
+		controls_state = 137
+		controls_state = 138
+		}
+	}
+
+	option = { 
+		name = NATOUN.12.a
+		ai_chance = { base = 100 }
+		UN2 = {
+		annex_country = {
+    		target = SRE
+    		transfer_troops = yes
+			}
+		}
+		news_event = NATOUN.13
+	}
+}
+
+news_event = {
+	id = NATOUN.13
+	title = NATOUN.13.t
+	desc = NATOUN.13.desc
+	picture = GFX_news_event_UN1_peacekeepers_extension
+
+	is_triggered_only = yes
+	major = yes
+
+	option = { 
+		name = NATOUN.13.a
+		ai_chance = { base = 100 }
+	}
+}

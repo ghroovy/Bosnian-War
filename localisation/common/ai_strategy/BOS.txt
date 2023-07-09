@@ -1,0 +1,80 @@
+BOS_guerilla = {
+
+	enable = {
+		tag = BOS
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+ 	type = front_control
+
+	tag = SE1
+
+	ratio = 0.5
+
+	priority = 100 
+	ordertype = front 
+	execution_type = careful
+	execute_order = yes 
+	}
+}
+
+BOS_garrisons = {
+
+	enable = {
+		tag = BOS
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+ 	type = put_unit_buffers
+	ratio = 1
+	order_id = 1
+	states = {
+	59
+	22
+	}
+    area = europe
+	}
+}
+
+BOS_washington_agreement = {
+
+	enable = {
+		tag = BOS
+		is_ally_with = CO1
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = CO1
+		value = 1
+	}
+	
+}
+
+BOS_frontline = {
+
+	enable = {
+		tag = BOS
+		date > 1993.1.1
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+ 	type = front_control
+
+	tag = CO1
+
+	ratio = 0.0  
+
+	priority = 100 
+	ordertype = front 
+	execution_type = rush 
+	execute_order = yes 
+	manual_attack = yes 
+	}
+}

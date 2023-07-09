@@ -1,0 +1,79 @@
+### croatia EVENTS
+
+add_namespace = croatia
+
+country_event = {
+	id = croatia.1
+	title = croatia.1.t
+	desc = croatia.1.desc
+	picture = GFX_report_event_CRO_Operation_Storm
+	
+	trigger = {
+		tag = CRO
+		date > 1995.5.1
+		SE2 = {
+		surrender_progress = 0.3
+		}
+		BOS = { has_country_flag = BOS_peace }
+		CO1 = { has_country_flag = CO1_peace }
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = croatia.1.a
+		ai_chance = { base = 100 }
+		declare_war_on = {
+    		target = SE1
+    		type = annex_everything
+		}
+		declare_war_on = {
+    		target = WBS
+    		type = annex_everything
+		}
+		declare_war_on = {
+    		target = SE2
+    		type = annex_everything
+		}
+		CO1 = {
+		declare_war_on = {
+    		target = WBS
+    		type = annex_everything
+		}
+	}
+		BOS = {
+		declare_war_on = {
+    		target = WBS
+    		type = civil_war
+		}
+	}
+		news_event = croatia.2
+		BOS = { give_military_access = CRO }
+		FCR = { give_military_access = CRO }
+		CO1 = { give_military_access = CRO }
+		cancel_border_war = {
+    	dont_fire_events = yes
+    	defender = 91
+    	attacker = 89
+		}
+	}
+}
+news_event = {
+	id = croatia.2
+	title = croatia.2.t
+	desc = croatia.2.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	picture = GFX_news_event_CRO_Operation_Storm
+	option = {
+		name = croatia.2.a
+		ai_chance = { factor = 1 }
+	}
+}

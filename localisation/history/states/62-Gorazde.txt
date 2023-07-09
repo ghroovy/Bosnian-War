@@ -1,0 +1,26 @@
+state={
+	id=62
+	name="STATE_62"
+	provinces={
+		6238 1729 8199
+	}
+
+	history={
+		owner = SE1
+        buildings = {
+            infrastructure = 1
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = BOS
+
+		victory_points = {
+			6238 3.0 
+		}
+	}
+
+	manpower=21000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}
