@@ -1,0 +1,98 @@
+ideas = {
+	country = {
+
+		CRO_raising_the_economy = {
+			picture = CRO_raising_the_economy-1
+			modifier = {
+				consumer_goods_factor = -0.05
+                production_speed_buildings_factor = 0.25 
+            }
+		}
+
+		CRO_the_popes_help = {
+			picture = CRO_the_popes_help-1
+			modifier = {
+				consumer_goods_factor = -0.05
+            }
+		}
+
+		CRO_our_own_industry = {
+			picture = CRO_our_own_industry-1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+            }
+		}
+
+		CRO_franjo_tudjman_cult_of_personality = {
+			picture = CRO_franjo_tudjman_cult_of_personality-1
+			modifier = {
+				army_attack_factor = 0.3
+                army_core_defence_factor = 0.15
+                stability_weekly = 0.01
+         	}
+		}
+
+		CRO_new_croatian_man = {
+			picture = CRO_new_croatian_man-1
+			modifier = {
+				recruitable_population = 0.02
+				minimum_training_level = -0.15 
+
+
+			}
+		}
+
+		CRO_every_man_for_homeland = {
+			picture = CRO_everymanforhomeland-1
+			modifier = {
+				weekly_manpower = 350
+
+
+			}
+		}
+
+		CRO_operation_maslenica = {
+			picture = CRO_operation_maslenica-1
+			modifier = {
+				139 = {
+	            army_attack_factor = 0.9
+                }
+            }
+		}
+
+		CRO_operation_bljesak = {
+			picture = CRO_operation_bljesak-1
+			modifier = {
+				129 = {
+	            army_attack_factor = 0.9
+                }
+            }
+		}
+
+		CRO_operation_the_storm = {
+			picture = CRO_operation_the_storm-1
+			modifier = {
+				army_attack_factor = 3
+				army_attack_speed_factor = 1.7
+            }
+		}
+
+		CRO_supply_the_front = {
+			picture = CRO_supply_the_front-1
+			modifier = {
+				supply_consumption_factor = -0.7
+                attrition = -0.35
+            }
+		}
+
+		CRO_the_final_shot = {
+			picture = CRO_the_final_shot-1
+			modifier = {
+				army_attack_factor = 0.45
+                attack_bonus_against = 0.45
+				army_attack_speed_factor = 0.5
+            }
+		}
+
+	}
+}

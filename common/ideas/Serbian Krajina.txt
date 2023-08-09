@@ -1,38 +1,90 @@
 ideas = {
+	country = {
 
-	hidden_ideas = {
-		
-		SE2_more_manpower = {
-			picture = GFX_SE2_more_manpower
-			allowed = {
-				always = no
-			}
+		Krajina_reformed_army = {
+			picture = Krajina_reformed_army-1
+			modifier = {
+				army_attack_factor = 0.05
+                army_core_defence_factor = 0.1
+				dig_in_speed = 2
+                experience_gain_army = 0.05
+                ai_focus_defense_factor = 1.5
+            }
+		}
 
-			allowed_civil_war = {
-				tag = SE2
-			}
+		Krajina_independent_industry = {
+			picture = Krajina_rsk_independent_industry-1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15 
 
-			removal_cost = -1
-			
-			modifier = {				
-				conscription = 0.3
+production_speed_buildings_factor = 0.1 
+
+production_speed_arms_factory_factor = 0.05 
+
+
 			}
 		}
-		
-		SE1_more_manpower = {
-			picture = GFX_SE1_more_manpower
-			allowed = {
-				always = no
-			}
 
-			allowed_civil_war = {
-				tag = SE1
-			}
+		Krajina_western_construction = {
+			picture = Krajina_western_construction-1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.3 
 
-			removal_cost = -1
-			
-			modifier = {				
-				conscription = 0.02
+
 			}
 		}
+
+		Krajina_build_up_industry = {
+			picture = Krajina_build_up_industry-1
+			modifier = {
+				production_speed_arms_factory_factor = 0.35 
+
+production_speed_industrial_complex_factor = 0.1 
+
+
+			}
+		}
+
+		Krajina_mobilization = {
+			picture = Krajina_mobilization-1
+			modifier = {
+				recruitable_population = 0.07
+				recruitable_population_factor = 0.05
+				minimum_training_level = -0.17 
+
+
+			}
+		}
+
+		Krajina_knin_is_holding_on = {
+			picture = Krajina_knin_is_holding_on-1
+			modifier = {
+				stability_weekly = 0.01
+
+
+			}
+		}
+
+		Krajina_rsk_must_remain = {
+			picture = Krajina_rsk_must_remain-1
+			modifier = {
+				weekly_manpower = 725
+                                army_core_defence_factor = 0.35
+
+
+			}
+		}
+
+		Krajina_supply_the_front = {
+			picture = Krajina_supply_the_front-1
+			modifier = {
+				supply_consumption_factor = -0.7
+
+attrition = -0.5
+
+
+			}
+		}
+
 	}
+}
