@@ -1,0 +1,109 @@
+CRO_Arms_Deal_Shipments = {
+	Request_Infantry_Equipment = {
+	icon = GFX_decision_request_guns
+		 cost = 70
+		 ai_will_do = {
+         base = 0
+		 modifier = {
+		 	add = 100
+			has_equipment = {
+    		infantry_equipment < 500
+			}
+        }
+	}
+		 fixed_random_seed = no
+		 remove_effect = {
+			random_list = {
+				85 = {
+				  country_event = eqp.1
+				}
+				15 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+	Request_Support_Equipment = {
+	icon = GFX_decision_request_support
+		 cost = 70
+		 ai_will_do = {
+         base = 0
+		 modifier = {
+		 	add = 100
+			has_equipment = {
+    		support_equipment < 50
+			}
+        }
+	}
+		 fixed_random_seed = no
+		 remove_effect = {
+			random_list = {
+				85 = {
+				  country_event = eqp.5
+				}
+				15 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+	Request_Artillery = {
+	icon = GFX_decision_request_artillery
+		 cost = 90
+		 ai_will_do = {
+         base = 50
+        }
+		 fixed_random_seed = no
+		 remove_effect = {
+			random_list = {
+				80 = {
+				  country_event = eqp.6
+				}
+				20 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+	Request_Tanks = {
+	icon = GFX_decision_request_tanks
+		 cost = 100
+		 ai_will_do = {
+         base = 30
+        }
+		 fixed_random_seed = no
+		 remove_effect = {
+			random_list = {
+				80 = {
+				  country_event = eqp.7
+				}
+				20 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+	Request_Trucks = {
+	icon = GFX_decision_request_trucks
+		 cost = 100
+		 ai_will_do = {
+         base = 30
+        }
+		 fixed_random_seed = no
+		 remove_effect = {
+			random_list = {
+				80 = {
+				  country_event = eqp.14
+				}
+				20 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+}
