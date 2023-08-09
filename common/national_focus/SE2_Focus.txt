@@ -1,38 +1,748 @@
 focus_tree = {
-	id = SE2_Focus
-	
+	id = krajina-focus-tree
+	continuous_focus_position = { x = -40 y = 1050 } 
 	country = {
 		factor = 0
-		
 		modifier = {
-			add = 1
+			add = 10
 			tag = SE2
 		}
 	}
-	
+	#Western oriented government
 	focus = {
-		id = SE2_Launch_a_New_Offensive
-		icon = GFX_SE2_Launch_a_New_Offensive
-		x = -12
-		y = 4
-		
-		cost = 2
-		ai_will_do = {
-			factor = 1
+		id = SE2_western_oriented_government
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
 		}
-		available = {
-			date > 1994.1.1
-		}
+		prerequisite = { focus = SE2_reform_the_government  }
+		mutually_exclusive = { focus = SE2_socialists  } mutually_exclusive = { focus = SE2_ultra_serbian_nationalist_government  }
+		ai_will_do = { factor = 1 }
+        completion_reward = {
+add_popularity = {
+    ideology = democratic
+    popularity = 1
+}
+}
 
-		available_if_capitulated = no
-		
-		bypass = {
+	}
+
+	#Reform the government
+	focus = {
+		id = SE2_reform_the_government
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
 		}
-		
 		completion_reward = {
-			add_ideas = a_new_offensive
+			add_political_power = 150
+			
+			
 		}
 	}
-	
-	default = no
+
+	#Socialists
+	focus = {
+		id = SE2_socialists
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SE2_reform_the_government  }
+		mutually_exclusive = { focus = SE2_western_oriented_government  } mutually_exclusive = { focus = SE2_ultra_serbian_nationalist_government  }
+		ai_will_do = { factor = 1 }
+        completion_reward = {
+add_popularity = {
+    ideology = democratic
+    popularity = 1
 }
+}
+
+	}
+
+	#Ultra Serbian nationalist government
+	focus = {
+		id = SE2_ultra_serbian_nationalist_government
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SE2_reform_the_government  }
+		mutually_exclusive = { focus = SE2_western_oriented_government  } mutually_exclusive = { focus = SE2_socialists  }
+		ai_will_do = { factor = 1 }
+        completion_reward = {
+add_popularity = {
+    ideology = fascism
+    popularity = 1
+}
+}
+
+	}
+
+	#Jovan Raskovic for president
+	focus = {
+		id = SE2_jovan_raskovic_for_president
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	    prerequisite = { focus = SE2_ultra_serbian_nationalist_government  }
+        completion_reward = {
+        create_country_leader = {
+        name = "Jovan Rašković"
+        desc = ""
+        picture = "" 
+        expire = "3000.1.1"
+        ideology = nazism
+        traits = { Tata_Krajine }
+        }
+        }
+    }
+
+	#Let's go West
+	focus = {
+		id = SE2_lets_go_west
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SE2_milan_babic_for_president  }
+		completion_reward = {
+        add_political_power = 100
+        }
+    }
+
+	#Our domestic production
+	focus = {
+		id = SE2_our_domestic_production
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		cost = 5
+		prerequisite = { focus = SE2_break_off_relations_with_fyr  }
+		completion_reward = {
+    add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 3750
+    producer = SE2
+    }
+}
+	}
+
+	#Break off relations with FYR
+	focus = {
+		id = SE2_break_off_relations_with_fyr
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SE2_jovan_raskovic_for_president  }
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+				target = SER
+				modifier = FYR_break_relations
+			}
+		}
+	}
+
+	#Milan Martic for president
+	focus = {
+		id = SE2_milan_martic_for_president
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SE2_socialists  }
+completion_reward = {
+create_country_leader = {
+name = "Milan Martic"
+desc =
+picture =  
+expire = "3000.1.1"
+ideology = socialism
+traits = { }
+}
+
+set_politics = {
+	ruling_party = democratic
+        elections_allowed = no
+        last_election = "1990.1.1"
+		election_frequency = 48
+	}
+
+}
+
+}
+
+	#Milan Babic for president
+	focus = {
+		id = SE2_milan_babic_for_president
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SE2_western_oriented_government  }
+completion_reward = {
+create_country_leader = {
+name = "Milan Babic"
+desc =
+picture =  
+expire = "3000.1.1"
+ideology = liberalism
+traits = { }
+}
+
+set_politics = {
+	ruling_party = democratic
+        elections_allowed = no
+        last_election = "1990.1.1"
+		election_frequency = 48
+	}
+
+}
+    }
+
+	#Buying foreign weapons
+	focus = {
+		id = SE2_buying_foreign_weapons
+		icon = GFX_goal_unknown
+		x = 1
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SE2_lets_go_west  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 1800
+			    producer = HUN
+			}
+			
+			
+			add_equipment_to_stockpile = {
+			    type = 
+			motorized_equipment    
+			amount = 150
+			    producer = HUN}
+			
+			
+			
+			add_equipment_to_stockpile = {
+			    type = artillery_equipment_1   
+			    amount = 180
+			    producer = HUN
+			}
+			
+			
+			
+			add_equipment_to_stockpile = {
+			    type = support_equipment
+			    amount =270 
+			    producer = HUN
+			}
+			
+			
+			
+			
+		}
+	}
+
+	#Attract western investors
+	focus = {
+		id = SE2_attract_western_investors
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SE2_milan_babic_for_president  }
+		completion_reward = {
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 2
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 2
+add_building_construction = {
+type = industrial_complex
+level = 1
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+
+add_ideas = Krajina_western_construction
+}
+    }
+
+	#Our independent industry
+	focus = {
+		id = SE2_our_independent_industry
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SE2_milan_martic_for_president  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+			
+			add_ideas = Krajina_independent_industry
+			
+			}
+	}
+
+	#taking arms from Zastava
+	focus = {
+		id = SE2_taking_arms_from_zastava
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SE2_our_independent_industry  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 2150
+			    producer = YUG
+			}
+			
+			
+			add_equipment_to_stockpile = {
+			    type = artillery_equipment_1
+			    amount = 275
+			    producer = YUG
+			}
+			
+			
+			
+		}
+    }
+
+	#speech in Segestin
+	focus = {
+		id = SE2_speech_in_segestin
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SE2_jovan_raskovic_for_president  }
+		completion_reward = {
+			add_stability = 0.15
+			
+			add_war_support = 0.1
+			
+			
+		}
+    }
+
+	#War for freedom
+	focus = {
+		id = SE2_war_for_freedom
+		icon = GFX_goal_unknown
+		x = 14
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SE2_reform_the_svk  }
+		available = {
+			date > 1993.07.01
+			}
+		completion_reward = {
+			CRO = {
+				declare_war_on = {
+			    target = SE2    
+			type = annex_everything
+			}
+			
+			
+			
+			}
+			
+			
+		}
+}
+
+	#Serbian volunteers
+	focus = {
+		id = SE2_serbian_volunteers
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SE2_war_for_freedom  }
+		completion_reward = {
+			add_manpower = 11500
+			
+			
+		}
+}
+
+	#Reform the SVK
+	focus = {
+		id = SE2_reform_the_svk
+		icon = GFX_goal_unknown
+		x = 14
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			add_war_support = 0.15
+			add_ideas = Krajina_reformed_army
+	    }
+    }
+
+	#Greece and Russian volunteers
+	focus = {
+		id = SE2_greece_and_russian_volunteers
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = SE2_serbian_volunteers  }
+		completion_reward = {
+			add_manpower = 6250
+			
+			
+			add_war_support = 0.05
+			
+			
+		}
+	}
+
+	#Build up industry
+	focus = {
+		id = SE2_build_up_industry
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SE2_jovan_raskovic_for_president  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+			add_ideas = Krajina_build_up_industry
+			
+			
+			
+			
+		}
+	}
+
+	#Start mobilization
+	focus = {
+		id = SE2_start_mobilization
+		icon = GFX_goal_unknown
+		x = 14
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = SE2_war_for_freedom  }
+		completion_reward = {
+			add_ideas = Krajina_mobilization
+			add_manpower = 10500
+		}
+    }
+
+	#moralizing the people
+	focus = {
+		id = SE2_moralizing_the_people
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SE2_war_for_freedom  }
+		completion_reward = {
+			add_stability = 0.2
+			
+			add_war_support = 0.15
+			
+			
+		}
+    }
+
+	#Knin is holding on
+	focus = {
+		id = SE2_knin_is_holding_on
+		icon = GFX_goal_unknown
+		x = 13
+		y = 4
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SE2_war_for_freedom  }
+		available = {
+			SE2 = {
+				controls_province = 7140
+			}
+			date > 1995.08.04
+		}
+		completion_reward = {
+			add_ideas = Krajina_knin_is_holding_on
+		}
+    }
+
+	#The storm failed
+	focus = {
+		id = SE2_the_storm_failed
+		icon = GFX_goal_unknown
+		x = 13
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SE2_knin_is_holding_on  }
+		completion_reward = {
+			add_stability = 0.15
+		 }
+    }
+
+	#Unite with RS
+	focus = {
+		id = SE2_unite_with_rs
+		icon = GFX_goal_unknown
+		x = 7
+		y = 7
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SE2_speech_in_segestin  }
+		available = {
+			has_stability > 0.99
+			
+			has_war = no
+		}
+		completion_reward = {
+			SE2 = {
+				annex_country = {
+			    target = SE1
+			    transfer_troops = yes
+			    }
+			}
+			set_cosmetic_tag = SE2_neutrality
+		}
+    }
+
+	#Take Yugoslav armaments
+	focus = {
+		id = SE2_take_yugoslav_armaments
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SE2_war_for_freedom  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 6700
+			    producer = SER
+			}
+			
+			
+			add_equipment_to_stockpile = {
+			    type = artillery_equipment
+			    amount = 950
+			    producer = SER
+			}
+			}
+    }
+
+	#RSK must remain
+	focus = {
+		id = SE2_rsk_must_remain
+		icon = GFX_goal_unknown
+		x = 14
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = SE2_start_mobilization  }
+		completion_reward = {
+			add_ideas = Krajina_rsk_must_remain
+			}
+			
+			
+			
+		}
+
+	#Supply the front
+	focus = {
+		id = SE2_supply_the_front
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SE2_war_for_freedom  }
+		completion_reward = {
+			add_ideas = Krajina_supply_the_front
+			
+			
+			
+			
+		}
+	}
+
+	#strengthen TO and RSK militia
+	focus = {
+		id = SE2_strengthen_to_and_rsk_militia
+		icon = GFX_goal_unknown
+		x = 18
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SE2_war_for_freedom  }
+		ai_will_do = { factor = 25 }
+		completion_reward = {
+			add_war_support = 0.02
+			load_oob = Teritorijalna_odbrana_RSK
+			custom_effect_tooltip = Teritorijalna_odbrana_RSK_tt
+			
+			
+		}
+	}
+
+}
+

@@ -1,0 +1,694 @@
+focus_tree = {
+	id = hrvatska-focus-tree
+	continuous_focus_position = { x = -40 y = 1570 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRO
+		}
+	}
+	#Raising the economy
+	focus = {
+		id = CRO_raising_the_economy
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CRO_Form_the_HDZ  }
+		completion_reward = {
+			add_ideas = CRO_raising_the_economy
+			
+			
+			
+			
+		}
+	}
+
+	#Make our weapons
+	focus = {
+		id = CRO_make_our_weapons
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_prepare_for_war  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment_1
+			    amount = 1150
+			    producer = CRO
+			}
+			
+			
+			add_equipment_to_stockpile = {
+			    type = artillery_equipment_1
+			    amount = 450
+			    producer = CRO
+			}
+			
+			
+			add_equipment_to_stockpile = {
+			    type = motorized_equipment
+			    amount = 350
+			    producer = CRO
+			}
+			
+			
+			
+		}
+	}
+
+	#New Croatian man
+	focus = {
+		id = CRO_new_croatian_man
+		icon = GFX_goal_unknown
+		x = 13
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = CRO_prepare_for_war  }
+		completion_reward = {
+			add_war_support = 0.15
+			
+			add_ideas = CRO_new_croatian_man
+			
+			
+			
+			
+		}
+	}
+
+	#Western help
+	focus = {
+		id = CRO_western_help
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CRO_raising_the_economy  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+			
+			
+		}
+	}
+
+	#Receive help from the Vatican
+	focus = {
+		id = CRO_receive_help_from_the_vatican
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CRO_raising_the_economy  }
+		completion_reward = {
+			add_ideas = CRO_the_popes_help
+			
+			
+			
+			
+		}
+	}
+
+	#Hungarian military industry help
+	focus = {
+		id = CRO_hungarian_military_industry_help
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CRO_raising_the_economy  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 3900
+			    producer = HUN
+			}
+			
+			
+			
+		}
+	}
+
+	#Our own industry
+	focus = {
+		id = CRO_our_own_industry
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CRO_western_help  } prerequisite = { focus = CRO_receive_help_from_the_vatican  } prerequisite = { focus = CRO_hungarian_military_industry_help  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			add_ideas = CRO_our_own_industry 
+			
+			
+			
+			
+			
+		}
+	}
+
+	#Political reforms
+	focus = {
+		id = CRO_political_reforms
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_Form_the_HDZ  }
+		completion_reward = {
+			add_political_power = 250
+			
+			
+		}
+	}
+
+	#Franjo Tudjman cult of personality
+	focus = {
+		id = CRO_franjo_tudjman_cult_of_personality
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_political_reforms  }
+		completion_reward = {
+			add_ideas = CRO_franjo_tudjman_cult_of_personality
+			
+			
+			
+			add_stability = 0.1
+			
+			add_country_leader_trait = Franjo_Tudjman
+			
+			
+		}
+	}
+
+	#Greater Croatian independence
+	focus = {
+		id = CRO_greater_croatian_independence
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_political_reforms  }
+		completion_reward = {
+			add_stability = 0.05
+			
+			add_political_power = -100
+			
+			
+		}
+	}
+
+	#Tudjman's_speech_in_the_UN_assembly
+	focus = {
+		id = CRO_tudjmans_speech_in_the_un_assembly
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_franjo_tudjman_cult_of_personality  }
+		completion_reward = {
+			add_stability = 0.05
+			
+			add_war_support = 0.05
+			
+			
+		}
+	}
+
+	#Prepare for war
+	focus = {
+		id = CRO_prepare_for_war
+		icon = GFX_goal_unknown
+		x = 13
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_Form_the_HDZ  }
+		ai_will_do = { factor = 40 }
+		completion_reward = {
+			add_war_support = 0.1
+			
+			
+		}
+	}
+
+	#Buy foreign weapons
+	focus = {
+		id = CRO_buy_foreign_weapons
+		icon = GFX_goal_unknown
+		x = 11
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_prepare_for_war  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment_1
+			    amount = 2150
+			    producer = HUN
+			}
+			
+			
+			add_equipment_to_stockpile = {
+			    type = artillery_equipment_1
+			    amount = 275
+			    producer = ITA
+			}
+			
+			
+			
+		}
+	}
+
+	#Form the HDZ
+	focus = {
+		id = CRO_Form_the_HDZ
+		icon = GFX_goal_unknown
+		x = 8
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 100
+	set_party_name = { 
+    ideology = croatia_aligned
+    long_name = Hrvatska_Demokratska_Zajednica
+    name = HDZ
+    }
+			
+			
+		}
+	}
+
+	#Every man for  homeland
+	focus = {
+		id = CRO_every_man_for_homeland
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = CRO_new_croatian_man  }
+		completion_reward = {
+			add_ideas = CRO_every_man_for_homeland
+			
+			
+			
+		}
+	}
+
+	#war efforts
+	focus = {
+		id = CRO_war_efforts
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available = {
+			has_war_with = SE2
+			
+			
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			
+			
+		}
+	}
+
+	#Operation Maslenica
+	focus = {
+		id = CRO_operation_maslenica
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_war_efforts  }
+        completion_reward = {
+			139 = {
+				add_dynamic_modifier = {
+			    modifier = CRO_operation_Maslenica
+			    scope = CRO
+			     days = 50
+			    }
+		    }
+		}
+	}
+
+	#operation Maslenica successful
+	focus = {
+		id = CRO_operation_maslenica_successful
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = CRO_operation_maslenica  }
+		available = {
+			controls_state = 139
+		}
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
+	}
+
+	#Operation Bljesak
+	focus = {
+		id = CRO_operation_bljesak
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_operation_maslenica  }
+		completion_reward = {
+			129 = {
+				add_dynamic_modifier = {
+			   modifier = CRO_operation_Bljesak
+			   scope = CRO
+			   days = 50
+			}
+		}
+			}
+			
+			
+			
+		
+	}
+
+	#Operation Bljesak successful
+	focus = {
+		id = CRO_operation_bljesak_successful
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_operation_bljesak  }
+		available = {
+			controls_state = 129
+		}
+		completion_reward = {
+			add_war_support = 0.07
+			add_stability = 0.07
+		}
+	}
+
+	#Operation The Storm
+	focus = {
+		id = CRO_operation_the_storm
+		icon = GFX_goal_unknown
+		x = 3
+		y = 7
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available = {
+			date > 1995.08.4
+			}
+		prerequisite = { focus = CRO_operation_bljesak  }
+		completion_reward = {
+			add_timed_idea = {
+			    idea = CRO_operation_the_storm 
+			    days = 35
+			}
+		}
+	}
+
+	#Operation the Storm successful
+	focus = {
+		id = CRO_operation_the_storm_successful
+		icon = GFX_goal_unknown
+		x = 5
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_operation_the_storm  }
+		available = {
+			controls_province = 7140
+			
+			
+		}
+		completion_reward = {
+			add_stability = 0.3
+			
+			add_war_support = 0.25
+			
+			
+		}
+	}
+
+	#Rise military industry
+	focus = {
+		id = CRO_rise_military_industry
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = CRO_prepare_for_war  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+		}
+    }
+
+	#Zbor narodne Garde
+	focus = {
+		id = CRO_zbor_narodne_garde
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_prepare_for_war  }
+		ai_will_do = { factor = 50 }
+		available = {
+			controls_province = 10651
+			
+			
+		}
+		available = {
+			has_war_with = SE2
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			load_oob = Brigada_ZNG
+			custom_effect_tooltip = Brigada_ZNG_tt
+			}
+	}
+
+	#Supply the front
+	focus = {
+		id = CRO_supply_the_front
+		icon = GFX_goal_unknown
+		x = 16
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = CRO_zbor_narodne_garde  }
+		completion_reward = {
+			add_ideas = CRO_supply_the_front
+		}
+	}
+
+	#Operation Maestral
+	focus = {
+		id = CRO_operation_maestral
+		icon = GFX_goal_unknown
+		x = 3
+		y = 8
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_operation_the_storm  }
+		available = {
+			owns_state = 125
+		}
+		completion_reward = {
+			add_ideas = CRO_the_final_shot
+			declare_war_on = {
+			    target = SE1
+			    type = annex_everything
+			}
+		}
+	}
+
+	#Defense of Split
+	focus = {
+		id = CRO_defense_of_split
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CRO_zbor_narodne_garde  }
+		ai_will_do = { factor = 60 }
+		available = {
+			controls_province = 12269
+			
+			
+		}
+		completion_reward = {
+			add_war_support = 0.02
+			load_oob = Brigada_HOS
+			custom_effect_tooltip = Brigada_HOS_tt
+			
+			
+		}
+	}
+
+}
+
+
