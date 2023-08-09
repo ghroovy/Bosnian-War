@@ -1,0 +1,29 @@
+state={
+	id=141
+	name="Obrovac"
+	provinces={
+		6115 7431 7510 11796 11825 11855 
+	}
+	history={
+		owner = SE2
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+        }
+		add_core_of = SE2
+
+				victory_points = {
+		7510 5
+		}
+				victory_points = {
+		7431 5
+		}
+				victory_points = {
+		6115 5
+		}
+
+}
+	manpower=27233
+	buildings_max_level_factor=1.000
+    state_category = town
+}

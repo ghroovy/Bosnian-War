@@ -12,6 +12,15 @@ state={
             industrial_complex = 1
         }
 		add_core_of = SE2
+				victory_points = {
+		10962 1
+		}
+				victory_points = {
+		2041 5
+		}
+				victory_points = {
+		7196 1
+		}
 	}
 	manpower=73547
 	buildings_max_level_factor=1.000

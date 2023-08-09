@@ -1,0 +1,28 @@
+state={
+	id=144
+	name="Kijevo"
+	provinces={
+		591 714 2400 2804 8787 11924 11950 11963 11976 11987 12001 12025 12106 
+	}
+		history={
+		owner = SE2
+        buildings = {
+            infrastructure = 4
+            arms_factory = 1
+        }
+		add_core_of = SE2
+				victory_points = {
+		2400 1
+		}
+				victory_points = {
+		12001 1
+		}
+				victory_points = {
+		11950 5
+		}
+}			
+
+	manpower=27240
+	buildings_max_level_factor=1.000
+        state_category = town
+}
