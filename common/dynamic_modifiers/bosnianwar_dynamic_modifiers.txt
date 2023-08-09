@@ -81,3 +81,19 @@ CO1_defense = { #STATE MODIFIER
 	dig_in_speed_factor = 0.3
 	max_dig_in_factor = 0.3
 }
+
+CRO_operation_Maslenica = { #STATE MODIFIER
+	enable = { always = yes }
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	army_attack_factor = 0.9
+}
+
+CRO_operation_Bljesak = { #STATE MODIFIER
+	enable = { always = yes }
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	army_attack_factor = 0.9
+}
