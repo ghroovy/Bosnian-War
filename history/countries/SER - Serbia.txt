@@ -5,6 +5,7 @@ oob = "SER_1992"
 set_research_slots = 2
 set_stability = 15
 set_war_support = 44
+give_military_access = SE2
 #Starting tech
 set_technology = {
 infantry_weapons = 1

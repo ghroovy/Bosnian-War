@@ -1,8 +1,9 @@
-﻿capital = 125
+﻿capital = 7140
 oob = "SE2_1992"
 set_research_slots = 3
-set_stability = 100
-set_war_support = 100
+set_stability = 0.3
+set_war_support = 0.25
+add_manpower = 85000
 #Starting tech
 set_technology = {
 infantry_weapons = 1

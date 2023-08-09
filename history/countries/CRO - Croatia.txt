@@ -1,6 +1,8 @@
 capital = 136
 
 oob = "CRO_1992"
+set_stability = 0.35
+set_war_support = 0.3
 
 # Starting tech
 set_technology = {
