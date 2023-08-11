@@ -647,9 +647,9 @@ add_ideas = Krajina_western_construction
 			has_war = no
 		}
 		completion_reward = {
-			SE2 = {
+			SE1 = {
 				annex_country = {
-			    target = SE1
+			    target = SE2
 			    transfer_troops = yes
 			    }
 			}
