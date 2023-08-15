@@ -1,2 +1,6 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
--1;-1;;-1;-1;-1;-1;-1;-1
+11742;11660;sea;14892;-1;-1;-1;-1;-1;Zadar;Zadar
+11563;4212;sea;16423;-1;-1;-1;-1;-1;Zadar;Senj
+11687;11742;sea;15967;-1;-1;-1;-1;-1;Senj;Zadar
+12612;5154;sea;14696;-1;-1;-1;-1;-1;Split;Dubrovnik
+8781;12630;sea;16303;-1;-1;-1;-1;-1;Dubrovnik;Dubrovnik
