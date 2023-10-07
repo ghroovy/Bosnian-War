@@ -439,26 +439,15 @@ add_ideas = Krajina_western_construction
 		icon = GFX_goal_unknown
 		x = 14
 		y = 2
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = SE2_reform_the_svk  }
 		available = {
-			date > 1993.07.01
-			}
-		completion_reward = {
-			CRO = {
-				declare_war_on = {
-			    target = SE2    
-			type = annex_everything
-			}
-			
-			
-			
-			}
-			
-			
+			has_war_with = CRO
+		}
+		completion_reward = {		
 		}
 }
 

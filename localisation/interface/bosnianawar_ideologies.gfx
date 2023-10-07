@@ -1,9 +1,0 @@
-spriteTypes = {	
-
-##IDEOLOGIES
-
-	spriteType = {
-		name = "GFX_ideology_croatia_aligned_group"
-		texturefile = "gfx/interface/ideologies/croatia_aligned.png"
-	}
-}

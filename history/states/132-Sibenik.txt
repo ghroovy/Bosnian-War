@@ -12,6 +12,15 @@ state={
             industrial_complex = 0
         }
 		add_core_of = CRO
+		victory_points = {
+			2493 1
+			}
+		victory_points = {
+			8258 15
+			}		
+		victory_points = {
+			6050 2
+			}	
 	}
 	manpower=82150
 	buildings_max_level_factor=1.000

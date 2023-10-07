@@ -1,9 +1,0 @@
-objectTypes = {
-	# AK74
-	pdxmesh = {
-		name = "SOV_infantry_weapon_AK74_mesh"
-		file = "gfx/models/units/AK74.mesh"
-		scale = 1.0
-	}
-}
-

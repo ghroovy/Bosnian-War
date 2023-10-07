@@ -1,6 +1,6 @@
 state={
 	id=139
-	name="STATE_139"
+	name="Maslenica"
 	resources={
         steel=5.000
     }

@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: The war has begun
+	SpriteType = { 
+		name = "1234_the_war_has_begun-551972"
+		texturefile = "gfx/interface/events/rat_hrvatska_krajina-event/1234_the_war_has_begun-551972.dds"
+	}
+
+ 
+ }
