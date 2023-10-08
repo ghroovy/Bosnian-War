@@ -72,8 +72,9 @@ ideas = {
 		CRO_operation_the_storm = {
 			picture = CRO_operation_the_storm-1
 			modifier = {
-				army_attack_factor = 3
-				army_attack_speed_factor = 1.7
+				army_attack_factor = 15
+				army_attack_speed_factor = 10
+				ai_focus_aggressive_factor = 10
             }
 		}
 
@@ -81,7 +82,7 @@ ideas = {
 			picture = CRO_supply_the_front-1
 			modifier = {
 				supply_consumption_factor = -0.7
-                attrition = -0.35
+                attrition = -0.55
             }
 		}
 
