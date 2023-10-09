@@ -1,0 +1,29 @@
+add_namespace = operation_the_storm_start
+
+#Operation The Storm Start
+news_event = { 
+	id = operation_the_storm_start.1
+	title = operation_the_storm_start.1.t
+	desc = operation_the_storm_start.1.d
+
+	picture = operation_the_storm_start-553313
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = CRO
+		has_completed_focus = CRO_operation_the_storm
+	}
+	timeout_days = 10
+	major = yes
+	option = {
+		name = operation_the_storm_start.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

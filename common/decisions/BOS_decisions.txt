@@ -152,6 +152,23 @@ BOS_The_Defense_of_Bosnia = {
 		}
 	}
 }
+Integrate_Central_Bosnia = {
+	visible = { 
+	OR = {
+	has_war = no
+	surrender_progress = 0.6
+	}
+}
+	 ai_will_do = {
+	 base = 100
+	}
+	 complete_effect = {
+		annex_country = {
+    	target = BO1
+    	transfer_troops = yes
+		}
+	}
+}
 	Raise_Militia_BOS = {
 	available = {
 		controls_province = 17181

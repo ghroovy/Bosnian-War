@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Operation The Storm Start
+	SpriteType = { 
+		name = "operation_the_storm_start-553313"
+		texturefile = "gfx/interface/events/operation_the_storm_start-event/operation_the_storm_start-553313.dds"
+	}
+
+ 
+ }

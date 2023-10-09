@@ -458,4 +458,39 @@
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
+	division= {	
+		name = "Bosnian Mujahideen Volunteers "
+		location = 100
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
+	division= {	
+		name = "Bosnian Mujahideen Volunteers "
+		location = 100
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
+	division= {	
+		name = "Bosnian Mujahideen Volunteers "
+		location = 100
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
+	division= {	
+		name = "Bosnian Mujahideen Volunteers "
+		location = 100
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
+	division= {	
+		name = "Bosnian Mujahideen Volunteers "
+		location = 100
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
 }

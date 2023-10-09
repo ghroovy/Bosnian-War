@@ -64,6 +64,9 @@
  SRE:0 "Bosnian Enclaves"
  SRE_DEF:0 "Bosnian Enclaves"
  SRE_ADJ:0 "Bosnian"
+ BO1:0 "Central Bosnia"
+ BO1_DEF:0 "Central Bosnia"
+ BO1_ADJ:0 "Bosnian"
 
  ###Eastern/Southern Europe
  YUG:0 "Yugoslavia"

@@ -9,12 +9,13 @@ state={
 	
 
 	history={
-		owner = BOS
         buildings = {
             infrastructure = 3
             arms_factory = 1
             industrial_complex = 0
         }
+		owner = BO1
+		add_core_of = BO1
 		add_core_of = BOS
 
 
