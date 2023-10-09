@@ -21,6 +21,7 @@ tech_mountaineers = 1
 motorised_infantry = 1
 }
 
+create_wargoal = { type = annex_everything target = CRO }
 set_politics = {
 	ruling_party = fascism
 	last_election = "1935.1.1"

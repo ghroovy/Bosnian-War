@@ -23,6 +23,7 @@ motorised_infantry = 1
 
 set_convoys = 20
 
+create_wargoal = { type = annex_everything target = SE2 }
 set_politics = {
 	ruling_party = croatia_aligned
 	last_election = "1990.1.1"
