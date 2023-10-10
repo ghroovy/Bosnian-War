@@ -48,12 +48,12 @@ set_convoys = 20
 
 set_autonomy = {
 	target = FCR
-	autonomous_state = autonomy_puppet
+	autonomous_state = Krajina
 }
 
 set_autonomy = {
 	target = BO1
-	autonomous_state = autonomy_puppet
+	autonomous_state = Krajina
 }
 
 set_politics = {
