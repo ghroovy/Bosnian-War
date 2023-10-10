@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Krajina is facing defeat
+	SpriteType = { 
+		name = "krajina_is_facing_defeat-553944"
+		texturefile = "gfx/interface/events/krajina_is_facing_defeat-event/krajina_is_facing_defeat-553944.dds"
+	}
+
+ 
+ }

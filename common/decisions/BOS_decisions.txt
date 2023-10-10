@@ -138,8 +138,7 @@ BOS_The_Defense_of_Bosnia = {
     Integrate_The_Fifth_Corps = {
 	visible = { 
 	OR = {
-	has_war = no
-	surrender_progress = 0.6
+	has_war = yes
 	}
 }
 	 ai_will_do = {
@@ -155,8 +154,7 @@ BOS_The_Defense_of_Bosnia = {
 Integrate_Central_Bosnia = {
 	visible = { 
 	OR = {
-	has_war = no
-	surrender_progress = 0.6
+	has_war = yes
 	}
 }
 	 ai_will_do = {

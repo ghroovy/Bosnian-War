@@ -1,0 +1,30 @@
+add_namespace = krajina_is_facing_defeat
+
+#Krajina is facing defeat
+country_event = {
+	id = krajina_is_facing_defeat.1
+	title = krajina_is_facing_defeat.1.t
+	desc = krajina_is_facing_defeat.1.d
+
+	picture = krajina_is_facing_defeat-553944
+	fire_only_once = yes
+	trigger = {
+		tag = SE2
+		surrender_progress > 0.35
+	}
+	major = yes
+	option = {
+		name = krajina_is_facing_defeat.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_ideas = defense_of_krajina
+        load_oob = SE2_Dobrovoljci
+		add_manpower = 65525
+
+		hidden_effect = {
+			
+		}
+	}
+}
