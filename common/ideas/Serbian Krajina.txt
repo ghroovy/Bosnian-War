@@ -1,6 +1,5 @@
 ideas = {
 	country = {
-
 		Krajina_reformed_army = {
 			picture = Krajina_reformed_army-1
 			modifier = {

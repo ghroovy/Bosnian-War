@@ -21,6 +21,41 @@
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
+	division= {	
+		name = "millita"
+		location = 6042
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "millita"
+		location = 6042
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "millita"
+		location = 6042
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "millita"
+		location = 6042
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "millita"
+		location = 6042
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
 	 division= {	
 		name = "millita"
 		location = 6042

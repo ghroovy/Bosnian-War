@@ -538,6 +538,12 @@ focus_tree = {
 			    idea = CRO_operation_the_storm 
 			    days = 50
 			}
+			news_event = {
+				id = operation_the_storm_start.1
+				days = 10
+				random = 50
+				random_days = 10
+			}
 		}
 	}
 

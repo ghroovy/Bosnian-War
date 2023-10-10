@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+		croatia_krajina_peace = {
+			picture = croatia_krajina_peace-1
+			modifier = {
+				has_non_aggression_pact_with = 
+
+
+			}
+		}
+	}
+}

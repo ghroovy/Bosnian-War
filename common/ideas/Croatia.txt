@@ -1,6 +1,5 @@
 ideas = {
 	country = {
-
 		CRO_raising_the_economy = {
 			picture = CRO_raising_the_economy-1
 			modifier = {

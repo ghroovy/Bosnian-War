@@ -23,3 +23,11 @@ opinion_modifiers = {
 	}
 
 }	
+
+opinion_modifiers = {
+
+	Krajina_Croatia = {
+		value = -150
+	}
+
+}	
