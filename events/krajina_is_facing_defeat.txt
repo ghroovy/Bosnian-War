@@ -10,7 +10,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = SE2
-		surrender_progress > 0.35
+		surrender_progress > 0.32
 	}
 	major = yes
 	option = {

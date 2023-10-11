@@ -1,0 +1,26 @@
+add_namespace = peace_in_croatia
+
+#Is this good
+country_event = {
+	id = peace_in_croatia.1
+	title = peace_in_croatia.1.t
+	desc = peace_in_croatia.1.d
+
+	picture = is_this_good-554176
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = peace_in_croatia.1.a
+		trigger = {
+			country_exists = GER
+
+
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

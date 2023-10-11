@@ -23,6 +23,7 @@ motorised_infantry = 1
 
 set_convoys = 20
 add_opinion_modifier = { target = SE2 modifier = Krajina_Croatia }
+add_opinion_modifier = { target = UN1 modifier = UN_Croatia }
 set_politics = {
 	ruling_party = croatia_aligned
 	last_election = "1990.1.1"

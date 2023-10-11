@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomy_reichskommissariat
+	id = Autonomna_pokrajina
 	
 	is_puppet = yes
 	

@@ -9,10 +9,13 @@ country_event = {
 	picture = GFX_report_event_CRO_Operation_Storm
 	
 	trigger = {
+		CRO ={
+		has_war_with = SE2
+	}
 		tag = CRO
 		date > 1995.5.1
 		SE2 = {
-		surrender_progress = 0.3
+		surrender_progress = 0.4
 		}
 		BOS = { has_country_flag = BOS_peace }
 		CO1 = { has_country_flag = CO1_peace }

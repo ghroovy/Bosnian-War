@@ -31,3 +31,11 @@ opinion_modifiers = {
 	}
 
 }	
+
+opinion_modifiers = {
+
+	UN_Croatia = {
+		value = 150
+	}
+
+}	

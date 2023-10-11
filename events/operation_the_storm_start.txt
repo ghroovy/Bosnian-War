@@ -18,7 +18,7 @@ news_event = {
 	option = {
 		name = operation_the_storm_start.1.a
 		trigger = {
-			
+			NOT = { tag = HUN }		
 		}
 		ai_chance = { factor = 1 }
 		

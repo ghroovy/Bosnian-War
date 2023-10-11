@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Integration of the Krajina into Croatia
+	SpriteType = { 
+		name = "integration_of_the_krajina_into_croatia-554163"
+		texturefile = "gfx/interface/events/integration_of_the_krajina_into_croatia-event/integration_of_the_krajina_into_croatia-554163.dds"
+	}
+
+ 
+ }

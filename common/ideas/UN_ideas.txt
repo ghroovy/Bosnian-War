@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+	UN1_NATO_logistic = {
+		picture = CRO_supply_the_front-1
+		modifier = {
+			supply_consumption_factor = -0.75
+			attrition = -0.65
+		}
+	}
+}
+}

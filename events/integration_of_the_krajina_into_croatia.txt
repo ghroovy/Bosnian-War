@@ -1,0 +1,82 @@
+add_namespace = integration_of_the_krajina_into_croatia
+
+#Integration of the Krajina into Croatia
+country_event = {
+	id = integration_of_the_krajina_into_croatia.1
+	title = integration_of_the_krajina_into_croatia.1.t
+	desc = integration_of_the_krajina_into_croatia.1.d
+
+	picture = integration_of_the_krajina_into_croatia-554163
+	fire_only_once = yes
+	trigger = {
+CRO ={
+		surrender_progress > 0.33
+    }
+        tag = SE2
+	}
+	major = yes
+	option = {
+		name = integration_of_the_krajina_into_croatia.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		news_event = {
+    id = peace_in_croatia.1
+    days = 10
+    random = 50
+    random_days = 10
+}
+
+CRO = {
+set_state_owner = 129
+set_state_owner = 139
+set_state_owner = 140
+}
+
+CRO = {
+set_autonomy = {
+    target = SE2
+    autonomy_state = Autonomna_pokrajina
+    end_wars = no
+    end_civil_wars = no
+}
+}
+CRO ={
+white_peace = SE2
+}
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = integration_of_the_krajina_into_croatia.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+UN1 = {
+		declare_war_on = {
+    target = SE2
+    type = annex_everything
+}
+}
+UN1 = {
+load_oob = UN_Peacekeepers
+}
+UN1 ={
+	create_faction = UN.Croatia.Cooperation
+	add_to_faction = CRO
+}
+UN1 = {
+	set_state_owner = 145
+	}
+	UN1 = {
+		add_manpower = 150000
+		}
+		hidden_effect = {
+			
+		}
+	}
+}

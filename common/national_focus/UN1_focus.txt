@@ -1,0 +1,24 @@
+focus_tree = {
+	id = UN-focus-tree	
+	continuous_focus_position = { x = -40 y = 1570 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 3
+			tag = UN1
+		}
+	}
+	focus = {
+		id = UN1_NATO_logistic
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_ideas = UN1_NATO_logistic			
+		}
+	}
+}

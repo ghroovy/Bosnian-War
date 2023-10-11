@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Is this good
+	SpriteType = { 
+		name = "is_this_good-554176"
+		texturefile = "gfx/interface/events/peace_in_croatia-event/is_this_good-554176.dds"
+	}
+
+ 
+ }

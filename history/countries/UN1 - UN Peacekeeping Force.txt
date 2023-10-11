@@ -8,7 +8,7 @@ set_technology = {
 }
 
 set_convoys = 550
-
+add_opinion_modifier = { target = CRO modifier = UN_Croatia }
 set_politics = {
 	ruling_party = democratic
 	last_election = "1990.1.1"
