@@ -5,7 +5,19 @@ oob = "standard_templates"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-}
+	gwtank = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	mechanized = 1
+	armored_car = 1
+	armored_train = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	}
 
 set_convoys = 550
 add_opinion_modifier = { target = CRO modifier = UN_Croatia }

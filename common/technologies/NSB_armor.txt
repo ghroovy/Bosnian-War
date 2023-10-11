@@ -1,23 +1,25 @@
 technologies = {
 
 
-	@1970 = 0
-	@1990 = 2
+	@1918 = 0
+	@1934 = 2
 	@1935 = 3
-	@1992 = 4
-	@1993 = 5
-	@1994 = 5
+	@1936 = 4
+	@1937 = 5
+	@1938 = 5
 	@1939 = 7
-	@1996 = 7
-	@1997 = 8
-	@1998 = 9
-	@1999 = 10
-	@2000 = 11
-	@2001 = 12
-	@2002 = 20
+	@1940 = 7
+	@1941 = 8
+	@1942 = 9
+	@1943 = 10
+	@1944 = 11
+	@1945 = 12
+	@1946 = 20
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank_chassis = { #Leichttraktor
+
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			light_tank_chassis_0
@@ -110,7 +112,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1970
+		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 0 }
@@ -126,12 +128,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -143,6 +145,7 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -179,6 +182,14 @@ technologies = {
 
 					load_oob = "unlock_tanks"
 				}
+
+				if = { #Italian templates
+					limit = {
+						original_tag = ITA
+						has_completed_focus = ITA_italian_tankettes
+					}
+					ITA_add_improved_light_tank_templates = yes
+				}
 			}
 
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
@@ -190,7 +201,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1990
+		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -1 y = 2 }
@@ -206,12 +217,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -223,6 +234,7 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -246,7 +258,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1992
+		start_year = 1936
 
 		folder = {
 			name = nsb_armour_folder
@@ -277,12 +289,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -291,9 +303,20 @@ technologies = {
 			}
 		}
 
+		on_research_complete = {
+			if = { #Italian templates
+				limit = {
+					original_tag = ITA
+					has_completed_focus = ITA_italian_tankettes
+				}
+				ITA_add_improved_light_tank_templates = yes
+			}
+		}
+
 		categories = {
 			armor
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -319,7 +342,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1994
+		start_year = 1938
 
 		folder = {
 			name = nsb_armour_folder
@@ -356,6 +379,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -382,7 +406,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1997
+		start_year = 1941
 
 		folder = {
 			name = nsb_armour_folder
@@ -416,6 +440,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -429,7 +454,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1997
+		start_year = 1941
 
 		folder = {
 			name = nsb_armour_folder
@@ -445,23 +470,24 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1998.1.1"
+				date > "1942.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1999.1.1"
+				date > "1943.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "2000.1.1"
+				date > "1944.1.1"
 			}
 		}
 
 		categories = {
 			armor
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -510,11 +536,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1994
+		start_year = 1938
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1993 }
+			position = { x = 2 y = @1937 }
 		}
 
 		ai_will_do = {
@@ -527,7 +553,7 @@ technologies = {
 					tag = JAP
 					num_of_military_factories < 50
 				}
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 			modifier = {
 				tag = SOV
@@ -535,17 +561,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 1.1
-				date > "1996.1.1"
+				date > "1940.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1997.1.1"
+				date > "1941.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1998.1.1"
+				date > "1942.1.1"
 			}
 
 			modifier = {
@@ -558,6 +584,7 @@ technologies = {
 		categories = {
 			armor
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -578,11 +605,24 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1996
+		start_year = 1940
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1996 }
+			position = { x = 2 y = @1940 }
+		}
+
+		on_research_complete = {
+			if = { #Italian templates
+				limit = {
+					original_tag = ITA
+					OR = {
+						has_completed_focus = ITA_end_fiat_ansaldo_duopoly
+						has_completed_focus = ITA_modernize_ansaldo_facilities
+					}
+				}
+				ITA_add_improved_medium_tank_templates = yes
+			}
 		}
 
 		ai_will_do = {
@@ -597,7 +637,7 @@ technologies = {
 				}
 			}
 			modifier = {
-				date < "1997.1.1"
+				date < "1941.1.1"
 				factor = 0.3
 			}
 			modifier = {
@@ -612,23 +652,24 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1998.1.1"
+				date > "1942.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1999.1.1"
+				date > "1943.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "2000.1.1"
+				date > "1944.1.1"
 			}
 		}
 
 		categories = {
 			armor
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -647,11 +688,21 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1999
+		start_year = 1943
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1999 }
+			position = { x = 2 y = @1943 }
+		}
+
+		on_research_complete = {
+			if = { #Italian templates
+				limit = {
+					original_tag = ITA
+					has_completed_focus = ITA_ferrea_mole_ferreo_cuore
+				}
+				ITA_add_advanced_medium_tank_templates = yes
+			}
 		}
 
 		ai_will_do = {
@@ -659,23 +710,24 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "2000.1.1"
+				date > "1944.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "2001.1.1"
+				date > "1945.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "2002.1.1"
+				date > "1946.1.1"
 			}
 		}
 
 		categories = {
 			armor
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -692,11 +744,11 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 2001
+		start_year = 1945
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @2001 }
+			position = { x = 2 y = @1945 }
 		}
 
 		ai_will_do = {
@@ -704,7 +756,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "2002.1.1"
+				date > "1946.1.1"
 			}
 
 			modifier = {
@@ -721,6 +773,7 @@ technologies = {
 		categories = {
 			armor
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -770,7 +823,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1990
+		start_year = 1934
 
 		folder = {
 			name = nsb_armour_folder
@@ -782,12 +835,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -808,6 +861,7 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -831,11 +885,24 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1996
+		start_year = 1940
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1996 }
+			position = { x = 5 y = @1940 }
+		}
+
+		on_research_complete = {
+			if = { #Italian templates
+				limit = {
+					original_tag = ITA
+					OR = {
+						has_completed_focus = ITA_end_fiat_ansaldo_duopoly
+						has_completed_focus = ITA_modernize_ansaldo_facilities
+					}
+				}
+				ITA_add_improved_heavy_tank_templates = yes
+			}
 		}
 
 		ai_will_do = {
@@ -847,23 +914,24 @@ technologies = {
 			}
 			modifier = {
 				factor = 1.2
-				date > "1998.1.1"
+				date > "1942.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "1999.1.1"
+				date > "1943.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "2000.1.1"
+				date > "1944.1.1"
 			}
 		}
 
 		categories = {
 			armor
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -883,11 +951,21 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1999
+		start_year = 1943
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1999 }
+			position = { x = 5 y = @1943 }
+		}
+
+		on_research_complete = {
+			if = { #Italian templates
+				limit = {
+					original_tag = ITA
+					has_completed_focus = ITA_ferrea_mole_ferreo_cuore
+				}
+				ITA_add_advanced_heavy_tank_templates = yes
+			}
 		}
 
 		ai_will_do = {
@@ -895,23 +973,24 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "2000.1.1"
+				date > "1944.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "2001.1.1"
+				date > "1945.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "2002.1.1"
+				date > "1946.1.1"
 			}
 		}
 
 		categories = {
 			armor
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -933,10 +1012,36 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1999
+		start_year = 1943
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 8 y = @1999 }
+			position = { x = 8 y = @1943 }
+		}
+
+		on_research_complete = {
+			if = { #Italian templates
+				limit = {
+					original_tag = ITA
+				}
+				if = {
+					limit = {
+						has_completed_focus = ITA_capo_supremo
+					}
+					ITA_add_il_duce_sh_tank_template_and_production = yes
+				}
+				else_if = {
+					limit = {
+						has_completed_focus = ITA_modern_musculus
+					}
+					ITA_add_modern_musculus_sh_tank_template_and_production = yes
+				}
+				else_if = {
+					limit = {
+						has_completed_focus = ITA_a_time_for_war
+					}
+					ITA_add_hand_of_god_sh_tank_template_and_production = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -946,6 +1051,7 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -965,7 +1071,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1992
+		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1935 }
@@ -985,12 +1091,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -1001,6 +1107,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1020,10 +1129,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1994
+		start_year = 1938
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1994 }
+			position = { x = 3 y = @1938 }
 		}
 
 		ai_will_do = {
@@ -1040,12 +1149,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -1056,6 +1165,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1073,10 +1185,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1997
+		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1997 }
+			position = { x = 3 y = @1941 }
 		}
 
 		ai_will_do = {
@@ -1093,12 +1205,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -1109,16 +1221,19 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
 	armor_tech_4 = {
 
 		research_cost = 1
-		start_year = 2000
+		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @2000 }
+			position = { x = 3 y = @1944 }
 		}
 
 		on_research_complete = {
@@ -1140,12 +1255,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -1156,6 +1271,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1171,7 +1289,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1990
+		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1935 }
@@ -1191,12 +1309,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -1207,6 +1325,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1224,10 +1345,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1994
+		start_year = 1938
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1994 }
+			position = { x = 2 y = @1938 }
 		}
 
 		ai_will_do = {
@@ -1244,12 +1365,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -1260,6 +1381,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1275,10 +1399,10 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1997
+		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1997 }
+			position = { x = 2 y = @1941 }
 		}
 
 		ai_will_do = {
@@ -1295,12 +1419,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -1311,16 +1435,19 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
 	engine_tech_4 = {
 
 		research_cost = 1
-		start_year = 2000
+		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @2000 }
+			position = { x = 2 y = @1944 }
 		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt
@@ -1340,12 +1467,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1993.1.1"
+				date > "1937.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1994.1.1"
+				date > "1938.1.1"
 			}
 
 			modifier = {
@@ -1356,6 +1483,37 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
+
+	NOR_rikstanken_tech = {
+
+		allow = { always = no } #Only obtained through Rikstanken Event
+
+		enable_equipment_modules = {
+			NOR_rikstanken_turret
+			NOR_tank_rikstanken_armor
+		}
+
+		path = {
+		}
+
+		on_research_complete = {
+		
+		}
+
+		show_effect_as_desc = no
+
+		research_cost = 1
+		start_year = 1936
+
+
+		categories = {
+			armor
+		}
+	}
+
 }
