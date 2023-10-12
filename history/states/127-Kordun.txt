@@ -13,13 +13,13 @@ state={
         }
 		add_core_of = SE2
 				victory_points = {
-		10962 1
+		10962 3
 		}
 				victory_points = {
-		2041 5
+		2041 10
 		}
 				victory_points = {
-		7196 1
+		7196 3
 		}
 	}
 	manpower=73547

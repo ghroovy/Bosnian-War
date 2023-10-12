@@ -103,7 +103,8 @@ CRO_operation_The_Storm = { #STATE MODIFIER
 	
 	icon = GFX_modifiers_generic_military_plans
 	
-	army_attack_factor = 15
-	army_attack_speed_factor = 10
+	army_attack_factor = 1.25
+	army_attack_speed_factor = 1
+	terrain_penalty_reduction = 0.75
 	ai_focus_aggressive_factor = 10
 }

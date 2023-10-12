@@ -2,7 +2,7 @@ capital = 136
 
 oob = "CRO_1992"
 set_stability = 0.35
-set_war_support = 0.3
+set_war_support = 0.47
 
 set_autonomy = {
 	target = CSE
