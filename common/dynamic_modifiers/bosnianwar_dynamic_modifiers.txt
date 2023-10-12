@@ -97,3 +97,13 @@ CRO_operation_Bljesak = { #STATE MODIFIER
 	
 	army_attack_factor = 0.9
 }
+
+CRO_operation_The_Storm = { #STATE MODIFIER
+	enable = { always = yes }
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	army_attack_factor = 15
+	army_attack_speed_factor = 10
+	ai_focus_aggressive_factor = 10
+}

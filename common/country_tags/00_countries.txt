@@ -33,6 +33,7 @@ WBS = "countries/Western Bosnia.txt"
 FCR = "countries/Fifth Corps.txt"
 SRE = "countries/Bosnian Enclaves.txt"
 BO1 = "countries/Central Bosnia.txt"
+CSE = "countries/Croatian Protectorate of Serbian Krajina"
 
 ##Eastern/Southern Europe
 UKR = "countries/Ukraine.txt"

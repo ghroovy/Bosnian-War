@@ -1,9 +1,7 @@
-﻿capital = 7140
-oob = "SE2_1992"
+capital = 7140
 set_research_slots = 3
 set_stability = 0.3
 set_war_support = 0.25
-add_manpower = 95000
 #Starting tech
 set_technology = {
 infantry_weapons = 1
@@ -23,38 +21,23 @@ motorised_infantry = 1
 
 add_opinion_modifier = { target = CRO modifier = Krajina_Croatia }
 set_politics = {
-	ruling_party = fascism
+	ruling_party = croatia_aligned
 	last_election = "1935.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
-	fascism = 100
-	croatia_aligned = 0
+	fascism = 0
+	croatia_aligned = 100
 	neutrality = 0
 }
 
 add_ideas = {
-	SE2_more_manpower
 	limited_exports
 	extensive_conscription
 	war_economy
 }
 
-create_country_leader = {
-	name = "Goran Hadžić"
-	desc = ""
-	picture = "gfx/leaders/Krajina.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
 
-	}
-}
-
-recruit_character = SE2_Milan_Martic
-recruit_character = SE2_Mile_Mrksic
-recruit_character = SE2_Dragan_Vasiljkovic
-recruit_character = SE2_Mile_Novakovic
 

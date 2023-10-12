@@ -32,20 +32,40 @@ CRO = {
 set_state_owner = 129
 set_state_owner = 139
 set_state_owner = 140
+set_state_owner = 146
+set_state_owner = 25
+set_state_controller = 129
+set_state_controller = 139
+set_state_controller = 140
+set_state_controller = 146
+set_state_controller = 25
 }
 
-CRO = {
-set_autonomy = {
-    target = SE2
-    autonomy_state = Autonomna_pokrajina
-    end_wars = no
-    end_civil_wars = no
-}
-}
+CSE = {
+	set_state_owner = 144
+	set_state_owner = 125
+	set_state_owner = 143
+	set_state_owner = 142
+	set_state_owner = 141
+	set_state_owner = 126
+	set_state_owner = 127
+	set_state_owner = 128
+	set_state_controller = 144
+	set_state_controller = 125 
+	set_state_controller = 143
+	set_state_controller = 142
+	set_state_controller = 141
+	set_state_controller = 126
+	set_state_controller = 127
+	set_state_controller = 128
+	}
+
 CRO ={
 white_peace = SE2
 }
-
+SE2 ={
+	white_peace = CRO
+}
 		hidden_effect = {
 			
 		}

@@ -1,0 +1,22 @@
+state={
+	id=146
+	name="Hrvace"
+	provinces={
+		2804 12106 
+	}
+		history={
+		owner = SE2
+        buildings = {
+            infrastructure = 3
+        }
+		add_core_of = SE2
+		add_core_of = CRO
+				victory_points = {
+		12106 1
+		}
+}			
+
+	manpower=735
+	buildings_max_level_factor=1.000
+        state_category = town
+}
