@@ -25,10 +25,6 @@ state={
         }
 		add_core_of = SE1 
 
-
-		victory_points = {
-
-		}
 	}
 
 	manpower=21000

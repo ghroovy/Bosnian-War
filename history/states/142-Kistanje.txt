@@ -2,7 +2,7 @@ state={
 	id=142
 	name="Kistanje"
 	provinces={
-		1795 2397 6646 7979 9277 11931 11961 12008 12033 
+	 2397 6646 7979 11931 11961
 	}
 		history={
 		owner = SE2

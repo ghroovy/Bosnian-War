@@ -1,0 +1,22 @@
+state={
+	id=153
+	name="Licki Osik"
+	provinces={
+		505 2680 5215 6395 7179 8747 11574 11649 2847
+	}
+
+	history={
+		owner = SE2
+        buildings = {
+            infrastructure = 4
+        }
+		add_core_of = SE2
+		victory_points = {
+			8747 11
+			}
+	}
+
+	manpower=27589
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -2,7 +2,7 @@ state={
 	id=144
 	name="Kijevo"
 	provinces={
-		591 714 2400 8787 11924 11950 11963 11976 11987 12001 12025 
+		591 2400 11924 11950 11963 11976 12001 9312
 	}
 		history={
 		owner = SE2
@@ -20,6 +20,9 @@ state={
 				victory_points = {
 		11950 5
 		}
+		victory_points = {
+			9312 3
+			}
 }			
 
 	manpower=27240

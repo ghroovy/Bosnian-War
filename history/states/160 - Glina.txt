@@ -1,23 +1,21 @@
 state={
-	id=128
-	name="Petrinja"
+	id=160
+	name="Glina"
 	provinces={
-		10897 6779 10935 1787 3883 9222 5174 10966 2654
-	
+		432 11005 9418 7784 6481
 	}
 	history={
 		owner = SE2
         buildings = {
             infrastructure = 5
-            arms_factory = 0
-            industrial_complex = 1
+
         }
 		add_core_of = SE2
 				victory_points = {
-		10897 12
+		9418 9
 		}
 	}
-	manpower=52345
+	manpower=19854
 	buildings_max_level_factor=1.000
     state_category = town
 }

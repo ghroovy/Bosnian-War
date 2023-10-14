@@ -1,23 +1,21 @@
 state={
-	id=128
-	name="Petrinja"
+	id=157
+	name="Slunj"
 	provinces={
-		10897 6779 10935 1787 3883 9222 5174 10966 2654
-	
+		2041 4993 5605 6289 6427 7109 7734 8517 10984 11017 11076 
 	}
 	history={
 		owner = SE2
         buildings = {
-            infrastructure = 5
-            arms_factory = 0
+            infrastructure = 3
             industrial_complex = 1
         }
 		add_core_of = SE2
 				victory_points = {
-		10897 12
+		2041 10
 		}
 	}
-	manpower=52345
+	manpower=32075
 	buildings_max_level_factor=1.000
     state_category = town
 }

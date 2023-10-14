@@ -1,25 +1,20 @@
 state={
-	id=127
-	name="Vrginmost"
+	id=158
+	name="Banski Kovacevac"
 	provinces={
-		10961 10999 5685 8019 10962 1280 11026 4256 10934 10896 7196
+		10922 1128 10887 10854 4195
 	}
 	history={
 		owner = SE2
         buildings = {
             infrastructure = 3
-            arms_factory = 0
-            industrial_complex = 1
         }
 		add_core_of = SE2
 				victory_points = {
-		10962 5
-		}
-				victory_points = {
-		8019 5
+		10854 3
 		}
 	}
-	manpower=42100
+	manpower=8100
 	buildings_max_level_factor=1.000
     state_category = town
 }

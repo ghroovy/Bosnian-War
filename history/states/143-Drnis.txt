@@ -2,7 +2,7 @@ state={
 	id=143
 	name="Drnis"
 	provinces={
-		3002 4401 5370 6318 6768 8390 9312 11982 12060 
+		3002 4401 5370 6318 6768 8390 11982 12060 
 	}
 
 		history={
@@ -22,9 +22,6 @@ state={
 		}
 				victory_points = {
 		6768 7
-		}
-				victory_points = {
-		9312 1
 		}
 
 }

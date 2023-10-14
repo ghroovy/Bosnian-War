@@ -24,10 +24,6 @@ state={
         }
 		add_core_of = BOS
 
-
-		victory_points = {
-
-		}
 	}
 
 	manpower=60000

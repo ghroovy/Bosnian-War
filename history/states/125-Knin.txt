@@ -7,7 +7,7 @@ state={
     }
 
 	provinces={
-		25 924 3324 5608 5623 6683 6936 7140 11845 11864 11876 11927 
+		25 924 5608 6683 6936 7140 11845 11864 11876 11927 
 	}
 		history={
 		owner = SE2
@@ -21,9 +21,7 @@ state={
 		victory_points = {
 			7140 50
 		}
-				victory_points = {
-		    3324 1
-		}	
+
 		        victory_points = {
 		6936 1
 		}

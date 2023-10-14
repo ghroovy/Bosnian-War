@@ -1,10 +1,10 @@
 state={
-	id=128
-	name="Petrinja"
+	id=159
+	name="Dvor Na Uni"
 	provinces={
-		10897 6779 10935 1787 3883 9222 5174 10966 2654
-	
+		2550 3953 4624 6388 8777 11036 11050 11078 
 	}
+
 	history={
 		owner = SE2
         buildings = {
@@ -14,10 +14,11 @@ state={
         }
 		add_core_of = SE2
 				victory_points = {
-		10897 12
+		2550 10
 		}
 	}
-	manpower=52345
+
+	manpower=24102
 	buildings_max_level_factor=1.000
-    state_category = town
+	local_supplies=0.000
 }
