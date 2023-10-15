@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ logistics_wizard war_hero offensive_doctrine }
+			traits={ logistics_wizard war_hero }
 			skill=3
 			attack_skill=3
 			defense_skill=2
@@ -42,10 +42,10 @@ characters={
 		}
 		corps_commander={
 			traits={ infantry_leader trait_mountaineer }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
 			logistics_skill=2
 			legacy_id=-1
 		}

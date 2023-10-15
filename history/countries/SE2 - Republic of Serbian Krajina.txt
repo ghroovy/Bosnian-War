@@ -52,9 +52,19 @@ create_country_leader = {
 
 	}
 }
-
+create_corps_commander = {
+	name = "Veselin Šljivančanin"
+	picture = "Portrait_SE2_Veselin_Sljivancanin.dds"
+	traits = { politically_connected logistics_wizard war_hero }
+	skill = 3
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
 recruit_character = SE2_Milan_Martic
 recruit_character = SE2_Mile_Mrksic
 recruit_character = SE2_Dragan_Vasiljkovic
 recruit_character = SE2_Mile_Novakovic
+recruit_character = SE2_Veselin_Sljivancanin
 

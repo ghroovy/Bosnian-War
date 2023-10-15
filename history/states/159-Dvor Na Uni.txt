@@ -16,9 +16,12 @@ state={
 				victory_points = {
 		2550 10
 		}
+		victory_points = {
+			11078 1
+		}
 	}
 
 	manpower=24102
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+    state_category = town
 }
