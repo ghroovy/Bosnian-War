@@ -51,7 +51,7 @@ entity = {
 }
 	entity = {
 	name = "SE1_medium_armor_0_entity"
-	pdxmesh = "t55_mesh"
+	pdxmesh = "SE1_t55_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -472,7 +472,7 @@ entity = {
 }
 	entity = {
 	name = "SE2_medium_armor_0_entity"
-	pdxmesh = "t55_mesh"
+	pdxmesh = "SE1_t55_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 

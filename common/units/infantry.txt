@@ -149,7 +149,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 70
 		default_morale = 0.4
-		manpower = 1000
+		manpower = 200
 
 		#Misc Abilities
 		training_time = 120
@@ -159,7 +159,7 @@ sub_units = {
 		breakthrough = 0.3
 	
 		need = {
-			infantry_equipment = 150
+			infantry_equipment = 40
 		}
 
 		marsh = {
@@ -204,7 +204,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 70
 		default_morale = 0.4
-		manpower = 1000
+		manpower = 200
 
 		#Misc Abilities
 		training_time = 120
@@ -215,7 +215,7 @@ sub_units = {
 		breakthrough = 0.3
 	
 		need = {
-			infantry_equipment = 140
+			infantry_equipment = 40
 		}
 
 		hills = {
@@ -260,7 +260,7 @@ sub_units = {
 		max_strength = 22
 		max_organisation = 70
 		default_morale = 0.4
-		manpower = 1000
+		manpower = 200
 
 		#Misc Abilities
 		training_time = 150
@@ -271,7 +271,7 @@ sub_units = {
 		can_be_parachuted = yes
 	
 		need = {
-			infantry_equipment = 130
+			infantry_equipment = 40
 		}
 	}
 
@@ -302,7 +302,7 @@ sub_units = {
 		max_strength = 25
 		max_organisation = 60
 		default_morale = 0.30
-		manpower = 1200
+		manpower = 175
 
 		#Misc Abilities
 		training_time = 90
@@ -315,7 +315,7 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 100
-			motorized_equipment = 35
+			motorized_equipment = 45
 		}
 
 		forest = {
@@ -376,7 +376,7 @@ sub_units = {
 		max_strength = 30
 		max_organisation = 60
 		default_morale = 0.3
-		manpower = 1200
+		manpower = 170
 
 		#Misc Abilities
 		training_time = 120
