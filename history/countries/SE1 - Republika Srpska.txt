@@ -2,6 +2,7 @@
 oob = "SE1_1992"
 set_research_slots = 2
 give_military_access = SE2
+add_manpower = 19500
 #Starting tech
 set_technology = {
 infantry_weapons = 1
@@ -17,6 +18,11 @@ tech_support = 1
 tech_engineers = 1
 tech_mountaineers = 1
 motorised_infantry = 1
+tech_trucks = 1
+basic_medium_tank_chassis = 1
+gwtank_chassis = 1
+mechanised_infantry = 1
+
 }
 if = {
 	limit = {
@@ -34,7 +40,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	create_equipment_variant = {
-		name = "M-84"
+		name = "T-55"
 		type = medium_tank_chassis_0
 		parent_version = 0
 		modules = {

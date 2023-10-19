@@ -43,8 +43,72 @@
 		priority = 0
 	}
 
+	division_template = {
+		name = "Brigada Tank"
+	
+		regiments = {
+			medium_armor = { x = 0 y = 0 }
+			medium_armor = { x = 0 y = 1 }
+			medium_armor = { x = 1 y = 0 }
+			medium_armor = { x = 1 y = 1 }
+			motorized = { x = 2 y = 0 }
+			motorized = { x = 2 y = 1 }
+		}
+		support = {
+			mot_recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+		}
+	}
+
+
+	division_template = {
+		name = "Mehanizovana Brigada"
+	
+		regiments = {
+			mechanized = { x = 0 y = 0 }
+			mechanized = { x = 0 y = 1 }
+			mechanized = { x = 1 y = 0 }
+			mechanized = { x = 1 y = 1 }
+			motorized = { x = 2 y = 0 }
+			motorized = { x = 2 y = 1 }
+		}
+		support = {
+			mot_recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+		}
+	}
 
   units = { 
+
+	division= {	
+		name = "Mehanizovana Brigada"
+		location = 17181
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	 division= {	
+		name = "Mehanizovana Brigada"
+		location = 11780
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mehanizovana Brigada"
+		location =9202
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	 division= {	
+		name = "Tenkovska brigada"
+		location = 11507	
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
 	 division= {	
 		name = "Bosnian Mujahideen Volunteers "
 		location = 9202

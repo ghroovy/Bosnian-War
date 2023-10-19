@@ -53,6 +53,25 @@ division_template = {
 			medium_armor = { x = 0 y = 0 }
 			medium_armor = { x = 0 y = 1 }
 			medium_armor = { x = 1 y = 0 }
+			medium_armor = { x = 1 y = 1 }
+			motorized = { x = 2 y = 0 }
+			motorized = { x = 2 y = 1 }
+		}
+		support = {
+			mot_recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+		}
+	}
+
+
+	division_template = {
+		name = "Mehanizovana Brigada"
+	
+		regiments = {
+			mechanized = { x = 0 y = 0 }
+			mechanized = { x = 0 y = 1 }
+			mechanized = { x = 1 y = 0 }
+			mechanized = { x = 1 y = 1 }
 			motorized = { x = 2 y = 0 }
 			motorized = { x = 2 y = 1 }
 		}
@@ -64,6 +83,50 @@ division_template = {
 
 
   units = { 
+	division= {	
+		name = "Mehanizovana Brigada"
+		location = 6888
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mehanizovana Brigada"
+		location = 4141
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mehanizovana Brigada"
+		location = 12339
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mehanizovana Brigada"
+		location = 11412
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mehanizovana Brigada"
+		location = 2703
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mehanizovana Brigada"
+		location = 6113
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+
 	 division= {	
 		name = "Divizije Pantera"
 		location = 5203
@@ -442,6 +505,14 @@ division_template = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
 	}
+	division= {	
+		name = "Srbislav"
+		location = 12054
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+
 
 #TEMP
 division= {	
