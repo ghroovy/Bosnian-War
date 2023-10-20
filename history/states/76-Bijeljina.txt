@@ -15,7 +15,7 @@ state={
 		add_core_of = SE1 
 
 		victory_points = {
-			11414 20.0 
+			11414 2.0 
 		}
 		victory_points = {
 			4790 20.0 
