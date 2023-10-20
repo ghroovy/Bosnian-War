@@ -153,3 +153,7 @@ UN2 = {
 	color = rgb { 70 110 163 }
 	color_ui = rgb { 70 110 163 }
 }
+NAT = {
+	color = rgb { 0 0 183 }
+	color_ui = rgb { 0 0 183 }
+}

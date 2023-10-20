@@ -621,7 +621,7 @@ add_ideas = Krajina_western_construction
 
 	#Unite with RS
 	focus = {
-		id = SE2_unite_with_rs
+		id = SE2_WIP
 		icon = GFX_goal_unknown
 		x = 7
 		y = 7
@@ -636,13 +636,6 @@ add_ideas = Krajina_western_construction
 			has_war = no
 		}
 		completion_reward = {
-			SE1 = {
-				annex_country = {
-			    target = SE2
-			    transfer_troops = yes
-			    }
-			}
-			set_cosmetic_tag = SE2_neutrality
 		}
     }
 

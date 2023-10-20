@@ -1,6 +1,6 @@
 state={
 	id=145
-	name="UN Headquarters"
+	name="NATO Headquarters"
 	provinces={
 		4199
 	}
@@ -12,7 +12,7 @@ state={
             industrial_complex = 0
         }
 		add_core_of = CRO
-		add_core_of = UN1
+		add_core_of = NAT
 	}
 	manpower=250
 	buildings_max_level_factor=1.000

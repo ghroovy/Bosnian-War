@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Croatia is on its last legs
+	SpriteType = { 
+		name = "croatia_is_on_its_last_legs-558260"
+		texturefile = "gfx/interface/events/nato_help-event/croatia_is_on_its_last_legs-558260.dds"
+	}
+
+ 
+ }

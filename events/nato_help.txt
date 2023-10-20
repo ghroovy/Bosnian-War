@@ -1,0 +1,49 @@
+add_namespace = nato_help
+
+#Croatia is on its last legs
+country_event = {
+	id = nato_help.1
+	title = nato_help.1.t
+	desc = nato_help.1.d
+
+	picture = croatia_is_on_its_last_legs-558260
+	fire_only_once = yes
+	trigger = {
+		CRO = {
+	surrender_progress > 0.35
+
+
+}
+tag = CRO
+
+
+	}
+	major = yes
+	option = {
+		name = nato_help.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		NAT = {
+	add_manpower = 150000
+	set_state_owner = 145
+	set_state_controller = 145
+	load_oob = UN_Peacekeepers
+	declare_war_on = {
+    target = SE2
+    type = annex_everything
+}
+NAT ={
+	create_faction = NATO.Croatia.Cooperation
+	add_to_faction = CRO
+}
+
+
+}
+
+		hidden_effect = {
+			
+		}
+	}
+}

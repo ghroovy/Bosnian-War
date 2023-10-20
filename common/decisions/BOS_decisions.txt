@@ -142,7 +142,7 @@ BOS_The_Defense_of_Bosnia = {
 	}
 }
 	 ai_will_do = {
-	 base = 10
+	 base = 0
 	}
 	 complete_effect = {
 		annex_country = {

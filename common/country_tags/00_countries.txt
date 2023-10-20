@@ -8,6 +8,8 @@ USA = "countries/USA.txt"
 
 UN1 = "countries/UN Peacekeeping Force.txt"
 UN2 = "countries/UNPROFOR Safe Zones.txt"
+NAT = "countries/NATO.txt"
+
 
 ##Western/Central Europe
 ITA = "countries/Italy.txt"

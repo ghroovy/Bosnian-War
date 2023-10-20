@@ -85,6 +85,20 @@ division_template = {
   units = { 
 	division= {	
 		name = "Mehanizovana Brigada"
+		location = 449
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mehanizovana Brigada"
+		location = 449
+		division_template = "Mehanizovana Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Mehanizovana Brigada"
 		location = 6888
 		division_template = "Mehanizovana Brigada"
 		start_experience_factor = 0.2
@@ -512,7 +526,27 @@ division_template = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
 	}
-
+	division= {	
+		name = "Bijeljinska oklopna brigada"
+		location = 4790
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Bijeljinska oklopna brigada"
+		location = 4790
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Banjalučka oklopna brigada"
+		location = 11287
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
 
 #TEMP
 division= {	
