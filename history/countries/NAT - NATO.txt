@@ -1,5 +1,5 @@
 ﻿
-capital = 1
+capital = 4199
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
@@ -41,7 +41,6 @@ add_ideas = {
 	oob = "NAT_1939"
 }
 
-#Politics for 1936.1.1
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.5.20"
@@ -49,21 +48,12 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	democratic = 0
 	fascism = 0
-	communism = 0
-	neutrality = 0
+	croatia_aligned = 0
+	neutrality = 100
 }
 
-#Politics for 1939.1.1
-1939.1.1 = {
-	set_popularities = {
-		democratic = 25
-		fascism = 25
-		communism = 25
-		neutrality = 25
-	}
-}
 
 recruit_character = jens_stoltenberg
 

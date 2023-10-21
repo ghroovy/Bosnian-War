@@ -27,23 +27,24 @@ tag = CRO
 		ai_chance = { factor = 1 }
 		NAT = {
 	add_manpower = 150000
+}
+	NAT ={
 	set_state_owner = 145
 	set_state_controller = 145
+}
+	NAT ={
 	load_oob = UN_Peacekeepers
+}
+	NAT ={
 	declare_war_on = {
     target = SE2
     type = annex_everything
+    }
 }
 NAT ={
 	create_faction = NATO.Croatia.Cooperation
 	add_to_faction = CRO
 }
 
-
-}
-
-		hidden_effect = {
-			
-		}
 	}
 }
