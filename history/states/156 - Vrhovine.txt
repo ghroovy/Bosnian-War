@@ -2,7 +2,7 @@ state={
 	id=156
 	name="Vrhovine"
 	provinces={
-	    5184 3597 4233 5507
+	 3597 4233 5507
 	}
 	history={
 		owner = SE2

@@ -599,6 +599,7 @@ focus_tree = {
 		}
 		available = {
 			has_completed_focus = CRO_decline_this_sham
+			has_completed_focus = CRO_accept_z4
 			}
 		prerequisite = { focus = CRO_operation_bljesak  }
 		completion_reward = {
