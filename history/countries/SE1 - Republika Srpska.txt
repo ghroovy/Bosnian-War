@@ -35,10 +35,7 @@ if = {
 		}
 }
 		
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
+
 	create_equipment_variant = {
 		name = "T-55"
 		type = medium_tank_chassis_0
@@ -59,7 +56,7 @@ if = {
 		}
 		icon = "GFX_SOV_basic_heavy_tank_medium"
 	}
-}
+
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -165,5 +162,10 @@ add_civil_war_target = BOS
 
 declare_war_on = {
     target = FCR
+    type = annex_everything
+}	
+
+declare_war_on = {
+    target = BO1
     type = annex_everything
 }	

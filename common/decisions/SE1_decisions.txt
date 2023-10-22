@@ -533,7 +533,7 @@ SE1_Strategic_Captures = {
 }
 	
 SE1_Arms_Deal_Shipments = {
-	Request_Infantry_Equipment = {
+	Request_Infantry_Equipment1 = {
 	icon = GFX_decision_request_guns
 		 cost = 70
 		 ai_will_do = {
@@ -558,7 +558,7 @@ SE1_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-	Request_Support_Equipment = {
+	Request_Support_Equipment1 = {
 	icon = GFX_decision_request_support
 		 cost = 70
 		 ai_will_do = {
@@ -583,7 +583,7 @@ SE1_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-	Request_Artillery = {
+	Request_Artillery1 = {
 	icon = GFX_decision_request_artillery
 		 cost = 90
 		 ai_will_do = {
@@ -602,7 +602,7 @@ SE1_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-	Request_Tanks = {
+	Request_Tanks1 = {
 	icon = GFX_decision_request_tanks
 		 cost = 100
 		 ai_will_do = {
@@ -621,7 +621,7 @@ SE1_Arms_Deal_Shipments = {
 		}
 			 days_remove = 40
 	  }
-	Request_Trucks = {
+	Request_Trucks1 = {
 	icon = GFX_decision_request_trucks
 		 cost = 100
 		 ai_will_do = {
