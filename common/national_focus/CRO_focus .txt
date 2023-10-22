@@ -8,6 +8,74 @@ focus_tree = {
 			tag = CRO
 		}
 	}
+
+	focus = {
+		id = CRO_decline_this_sham
+		icon = GFX_goal_unknown
+		x = 20
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_plan_z4  }
+		available = {
+			always = no
+			
+			
+		}
+		completion_reward = {
+			add_political_power = 1
+			
+			
+		}
+	}
+
+	#Accept Z4
+	focus = {
+		id = CRO_accept_z4
+		icon = GFX_goal_unknown
+		x = 22
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_plan_z4  }
+		available = {
+			always = no
+			
+			
+		}
+		completion_reward = {
+			add_political_power = 1
+			
+			
+		}
+	}
+
+	#Plan Z4
+	focus = {
+		id = CRO_plan_z4
+		icon = GFX_goal_unknown
+		x = 21
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			always = no
+			
+			
+		}
+		completion_reward = {
+			add_political_power = 1
+			
+			
+		}
+	}
+
 	#Raising the economy
 	focus = {
 		id = CRO_raising_the_economy
@@ -530,7 +598,7 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		available = {
-			date > 1995.08.4
+			has_completed_focus = CRO_decline_this_sham
 			}
 		prerequisite = { focus = CRO_operation_bljesak  }
 		completion_reward = {

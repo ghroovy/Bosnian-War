@@ -1,0 +1,21 @@
+spriteTypes = { 
+	##Icon For: Krajina Z4 offer
+	SpriteType = { 
+		name = "krajina_z4_offer-559366"
+		texturefile = "gfx/interface/events/z4-event/krajina_z4_offer-559366.dds"
+	}
+
+	##Icon For: Croatia Z4 event
+	SpriteType = { 
+		name = "croatia_z4_event-559369"
+		texturefile = "gfx/interface/events/z4-event/croatia_z4_event-559369.dds"
+	}
+
+	##Icon For: Z4 successful!
+	SpriteType = { 
+		name = "z4_successful-559384"
+		texturefile = "gfx/interface/events/z4-event/z4_successful-559384.dds"
+	}
+
+ 
+ }

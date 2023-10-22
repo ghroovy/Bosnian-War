@@ -8,6 +8,74 @@ focus_tree = {
 			tag = SE2
 		}
 	}
+
+	focus = {
+		id= SE2_decline_this_sham
+		icon = GFX_goal_unknown
+		x = 20
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SE2_plan_z4  }
+		available = {
+			always = no
+			
+			
+		}
+		completion_reward = {
+			add_political_power = 1
+			
+			
+		}
+	}
+
+	#Accept Z4
+	focus = {
+		id= SE2_accept_z4
+		icon = GFX_goal_unknown
+		x = 22
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SE2_plan_z4  }
+		available = {
+			always = no
+			
+			
+		}
+		completion_reward = {
+			add_political_power = 1
+			
+			
+		}
+	}
+
+	#Plan Z4
+	focus = {
+		id= SE2_plan_z4
+		icon = GFX_goal_unknown
+		x = 21
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			always = no
+			
+			
+		}
+		completion_reward = {
+			add_political_power = 1
+			
+			
+		}
+	}
+
 	#Western oriented government
 	focus = {
 		id = SE2_western_oriented_government

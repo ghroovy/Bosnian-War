@@ -1,5 +1,20 @@
 ideas = {
 	country = {
+		CRO_refused_Z4 = {
+			picture = krajina_refused_z4-1
+			modifier = {
+				political_power_gain = 0.01
+			}
+		}
+
+		CRO_krajina_refused_z4 = {
+			picture = krajina_refused_z4-1
+			modifier = {
+				army_attack_factor = 0.3
+army_speed_factor = 0.5
+weekly_manpower = 1250
+			}
+		}
 		CRO_raising_the_economy = {
 			picture = CRO_raising_the_economy-1
 			modifier = {

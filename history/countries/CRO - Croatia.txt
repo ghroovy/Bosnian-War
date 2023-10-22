@@ -6,7 +6,7 @@ set_war_support = 0.47
 
 set_autonomy = {
 	target = CSE
-	autonomous_state = Autonomna_pokrajina
+	autonomous_state = dependent_republic
 }
 
 # Starting tech

@@ -1,0 +1,227 @@
+add_namespace = z4
+
+#Krajina Z4 offer
+country_event = {
+	id = z4.1
+	title = z4.1.t
+	desc = z4.1.d
+
+	picture = krajina_z4_offer-559366
+	fire_only_once = yes
+	trigger = {
+		date > 1995.07.01
+tag = SE2
+SE2 = {
+has_war_with = CRO
+}
+	}
+	mean_time_to_happen = { days = 1 }
+	timeout_days = 10
+	major = yes
+	option = {
+		name = z4.1.a
+		trigger = {
+		}
+		ai_chance = { factor = 1 }
+		SE2 = {
+			complete_national_focus = SE2_plan_z4	
+			complete_national_focus = SE2_accept_z4
+		}
+		hidden_effect = {			
+		}
+	}
+	option = {
+		name = z4.1.b
+		trigger = {		
+		}
+		ai_chance = { factor = 1 }
+		SE2 = {
+			complete_national_focus= SE2_plan_z4	
+			complete_national_focus = SE2_decline_this_sham
+		}
+CRO = {
+	add_timed_idea = {
+    idea = CRO_krajina_refused_z4
+    days = 120
+}
+}
+		hidden_effect = {		
+		}
+	}
+}
+
+#Croatia Z4 event
+country_event = {
+	id = z4.2
+	title = z4.2.t
+	desc = z4.2.d
+
+	picture = croatia_z4_event-559369
+	fire_only_once = yes
+	trigger = {
+		date > 1995.07.01
+tag = CRO
+CRO = {
+	has_war_with = SE2
+}
+	}
+	major = yes
+	option = {
+		name = z4.2.a
+		trigger = {			
+		}
+		ai_chance = { factor = 1 }
+		CRO = {
+			complete_national_focus = CRO_plan_z4
+			complete_national_focus = CRO_accept_z4
+		}
+		hidden_effect = {			
+		}
+	}
+	option = {
+		name = z4.2.b
+		trigger = {			
+		}
+		ai_chance = { factor = 1 }
+		SE2 = {
+	add_timed_idea = {
+    idea = SE2_croatia_refused_z4
+    days = 120
+}
+}
+CRO = {
+	complete_national_focus = CRO_plan_z4
+	complete_national_focus = CRO_decline_this_sham
+}
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Z4 successful!
+country_event = {
+	id = z4.3
+	title = z4.3.t
+	desc = z4.3.d
+
+	picture = z4_successful-559384
+	fire_only_once = yes
+	trigger = {
+SE2 = {
+	has_completed_focus = SE2_accept_z4
+}
+CRO = {
+	has_completed_focus = CRO_accept_z4
+}
+tag = SE2
+SE2 = {
+	has_war_with = CRO
+}
+	}
+	major = yes
+	option = {
+	CRO = {
+		annex_country = {
+			target = SE2
+			transfer_troops = no
+		}
+	}
+CRO = {
+	set_autonomy = {
+		target = CSE
+		autonomy_state = dependent_republic
+		end_wars = no
+		end_civil_wars = no
+	}
+}
+		name = z4.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		CRO = {
+	set_state_owner = 146
+	set_state_controller = 146
+	set_state_owner = 151
+	set_state_controller = 151
+	set_state_owner = 143
+	set_state_controller = 143
+	set_state_owner = 150
+	set_state_controller = 150
+	set_state_owner = 149
+	set_state_controller = 149
+	set_state_owner = 139
+	set_state_controller = 139
+	set_state_owner = 153
+	set_state_controller = 153
+	set_state_owner = 156
+	set_state_controller = 156
+	set_state_owner = 126
+	set_state_controller = 126
+	set_state_owner = 157
+	set_state_controller = 157
+	set_state_owner = 158
+	set_state_controller = 158
+	set_state_owner = 128
+	set_state_controller = 128
+	set_state_owner = 129
+	set_state_controller = 129
+	set_state_owner = 25
+	set_state_controller = 25
+}
+CSE = { change_tag_from = SE2 }
+CSE = {
+	set_state_owner = 125
+	set_state_controller = 125
+	set_state_owner = 148
+	set_state_controller = 148
+	set_state_owner = 140
+	set_state_controller = 140
+	set_state_owner = 142
+	set_state_controller = 142
+	set_state_owner = 147
+	set_state_controller = 147
+	set_state_owner = 144
+	set_state_controller = 144
+	set_state_owner = 141
+	set_state_controller = 141
+	set_state_owner = 152
+	set_state_controller = 152
+	set_state_owner = 154
+	set_state_controller = 154
+	set_state_owner = 155
+	set_state_controller = 155
+	set_state_owner = 127
+	set_state_controller = 127
+	set_state_owner = 160
+	set_state_controller = 160
+	set_state_owner = 159
+	set_state_controller = 159
+	set_state_owner = 161
+	set_state_controller = 161
+	add_state_core = 125
+	add_state_core = 148
+	add_state_core = 140
+	add_state_core = 142
+	add_state_core = 147
+	add_state_core = 144
+	add_state_core = 141
+	add_state_core = 152
+	add_state_core = 154
+	add_state_core = 155
+	add_state_core = 127
+	add_state_core = 160
+	add_state_core = 159
+	add_state_core = 161 
+}
+}
+SE2 = {
+	white_peace = CRO
+	white_peace = NAT
+}
+		hidden_effect = {			
+		}
+}
+
