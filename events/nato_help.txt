@@ -25,6 +25,9 @@ tag = CRO
 			
 		}
 		ai_chance = { factor = 1 }
+		CRO = {
+			add_manpower = 22175
+		}
 		NAT = {
 	add_manpower = 150000
 }
