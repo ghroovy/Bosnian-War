@@ -86,8 +86,10 @@ weekly_manpower = 1250
 		CRO_operation_the_storm = {
 			picture = CRO_operation_the_storm-1
 			modifier = {
-				army_attack_factor = 15
-				army_attack_speed_factor = 10
+				army_attack_factor = 1.25
+				army_attack_speed_factor = 0.95
+				terrain_penalty_reduction = 0.75
+				army_speed_factor = 0.65
 				ai_focus_aggressive_factor = 10
             }
 		}

@@ -443,6 +443,20 @@
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
+	division= {	
+		name = "Narodna Vojska"
+		location = 8920
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	 division= {	
+		name = "Narodna Vojska"
+		location = 8920
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
 
 #MAYBE TEMP
 division= {	

@@ -794,4 +794,42 @@ division= {
 	start_experience_factor = 0.1
 	start_equipment_factor = 1
 }
+
+
+
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 11361
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 8414
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 11240
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 8731
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 634
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
 }
