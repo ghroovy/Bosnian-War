@@ -19,7 +19,9 @@ state={
 		add_core_of = FCR
 		add_core_of = BOS
 		add_core_of = WBS
-
+		victory_points = {
+			8099 15
+			}
 
 	}
 
