@@ -649,12 +649,74 @@ add_ideas = Krajina_western_construction
 		}
     }
 
+	#Prepare for Oluja
+	focus = {
+		id = SE2_prepare_for_oluja
+		icon = GFX_goal_unknown
+		x = 13
+		y = 4
+		cost = 0
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = SE2_war_for_freedom  }
+		available = {
+			CRO = {
+				has_completed_focus = CRO_operation_the_storm
+			}
+		}
+		completion_reward = {
+			125 = {
+				add_dynamic_modifier = {
+			  modifier = SE2_defense
+			  scope = SE2
+			  days = 70
+			  }
+		  }
+		  152 = {
+			add_dynamic_modifier = {
+		  modifier = SE2_defense
+		  scope = SE2
+		  days = 70
+		  }
+	  }
+	  150 = {
+		add_dynamic_modifier = {
+	  modifier = SE2_defense
+	  scope = SE2
+	  days = 70
+	  }
+  }
+  141 = {
+	add_dynamic_modifier = {
+  modifier = SE2_defense
+  scope = SE2
+  days = 70
+  }
+}
+144 = {
+	add_dynamic_modifier = {
+  modifier = SE2_defense
+  scope = SE2
+  days = 70
+  }
+}
+154 = {
+	add_dynamic_modifier = {
+  modifier = SE2_defense
+  scope = SE2
+  days = 70
+  }
+}
+		}
+    }
+
 	#Knin is holding on
 	focus = {
 		id = SE2_knin_is_holding_on
 		icon = GFX_goal_unknown
 		x = 13
-		y = 4
+		y = 5
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_STABILITY
@@ -664,7 +726,7 @@ add_ideas = Krajina_western_construction
 			SE2 = {
 				controls_province = 7140
 			}
-			date > 1995.08.04
+			date > 1995.09.01
 		}
 		completion_reward = {
 			add_ideas = Krajina_knin_is_holding_on
@@ -676,7 +738,7 @@ add_ideas = Krajina_western_construction
 		id = SE2_the_storm_failed
 		icon = GFX_goal_unknown
 		x = 13
-		y = 5
+		y = 7
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_STABILITY

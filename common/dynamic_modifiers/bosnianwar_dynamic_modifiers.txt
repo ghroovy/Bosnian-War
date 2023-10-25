@@ -108,3 +108,13 @@ CRO_operation_The_Storm = { #STATE MODIFIER
 	terrain_penalty_reduction = 0.75
 	ai_focus_aggressive_factor = 10
 }
+
+SE2_defense = { #STATE MODIFIER
+	enable = { always = yes }
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	army_defence_factor = 2
+	dig_in_speed_factor = 2.5
+	max_dig_in_factor = 5
+}
