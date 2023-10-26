@@ -721,7 +721,7 @@ add_ideas = Krajina_western_construction
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = SE2_war_for_freedom  }
+		prerequisite = { focus = SE2_prepare_for_oluja }
 		available = {
 			SE2 = {
 				controls_province = 7140

@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+	CSE_new_krajina_men = {
+		picture = Krajina_rsk_must_remain-1
+		modifier = {
+			weekly_manpower = 500
+			army_core_defence_factor = 0.35
+			army_attack_factor = 0.30
+		}
+	}
+	CSE_defense = {
+		picture = Krajina_rsk_must_remain-1
+		modifier = {
+			army_core_defence_factor = 0.40
+			army_attack_factor = 0.1
+			minimum_training_level = -0.18
+		}
+	}
+	CSE_front_supply = {
+		picture = Krajina_rsk_must_remain-1
+		modifier = {
+			supply_consumption_factor = -0.8
+			attrition = -0.65
+		}
+	}
+}
+}

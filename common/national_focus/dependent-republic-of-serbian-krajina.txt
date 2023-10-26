@@ -1,0 +1,245 @@
+focus_tree = {
+	id = dependent-republic-of-serbian-krajina
+	continuous_focus_position = { x = -40 y = 1700 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CSE
+		}
+	}
+	#The road to independence
+	focus = {
+		id = CSE_the_road_to_independence
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = CSE_reform_in_the_government  }
+		completion_reward = {
+			add_political_power = 155
+			add_command_power = 75
+			
+			
+		}
+	}
+
+	#Equipping with weapons
+	focus = {
+		id = CSE_equipping_with_weapons
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CSE_the_road_to_independence  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2950
+				producer = YUG
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 900
+				producer = YUG
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 750
+				producer = YUG
+			}
+			
+			
+			
+			add_war_support = 0.05
+			
+			
+		}
+	}
+
+	#reconnect with north
+	focus = {
+		id = CSE_reconnect_with_north
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CSE_peaceful_reintegration_of_some_territories  }
+		completion_reward = {
+			add_political_power = 75
+			
+			add_stability = 0.05
+			
+			add_war_support = 0.05
+			
+			add_command_power = 15
+			
+			
+		}
+	}
+
+	#Reform in the Government
+	focus = {
+		id = CSE_reform_in_the_government
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 125
+			
+			
+		}
+	}
+
+	#Peaceful reintegration of some territories
+	focus = {
+		id = CSE_peaceful_reintegration_of_some_territories
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CSE_the_road_to_independence  }
+		completion_reward = {
+			add_political_power = 100
+			
+			add_command_power = 25
+			
+			add_stability = 0.05
+			
+			
+		}
+	}
+
+	#Securing the source of weapons
+	focus = {
+		id = CSE_securing_the_source_of_weapons
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CSE_equipping_with_weapons  }
+		completion_reward = {
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 3455
+				producer = YUG
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 750
+				producer = YUG
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 325
+				producer = YUG
+			}	
+			
+		}
+	}
+
+	#New Krajina men
+	focus = {
+		id = CSE_new_krajina_men
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = CSE_securing_the_source_of_weapons  } prerequisite = { focus = CSE_reconnect_with_north  }
+		completion_reward = {
+			add_timed_idea = {
+				idea = CSE_new_krajina_men
+				days = 1200
+			}			
+		}
+	}
+
+	#Better Krajina defense
+	focus = {
+		id = CSE_better_krajina_defense
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CSE_new_krajina_men  }
+		completion_reward = {
+			add_timed_idea = {
+				idea = CSE_defense
+				days = 1200
+			}	
+			add_ideas = CSE_front_supply		
+		}
+	}
+
+
+	#Another attempt at freedom
+	focus = {
+		id = CSE_another_attempt_for_freedom
+		icon = GFX_goal_unknown
+		x = 3
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CSE_better_krajina_defense  }
+		completion_reward = {
+			add_war_support = 0.1			
+			add_stability = 0.1			
+			add_manpower = 12550
+			
+
+			
+			}
+			
+		}
+
+	#More divisions in army
+	focus = {
+		id = CSE_more_divisions_in_army
+		icon = GFX_goal_unknown
+		x = 3
+		y = 8
+		cost = 0
+		available = {
+			controls_province = 7140
+			controls_province = 2550
+			always = no		
+		}
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = CSE_another_attempt_for_freedom  }
+		completion_reward = {
+			load_oob = CSE_armija
+			
+		}
+	}
+}
+

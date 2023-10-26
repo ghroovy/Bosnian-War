@@ -1,0 +1,245 @@
+CSE_reintegration_of_some_territories = {
+	reintegrate_of_kosovo_village = {
+		fire_only_once = yes
+		available = {
+			command_power > 45
+		}
+		visible = {
+			has_completed_focus = CSE_peaceful_reintegration_of_some_territories
+		}
+		days_remove = 20
+		complete_effect = {
+			add_political_power = -100
+            add_command_power = -45
+		}
+		remove_effect = {
+			CSE = {
+	transfer_state = 150
+	add_state_core = 150
+	add_manpower = 1500
+}
+		}
+	}
+	reintegrate_of_Drnis = {
+		fire_only_once = yes
+		available = {
+			command_power > 45
+		}
+		visible = {
+			has_completed_focus = CSE_peaceful_reintegration_of_some_territories
+		}
+		days_remove = 20
+		complete_effect = {
+			add_political_power = -100
+            add_command_power = -45
+		}
+		remove_effect = {
+			CSE = {
+	transfer_state = 143
+	add_state_core = 143
+	add_manpower = 1500
+}
+		}
+	}
+	reintegrate_of_Otisic = {
+		fire_only_once = yes
+		available = {
+			command_power > 45
+		}
+		visible = {
+			has_completed_focus = CSE_peaceful_reintegration_of_some_territories
+		}
+		days_remove = 20
+		complete_effect = {
+			add_political_power = -100
+            add_command_power = -45
+		}
+		remove_effect = {
+			CSE = {
+	transfer_state = 151
+	add_state_core = 151
+	add_manpower = 1500
+}
+		}
+	}
+	reintegrate_of_Bogatic = {
+		fire_only_once = yes
+		available = {
+			command_power > 45
+		}
+		visible = {
+			has_completed_focus = CSE_peaceful_reintegration_of_some_territories
+		}
+		days_remove = 20
+		complete_effect = {
+			add_political_power = -100
+            add_command_power = -45
+		}
+		remove_effect = {
+			CSE = {
+	transfer_state = 149
+	add_state_core = 149
+	add_manpower = 1500
+}
+		}
+	}
+	reintegrate_of_Vrhovine = {
+		fire_only_once = yes
+		available = {
+			command_power > 45
+		}
+		visible = {
+			has_completed_focus = CSE_peaceful_reintegration_of_some_territories
+		}
+		days_remove = 20
+		complete_effect = {
+			add_political_power = -100
+            add_command_power = -45
+		}
+		remove_effect = {
+			CSE = {
+	transfer_state = 156
+	add_state_core = 156
+	add_manpower = 1500
+}
+		}
+	}
+
+}
+
+
+CSE_reconnect_with_north = {
+	reintegrate_of_saborsko = {
+		fire_only_once = yes
+		available = {
+			command_power > 55
+		}
+		visible = {
+			has_completed_focus = CSE_reconnect_with_north
+		}
+		days_remove = 20
+		complete_effect = {
+			add_political_power = -125
+            add_command_power = -55
+		}
+		remove_effect = {
+			CSE = {
+	transfer_state = 126
+	add_state_core = 126
+	add_manpower = 1750
+}
+		}
+	}
+	reintegrate_of_slunj = {
+		fire_only_once = yes
+		available = {
+			command_power > 55
+		}
+		visible = {
+			has_completed_focus = CSE_reconnect_with_north
+		}
+		days_remove = 20
+		complete_effect = {
+			add_political_power = -125
+            add_command_power = -55
+		}
+		remove_effect = {
+			CSE = {
+	transfer_state = 157
+	add_state_core = 157
+	add_manpower = 1750
+}
+		}
+	}
+}
+
+CSE_Arms_Deal_Shipments = {
+	CSE_Request_Infantry_Equipment = {
+	icon = GFX_decision_request_guns
+		 cost = 70
+		 ai_will_do = {
+         base = 100
+		 modifier = {
+		 	add = 100
+			has_equipment = {
+    		infantry_equipment < 500
+			}
+        }
+	}
+		 fixed_random_seed = no
+		 remove_effect = {
+			random_list = {
+				85 = {
+				  country_event = eqp.4
+				}
+				15 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+	CSE_Request_Support_Equipment = {
+	icon = GFX_decision_request_support
+		 cost = 70
+		 ai_will_do = {
+         base = 100
+		 modifier = {
+		 	add = 100
+			has_equipment = {
+    		support_equipment < 50
+			}
+        }
+	}
+		 fixed_random_seed = no
+		 remove_effect = {
+			random_list = {
+				85 = {
+				  country_event = eqp.11
+				}
+				15 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+	CSE_Request_Artillery = {
+	icon = GFX_decision_request_artillery
+		 cost = 90
+		 ai_will_do = {
+         base = 100
+        }
+		 fixed_random_seed = no
+		 remove_effect = {
+			random_list = {
+				80 = {
+				  country_event = eqp.12
+				}
+				20 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+	CSE_Request_Trucks = {
+	icon = GFX_decision_request_trucks
+		 cost = 100
+		 ai_will_do = {
+         base = 100
+        }
+		 fixed_random_seed = no
+		 remove_effect = {
+			random_list = {
+				80 = {
+				  country_event = eqp.13
+				}
+				20 = {
+				  country_event = eqp.2
+				}
+			 }
+		}
+			 days_remove = 40
+	  }
+}

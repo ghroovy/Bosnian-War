@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Krajina another attempt for freedom
+	SpriteType = { 
+		name = "krajina_another_attempt_for_freedom-560704"
+		texturefile = "gfx/interface/events/krajina_another_attempt_for_freedom-event/krajina_another_attempt_for_freedom-560704.dds"
+	}
+
+ 
+ }
