@@ -2,6 +2,7 @@
 oob = "SE1_1992"
 set_research_slots = 2
 give_military_access = SE2
+give_military_access = CSE
 add_manpower = 19500
 #Starting tech
 set_technology = {

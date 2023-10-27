@@ -65,6 +65,8 @@ CRO = {
 	has_war_with = SE2
 }
 	}
+	mean_time_to_happen = { days = 1 }
+	timeout_days = 10
 	major = yes
 	option = {
 		name = z4.2.a
@@ -120,6 +122,8 @@ SE2 = {
 	has_war_with = CRO
 }
 	}
+	mean_time_to_happen = { days = 1 }
+	timeout_days = 10
 	major = yes
 	option = {
 	CRO = {
