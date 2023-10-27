@@ -1,0 +1,54 @@
+add_namespace = war_with_croatia
+
+#War with Croatia
+country_event = {
+	id = war_with_croatia.1
+	title = war_with_croatia.1.t
+	desc = war_with_croatia.1.d
+
+	picture = war_with_croatia-1
+	fire_only_once = yes
+	trigger = {
+		tag = CSE
+		CSE = {
+			has_completed_focus = CSE_War_with_Croatia_is_near
+		}
+	}
+	mean_time_to_happen = { days = 120 }
+	timeout_days = 1
+	fire_for_sender = yes
+	hidden = yes
+	option = {
+		name = war_with_croatia.1.a
+		trigger = {}
+		ai_chance = { factor = 1 }
+
+CSE = {
+leave_faction = yes
+set_cosmetic_tag = CSE_Serbian_Nationalist
+create_country_leader = {
+	name = "Jovan Rašković"
+	desc = ""
+	picture = "gfx/leaders/Jovan_Raskovic.dds" 
+	expire = "3000.1.1"
+	ideology = nazism
+	traits = { Tata_Krajine }
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = 1
+	}
+	set_politics = {
+		ruling_party = fascism
+			elections_allowed = no
+			last_election = "1990.1.1"
+			election_frequency = 48
+		}
+	complete_national_focus = CSE_more_divisions_in_army
+	complete_national_focus = CSE_War_with_Croatia
+}
+		hidden_effect = {
+			
+		}
+	}
+}

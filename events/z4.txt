@@ -139,6 +139,10 @@ CRO = {
 		end_wars = no
 		end_civil_wars = no
 	}
+	annex_country = {
+		target =NAT
+		transfer_troops = yes
+	}
 }
 		name = z4.3.a
 		trigger = {
@@ -225,7 +229,6 @@ SE2 = {
 	white_peace = CRO
 	white_peace = NAT
 }
-		hidden_effect = {			
-		}
+		hidden_effect = {}
 }
 

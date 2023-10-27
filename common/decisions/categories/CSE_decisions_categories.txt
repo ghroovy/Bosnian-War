@@ -4,6 +4,9 @@ CSE_reintegration_of_some_territories = {
 	priority = 1
 	visible = {
 		tag = CSE
+		NOT = {
+			has_war_with = CRO
+		}
 		}	
 }
 
@@ -13,6 +16,9 @@ CSE_reconnect_with_north = {
 	priority = 1
 	visible = {
 		tag = CSE
+		NOT = {
+			has_war_with = CRO
+		}
 		}	
 }
 

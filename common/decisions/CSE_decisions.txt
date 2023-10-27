@@ -3,9 +3,11 @@ CSE_reintegration_of_some_territories = {
 		fire_only_once = yes
 		available = {
 			command_power > 45
+			
 		}
 		visible = {
 			has_completed_focus = CSE_peaceful_reintegration_of_some_territories
+
 		}
 		days_remove = 20
 		complete_effect = {

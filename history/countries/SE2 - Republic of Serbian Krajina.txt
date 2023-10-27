@@ -1,6 +1,7 @@
 ﻿capital = 7140
 oob = "SE2_1992"
 set_research_slots = 3
+give_military_access = SE1
 set_stability = 0.3
 set_war_support = 0.25
 add_manpower = 95000

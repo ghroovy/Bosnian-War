@@ -9,60 +9,33 @@ country_event = {
 	picture = krajina_another_attempt_for_freedom-560704
 	fire_only_once = yes
 	trigger = {
+		tag = CSE
 		CSE = {
 	has_completed_focus = CSE_another_attempt_for_freedom
 }
 	}
 	timeout_days = 10
 	major = yes
+	hidden = no
 	option = {
 		name = krajina_another_attempt_for_freedom.1.a
 		trigger = {
 			
 		}
 		ai_chance = { factor = 1 }
+	CRO = {
 		set_autonomy = {
-    target = CSE
-    autonomy_state = autonomy_free
-    end_wars = yes
-    end_civil_wars = yes
-}
-CRO = {
-	declare_war_on = {
-    target = CSE
-    type = annex_everything
-}
-}
-CSE = {
-	declare_war_on = {
-target = CRO
-type = annex_everything
-}
-}
-CSE = {
-set_cosmetic_tag = CSE_Serbian_Nationalist
-create_country_leader = {
-	name = "Jovan Rašković"
-	desc = ""
-	picture = "gfx/leaders/Jovan_Raskovic.dds" 
-	expire = "3000.1.1"
-	ideology = nazism
-	traits = { Tata_Krajine }
-	}
-	add_popularity = {
-		ideology = fascism
-		popularity = 1
-	}
-	set_politics = {
-		ruling_party = fascism
-			elections_allowed = no
-			last_election = "1990.1.1"
-			election_frequency = 48
+			target = CSE
+			autonomy_state = autonomy_free
 		}
-	complete_national_focus = CSE_more_divisions_in_army
 }
-
-
+CRO ={
+	create_faction = Croatia.Federation
+	add_to_faction = CSE
+}
+CSE = {
+	complete_national_focus = CSE_War_with_Croatia_is_near
+}
 		hidden_effect = {
 			
 		}
