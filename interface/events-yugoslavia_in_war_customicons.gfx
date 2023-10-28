@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Yugoslavia in War
+	SpriteType = { 
+		name = "yugoslavia_in_war-561574"
+		texturefile = "gfx/interface/events/yugoslavia_in_war-event/yugoslavia_in_war-561574.dds"
+	}
+
+ 
+ }

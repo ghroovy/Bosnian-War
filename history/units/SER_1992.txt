@@ -34,253 +34,526 @@
 
 
   units = { 
-	 division= {	
-		name = "Divizije Pantera"
-		location = 11351
-		division_template = "Pešadijske Divizije"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	 division= {	
-		name = "Divizije Pantera"
-		location = 11351
-		division_template = "Pešadijske Divizije"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 		 division= {	
-		name = "Divizije Pantera"
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-		 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-		 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
-		location = 11351
-		division_template = "Pešadijske Divizije"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	 division= {	
-		name = "Divizije Pantera"
-		location = 11351
-		division_template = "Pešadijske Divizije"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 		 division= {	
-		name = "Divizije Pantera"
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-		 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-		 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
-		location = 11351
-		division_template = "Pešadijske Divizije"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	 division= {	
-		name = "Divizije Pantera"
-		location = 11351
-		division_template = "Pešadijske Divizije"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 		 division= {	
-		name = "Divizije Pantera"
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 		 division= {	
-		name = "Divizije Pantera"
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-	 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
-		 division= {	
-		name = "Divizije Pantera"
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
+		location = 11351
+		division_template = "Pešadijske Divizije"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Divizija JA"
 		location = 11351
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.4
@@ -293,3 +566,103 @@
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "Brigada Tank"
+		location = 11351
+		division_template = "Brigada Tank"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+}
