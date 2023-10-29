@@ -8,3 +8,13 @@ SE2_Arms_Deal_Shipments = {
 		}	
 	always = yes
 }
+
+SE2_Integration_of_SAO_Vukovar = {
+	icon = GFX
+	picture = GFX
+	priority = 1
+	visible = {
+		always = yes
+		tag = SE2
+		}	
+}

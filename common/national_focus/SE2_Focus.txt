@@ -94,6 +94,12 @@ add_popularity = {
     ideology = democratic
     popularity = 1
 }
+VUK = {
+	add_popularity = {
+		ideology = democratic
+		popularity = 1
+	}
+}
 }
 
 	}
@@ -133,6 +139,12 @@ add_popularity = {
     ideology = democratic
     popularity = 1
 }
+VUK = {
+	add_popularity = {
+		ideology = democratic
+		popularity = 1
+	}
+}
 }
 
 	}
@@ -154,6 +166,12 @@ add_popularity = {
 add_popularity = {
     ideology = fascism
     popularity = 1
+}
+VUK = {
+	add_popularity = {
+		ideology = fascism
+		popularity = 1
+	}
 }
 }
 
@@ -179,6 +197,16 @@ add_popularity = {
         ideology = nazism
         traits = { Tata_Krajine }
         }
+		VUK = {
+			create_country_leader = {
+				name = "Jovan Rašković"
+				desc = ""
+				picture = "gfx/leaders/Jovan_Raskovic.dds" 
+				expire = "3000.1.1"
+				ideology = nazism
+				traits = { Tata_Krajine }
+				}
+		}
         }
     }
 
@@ -264,9 +292,28 @@ set_politics = {
         last_election = "1990.1.1"
 		election_frequency = 48
 	}
+	VUK = {
+		completion_reward = {
+			create_country_leader = {
+			name = "Milan Martic"
+			desc =
+			picture =  
+			expire = "3000.1.1"
+			ideology = socialism
+			traits = { }
+			}
+			
+			set_politics = {
+				ruling_party = democratic
+					elections_allowed = no
+					last_election = "1990.1.1"
+					election_frequency = 48
+				}
+	}
 
 }
 
+}
 }
 
 	#Milan Babic for president
@@ -296,6 +343,26 @@ set_politics = {
         last_election = "1990.1.1"
 		election_frequency = 48
 	}
+	VUK = {
+		completion_reward = {
+			create_country_leader = {
+			name = "Milan Babic"
+			desc =
+			picture =  
+			expire = "3000.1.1"
+			ideology = liberalism
+			traits = { }
+			}
+			
+			set_politics = {
+				ruling_party = democratic
+					elections_allowed = no
+					last_election = "1990.1.1"
+					election_frequency = 48
+				}
+	}
+
+}
 
 }
     }

@@ -5,13 +5,14 @@ state={
 		2388 2690 3172 5542 5563 5776 6200 7351 7747 8751 8776 9040 9171 9464 10626 10696 10705 
 	}
 	history={
-		owner = SE2
+		owner = VUK
         buildings = {
             infrastructure = 6
             arms_factory = 0
             industrial_complex = 0
         }
 		add_core_of = SE2
+		add_core_of = VUK
 				victory_points = {
 		6200 13
 		}

@@ -58,9 +58,11 @@ set_popularities = {
 	croatia_aligned = 0
 	neutrality = 0
 }
-
+set_autonomy = {
+	target = VUK
+	autonomous_state = Autonomna_pokrajina
+}
 add_ideas = {
-	SE2_more_manpower
 	limited_exports
 	extensive_conscription
 	war_economy

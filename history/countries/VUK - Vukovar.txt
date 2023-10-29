@@ -1,0 +1,60 @@
+capital = 2083
+add_manpower = -100000
+# Starting tech
+set_technology = {
+	}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_medium_tank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_medium_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
+create_country_leader = {
+	name = "Goran Hadžić"
+	desc = ""
+	picture = "gfx/leaders/Krajina.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+
+	}
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	croatia_aligned = 0
+	neutrality = 0
+}
+
+
+add_ideas = {
+limited_exports
+extensive_conscription
+war_economy
+idea_the_bosnian_war
+}
+
+

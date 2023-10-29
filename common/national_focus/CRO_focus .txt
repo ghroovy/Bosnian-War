@@ -457,6 +457,10 @@ focus_tree = {
 			
 			
 		}
+		select_effect = {
+			play_song = 10261.ogg
+			
+			}
 	}
 
 	#Every man for  homeland
@@ -607,9 +611,6 @@ focus_tree = {
 		prerequisite = { focus = CRO_operation_bljesak  }
 		completion_reward = {
 			add_timed_idea = { idea = CRO_operation_the_storm days = 50 }
-	
-
-
 			news_event = {
 				id = operation_the_storm_start.1
 				days = 10
@@ -617,6 +618,10 @@ focus_tree = {
 				random_days = 10
 			}
 		}
+		select_effect = {
+			play_song = 10261
+			
+			}
 	}
 
 	#Operation the Storm successful

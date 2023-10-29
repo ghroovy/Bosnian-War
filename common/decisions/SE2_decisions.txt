@@ -88,3 +88,21 @@ SE2_Arms_Deal_Shipments = {
 			 days_remove = 40
 	  }
 }
+
+SE2_Integration_of_SAO_Vukovar = {
+    Integrate_SAO_Vukovar = {
+		fire_only_once = yes
+		visible = { 
+			always = yes
+	}
+		 ai_will_do = {
+		 base = 0
+		}
+		 complete_effect = {
+			annex_country = {
+			target = VUK
+			transfer_troops = yes
+			}
+		}
+	}
+}

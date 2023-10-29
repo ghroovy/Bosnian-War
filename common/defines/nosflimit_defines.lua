@@ -1,0 +1,2 @@
+NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 1
+NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 550

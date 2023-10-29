@@ -70,6 +70,9 @@
  CSE:0 "Dependent Republic Of Serbian Krajina"
  CSE_DEF:0 "Dependent Republic Of Serbian Krajina"
  CSE_ADJ:0 "Serbian"
+ VUK:0 "SAO Vukovar"
+ VUK_DEF:0 "SAO Vukovar"
+ VUK_ADJ:0 "Serbian"
 
  ###Eastern/Southern Europe
  YUG:0 "Yugoslavia"
