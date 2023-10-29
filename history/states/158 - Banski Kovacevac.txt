@@ -2,7 +2,7 @@ state={
 	id=158
 	name="Banski Kovacevac"
 	provinces={
-		10922 1128 10887 10854 4195
+		10922 1128 10887 10854 4195  683
 	}
 	history={
 		owner = SE2

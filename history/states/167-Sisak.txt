@@ -1,0 +1,29 @@
+state={
+	id=167
+	name="Sisak"
+	provinces={
+		1328 1379 1760 2363 3475 4875 5158 5600 5653 5901 7038 7044 7582 7639 9075 9351 10743 10752 10760 10788 10807 10815 10837 10838 10858 10859 10869 10892 10900 10906 10923 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 5
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = CRO
+
+
+		victory_points = {
+			9351	 15
+		}
+		victory_points = {
+			10858	 2 
+		}
+
+	}
+	manpower=47212
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

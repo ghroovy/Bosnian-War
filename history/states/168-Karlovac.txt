@@ -1,0 +1,23 @@
+state={
+	id=168
+	name="Karlovac"
+	provinces={
+		2461 5038 5443 6042 6939 7180 7270 7295 7412 7674 7686 8007 8123 8208 9208 9371 10659 10768 10787 10792 10820 10872 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 5
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = CRO
+		victory_points = {
+			8208	 10 
+		}
+	}
+	manpower=87522
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

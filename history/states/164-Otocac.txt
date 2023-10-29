@@ -1,0 +1,23 @@
+state={
+	id=164
+	name="Otocac"
+	provinces={
+		11289 11252 11235 2552 11190 11134 11177 11141 11108 11139
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 4
+            arms_factory = 0
+            industrial_complex = 1
+        }
+		add_core_of = CRO
+		victory_points = {
+			11252 10
+			}
+	}
+	manpower=27512
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

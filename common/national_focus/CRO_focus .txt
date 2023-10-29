@@ -602,9 +602,7 @@ focus_tree = {
 			has_completed_focus = CRO_decline_this_sham
 			has_completed_focus = CRO_accept_z4
 		}
-		NOT = {
-			exists = CSE
-		}
+		CSE = {exists = no}
 			}
 		prerequisite = { focus = CRO_operation_bljesak  }
 		completion_reward = {

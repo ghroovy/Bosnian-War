@@ -1,0 +1,23 @@
+state={
+	id=162
+	name="Karlobag"
+	provinces={
+		70 4014 6687 8153 8657 11540 11592 11609 11639 11687 11698 4212
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 4
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = CRO
+		victory_points = {
+			70 10
+			}
+	}
+	manpower=42857
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

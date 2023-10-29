@@ -1,0 +1,23 @@
+state={
+	id=165
+	name="Rijeka"
+	provinces={
+		2974 3791 4482 5692 5800 6575 7088 7097 7131 7160 8220 8972 8992 9141 9309 9453 10771 10819 10857 10865 10890 10891 10907 10913 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 5
+            arms_factory = 1
+            industrial_complex = 0
+        }
+		add_core_of = CRO
+		victory_points = {
+			10913 21
+			}
+	}
+	manpower=110215
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}
