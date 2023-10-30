@@ -1,0 +1,38 @@
+state={
+	id=178
+	name="Osijek"
+	provinces={
+		1149 1318 1637 1709 3228 3458 3811 4095 4849 4920 5091 5516 5786 6168 6218 6380 6415 6826 7570 8122 8364 8732 9305 9353 10695 10715 10761 10769 10772 10775 10794 10797 10798 10809 10830 10867 10874 10881 10902 10917 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 5
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = CRO
+		victory_points = {
+			6415 20
+			}
+			victory_points = {
+				3228 5
+				}
+				victory_points = {
+					5516 5
+					}
+					victory_points = {
+						4920 5
+						}
+						victory_points = {
+							6168 3
+							}
+							victory_points = {
+								10830 4
+								}
+	}
+	manpower=65324
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

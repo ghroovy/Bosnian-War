@@ -1,0 +1,26 @@
+state={
+	id=176
+	name="Slavonski Brod"
+	provinces={
+		849 3907 4209 5073 5151 5419 7003 7030 7202 7919 8113 8648 8706 9010 10916 10928 10948 10953 10983 11000 11041 11054 11083 11084 11111 11115 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 6
+            arms_factory = 0
+            industrial_complex = 1
+        }
+		add_core_of = CRO
+		victory_points = {
+			3907 16
+			}
+			victory_points = {
+				4209 4
+				}
+	}
+	manpower=63221
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

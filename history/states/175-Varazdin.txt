@@ -1,0 +1,26 @@
+state={
+	id=175
+	name="Varazdin"
+	provinces={
+		486 793 1127 1305 3028 4015 4365 4458 4735 5175 5317 5355 5548 5630 6208 6301 6332 6401 7081 7391 7429 7469 7616 7716 7770 7772 7879 7905 8431 8586 8696 8753 9386 10210 10254 10256 10258 10264 10269 10272 10273 10284 10292 10293 10302 10307 10316 10339 10344 10367 10368 10372 10392 10400 10407 10423 10469 10488 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 5
+            arms_factory = 0
+            industrial_complex = 1
+        }
+		add_core_of = CRO
+		victory_points = {
+			10284 15
+			}
+			victory_points = {
+				1127 15
+				}
+	}
+	manpower=75232
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

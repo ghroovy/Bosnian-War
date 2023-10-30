@@ -25,6 +25,10 @@ country_event = {
     target = SE2
     type = annex_everything
 }
+declare_war_on = {
+    target = VUK
+    type = annex_everything
+}
 
 
 		hidden_effect = {

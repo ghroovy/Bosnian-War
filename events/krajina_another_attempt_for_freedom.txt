@@ -36,6 +36,12 @@ CRO ={
 CSE = {
 	complete_national_focus = CSE_War_with_Croatia_is_near
 }
+SE1 = {
+	gives_military_access_to = CSE
+}
+CSE = {
+	gives_military_access_to = SE1
+}
 		hidden_effect = {
 			
 		}

@@ -1,0 +1,26 @@
+state={
+	id=179
+	name="Nova Gradiska"
+	provinces={
+		550 953 1463 1559 1915 4165 4376 5092 5110 5598 5750 5930 6822 8101 8248 8272 8908 8952 9050 10811 10839 10855 10884 10889 10924 10927 11040 11059 11064 11072 11091 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 5
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = CRO
+		victory_points = {
+			8101 10
+			}
+			victory_points = {
+				5930 10
+				}
+	}
+	manpower=38955
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

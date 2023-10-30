@@ -1,0 +1,26 @@
+state={
+	id=177
+	name="Slatina"
+	provinces={
+		203 1948 2064 2275 2555 2592 2940 3281 4147 4449 5383 5939 6221 6473 7153 7265 7819 7921 7944 9034 9416 10680 10699 10709 10766 10780 10803 10873 
+	}
+	history={
+		owner = CRO
+        buildings = {
+            infrastructure = 4
+            arms_factory = 0
+            industrial_complex = 0
+        }
+		add_core_of = CRO
+		victory_points = {
+			3281 9
+			}
+			victory_points = {
+				6221 3
+				}
+	}
+	manpower=33224
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

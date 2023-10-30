@@ -171,10 +171,10 @@ focus_tree = {
 		prerequisite = { focus = CSE_securing_the_source_of_weapons  } prerequisite = { focus = CSE_reconnect_with_north  }
 		completion_reward = {
 			add_timed_idea = {
-				add_manpower = 52150
 				idea = CSE_new_krajina_men
 				days = 1200
-			}			
+			}	
+			add_manpower = 52150		
 		}
 	}
 

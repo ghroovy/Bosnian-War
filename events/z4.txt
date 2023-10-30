@@ -132,6 +132,12 @@ SE2 = {
 			transfer_troops = no
 		}
 	}
+	CRO = {
+		annex_country = {
+			target = VUK
+			transfer_troops = no
+		}
+	}
 CRO = {
 	set_autonomy = {
 		target = CSE
