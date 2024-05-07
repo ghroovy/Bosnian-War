@@ -45,5 +45,5 @@ tags={
 	"Sound"
 }
 name="The Bosnian War"
-supported_version="1.12.14"
+supported_version="1.14.*"
 remote_file_id="2819669751"
