@@ -1,0 +1,24 @@
+state={
+	id=490
+	name="STATE_490"
+	history={
+		buildings = {
+			infrastructure     = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			84 5
+		}
+		victory_points = {
+			7559 1
+		}
+		owner = SE1
+		add_core_of = SE1
+	}
+	provinces={
+		84 142 4858 5358 5664 5862 6850 7349 7553 7559 7618 11303 11321 11345 11384 11418 11432 11433 
+	}
+	manpower=58002
+	state_category = large_town
+	buildings_max_level_factor=1.000
+}

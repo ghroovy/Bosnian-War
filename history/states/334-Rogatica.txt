@@ -1,0 +1,20 @@
+state={
+	id=334
+	name="STATE_334"
+	history={
+		buildings = {
+			infrastructure     = 1
+		}
+		victory_points = {
+			12071 1
+		}
+		owner = SE1
+		add_core_of = SE1
+	}
+	provinces={
+		3856 4454 4722 5076 6463 6819 7009 8921 11951 11988 11994 12038 12071 12101 
+	}
+	manpower=21812
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

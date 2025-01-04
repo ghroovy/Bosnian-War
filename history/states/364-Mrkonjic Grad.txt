@@ -1,0 +1,26 @@
+
+state={
+	id=364
+	name="STATE_364"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory       = 2
+			industrial_complex = 4
+		}
+		victory_points = {
+			6462 1
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		265 900 1400 2745 4917 5714 6462 8624 9224 11552 11559 11603 11666 11699 11730 11797 
+	}
+	manpower=27379
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

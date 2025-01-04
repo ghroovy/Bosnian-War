@@ -1,0 +1,25 @@
+
+state={
+	id=477
+	name="STATE_477"
+
+	history={
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			8334 5
+		}
+		owner = FCR
+		add_core_of = FCR
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		980 1147 2314 2629 3032 3433 4366 6498 8334 9254 11160 11196 11253 11302 11310 11324 11359 
+	}
+	manpower=39496
+	state_category = town
+	buildings_max_level_factor=1.000
+}

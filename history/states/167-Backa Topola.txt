@@ -1,0 +1,27 @@
+state={
+	id=167
+	name="STATE_167"
+	history={
+		victory_points = {
+			10588 10
+		}
+		victory_points = {
+			10588 1
+		}
+		victory_points = {
+			10656 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			industrial_complex = 1
+			infrastructure     = 3
+		}
+	}
+	provinces={
+		322 2830 3930 5732 6360 8433 8601 8829 10588 10614 10615 10627 10638 10656 10677 
+	}
+	manpower=40473
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=349
+	name="STATE_349"
+
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			8361 1
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		3949 5752 8361 9403 11063 11102 11117 11135 11136 
+	}
+	manpower=31577
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

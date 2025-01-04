@@ -1,0 +1,17 @@
+state={
+	id=496
+	name="STATE_496"
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+		owner = SE1
+		add_core_of = SE1
+	}
+	provinces={
+		6238 8199 
+	}
+	manpower=3680
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

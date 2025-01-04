@@ -1,0 +1,19 @@
+state={
+	id=565
+	name="STATE_565"
+	history={
+		owner = VUK
+		add_core_of = VUK
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+	provinces={
+		4560 10918 17222 17223 17224 
+	}
+	manpower=2763
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=414
+	name="STATE_414"
+
+	history={
+		buildings = {
+			infrastructure     = 3		
+		}
+		victory_points = {
+			12812 1 
+		}
+		victory_points = {
+			12749 1 
+		}
+		victory_points = {
+			7556 1 
+		}
+		victory_points = {
+			8843 1 
+		}
+		victory_points = {
+			12770 15 
+		}
+		owner = CRO
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		244 3500 4236 6918 7556 8672 8843 9156 12666 12718 12737 12749 12764 12770 13965 13966 13967 
+	}
+	manpower=54954
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

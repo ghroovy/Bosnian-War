@@ -1,0 +1,20 @@
+state={
+	id=484
+	name="STATE_484"
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12125 1
+		}
+		owner = CO1
+		add_core_of = CO1
+	}
+	provinces={
+		3542 7218 8854 12113 12125 12141 12174 12214 
+	}
+	manpower=12664 
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

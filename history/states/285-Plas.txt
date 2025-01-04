@@ -1,0 +1,21 @@
+
+state={
+	id=285
+	name="STATE_285"
+
+	history={
+		owner = MAC
+		add_core_of = MAC
+		buildings = {
+			infrastructure     = 2
+		}
+
+	}
+
+	provinces={
+		5918 13248 
+	}
+	manpower=5070
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

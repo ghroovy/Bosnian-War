@@ -1,0 +1,26 @@
+
+state={
+	id=514
+	name="STATE_514"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory       = 2
+			industrial_complex = 3
+		}
+		victory_points = {
+			11882 5
+		}
+		owner = CO1
+		add_core_of = CO1
+
+	}
+
+	provinces={
+		3574 6215 6835 7476 8527 11838 11882 11909 11912 
+	}
+	manpower=46843
+	state_category = town
+	buildings_max_level_factor=1.000
+}

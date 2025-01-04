@@ -1,0 +1,24 @@
+
+state={
+	id=335
+	name="STATE_335"
+
+	history={
+		buildings = {
+			infrastructure     = 1
+		}
+		owner = BOS
+		add_core_of = BOS
+
+		SE1 = { set_province_controller = 12109}
+
+	}
+
+	provinces={
+		87 12080 12109 
+	}
+	manpower=1468
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

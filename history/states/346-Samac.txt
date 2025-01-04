@@ -1,0 +1,26 @@
+
+state={
+	id=346
+	name="STATE_346"
+
+	history={
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			8300 1 
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		8300 8731 17354 17357 
+	}
+	manpower=32835
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

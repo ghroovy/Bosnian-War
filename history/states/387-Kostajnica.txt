@@ -1,0 +1,27 @@
+
+state={
+	id=387
+	name="STATE_387"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		owner = SE2
+		add_core_of = SE2
+		victory_points = {
+			7642 1 
+		}
+
+	}
+
+	provinces={
+		1684 4926 6788 7002 7642 8604 10993 11013 
+	}
+	manpower=14851
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

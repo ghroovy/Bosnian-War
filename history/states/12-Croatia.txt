@@ -1,25 +1,77 @@
 
 state={
 	id=12
-	name="Virovitica"
+	name="STATE_12"
 
 	history={
-		owner = CRO
-        buildings = {
-            infrastructure = 5
-            arms_factory = 0
-            industrial_complex = 0
-        }
-		add_core_of = CRO
-		victory_points = {
-			10644 15
+		buildings = {
+			infrastructure     = 5
+			industrial_complex = 7
+			fuel_silo          = 1
+			synthetic_refinery = 1
+			arms_factory       = 8
+			
 		}
+		victory_points = {
+			6032 60 
+		}
+		victory_points = {
+			17194 5 
+		}
+		victory_points = {
+			17189 1 
+		}
+		victory_points = {
+			17191 5 
+		}
+		victory_points = {
+			3405 15 
+		}
+		victory_points = {
+			8371 5 
+		}
+		victory_points = {
+			10647 1 
+		}
+		victory_points = {
+			17192 1 
+		}
+		victory_points = {
+			1230 1 
+		}
+		victory_points = {
+			10593 1 
+		}
+		victory_points = {
+			10621 1 
+		}
+		victory_points = {
+			17190 1 
+		}
+		victory_points = {
+			17195 10 
+		}
+		victory_points = {
+			10719 10 
+		}
+		victory_points = {
+			10651 1 
+		}
+		victory_points = {
+			10639 5 
+		}
+		victory_points = {
+			3329 5 
+		}
+		owner = CRO
+		add_core_of = CRO
+
 	}
 
 	provinces={
-		1590 3525 3713 4594 4737 4867 5163 5701 5982 7350 7357 7400 7506 7593 8397 9037 10472 10562 10579 10582 10596 10617 10634 10644 10660 10669 10690 
+		1230 3405 6032 8371 10559 10593 10621 10647 10651 10683 10712 10718 17188 17189 17190 17191 17192 17193 17194 
 	}
-	manpower=52322
+	manpower=729467
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=metropolis
 }

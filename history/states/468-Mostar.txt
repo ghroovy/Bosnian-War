@@ -1,0 +1,22 @@
+state={
+	id=468
+	name="STATE_468"
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory       = 2
+			industrial_complex = 4
+		}
+		victory_points = {
+			12413 15
+		}
+		owner = CO1
+		add_core_of = CO1
+	}
+	provinces={
+		208 1573 2483 2622 2698 2787 4039 4141 6434 7055 8029 8056 8208 8249 8823 12208 12241 12242 12255 12266 12283 12304 12313 12339 12354 12404 12413 12429 
+	}
+	manpower=126067
+	state_category = city
+	buildings_max_level_factor=1.000
+}

@@ -108,7 +108,7 @@
 	}
 	 division= {	
 		name = "Tenkovska brigada"
-		location = 17187
+		location = 5709
 		division_template = "Brigada Tank"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -130,28 +130,28 @@
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 11997
+		location = 4688
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 5647
+		location = 9078
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 12014
+		location = 11958
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Narodna Vojska"
-		location = 11977
+		location = 11896
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -298,42 +298,42 @@
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 6240
+		location = 9272
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 5859
+		location = 11554
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 7336
+		location = 100
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 6390
+		location = 8912
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 6390
+		location = 4667
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Narodna Vojska"
-		location = 11329
+		location = 17352
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -410,7 +410,7 @@
 	}
 					 division= {	
 		name = "4th Zvornik Infantry Brigade"
-		location = 6733
+		location = 11172
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1

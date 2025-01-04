@@ -1,0 +1,20 @@
+state={
+	id=257
+	name="STATE_257"
+	history={
+		victory_points = {
+			4278 2
+		}
+		owner = MAC
+		add_core_of = MAC
+		buildings = {
+			infrastructure     = 2
+		}
+	}
+	provinces={
+		4278 4382 5466 6140 6937 8581 9147 12938 
+	}
+	manpower=21392
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=509
+	name="STATE_509"
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+		owner = BOS
+		add_core_of = BOS
+
+		SE1 = { set_province_controller = 12137 }
+	}
+	provinces={
+		1796 1914 7016 7767 8542 12137 12140 
+	}
+	manpower=2375
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

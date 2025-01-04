@@ -1,0 +1,25 @@
+
+state={
+	id=381
+	name="STATE_381"
+
+	history={
+		buildings = {
+			infrastructure     = 2
+			industrial_complex = 1	
+		}
+		victory_points = {
+			6078 1 
+		}
+		owner = SE2
+		add_core_of = SE2
+
+	}
+
+	provinces={
+		1582 2428 6078 7357 7400 10690 10744 10747 
+	}
+	manpower=14206
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

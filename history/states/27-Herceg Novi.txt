@@ -1,0 +1,25 @@
+state={
+	id=27
+	name="STATE_27"
+	history={
+		victory_points = {
+			7454 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 3
+			dockyard   	   = 2	
+			1550 = {
+        			naval_base     = 2
+        			coastal_bunker = 1 
+    			}		
+		}
+	}
+	provinces={
+		1550 4103 7454 8509 12825 12848 
+	}
+	manpower=27593
+	state_category = town
+	buildings_max_level_factor=1.000
+}

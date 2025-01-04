@@ -1,0 +1,21 @@
+state={
+	id=368
+	name="STATE_368"
+	history={
+		buildings = {
+			infrastructure     = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			6200 5
+		}
+		owner = VUK
+		add_core_of = VUK
+	}
+	provinces={
+		2388 2690 3172 5542 5563 5776 6200 7351 7747 8751 8776 9040 9171 9464 10626 10696 10705 
+	}
+	manpower=54265
+	state_category = large_town
+	buildings_max_level_factor=1.000
+}

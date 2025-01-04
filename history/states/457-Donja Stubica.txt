@@ -1,0 +1,20 @@
+state={
+	id=457
+	name="STATE_457"
+	history={
+		buildings = {
+			infrastructure     = 3
+		}
+		victory_points = {
+			9469 1
+		}
+		owner = CRO
+		add_core_of = CRO
+	}
+	provinces={
+		9469 10510 10528 10531 
+	}
+	manpower=30760
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -11,35 +11,35 @@ BOS_The_Defense_of_Bosnia = {
          base = 50
         }
 		 complete_effect = {
-		 	67 = {
+		 	333 = {
     		 	add_dynamic_modifier = {
         		modifier = BOS_start_offensive
         		scope = BOS
         		days = 30
     		 }
 		 }
-		 	66 = {
+		 	332 = {
     		 	add_dynamic_modifier = {
         		modifier = BOS_start_offensive
         		scope = BOS
         		days = 30
     		 }
 		 }
-		 	68 = {
+		 	496 = {
     		 	add_dynamic_modifier = {
         		modifier = BOS_start_offensive
         		scope = BOS
         		days = 30
     		 }
 		 }
-		 	61 = {
+		 	331 = {
     		 	add_dynamic_modifier = {
         		modifier = BOS_start_offensive
         		scope = BOS
         		days = 30
     		 }
 		 }
-		 	65 = {
+		 	534 = {
     		 	add_dynamic_modifier = {
         		modifier = BOS_start_offensive
         		scope = BOS
@@ -64,21 +64,21 @@ BOS_The_Defense_of_Bosnia = {
          base = 50
         }
 		 complete_effect = {
-		 	32 = {
+		 	361 = {
     		 	add_dynamic_modifier = {
         		modifier = BOS_start_offensive
         		scope = BOS
         		days = 30
     		 }
 		 }
-		 	104 = {
+		 	358 = {
     		 	add_dynamic_modifier = {
         		modifier = BOS_start_offensive
         		scope = BOS
         		days = 30
     		 }
 		 }
-		 	103 = {
+		 	357 = {
     		 	add_dynamic_modifier = {
         		modifier = BOS_start_offensive
         		scope = BOS

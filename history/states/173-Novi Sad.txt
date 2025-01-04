@@ -1,0 +1,65 @@
+
+state={
+	id=173
+	name="STATE_173"
+
+	history={
+		victory_points = {
+			10989 25 
+		}
+		victory_points = {
+			11020 1 
+		}
+		victory_points = {
+			11024 1 
+		}
+		victory_points = {
+			7532 1 
+		}
+		victory_points = {
+			10992 1 
+		}
+		victory_points = {
+			6147 1 
+		}
+		victory_points = {
+			17244 1 
+		}
+		victory_points = {
+			17246 1 
+		}
+		victory_points = {
+			17245 1 
+		}
+		victory_points = {
+			17243 1 
+		}
+		victory_points = {
+			17241 1 
+		}
+		victory_points = {
+			17242 1 
+		}
+		victory_points = {
+			11014 1 
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			industrial_complex = 4
+			infrastructure = 4
+			fuel_silo = 1
+			synthetic_refinery = 2
+
+		}
+
+	}
+
+	provinces={
+		13 5624 6147 6784 7054 7532 9250 10971 10989 10992 11007 11008 11014 11020 11024 11066 17241 17242 17243 17244 17245 17246 
+	}
+	manpower=245464
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

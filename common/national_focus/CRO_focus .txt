@@ -515,7 +515,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = CRO_war_efforts  }
         completion_reward = {
-			139 = {
+			570 = {
 				add_dynamic_modifier = {
 			    modifier = CRO_operation_Maslenica
 			    scope = CRO
@@ -537,7 +537,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = CRO_operation_maslenica  }
 		available = {
-			controls_state = 139
+			controls_state = 570
 		}
 		completion_reward = {
 			add_stability = 0.05
@@ -557,13 +557,45 @@ focus_tree = {
 		}
 		prerequisite = { focus = CRO_operation_maslenica  }
 		completion_reward = {
-			129 = {
+			381 = {
 				add_dynamic_modifier = {
 			   modifier = CRO_operation_Bljesak
 			   scope = CRO
 			   days = 50
 			}
 		}
+
+		380 = {
+			add_dynamic_modifier = {
+		   modifier = CRO_operation_Bljesak
+		   scope = CRO
+		   days = 50
+		}
+	}
+
+	379 = {
+		add_dynamic_modifier = {
+	   modifier = CRO_operation_Bljesak
+	   scope = CRO
+	   days = 50
+	}
+}
+
+546 = {
+	add_dynamic_modifier = {
+   modifier = CRO_operation_Bljesak
+   scope = CRO
+   days = 50
+}
+}
+
+548 = {
+	add_dynamic_modifier = {
+   modifier = CRO_operation_Bljesak
+   scope = CRO
+   days = 50
+}
+}
 			}
 			
 			
@@ -583,7 +615,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = CRO_operation_bljesak  }
 		available = {
-			controls_state = 129
+			controls_state = 379
+			controls_state = 380
+			controls_state = 381
+			controls_state = 546
+			controls_state = 548
 		}
 		completion_reward = {
 			add_war_support = 0.07

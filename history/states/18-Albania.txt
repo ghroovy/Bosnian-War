@@ -7,11 +7,17 @@ state={
 	}
     
     history={
+		victory_points = {
+			13021 2
+		}
+		victory_points = {
+			3799 10
+		}
 		owner = ALB
 		add_core_of = ALB
 	}
     
-	manpower=3303738
+	manpower=3266790
 	state_category=town
 	buildings_max_level_factor=1.000
 }

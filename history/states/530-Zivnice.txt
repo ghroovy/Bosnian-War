@@ -1,0 +1,26 @@
+
+state={
+	id=530
+	name="STATE_530"
+
+	history={
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			9015 1 
+		}
+		owner = BOS
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		4144 6031 6452 9015 11642 11675 
+	}
+	manpower=54653
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

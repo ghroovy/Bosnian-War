@@ -1,0 +1,23 @@
+state={
+	id=483
+	name="STATE_483"
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory       = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			7261 5
+		}
+		owner = FCR
+		add_core_of = FCR
+		add_core_of = BOS
+	}
+	provinces={
+		587 4731 6089 7023 7085 7261 11238 
+	}
+	manpower=63406
+	state_category = town
+	buildings_max_level_factor=1.000
+}

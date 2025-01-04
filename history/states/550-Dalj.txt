@@ -1,0 +1,25 @@
+
+state={
+	id=550
+	name="STATE_550"
+
+	history={
+		owner = VUK
+		add_core_of = VUK
+		victory_points = {
+			3163 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		3163 7398 10833 10834 10842 
+	}
+	manpower=12821
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

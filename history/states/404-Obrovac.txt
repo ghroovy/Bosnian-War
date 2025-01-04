@@ -1,0 +1,32 @@
+
+state={
+	id=404
+	name="STATE_404"
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			6115 1 
+		}
+		victory_points = {
+			11853 1 
+		}
+		victory_points = {
+			11825 1 
+		}
+		owner = SE2
+		add_core_of = SE2
+
+	}
+
+	provinces={
+		2023 4570 6115 7510 11788 11796 11825 11853 
+	}
+	manpower=10249
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=392
+	name="STATE_392"
+	history={
+		buildings = {
+			infrastructure     = 2
+		}
+		victory_points = {
+			10962 1
+		}
+		owner = SE2
+		add_core_of = SE2
+	}
+	provinces={
+		1280 4256 5685 7196 8019 10934 10962 11039 
+	}
+	manpower=16599
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

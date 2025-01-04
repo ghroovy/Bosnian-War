@@ -1,0 +1,28 @@
+
+state={
+	id=74
+	name="STATE_74"
+
+	history={
+		victory_points = {
+			10298 10
+		}
+		victory_points = {
+			4334 5
+		}
+		owner = SLV
+		add_core_of = SLV
+		buildings = {
+			industrial_complex = 7
+			infrastructure     = 4
+		}
+
+	}
+
+	provinces={
+		481 699 903 2529 2721 3065 4030 4313 4334 4582 5112 5357 5536 5588 5978 6176 6604 6686 7172 7323 7435 7873 8005 8883 8929 9014 9233 9343 10218 10222 10228 10229 10250 10251 10263 10271 10278 10282 10291 10297 10298 10301 10309 10313 10324 10329 10347 10358 10380 10389 10403 10432 
+	}
+	manpower=254594
+	state_category = large_city
+	buildings_max_level_factor=1.000
+}

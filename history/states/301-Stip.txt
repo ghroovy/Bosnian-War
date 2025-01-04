@@ -1,0 +1,21 @@
+state={
+	id=301
+	name="STATE_301"
+	history={
+		victory_points = {
+			4110 10
+		}
+		owner = MAC
+		add_core_of = MAC
+		buildings = {
+			infrastructure     = 2
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		3742 3937 4110 4462 4883 8032 13106 13123 13141 13152 13172 
+	}
+	manpower=47434
+	state_category = town
+	buildings_max_level_factor=1.000
+}

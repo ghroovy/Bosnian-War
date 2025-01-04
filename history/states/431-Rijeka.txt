@@ -1,0 +1,25 @@
+state={
+	id=431
+	name="STATE_431"
+	history={
+		buildings = {
+			infrastructure     = 4
+			dockyard   	   = 4	
+			10913 = {
+        			naval_base     = 5
+        			coastal_bunker = 1 
+    			}		
+		}
+		victory_points = {
+			10913 20
+		}
+		owner = CRO
+		add_core_of = CRO
+	}
+	provinces={
+		2974 3791 4482 7097 7160 9309 10819 10865 10890 10891 10907 10913 
+	}
+	manpower=206229
+	state_category = large_city
+	buildings_max_level_factor=1.000
+}

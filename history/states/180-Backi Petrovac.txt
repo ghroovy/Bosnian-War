@@ -1,0 +1,20 @@
+state={
+	id=180
+	name="STATE_180"
+	history={
+		victory_points = {
+			830 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 2
+		}
+	}
+	provinces={
+		830 3384 7799 
+	}
+	manpower=15662
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=377
+	name="STATE_377"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			5750 10 
+		}
+		owner = CRO
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		849 953 1463 4165 4209 5073 5092 5110 5750 5930 6822 7921 8113 10855 10873 10884 10889 10916 10924 10927 10928 10953 10983 11041 
+	}
+	manpower=71745
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

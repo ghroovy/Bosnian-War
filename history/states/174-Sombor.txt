@@ -1,0 +1,21 @@
+state={
+	id=174
+	name="STATE_174"
+	history={
+		victory_points = {
+			769 10
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			industrial_complex = 2
+			infrastructure     = 3
+		}
+	}
+	provinces={
+		726 769 2209 2574 4336 4982 5090 5680 6179 6933 7539 7727 8027 8351 8656 8927 10520 10529 10564 10571 10572 10580 10613 10637 10653 10665 10667 10720 10723 
+	}
+	manpower=96105
+	state_category = city
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=39
+	name="STATE_39"
+	history={
+		victory_points = {
+			12499 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 1
+		}
+	}
+	provinces={
+		1464 3749 5677 5782 5945 6228 7479 7482 8901 12440 12456 12466 12499 12513 12528 12596 
+	}
+	manpower=5247
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

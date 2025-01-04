@@ -1,0 +1,22 @@
+state={
+	id=497
+	name="STATE_497"
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			6166 5
+		}
+		owner = SRE
+		add_core_of = SRE
+		add_core_of = BOS
+		add_core_of = SE1
+	}
+	provinces={
+		1729 6166 12135 
+	}
+	manpower=34388
+	state_category = town
+	buildings_max_level_factor=1.000
+}

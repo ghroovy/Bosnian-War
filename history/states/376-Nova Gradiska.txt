@@ -1,0 +1,24 @@
+
+state={
+	id=376
+	name="STATE_376"
+
+	history={
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			8101 5 
+		}
+		owner = CRO
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		1915 5598 7030 8101 8248 8908 8952 9050 11059 11064 11072 11091 17198 
+	}
+	manpower=46845
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

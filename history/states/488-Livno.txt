@@ -1,0 +1,22 @@
+state={
+	id=488
+	name="STATE_488"
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory       = 1
+			industrial_complex = 3
+		}
+		victory_points = {
+			4434 5
+		}
+		owner = CO1
+		add_core_of = CO1
+	}
+	provinces={
+		3372 4434 4688 6571 7167 7188 7508 7529 7670 8321 9029 9132 9166 11896 11958 11962 12002 12073 12078 12099 12134 
+	}
+	manpower=39526
+	state_category = town
+	buildings_max_level_factor=1.000
+}

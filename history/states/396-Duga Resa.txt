@@ -1,0 +1,27 @@
+
+state={
+	id=396
+	name="STATE_396"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			10872 2 
+		}
+		owner = CRO
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		330 6096 7106 7270 10820 10872 10886 10915 17336 17339 
+	}
+	manpower=29447
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

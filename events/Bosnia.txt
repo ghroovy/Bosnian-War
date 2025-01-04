@@ -53,17 +53,17 @@ country_event = {
     		type = civil_war
 			}
 		load_oob = "WBS_1993"
-		transfer_state = 89
+		transfer_state = 492
 		news_event = bosnia.3
 		}
 		start_border_war = {
     	change_state_after_war = no
     	attacker = {
-     	   state = 89
+     	   state = 492
      	   num_provinces = 2
     	}	
     	defender = {
-    	    state = 91
+    	    state = 483
     	    num_provinces = 2
     		}
 		}

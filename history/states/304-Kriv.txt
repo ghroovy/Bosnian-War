@@ -1,0 +1,20 @@
+state={
+	id=304
+	name="STATE_304"
+	history={
+		victory_points = {
+			13281 1
+		}
+		owner = MAC
+		add_core_of = MAC
+		buildings = {
+			infrastructure     = 2
+		}
+	}
+	provinces={
+		13281 13294 13321 
+	}
+	manpower=7278
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

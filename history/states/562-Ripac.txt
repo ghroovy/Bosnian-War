@@ -1,0 +1,16 @@
+state={
+	id=562
+	name="STATE_562"
+	provinces={
+		2703 2743 3803 5162 6909 8997 11545 11693 
+	}
+	history = {
+		owner = SE1
+		add_core_of = SE1
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}

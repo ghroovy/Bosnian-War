@@ -1,0 +1,15 @@
+state={
+	id=548
+	name="STATE_548"
+	history={
+		owner = SE2
+		add_core_of = SE2
+
+	}
+	provinces={
+		8272 17197 
+	}
+	manpower=276
+	state_category=enclave
+	buildings_max_level_factor=1.000
+}

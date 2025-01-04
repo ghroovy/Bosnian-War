@@ -1,0 +1,20 @@
+state={
+	id=469
+	name="STATE_469"
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4439 1
+		}
+		owner = CO1
+		add_core_of = CO1
+	}
+	provinces={
+		4439 12428 12446 12481 
+	}
+	manpower=14709
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

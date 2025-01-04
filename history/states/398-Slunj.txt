@@ -1,0 +1,26 @@
+
+state={
+	id=398
+	name="STATE_398"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			5605 1 
+		}
+		owner = SE2
+		add_core_of = SE2
+
+	}
+
+	provinces={
+		2480 4993 5005 5605 6595 6740 7109 8144 8517 11017 11076 11182 17331 
+	}
+	manpower=18962
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

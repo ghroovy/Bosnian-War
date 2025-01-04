@@ -1,0 +1,24 @@
+state={
+	id=38
+	name="STATE_38"
+	resources = {
+		tungsten = 35
+	}
+	history={
+		victory_points = {
+			4614 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 2
+			arms_factory 	   = 1
+		}
+	}
+	provinces={
+		249 4465 4614 4827 5574 5585 6181 6743 7067 8054 9263 12284 12335 12375 12391 12435 12459 12471 12492 12514 12526 
+	}
+	manpower=39593
+	state_category = town
+	buildings_max_level_factor=1.000
+}

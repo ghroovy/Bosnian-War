@@ -1,0 +1,24 @@
+state={
+	id=121
+	name="STATE_121"
+	resources = {
+		steel = 28
+	}
+	history={
+		victory_points = {
+			11565 5
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			industrial_complex = 1
+			infrastructure     = 2
+		}
+	}
+	provinces={
+		380 4453 4900 5183 5207 5293 6142 7753 8284 8595 11525 11562 11565 11571 11607 11615 11632 11653 11679 11686 11702 
+	}
+	manpower=27378
+	state_category = town
+	buildings_max_level_factor=1.000
+}

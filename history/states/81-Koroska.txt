@@ -1,0 +1,21 @@
+state={
+	id=81
+	name="STATE_81"
+	history={
+		victory_points = {
+			10174 2
+		}
+		owner = SLV
+		add_core_of = SLV
+		buildings = {
+			industrial_complex = 2
+			infrastructure     = 4
+		}
+	}
+	provinces={
+		1194 1531 4164 4396 4427 4493 5155 6056 7272 8077 8086 8266 8374 9115 10138 10168 10174 10195 
+	}
+	manpower=73829
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

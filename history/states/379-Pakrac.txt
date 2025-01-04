@@ -1,0 +1,25 @@
+
+state={
+	id=379
+	name="STATE_379"
+
+	history={
+		victory_points = {
+			10898 5 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		owner = SE2
+		add_core_of = SE2
+
+	}
+
+	provinces={
+		1229 1559 7177 8298 10862 10880 10898 10938 10939 17201 17202 
+	}
+	manpower=26026
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

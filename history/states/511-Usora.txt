@@ -1,0 +1,17 @@
+state={
+	id=511
+	name="STATE_511"
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		owner = CO1
+		add_core_of = CO1
+	}
+	provinces={
+		100 
+	}
+	manpower=15126
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

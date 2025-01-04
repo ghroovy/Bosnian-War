@@ -1,0 +1,31 @@
+
+state={
+	id=314
+	name="STATE_314"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory       = 3
+			industrial_complex = 5
+
+		}
+		victory_points = {
+			4790 10 
+		}
+		victory_points = {
+			17360 5 
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		3914 4528 4790 6859 7854 7903 8155 8191 8241 9039 9306 11284 11288 11340 11346 11376 11386 11414 11415 11482 17359 17360 
+	}
+	manpower=96796
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

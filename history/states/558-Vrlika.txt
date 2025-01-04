@@ -1,0 +1,22 @@
+state={
+	id=558
+	name="STATE_558"
+	provinces={
+		591 714 8787 11963 11976 11987 12001 12025 
+	}
+	history = {
+		buildings = {
+			infrastructure     = 2		
+		}
+		victory_points = {
+			591 1
+		}
+		owner = SE2
+		add_core_of = SE2
+
+	}
+	manpower=5538
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

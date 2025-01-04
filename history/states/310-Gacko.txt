@@ -1,0 +1,28 @@
+state={
+	resources = {
+		steel = 33
+		aluminium = 24
+		tungsten = 11
+		rubber = 2
+	}
+	id=310
+	name="STATE_310"
+	history={
+		buildings = {
+			infrastructure = 1
+			arms_factory       = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			12504 1
+		}
+		owner = SE1
+		add_core_of = SE1
+	}
+	provinces={
+		3638 4032 6510 6529 7190 7258 8761 8932 12385 12411 12416 12447 12468 12504 12509 12538 12559 
+	}
+	manpower=10844
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=569
+	name="STATE_569"
+	provinces={
+		3741 17262 17264 
+	}
+	history={
+		owner = SE2
+		add_core_of = SE2
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			17264 1 
+		}
+	}
+	manpower=2696
+	state_category=enclave
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

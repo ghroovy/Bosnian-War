@@ -1,0 +1,25 @@
+
+state={
+	id=210
+	name="STATE_210"
+
+	history={
+		victory_points = {
+			7871 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			industrial_complex = 1
+			infrastructure     = 2
+		}
+
+	}
+
+	provinces={
+		1107 2057 2499 3055 4791 4987 6430 6838 7080 7695 7871 8728 8926 12166 12222 12228 12248 12281 12306 12309 12319 12348 12349 12382 
+	}
+	manpower=36686
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

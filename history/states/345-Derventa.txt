@@ -1,0 +1,24 @@
+
+state={
+	id=345
+	name="STATE_345"
+
+	history={
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			11212 5
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		917 6173 6501 6923 7262 8177 11178 11195 11212 11248 11269 
+	}
+	manpower=56328
+	state_category = town
+	buildings_max_level_factor=1.000
+}

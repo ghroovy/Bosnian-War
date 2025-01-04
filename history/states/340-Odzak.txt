@@ -1,0 +1,21 @@
+state={
+	id=340
+	name="STATE_340"
+	history={
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			11172 1
+		}
+		owner = CO1
+		add_core_of = CO1
+
+	}
+	provinces={
+		5709 11140 11168 11172 
+	}
+	manpower=30651
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

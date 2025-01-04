@@ -733,48 +733,13 @@ add_ideas = Krajina_western_construction
 			}
 		}
 		completion_reward = {
-			125 = {
+			 = {
 				add_dynamic_modifier = {
 			  modifier = SE2_defense
 			  scope = SE2
 			  days = 70
 			  }
 		  }
-		  152 = {
-			add_dynamic_modifier = {
-		  modifier = SE2_defense
-		  scope = SE2
-		  days = 70
-		  }
-	  }
-	  150 = {
-		add_dynamic_modifier = {
-	  modifier = SE2_defense
-	  scope = SE2
-	  days = 70
-	  }
-  }
-  141 = {
-	add_dynamic_modifier = {
-  modifier = SE2_defense
-  scope = SE2
-  days = 70
-  }
-}
-144 = {
-	add_dynamic_modifier = {
-  modifier = SE2_defense
-  scope = SE2
-  days = 70
-  }
-}
-154 = {
-	add_dynamic_modifier = {
-  modifier = SE2_defense
-  scope = SE2
-  days = 70
-  }
-}
 		}
     }
 

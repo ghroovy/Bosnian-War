@@ -1,0 +1,29 @@
+state={
+	resources = {
+		steel = 30
+		aluminium = 50
+	}
+	id=37
+	name="STATE_37"
+	history={
+		victory_points = {
+			1623 1
+		}
+		victory_points = {
+			12691 2
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			industrial_complex = 6
+			infrastructure     = 3
+			air_base = 1
+		}
+	}
+	provinces={
+		1623 1900 2000 2303 2514 2947 3027 3951 4549 4981 6047 6257 6317 6949 6971 7094 7107 8196 8264 8274 8646 9001 9199 9402 12614 12620 12626 12634 12639 12657 12667 12685 12691 12704 12710 12712 12745 12746 
+	}
+	manpower=74706
+	state_category = city
+	buildings_max_level_factor=1.000
+}

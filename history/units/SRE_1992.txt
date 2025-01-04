@@ -44,58 +44,52 @@ division_template = {
 	}
 
 units = {
+
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17188
+		location = 4619
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17191
+		location = 4619
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17191
+		location = 4619
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17190
+		location = 4619
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17189
+		location = 4619
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17190
+		location = 4619
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 17189
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-    } 
-	division= {	
-		name = "Oslobodilacka Vojska"
-		location = 1728
+		location = 4619
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

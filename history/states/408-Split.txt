@@ -1,0 +1,30 @@
+
+state={
+	id=408
+	name="STATE_408"
+
+	history={
+		buildings = {
+			infrastructure     = 3
+			industrial_complex = 4
+			dockyard   	   = 2	
+			12269 = {
+        			naval_base     = 5
+        			coastal_bunker = 1 
+    			}		
+		}
+		victory_points = {
+			12269 25 
+		}
+		owner = CRO
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		12217 12238 12253 12269 12279 12331 
+	}
+	manpower=207147
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

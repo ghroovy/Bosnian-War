@@ -1,0 +1,17 @@
+state={
+	id=505
+	name="STATE_505"
+	history={
+		buildings = {
+			infrastructure     = 2
+		}
+		owner = BOS
+		add_core_of = BOS
+	}
+	provinces={
+		5733 
+	}
+	manpower=4436
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=23
+	name="STATE_23"
+	history={
+		victory_points = {
+			2733 1
+		}
+		victory_points = {
+			6294 2
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 3
+			6294 = {
+        			naval_base     = 5
+        			coastal_bunker = 2
+    			}
+		}
+	}
+	provinces={
+		374 2733 3491 6294 8158 8560 9447 12960 12969 12996 
+	}
+	manpower=37321
+	state_category=town
+	buildings_max_level_factor=1.000
+}

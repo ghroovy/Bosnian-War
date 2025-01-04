@@ -1,0 +1,21 @@
+state={
+	id=480
+	name="STATE_480"
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			8930 1
+		}
+		owner = FCR
+		add_core_of = FCR
+		add_core_of = BOS
+	}
+	provinces={
+		8930 11121 
+	}
+	manpower=16940
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

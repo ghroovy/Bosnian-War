@@ -1,0 +1,51 @@
+
+state={
+	id=420
+	name="STATE_420"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			17297 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			17298 15 
+		}
+		victory_points = {
+			17300 1 
+		}
+		victory_points = {
+			17308 1 
+		}
+		victory_points = {
+			17297 1 
+		}
+		victory_points = {
+			6050 2 
+		}
+		victory_points = {
+			12130 1 
+		}
+		victory_points = {
+			12033 1 
+		}
+		victory_points = {
+			12202 1 
+		}
+		owner = CRO
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		978 2288 3685 4863 5959 5997 6050 8167 8258 8767 9131 12033 12044 12098 12102 12130 12186 12202 13944 13946 13948 13949 13950 13951 13952 13953 13954 13955 13956 17170 17296 17297 17298 17299 17300 17301 17302 17303 17304 17305 17306 17307 17308 17309 17310 17311 
+	}
+	manpower=77569
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

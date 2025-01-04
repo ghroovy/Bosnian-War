@@ -1,0 +1,28 @@
+
+state={
+	id=155
+	name="STATE_155"
+
+	history={
+		victory_points = {
+			9181 1 
+		}
+		victory_points = {
+			17184 5 
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 4
+			industrial_complex = 2
+		}
+
+	}
+
+	provinces={
+		127 6357 7518 7883 9111 9181 11132 11175 11233 11237 17184 17185 
+	}
+	manpower=156587
+	state_category = city
+	buildings_max_level_factor=1.000
+}

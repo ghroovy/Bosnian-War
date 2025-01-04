@@ -1,0 +1,21 @@
+state={
+	id=11
+	name="STATE_11"
+	history={
+		victory_points = {
+			10417 50
+		}
+		owner = SLV
+		add_core_of = SLV
+		buildings = {
+			industrial_complex = 7
+			infrastructure     = 5
+		}
+	}
+	provinces={
+		254 554 898 1776 2099 2621 2664 2754 3217 3297 4053 4160 4242 4514 5339 5459 5781 6009 6036 6950 7271 7343 7430 7470 7498 8231 8754 8949 9149 9285 10268 10288 10318 10343 10366 10376 10391 10399 10410 10416 10417 10427 10455 10466 10468 10483 10484 10507 10508 10519 10522 10527 10536 10544 10567 10595 
+	}
+	manpower=450888
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

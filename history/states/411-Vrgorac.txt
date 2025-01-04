@@ -1,0 +1,20 @@
+state={
+	id=411
+	name="STATE_411"
+	history={
+		buildings = {
+			infrastructure     = 1		
+		}
+		victory_points = {
+			819 1
+		}
+		owner = CRO
+		add_core_of = CRO
+	}
+	provinces={
+		819 4089 7994 12387 12399 12406 12439 12476 
+	}
+	manpower=7497
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

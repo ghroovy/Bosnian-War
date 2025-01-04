@@ -1,0 +1,23 @@
+
+state={
+	id=393
+	name="STATE_393"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = SE2
+		add_core_of = SE2
+
+	}
+
+	provinces={
+		2041 6289 7734 10961 10999 17335 
+	}
+	manpower=8236
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

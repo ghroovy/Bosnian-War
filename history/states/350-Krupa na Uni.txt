@@ -1,0 +1,18 @@
+state={
+	id=350
+	name="STATE_350"
+	history={
+		buildings = {
+			infrastructure     = 2
+		}
+		owner = FCR
+		add_core_of = FCR
+		add_core_of = BOS
+	}
+	provinces={
+		6437 7680 
+	}
+	manpower=1776
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

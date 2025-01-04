@@ -1,0 +1,26 @@
+state={
+	resources = {
+		steel = 30
+		aluminium = 50
+		tungsten = 15
+		rubber = 5
+	}
+	id=470
+	name="STATE_470"
+	history={
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			6977 5
+		}
+		owner = CO1
+		add_core_of = CO1
+	}
+	provinces={
+		4348 4383 6070 6225 6387 6977 12276 12299 12378 
+	}
+	manpower=26437
+	state_category = town
+	buildings_max_level_factor=1.000
+}

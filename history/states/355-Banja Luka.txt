@@ -1,0 +1,28 @@
+state={
+	resources = {
+		steel = 31
+		aluminium = 22
+		tungsten = 9
+		rubber = 4
+	}
+	id=355
+	name="STATE_355"
+	history={
+		buildings = {
+			infrastructure = 4
+			arms_factory       = 4
+			industrial_complex = 7
+		}
+		victory_points = {
+			2040 20
+		}
+		owner = SE1
+		add_core_of = SE1
+	}
+	provinces={
+		1471 2040 2485 5131 5645 5738 6702 6752 6764 7290 7445 7931 8071 8498 8798 9069 9162 9262 11231 11260 11291 11337 11362 11365 11392 11398 11434 11474 11547 
+	}
+	manpower=195139
+	state_category = large_city
+	buildings_max_level_factor=1.000
+}

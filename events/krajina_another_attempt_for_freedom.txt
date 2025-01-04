@@ -1,7 +1,7 @@
 add_namespace = krajina_another_attempt_for_freedom
 
 #Krajina another attempt for freedom
-country_event = {
+country_event = 
 	id = krajina_another_attempt_for_freedom.1
 	title = krajina_another_attempt_for_freedom.1.t
 	desc = krajina_another_attempt_for_freedom.1.d

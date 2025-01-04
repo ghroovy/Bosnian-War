@@ -1,0 +1,26 @@
+
+state={
+	id=391
+	name="STATE_391"
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9418 1 
+		}
+		owner = SE2
+		add_core_of = SE2
+
+	}
+
+	provinces={
+		432 3953 6481 7784 9418 10896 11005 11026 11036 11050 17334 17337 
+	}
+	manpower=23040
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

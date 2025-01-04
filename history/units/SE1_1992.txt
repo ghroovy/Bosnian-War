@@ -120,7 +120,7 @@ division_template = {
 	}
 	division= {	
 		name = "Mehanizovana Brigada"
-		location = 11412
+		location = 3248
 		division_template = "Mehanizovana Brigada"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
@@ -143,49 +143,49 @@ division_template = {
 
 	 division= {	
 		name = "Divizije Pantera"
-		location = 5203
+		location = 11854
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Divizije Pantera"
-		location = 555
+		location = 2531
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	 division= {	
 		name = "Divizije Pantera"
-		location = 435
+		location = 11869
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 9015
+		location = 2478
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 2470
+		location = 2402
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 5713
+		location = 1575
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 		 division= {	
 		name = "Divizije Pantera"
-		location = 6340
+		location = 11413
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -423,14 +423,14 @@ division_template = {
 	}
 					 division= {	
 		name = "Divizije Pantera"
-		location = 9078
+		location = 11862
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "Divizije Pantera"
-		location = 8140
+		location = 11903
 		division_template = "Pešadijske Divizije"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -514,7 +514,7 @@ division_template = {
 	}
 	division= {	
 		name = "Hvatač"
-		location = 2470
+		location = 11530
 		division_template = "Brigada Tank"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -628,21 +628,21 @@ division= {
 }
 division= {	
 	name = "Divizije Pantera"
-	location = 8321
+	location = 7733
 	division_template = "Pešadijske Divizije"
 	start_experience_factor = 0.1
 	start_equipment_factor = 1
 }
 division= {	
 	name = "Divizije Pantera"
-	location = 9132
+	location = 2825
 	division_template = "Pešadijske Divizije"
 	start_experience_factor = 0.1
 	start_equipment_factor = 1
 }
 division= {	
 	name = "Divizije Pantera"
-	location = 4688
+	location = 11898
 	division_template = "Pešadijske Divizije"
 	start_experience_factor = 0.1
 	start_equipment_factor = 1
@@ -705,7 +705,7 @@ division= {
 }
 division= {	
 	name = "Divizije Pantera"
-	location = 12215
+	location = 8156
 	division_template = "Pešadijske Divizije"
 	start_experience_factor = 0.1
 	start_equipment_factor = 1
@@ -740,7 +740,7 @@ division= {
 }
 division= {	
 	name = "Divizije Pantera"
-	location = 12215
+	location = 7841
 	division_template = "Pešadijske Divizije"
 	start_experience_factor = 0.1
 	start_equipment_factor = 1
@@ -761,7 +761,7 @@ division= {
 }
 division= {	
 	name = "Divizije Pantera"
-	location = 11754
+	location = 7383
 	division_template = "Pešadijske Divizije"
 	start_experience_factor = 0.1
 	start_equipment_factor = 1
@@ -799,14 +799,14 @@ division= {
 
 division= {	
 	name = "Vukovi sa Vučijaka"
-	location = 11361
+	location = 11278
 	division_template = "Pešadijske Divizije"
 	start_experience_factor = 5
 	start_equipment_factor = 1
 }
 division= {	
 	name = "Vukovi sa Vučijaka"
-	location = 8414
+	location = 8885
 	division_template = "Pešadijske Divizije"
 	start_experience_factor = 5
 	start_equipment_factor = 1
@@ -882,4 +882,41 @@ division= {
 	start_experience_factor = 2.5
 	start_equipment_factor = 1
 }
+
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 2348
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 8434
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 11584
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 2448
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
+division= {	
+	name = "Vukovi sa Vučijaka"
+	location = 5373
+	division_template = "Pešadijske Divizije"
+	start_experience_factor = 5
+	start_equipment_factor = 1
+}
+
 }

@@ -1,0 +1,25 @@
+state={
+	id=577
+	name="STATE_577"
+	provinces={
+		17312 17313 17314 17315 17316 17317 17318 
+	}
+	history={
+		owner = SE2
+		add_core_of = SE2
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			17318 1 
+		}
+		victory_points = {
+			17313 1 
+		}
+	}
+	manpower=7433
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -10,14 +10,14 @@ CO1_For_The_Croatian_Motherland = {
          base = 50
         }
 		 complete_effect = {
-		 	22 = {
+		 	509 = {
     		 	add_dynamic_modifier = {
         		modifier = CO1_start_offensive
         		scope = CO1
         		days = 30
     		 }
 		 }
-		 	33 = {
+		 	500 = {
     		 	add_dynamic_modifier = {
         		modifier = CO1_start_offensive
         		scope = CO1
@@ -41,14 +41,14 @@ CO1_For_The_Croatian_Motherland = {
 	 base = 50
 	}
 	 complete_effect = {
-		 23 = {
+		 519 = {
 			 add_dynamic_modifier = {
 			modifier = CO1_start_offensive
 			scope = CO1
 			days = 30
 		 }
 	 }
-		 123 = {
+		 517 = {
 			 add_dynamic_modifier = {
 			modifier = CO1_start_offensive
 			scope = CO1

@@ -1,0 +1,21 @@
+state={
+	id=73
+	name="STATE_73"
+	history={
+		victory_points = {
+			10767 10
+		}
+		owner = SLV
+		add_core_of = SLV
+		buildings = {
+			industrial_complex = 6
+			infrastructure     = 4
+		}
+	}
+	provinces={
+		600 3788 4321 4669 5484 6514 8882 9247 9287 9350 10557 10607 10657 10686 10714 10759 10767 10783 10791 10806 
+	}
+	manpower=99601
+	state_category = city
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=402
+	name="STATE_402"
+	history={
+		buildings = {
+			infrastructure     = 2		
+		}
+		victory_points = {
+			7458 1
+		}
+		owner = SE2
+		add_core_of = SE2
+	}
+	provinces={
+		1789 1884 4301 5555 7408 7458 8490 11468 11480 11551 11587 11627 11744 
+	}
+	manpower=8054
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

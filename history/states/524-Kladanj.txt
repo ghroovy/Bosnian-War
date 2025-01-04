@@ -1,0 +1,20 @@
+state={
+	id=524
+	name="STATE_524"
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			6993 1
+		}
+		owner = BOS
+		add_core_of = BOS
+	}
+	provinces={
+		2831 6585 6993 8818 11711 11737 11805 
+	}
+	manpower=16028
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -58,20 +58,27 @@ SE1_Dreams_Of_Serbian_Bosnia = {
          base = 50
         }
 		 complete_effect = {
-		 	22 = {
+		 	555 = {
     		 	add_dynamic_modifier = {
         		modifier = SE1_start_offensive
         		scope = SE1
         		days = 30
     		 }
 		 }
-		 	33 = {
+		 	556 = {
     		 	add_dynamic_modifier = {
         		modifier = SE1_start_offensive
         		scope = SE1
         		days = 30
     		 }
 		 }
+		 536 = {
+			add_dynamic_modifier = {
+		   modifier = SE1_start_offensive
+		   scope = SE1
+		   days = 30
+		}
+	}
 		 hidden_effect = {
 		 add_command_power = -20
 		 add_political_power = -120
@@ -90,28 +97,28 @@ SE1_Dreams_Of_Serbian_Bosnia = {
          base = 50
         }
 		 complete_effect = {
-		 	120 = {
+		 	511 = {
     		 	add_dynamic_modifier = {
         		modifier = SE1_start_offensive
         		scope = SE1
         		days = 30
     		 }
 		 }
-		 	119 = {
+		 	508 = {
     		 	add_dynamic_modifier = {
         		modifier = SE1_start_offensive
         		scope = SE1
         		days = 30
     		 }
 		 }
-		 	118 = {
+		 	495 = {
     		 	add_dynamic_modifier = {
         		modifier = SE1_start_offensive
         		scope = SE1
         		days = 30
     		 }
 		 }
-		 	78 = {
+		 	503 = {
     		 	add_dynamic_modifier = {
         		modifier = SE1_start_offensive
         		scope = SE1
@@ -136,21 +143,21 @@ SE1_Dreams_Of_Serbian_Bosnia = {
          base = 50
         }
 		 complete_effect = {
-		 	106 = {
+		 	488 = {
     		 	add_dynamic_modifier = {
         		modifier = SE1_start_offensive
         		scope = SE1
         		days = 30
     		 }
 		 }
-		 	105 = {
+		 	487 = {
     		 	add_dynamic_modifier = {
         		modifier = SE1_start_offensive
         		scope = SE1
         		days = 30
     		 }
 		 }
-		 	108 = {
+		 	514 = {
     		 	add_dynamic_modifier = {
         		modifier = SE1_start_offensive
         		scope = SE1

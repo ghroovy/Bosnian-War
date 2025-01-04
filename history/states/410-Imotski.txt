@@ -1,0 +1,20 @@
+state={
+	id=410
+	name="STATE_410"
+	history={
+		buildings = {
+			infrastructure     = 3		
+		}
+		victory_points = {
+			2331 1
+		}
+		owner = CRO
+		add_core_of = CRO
+	}
+	provinces={
+		2087 2331 3862 5402 6350 7189 7235 8661 9188 12275 12287 12342 12362 12370 12381 
+	}
+	manpower=39052
+	state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=533
+	name="STATE_533"
+
+	history={
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			12035 10 
+		}
+		victory_points = {
+			17228 1 
+		}
+		victory_points = {
+			17227 1
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		3313 4962 6364 8722 12035 12061 17227 17228 17232 
+	}
+	manpower=67438
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

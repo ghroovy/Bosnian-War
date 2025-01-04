@@ -1,0 +1,20 @@
+state={
+	id=467
+	name="STATE_467"
+	history={
+		buildings = {
+			infrastructure     = 2
+		}
+		victory_points = {
+			2108 1
+		}
+		owner = CO1
+		add_core_of = CO1
+	}
+	provinces={
+		2108 3880 7284 
+	}
+	manpower=1795
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

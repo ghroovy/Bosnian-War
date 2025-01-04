@@ -1,0 +1,27 @@
+
+state={
+	id=148
+	name="STATE_148"
+	resources = {
+		oil = 24
+	}
+	history={
+		victory_points = {
+			5369 10
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		3295 3496 3874 4573 5369 5736 5911 6071 7583 9197 9374 10569 10573 10604 10641 10645 10661 10682 10687 10689 10700 10757 
+	}
+	manpower=69743
+	state_category = large_town
+	buildings_max_level_factor=1.000
+}

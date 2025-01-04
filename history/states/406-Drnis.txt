@@ -1,0 +1,29 @@
+
+state={
+	id=406
+	name="STATE_406"
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			6318 2 
+		}
+		victory_points = {
+			6768 1 
+		}
+		owner = SE2
+		add_core_of = SE2
+
+	}
+
+	provinces={
+		2397 3002 4401 5623 6318 6394 6768 9277 17256 17266 
+	}
+	manpower=13608
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

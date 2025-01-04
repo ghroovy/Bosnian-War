@@ -1,0 +1,19 @@
+state={
+	id=583
+	name="STATE_583"
+	provinces={
+		10851 17338 
+	}
+	history={
+		owner = CRO
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+	manpower=1401
+	state_category=enclave
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

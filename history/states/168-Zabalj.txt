@@ -1,0 +1,21 @@
+state={
+	id=168
+	name="STATE_168"
+	history={
+		victory_points = {
+			7205 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 3
+		}
+
+	}
+	provinces={
+		4521 5526 5967 6151 6295 7205 8789 9003 10876 10893 10946 10949 10963 
+	}
+	manpower=25823
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

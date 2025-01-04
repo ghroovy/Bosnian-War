@@ -1,0 +1,28 @@
+
+state={
+	id=237
+	name="STATE_237"
+
+	history={
+		buildings = {
+			infrastructure     = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			11472 1 
+		}
+		victory_points = {
+			17181 5 
+		}
+		owner = SER
+		add_core_of = SER
+
+	}
+
+	provinces={
+		4457 6076 11472 11510 17181 
+	}
+	manpower=161376
+	state_category = large_city
+	buildings_max_level_factor=1.000
+}

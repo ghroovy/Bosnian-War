@@ -1,0 +1,20 @@
+state={
+	id="520"
+	name="STATE_520"
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			383 5
+		}
+		owner = SE1
+		add_core_of = SE1
+	}
+	provinces={
+		383 6668 8639 9159 11634 11710 11716 11749 11754 
+	}
+	manpower=40014
+	state_category = town
+	buildings_max_level_factor=1.000
+}

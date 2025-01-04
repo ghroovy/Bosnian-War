@@ -1,0 +1,25 @@
+
+state={
+	id=14
+	name="STATE_14"
+
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			8327 10 
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		8327 17236 17238 17239 
+	}
+	manpower=24707
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=1.000
+}

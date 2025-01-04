@@ -1,0 +1,20 @@
+state={
+	id=156
+	name="STATE_156"
+	history={
+		victory_points = {
+			11261 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 2
+		}
+	}
+	provinces={
+		5009 11226 11261 
+	}
+	manpower=11446
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

@@ -82,7 +82,7 @@
 
 	division= {	
 		name = "Mehanizovana Brigada"
-		location = 17181
+		location = 7477
 		division_template = "Mehanizovana Brigada"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -132,14 +132,14 @@
     } 
 	 division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 8362
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	 division= {	
 		name = "Oslobodilacka Vojska"
-		location = 8434
+		location = 11992
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -167,14 +167,14 @@
     } 
 	 division= {	
 		name = "Oslobodilacka Vojska"
-		location = 11594
+		location = 11878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	 division= {	
 		name = "Oslobodilacka Vojska"
-		location = 11594
+		location = 11878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -223,14 +223,14 @@
     } 
 	 division= {	
 		name = "Oslobodilacka Vojska"
-		location = 12018
+		location = 17207
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	 division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 12018
+		location = 17237
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -342,7 +342,7 @@
     } 
 	 division= {	
 		name = "Oslobodilacka Vojska"
-		location = 11506
+		location = 2983
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -363,28 +363,28 @@
     } 
 	 division= {	
 		name = "Oslobodilacka Vojska"
-		location = 11541
+		location = 4864
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 11541
+		location = 4864
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 11541
+		location = 4864
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 11541
+		location = 4864
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -461,56 +461,56 @@
     } 
 	division= {	
 		name = "1st Zvornik Infantry Brigade"
-		location = 17181
+		location = 7477
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 				 division= {	
 		name = "2nd Zvornik Infantry Brigade"
-		location = 17181
+		location = 7477
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 				 division= {	
 		name = "3rd Zvornik Infantry Brigade"
-		location = 17181
+		location = 7477
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "4th Zvornik Infantry Brigade"
-		location = 17181
+		location = 7477
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "5th Zvornik Infantry Brigade"
-		location = 17181
+		location = 7477
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "6th Zvornik Infantry Brigade"
-		location = 17180
+		location = 11824
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "7th Zvornik Infantry Brigade"
-		location = 17180
+		location = 11805
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 					 division= {	
 		name = "8th Zvornik Infantry Brigade"
-		location = 17182
+		location = 6104
 		division_template = "Pešadijske Brigade"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
@@ -531,129 +531,132 @@
 	}
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 6031
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 6031
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 6031
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 6031
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 6031
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 6031
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 6031
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 6031
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 6031
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+    } 
+
+	division= {	
+		name = "Bosnian Mujahideen Volunteers "
+		location = 12067
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 12067
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 12067
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 12067
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 12067
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 12067
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 100
+		location = 12067
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
-	division= {	
-		name = "Bosnian Mujahideen Volunteers "
-		location = 100
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-    } 
+
+
 
 
 
 	division= {	
 		name = "Oslobodilacka Vojska"
-		location = 6053
+		location = 17240
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
     } 
 	 division= {	
 		name = "Bosnian Mujahideen Volunteers "
-		location = 11360
+		location = 6259
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

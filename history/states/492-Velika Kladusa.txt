@@ -1,0 +1,28 @@
+
+state={
+	id=492
+	name="STATE_492"
+
+	history={
+		buildings = {
+			infrastructure     = 2
+			arms_factory       = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			8099 5 
+		}
+		owner = FCR
+		add_core_of = FCR
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		385 3270 3860 8099 11089 17332 17333 
+	}
+	manpower=52921
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

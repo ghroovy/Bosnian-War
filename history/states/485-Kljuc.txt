@@ -1,0 +1,24 @@
+
+state={
+	id=485
+	name="STATE_485"
+
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			11489 5
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		1286 1680 2126 7427 9052 11469 11489 11543 11546 
+	}
+	manpower=27263
+	state_category = town
+	buildings_max_level_factor=1.000
+}

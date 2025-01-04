@@ -1,0 +1,28 @@
+
+state={
+	id=555
+	name="STATE_555"
+
+	history={
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			17237 5 
+		}
+		victory_points = {
+			17240 5 
+		}
+		owner = BOS
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		17209 17211 17237 17240 
+	}
+	manpower=79005
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=1.000
+}

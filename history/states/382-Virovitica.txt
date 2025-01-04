@@ -1,0 +1,25 @@
+
+state={
+	id=382
+	name="STATE_382"
+
+	history={
+		buildings = {
+			infrastructure     = 3
+			industrial_complex = 1			
+		}
+		victory_points = {
+			5163 7 
+		}
+		owner = CRO
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		2275 2940 3525 4737 4867 5163 5939 7506 8397 10579 10617 10644 10660 
+	}
+	manpower=46661
+	buildings_max_level_factor=1.000
+	state_category=town
+}

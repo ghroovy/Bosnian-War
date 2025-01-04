@@ -1,0 +1,23 @@
+state={
+	id=293
+	name="STATE_293"
+
+	history={
+		victory_points = {
+			2355 10
+		}
+		owner = MAC
+		add_core_of = MAC
+		buildings = {
+			infrastructure     = 3
+			industrial_complex = 2
+		}
+
+	}
+	provinces={
+		2355 2997 6184 7297 7981 8001 13082 13102 13145 
+	}
+	manpower=55635
+	state_category = large_town
+	buildings_max_level_factor=1.000
+}

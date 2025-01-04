@@ -1,0 +1,22 @@
+state={
+	id=564
+	name="STATE_564"
+	provinces={
+		8692 17218 
+	}
+	history={
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			17218 1 
+		}
+		owner = VUK
+		add_core_of = VUK
+
+	}
+	manpower=8613
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

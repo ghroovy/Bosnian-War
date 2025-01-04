@@ -1,0 +1,21 @@
+state={
+	id=68
+	name="STATE_68"
+	history={
+		buildings = {
+			infrastructure     = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			12889 10
+		}
+		owner = SER
+		add_core_of = KOS
+	}
+	provinces={
+		1118 2407 5499 8898 12872 12875 12889 12891 12906 12907 
+	}
+	manpower=95156
+	state_category = city
+	buildings_max_level_factor=1.000
+}

@@ -731,21 +731,21 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			34 = {
+			476 = {
 				add_dynamic_modifier = {
 			   modifier = BOS_defense
 			   scope = BOS
 			   days = 150
 			}
 		}
-			90 = {
+			477 = {
 				add_dynamic_modifier = {
 			   modifier = BOS_defense
 			   scope = BOS
 			   days = 150
 			}
 		}
-			91 = {
+			350 = {
 				add_dynamic_modifier = {
 	   			modifier = BOS_defense
 	   			scope = BOS

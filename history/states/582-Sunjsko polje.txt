@@ -1,0 +1,19 @@
+state={
+	id=582
+	name="STATE_582"
+	provinces={
+		2654 7465 17341 17342 17343 
+	}
+	history={
+		owner = SE2
+		add_core_of = SE2
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+	manpower=7405
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

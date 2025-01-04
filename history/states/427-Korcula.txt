@@ -1,0 +1,25 @@
+
+state={
+	id=427
+	name="STATE_427"
+
+	history={
+		buildings = {
+			infrastructure     = 3	
+		}
+		victory_points = {
+			12630 1 
+		}
+		owner = CRO
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		5556 7599 8190 12630 12637 13963 13964 
+	}
+	manpower=19651
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

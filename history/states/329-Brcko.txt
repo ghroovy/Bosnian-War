@@ -1,0 +1,25 @@
+
+state={
+	id=329
+	name="STATE_329"
+
+	history={
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			8885 10 
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		2176 3248 8885 11278  
+	}
+	manpower=54542
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

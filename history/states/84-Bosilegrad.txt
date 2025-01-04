@@ -1,0 +1,21 @@
+state={
+	id=84
+	name="STATE_84"
+	history={
+		victory_points = {
+			12850 1
+		}
+		owner = SER
+		add_core_of = SER
+		add_claim_by = BUL
+		buildings = {
+			infrastructure     = 2
+		}
+	}
+	provinces={
+		1004 3793 5246 5931 7976 8814 12797 12850 12864 
+	}
+	manpower=11644
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

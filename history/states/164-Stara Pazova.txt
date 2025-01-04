@@ -1,0 +1,25 @@
+state={
+	id=164
+	name="STATE_164"
+	history={
+		victory_points = {
+			11218 2
+		}
+		victory_points = {
+			6150 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			industrial_complex = 1
+			infrastructure     = 3
+		}
+
+	}
+	provinces={
+		1997 3170 3473 4843 5285 6150 11218 11262 
+	}
+	manpower=57291
+	state_category = town
+	buildings_max_level_factor=1.000
+}

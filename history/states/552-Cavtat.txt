@@ -1,0 +1,22 @@
+state={
+	id=552
+	name="STATE_552"
+	provinces={
+		252 5815 9419 12795 12806 12812 12865 12877 
+	}
+	history = {
+		victory_points = {
+			252 1 
+		}
+		victory_points = {
+			12806 1 
+		}
+		owner = CRO
+		add_core_of = CRO
+
+	}
+	manpower=8529
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=337
+	name="STATE_337"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			8434 10 
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		1184 4094 5407 5491 6053 7125 7948 8202 8434 9187 11329 11338 11360 11371 11389 11401 11435 11462 
+	}
+	manpower=84440
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=22
+	name="STATE_22"
+	history={
+		victory_points = {
+			4124 1
+		}
+		victory_points = {
+			4124 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 1
+		}
+		
+	}
+	provinces={
+		15 4124 7100 12720 12777 
+	}
+	manpower=6696
+	state_category=enclave
+	buildings_max_level_factor=1.000
+}

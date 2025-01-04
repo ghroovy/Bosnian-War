@@ -1,0 +1,22 @@
+state={
+	id=481
+	name="STATE_481"
+	history={
+		buildings = {
+			infrastructure     = 2
+			arms_factory       = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			2904 1
+		}
+		owner = SE1
+		add_core_of = SE1
+	}
+	provinces={
+		34 1773 2500 2904 5944 7407 9467 11610 11628 11641 11655 
+	}
+	manpower=17079
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

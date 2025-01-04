@@ -1,0 +1,26 @@
+
+state={
+	id=353
+	name="STATE_353"
+
+	history={
+		buildings = {
+			infrastructure = 4
+			arms_factory       = 3
+			industrial_complex = 4
+		}
+		victory_points = {
+			11227 10
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		3113 3203 4064 4316 4464 6885 6926 7687 8556 8816 11164 11174 11221 11227 11247 11254 11275 11300 11336 
+	}
+	manpower=112470
+	state_category = city
+	buildings_max_level_factor=1.000
+}

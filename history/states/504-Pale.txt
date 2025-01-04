@@ -1,0 +1,17 @@
+state={
+	id=504
+	name="STATE_504"
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+		owner = SRE
+		add_core_of = SRE
+	}
+	provinces={
+		7185 8821 
+	}
+	manpower=526
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

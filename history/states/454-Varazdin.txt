@@ -1,0 +1,21 @@
+state={
+	id=454
+	name="STATE_454"
+	history={
+		buildings = {
+			infrastructure     = 4
+			industrial_complex = 2	
+		}
+		victory_points = {
+			10284 15
+		}
+		owner = CRO
+		add_core_of = CRO
+	}
+	provinces={
+		7616 8586 9386 10254 10269 10284 10293 
+	}
+	manpower=94373
+	state_category = city
+	buildings_max_level_factor=1.000
+}

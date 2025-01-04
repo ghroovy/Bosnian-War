@@ -1,0 +1,21 @@
+state={
+	id=442
+	name="STATE_442"
+	history={
+		buildings = {
+			infrastructure     = 2
+			industrial_complex = 1			
+		}
+		victory_points = {
+			10977 2
+		}
+		owner = CRO
+		add_core_of = CRO
+	}
+	provinces={
+		362 597 6145 7525 9059 10925 10950 10965 10977 10988 11015 
+	}
+	manpower=19006
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

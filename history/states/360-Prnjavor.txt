@@ -1,0 +1,17 @@
+state={
+	id=360
+	name="STATE_360"
+	history={
+		buildings = {
+			infrastructure = 3
+		}
+		owner = SE1
+		add_core_of = SE1
+	}
+	provinces={
+		112 2089 2936 3511 6426 6828 6992 8281 8471 11239 11267 11313 11325 
+	}
+	manpower=46894
+	state_category = town
+	buildings_max_level_factor=1.000
+}

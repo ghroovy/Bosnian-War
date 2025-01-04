@@ -1,0 +1,20 @@
+state={
+	id=59
+	name="STATE_59"
+	history={
+		buildings = {
+			infrastructure     = 3
+		}
+		victory_points = {
+			6911 2
+		}
+		owner = SER
+		add_core_of = KOS
+	}
+	provinces={
+		6911 8532 12740 
+	}
+	manpower=29523
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

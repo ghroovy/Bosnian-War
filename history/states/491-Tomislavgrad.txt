@@ -1,0 +1,26 @@
+state={
+	resources = {
+		steel = 30
+		aluminium = 50
+		tungsten = 15
+		rubber = 5
+	}
+	id=491
+	name="STATE_491"
+	history={
+		buildings = {
+			infrastructure     = 2
+		}
+		victory_points = {
+			7039 1
+		}
+		owner = CO1
+		add_core_of = CO1
+	}
+	provinces={
+		157 2822 3585 5159 6107 7039 7263 8260 8521 12048 12074 12079 12111 12112 12149 12153 12162 12168 12179 12184 12192 16920 17082 17083 
+	}
+	manpower=29261
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

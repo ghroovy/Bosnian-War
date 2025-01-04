@@ -1,0 +1,24 @@
+state={
+	id=187
+	name="STATE_187"
+	resources = {
+		steel = 12
+	}
+	history={
+		victory_points = {
+			2729 5
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			industrial_complex = 1
+			infrastructure     = 2
+		}
+	}
+	provinces={
+		228 2169 2729 5084 5672 6054 6811 8493 11823 11849 11868 11880 11916 
+	}
+	manpower=33869
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,28 @@
+state={
+	resources = {
+		steel = 25
+		aluminium = 44
+		tungsten = 11
+		rubber = 3
+	}
+	id=510
+	name="STATE_510"
+	history={
+		buildings = {
+			infrastructure     = 4
+			arms_factory       = 3
+			industrial_complex = 4
+		}
+		owner = BOS
+		add_core_of = BOS
+				victory_points = {
+			6340 15
+		}
+	}
+	provinces={
+		1956 4964 6340 7972 9474 11481 11578 
+	}
+	manpower=131861
+	state_category = city
+	buildings_max_level_factor=1.000
+}

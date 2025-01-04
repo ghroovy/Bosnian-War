@@ -1,0 +1,37 @@
+state={
+	id=578
+	name="STATE_578"
+	provinces={
+		1795 7750 11803 12008 17258 17265 
+	}
+	history={
+		owner = CRO
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 2
+
+		}
+		1991.9.18 = {
+			remove_core_of = CRO
+			owner = KRA
+			add_core_of = KRA
+			controller = KRA
+		}
+		1991.12.19 = {
+			remove_core_of = KRA
+			owner = RSK
+			add_core_of = RSK
+			controller = RSK
+		}
+		1992.6.21 = {
+			remove_core_of = RSK
+			owner = CRO
+			add_core_of = CRO
+			controller = CRO
+		}
+	}
+	manpower=2814
+	state_category=enclave
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

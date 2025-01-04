@@ -1,0 +1,17 @@
+state={
+	id=473
+	name="STATE_473"
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		owner = CO1
+		add_core_of = CO1
+	}
+	provinces={
+		12407 12421 12454 12477 
+	}
+	manpower=27182
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=579
+	name="STATE_579"
+	provinces={
+		4736 7566 8390 12116 12120 17267 17274 17324 17325 17326 
+	}
+	history={
+		owner = CRO
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			7566 1 
+		}
+		victory_points = {
+			8390 1 
+		}
+	}
+	manpower=6138
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

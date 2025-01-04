@@ -1,0 +1,19 @@
+state={
+	id=557
+	name="STATE_557"
+	provinces={
+		6432 8414 8720 11294 11314 11330 11372 
+	}
+	history = {
+		buildings = {
+			infrastructure = 3
+		}
+		owner = BOS
+		add_core_of = BOS
+
+	}
+	manpower=32790
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=342
+	name="STATE_342"
+
+	history={
+		buildings = {
+			infrastructure = 3
+
+		}
+		owner = CO1
+		add_core_of = CO1
+
+	}
+
+	provinces={
+		4667 8912 17352 
+	}
+	manpower=13256
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

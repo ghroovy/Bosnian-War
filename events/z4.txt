@@ -1,7 +1,7 @@
 add_namespace = z4
 
 #Krajina Z4 offer
-country_event = {
+country_event = 
 	id = z4.1
 	title = z4.1.t
 	desc = z4.1.d
@@ -236,5 +236,5 @@ SE2 = {
 	white_peace = NAT
 }
 		hidden_effect = {}
-}
+
 

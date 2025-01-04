@@ -1,0 +1,25 @@
+state={
+	id=526
+	name="STATE_526"
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			11854 2
+		}
+		owner = BOS
+		add_core_of = BOS
+
+		SE1 = { set_province_controller = 1575
+		set_province_controller = 11854
+		set_province_controller = 2531 }
+
+	}
+	provinces={
+		1575 2531 7477 8723 11770 11785 11824 11854 
+	}
+	manpower=16901
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

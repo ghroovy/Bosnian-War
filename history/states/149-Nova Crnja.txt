@@ -1,0 +1,23 @@
+state={
+	id=149
+	name="STATE_149"
+	resources = {
+		oil = 8
+	}
+	history={
+		victory_points = {
+			10721 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 1
+		}
+	}
+	provinces={
+		1394 2819 3059 4744 5218 8228 8479 8664 8690 9433 9458 10701 10721 10737 10804 10840 10863 10877 10882 
+	}
+	manpower=37349
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,38 @@
+state={
+	id=16
+	name="STATE_16"
+	resources = {
+		aluminium = 60
+	}
+	history={
+		victory_points = {
+			1512 10
+		}
+		victory_points = {
+			9041 1
+		}
+		victory_points = {
+			12903 1
+		}
+		victory_points = {
+			4054 1
+		}
+		victory_points = {
+			1512 10
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			air_base = 5
+			industrial_complex = 4
+			arms_factory = 2
+			infrastructure     = 4
+		}
+	}
+	provinces={
+		1512 2994 3124 3776 4054 5011 5617 6156 6262 6843 7415 8310 8381 8576 9041 9123 9300 12752 12772 12776 12801 12818 12822 12834 12863 12903 12921 12949 
+	}
+	manpower=152025
+	state_category = large_city
+	buildings_max_level_factor=1.000
+}

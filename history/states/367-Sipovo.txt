@@ -1,0 +1,20 @@
+
+state={
+	id=367
+	name="STATE_367"
+
+	history={
+		buildings = {
+			infrastructure     = 1
+		}
+		owner = SE1
+		add_core_of = SE1
+	}
+
+	provinces={
+		3178 4633 5912 8016 9066 11736 11769 11781 11812 11831 11862 
+	}
+	manpower=15553
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

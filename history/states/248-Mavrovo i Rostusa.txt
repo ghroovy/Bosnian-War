@@ -1,0 +1,23 @@
+state={
+	id=248
+	name="STATE_248"
+	history={
+		victory_points = {
+			9352 1
+		}
+		victory_points = {
+			5661 1
+		}
+		owner = MAC
+		add_core_of = MAC
+		buildings = {
+			infrastructure     = 2
+		}
+	}
+	provinces={
+		1547 2168 3301 5247 5661 7507 9352 13143 13144 13185 
+	}
+	manpower=10294
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

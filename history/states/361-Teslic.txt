@@ -1,0 +1,22 @@
+state={
+	id=361
+	name="STATE_361"
+	history={
+		buildings = {
+			infrastructure     = 2
+			industrial_complex = 3
+		}
+		victory_points = {
+			11492 1
+		}
+		
+		owner = SE1
+		add_core_of = SE1
+	}
+	provinces={
+		2572 2642 3373 3795 6274 7913 7932 9027 11458 11490 11491 11492 11518 11519 11529 11553 11594 
+	}
+	manpower=59632
+	state_category = town
+	buildings_max_level_factor=1.000
+}

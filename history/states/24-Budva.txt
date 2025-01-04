@@ -1,0 +1,24 @@
+state={
+	id=24
+	name="STATE_24"
+	history={
+		victory_points = {
+			5148 1
+		}
+		victory_points = {
+			8819 2
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		5148 8819 12943 
+	}
+	manpower=11717
+	state_category = town
+	buildings_max_level_factor=1.000
+}

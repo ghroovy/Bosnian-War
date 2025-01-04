@@ -1,0 +1,24 @@
+
+state={
+	id=347
+	name="STATE_347"
+
+	history={
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			8110 5
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		403 2673 3045 8110 9175 9281 11090 11110 11114 11122 11126 11145 11149 11165 11166 11185 11197 11205 11222 11236 17187 
+	}
+	manpower=60062
+	state_category = large_town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=369
+	name="STATE_369"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			2083 15 
+		}
+		victory_points = {
+			3246 1 
+		}
+		victory_points = {
+			11055 1 
+		}
+		victory_points = {
+			17215 1 
+		}
+		victory_points = {
+			17217 1 
+		}
+		owner = VUK
+		add_core_of = VUK
+
+	}
+
+	provinces={
+		2083 2810 3246 4868 5400 6322 8290 10991 11028 11052 11055 17213 17214 17215 17216 17217 17219 
+	}
+	manpower=72813
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=422
+	name="STATE_422"
+
+	history={
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			8867 4 
+		}
+		victory_points = {
+			17257 1 
+		}
+		victory_points = {
+			17283 1 
+		}
+		owner = SE2
+		add_core_of = SE2
+
+	}
+
+	provinces={
+		508 3200 6667 7930 8867 9377 11881 17248 17252 17257 17279 17281 17282 17283 17287 17288 17289 17290 17291 17292 17293 17295 
+	}
+	manpower=27273
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

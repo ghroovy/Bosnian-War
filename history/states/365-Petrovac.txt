@@ -1,0 +1,21 @@
+
+state={
+	id=365
+	name="STATE_365"
+
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+		owner = SE1
+		add_core_of = SE1
+
+	}
+
+	provinces={
+		6745 7544 11596 11599 
+	}
+	manpower=1201
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

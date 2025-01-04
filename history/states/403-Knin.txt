@@ -1,0 +1,55 @@
+
+state={
+	id=403
+	name="STATE_403"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory       = 4
+
+		}
+		victory_points = {
+			7140 5 
+		}
+		
+		victory_points = {
+			11931 1 
+		}
+		victory_points = {
+			11855 1 
+		}
+		victory_points = {
+			11950 1 
+		}
+		owner = SE2
+		add_core_of = SE2
+
+		1990.8.17 = {
+			owner = SE2
+			add_core_of = SE2
+			controller = SE2
+		}
+		1991.12.19 = {
+			owner = SE2
+			add_core_of = SE2
+			controller = SE2
+		}
+		1995.8.5 = {
+			owner = SE2
+			add_core_of = SE2
+			controller = SE2
+		}
+		
+
+	}
+
+	provinces={
+		25 924 3324 5608 6646 6683 6936 7140 7431 7484 7979 9312 11845 11855 11864 11876 11927 11931 11961 17319 17320 17321 17322 17323 
+	}
+	manpower=40021
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

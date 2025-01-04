@@ -1,0 +1,21 @@
+state={
+	id=47
+	name="STATE_47"
+	history={
+		buildings = {
+			infrastructure     = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			4979 5
+		}
+		owner = SER
+		add_core_of = KOS
+	}
+	provinces={
+		4796 4979 6080 8004 12840 12878 12898 
+	}
+	manpower=59942
+	state_category = town
+	buildings_max_level_factor=1.000
+}

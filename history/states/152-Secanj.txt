@@ -1,0 +1,23 @@
+state={
+	id=152
+	name="STATE_152"
+	resources = {
+		oil = 32
+	}
+	history={
+		victory_points = {
+			10903 1
+		}
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure     = 2
+		}
+	}
+	provinces={
+		558 3219 3617 3782 6162 6600 10903 10967 10974 11038 
+	}
+	manpower=18438
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

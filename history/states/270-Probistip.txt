@@ -1,0 +1,24 @@
+
+state={
+	id=270
+	name="STATE_270"
+
+	history={
+		victory_points = {
+			13037 1
+		}
+		owner = MAC
+		add_core_of = MAC
+		buildings = {
+			infrastructure     = 2
+		}
+
+	}
+
+	provinces={
+		4895 7387 13002 13020 13037 13053 
+	}
+	manpower=16556
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}
