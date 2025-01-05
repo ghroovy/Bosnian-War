@@ -772,7 +772,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = CRO_operation_the_storm  }
 		available = {
-			owns_state = 125
+			owns_state = 403
 		}
 		completion_reward = {
 			add_ideas = CRO_the_final_shot

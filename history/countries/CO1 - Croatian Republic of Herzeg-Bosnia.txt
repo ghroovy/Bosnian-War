@@ -1,5 +1,6 @@
 ﻿capital = 24
 oob = "CO1_1992"
+add_manpower = 43220
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.7

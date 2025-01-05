@@ -1,7 +1,7 @@
 capital = 22
 
 oob = "BOS_1992"
-add_manpower = 23220
+add_manpower = 73220
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
