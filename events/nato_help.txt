@@ -1,7 +1,7 @@
 add_namespace = nato_help
 
 #Croatia is on its last legs
-country_event = {
+country_event = 
 	id = nato_help.1
 	title = nato_help.1.t
 	desc = nato_help.1.d
